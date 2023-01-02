@@ -1,1 +1,0 @@
-C:\NIST\ARUsabilityMetricsEnvironment\VS\ARUsability\ARUsability.vcxproj;arm64

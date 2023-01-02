@@ -2,155 +2,19 @@
   "extensionsUsed": [
     "KHR_lights_punctual"
   ],
-  "accessors": [
-    {
-      "bufferView": 0,
-      "componentType": 5126,
-      "count": 2614,
-      "type": "VEC3",
-      "max": [
-        0.097816281020641327,
-        0.034928664565086365,
-        0.16298598051071167
-      ],
-      "min": [
-        -0.06648196280002594,
-        -0.056586094200611115,
-        -0.1331956684589386
-      ]
-    },
-    {
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 2614,
-      "type": "VEC3",
-      "max": [
-        0.99986732006073,
-        0.99952280521392822,
-        0.99753272533416748
-      ],
-      "min": [
-        -0.99946630001068115,
-        -0.99942940473556519,
-        -0.74784278869628906
-      ]
-    },
-    {
-      "bufferView": 2,
-      "componentType": 5126,
-      "count": 2614,
-      "type": "VEC4",
-      "max": [
-        0.59890305995941162,
-        0.999991774559021,
-        0.81569951772689819,
-        1.0
-      ],
-      "min": [
-        -1.0000001192092896,
-        -0.9999922513961792,
-        -0.86146152019500732,
-        -1.0
-      ]
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 2614,
-      "type": "VEC2",
-      "max": [
-        0.73085701465606689,
-        0.99361276626586914
-      ],
-      "min": [
-        0.14719206094741821,
-        0.0063872933387756348
-      ]
-    },
-    {
-      "bufferView": 4,
-      "componentType": 5123,
-      "count": 13974,
-      "type": "SCALAR",
-      "max": [
-        2613.0
-      ],
-      "min": [
-        0.0
-      ]
-    }
-  ],
   "asset": {
     "version": "2.0"
   },
   "buffers": [
     {
       "uri": "handrig_r.bin",
-      "byteLength": 153420
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 31368
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 31368,
-      "byteLength": 31368
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 62736,
-      "byteLength": 41824
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 104560,
-      "byteLength": 20912
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 125472,
-      "byteLength": 27948
-    }
-  ],
-  "materials": [
-    {
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.399999976,
-          0.399999976,
-          0.399999976,
-          1.0
-        ],
-        "metallicFactor": 0.0
-      },
-      "name": "lambert2"
-    }
-  ],
-  "meshes": [
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
-          },
-          "indices": 4,
-          "material": 0
-        }
-      ],
-      "name": "MeshR"
+      "byteLength": 0
     }
   ],
   "nodes": [
     {
       "children": [
-        1,
-        22
+        1
       ],
       "name": "HandRig_R"
     },
@@ -493,16 +357,6 @@
         -0.000958610966
       ],
       "name": "ThumbR_JNT3"
-    },
-    {
-      "children": [
-        23
-      ],
-      "name": "MeshR"
-    },
-    {
-      "mesh": 0,
-      "name": "MeshR"
     }
   ],
   "scene": 0,

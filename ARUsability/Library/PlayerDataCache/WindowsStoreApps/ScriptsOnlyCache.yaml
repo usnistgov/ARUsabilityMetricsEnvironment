@@ -213,7 +213,7 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/BaselineEnvironment.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -5927,5 +5927,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 21
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/NIST/ARUsabilityMetricsEnvironment/VS
+  - Assets/Scenes/BaselineEnvironment.unity
+  playerPath: C:/NIST/ARUsabilityMetricsEnvironment/VSProject

@@ -50,3 +50,9 @@ MonoBehaviour:
     LastRevision: 5249759358480567280
     VersionNumber: 1
     VersionId: 3507
+  - SceneName: BaselineEnvironment
+    SceneId: 16c54bdd-da9b-41de-8a70-062b2d6c3e22
+    ScenePath: Assets/Scenes/BaselineEnvironment.unity
+    LastRevision: 5249768969380757354
+    VersionNumber: 1
+    VersionId: 3508
