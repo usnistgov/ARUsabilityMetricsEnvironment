@@ -1,0 +1,87 @@
+*****************************
+***********SYSTEM************
+*****************************
+Unity Version:2021.3.16f1
+OS:Windows 11  (10.0.22621) 64bit
+System Time: 12/22/2022 2:26:25 PM
+
+*****************************
+***********PROJECT***********
+*****************************
+Scripting Define Symbols: USE_INPUT_SYSTEM_POSE_CONTROL;C3D_MRTK
+Packages:
+SDK Version: 1.0.3
+Api Key: ****HWRS
+Developer Key: ****EXBD
+Enable Logging: True
+Enable Development Logging: False
+Gaze Type: Physics
+Snapshot Interval: 0.1
+Dynamic Object Search in Parent: True
+Dynamic Object Layer Mask: -1
+Track GPS Location: False
+GPS Accuracy: 2
+Record Floor Position: True
+Automatic Send Timer: 10
+Gaze Snapshot Batch Size: 64
+Event Snapshot Batch Size: 64
+Dynamic Snapshot Batch Size: 128
+Sensor Snapshot Batch Size: 128
+Fixation Snapshot Batch Size: 64
+Save Data to Local Cache if no internet connection: True
+Cache Size (bytes): 104857600
+Cache Size (mb): 100.0 MB
+Custom Protocol: https
+Custom Gateway: data.cognitive3d.com
+Custom Viewer: viewer.cognitive3d.com/scene/
+Custom Dashboard: app.cognitive3d.com
+Texture Export Quality: 1
+Export Lowest LOD from LODGroup Components: True
+Export AO Maps: False
+Scene Settings:
+
+*****************************
+********CURRENT SCENE********
+*****************************
+Scene Name: SampleScene
+Scene Settings not included in Preferences
+Main Camera GameObject: ARCamera
+Manager Initialize On Start: True
+Manager Startup Delay Time (s): 0
+
+*****************************
+****CURRENT SCENE OBJECTS****
+*****************************
+Dynamic Object Count: 2
+  ├─gas_stove
+  │  ├─Mesh Name: gas_stove
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.BoxCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  └─SM_Fire_Extinguisher
+     ├─Mesh Name: sm_fire_extinguisher
+     ├─Has Collider: true
+     ├─Collider Type: UnityEngine.CapsuleCollider
+     ├─Has Children: true
+     └─Has Child Colliders: false
+
+*****************************
+********EXPORT FOLDER********
+*****************************
+/Cognitive3D_SceneExplorerExport (62mb)
+   /Dynamic (62.35mb)
+      /gas_stove (61.80mb)
+         1320742079gas_stove_m_sMetallicGloss.png (20.68mb)
+         313080804gas_stove_nBump.png (16.15mb)
+         37543663gas_stove_bcMain.png (24.75mb)
+         cvr_object_thumbnail.png (0.09mb)
+         gas_stove.bin (0.10mb)
+         gas_stove.gltf (0.03mb)
+      /sm_fire_extinguisher (0.55mb)
+         651964448T_extinguisher_AlbedoMain.png (0.46mb)
+         cvr_object_thumbnail.png (0.05mb)
+         sm_fire_extinguisher.bin (0.02mb)
+         sm_fire_extinguisher.gltf (0.02mb)
+   /SampleScene (0.00mb)
+      settings.json (0.00mb)
