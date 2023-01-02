@@ -1,2 +1,7 @@
 ARUsability/Library/PlayerDataCache/WindowsStoreApps/Data/sharedassets0.assets filter=lfs diff=lfs merge=lfs -text
 ARUsability/Packages/com.ptc.vuforia.engine-10.12.3.tgz filter=lfs diff=lfs merge=lfs -text
+VS/.vs/ARUsability/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
+VS/ARUsability/Data/sharedassets0.assets filter=lfs diff=lfs merge=lfs -text
+VS/build/bin/ARM64/Release/AppX/Data/sharedassets0.assets filter=lfs diff=lfs merge=lfs -text
+VS/build/bin/ARM64/Release/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
+VS/build/obj/il2cppOutputProject/ARM64/Release/linkresult_5DE060A27659B1DD5180284B393AAEAF/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text

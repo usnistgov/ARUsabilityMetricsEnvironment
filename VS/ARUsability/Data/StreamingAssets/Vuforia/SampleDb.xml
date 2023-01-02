@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="FireExtinguisher" size="1.000000 0.562500" />
+    <ImageTarget name="Oven" size="1.000000 0.666667" />
+    <ImageTarget name="starcraft2" size="0.139700 0.190286" />
+  </Tracking>
+</QCARConfig>

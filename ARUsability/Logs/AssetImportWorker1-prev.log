@@ -15,7 +15,7 @@ C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53705
+54946
 Successfully changed project path to: C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
 C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34756] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4013976582 [EditorId] 4013976582 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34556] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1470454469 [EditorId] 1470454469 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34756] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4013976582 [EditorId] 4013976582 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34556] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1470454469 [EditorId] 1470454469 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.66 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 2.73 ms.
+Refreshing native plugins compatible for Editor in 126.18 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 2.34 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Assets
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004848 seconds.
+Registered in 0.003668 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.44 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 89.02 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.526 seconds
+- Completed reload, in  0.485 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (486ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (391ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (356ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (258ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011333 seconds.
+Registered in 0.011408 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\NIST\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\NIST\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.29 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 93.87 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -146,48 +146,48 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[XR] [MROpenXR][Info   ][14:41:30.818755][tid:87c4] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][14:41:30.818786][tid:87c4] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:29:49.720168][tid:86fc] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:29:49.720199][tid:86fc] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][14:41:30.819789][tid:87c4] OnPluginStarted UnityVersion=2021.3.16f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.7.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:29:49.721112][tid:86fc] OnPluginStarted UnityVersion=2021.3.16f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.7.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  1.750 seconds
+- Completed reload, in  1.794 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1750ms)
+	ReloadAssembly (1795ms)
 		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1583ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
+			SetupTypeCache (244ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1169ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1189ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (906ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (925ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 16 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 5727 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (126.5 KB). Loaded Objects now: 6488.
-Memory consumption went from 203.0 MB to 202.8 MB.
-Total: 4.197900 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.174000 ms MarkObjects: 3.474800 ms  DeleteObjects: 0.125900 ms)
+Unloading 5862 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (126.6 KB). Loaded Objects now: 6624.
+Memory consumption went from 208.6 MB to 208.5 MB.
+Total: 4.181100 ms (FindLiveObjects: 0.853600 ms CreateObjectMapping: 0.288000 ms MarkObjects: 2.930100 ms  DeleteObjects: 0.108700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,13 +201,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 180793.580546 seconds.
+  path: Assets/Meshes/HandRig_R.fbx
+  artifactKey: Guid(0cab609bf30b417499eb0e895795171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/HandRig_R.fbx using Guid(0cab609bf30b417499eb0e895795171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f706b0a1e8535903304ee38492b8a7') in 0.131985 seconds 
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 11.72 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 11.94 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.07 ms.
 Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (89.5 KB). Loaded Objects now: 6488.
-Memory consumption went from 84.8 MB to 84.7 MB.
-Total: 3.630400 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.194800 ms MarkObjects: 2.847200 ms  DeleteObjects: 0.103000 ms)
+Unloading 69 unused Assets / (89.2 KB). Loaded Objects now: 6670.
+Memory consumption went from 105.1 MB to 105.0 MB.
+Total: 4.440400 ms (FindLiveObjects: 0.393300 ms CreateObjectMapping: 0.265400 ms MarkObjects: 3.697400 ms  DeleteObjects: 0.083700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -220,50 +226,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 175032.838254 seconds.
-  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/New MixedRealityToolkitConfigurationProfile.asset
-  artifactKey: Guid(4c4a40ed2b2761145a3ad4c85b06c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/New MixedRealityToolkitConfigurationProfile.asset using Guid(4c4a40ed2b2761145a3ad4c85b06c029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a171267bdc3a8c1ae61a5c61dc02ae0a') in 0.133312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 342.907012 seconds.
-  path: Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollBoolean.prefab
-  artifactKey: Guid(138864a307dc91c44b26384d951b691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollBoolean.prefab using Guid(138864a307dc91c44b26384d951b691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f9133d4ddb47aa1f78473f83028222') in 0.091802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/HMDPointer.prefab
-  artifactKey: Guid(a294e1928a0a665449041210b7e563b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/HMDPointer.prefab using Guid(a294e1928a0a665449041210b7e563b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d24afca5f906d1dcf66033a4e2139fc') in 0.039749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollScale.prefab
-  artifactKey: Guid(fd91caa43b73ec0438fc0988903d343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollScale.prefab using Guid(fd91caa43b73ec0438fc0988903d343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e0a57c3d37d9b16a937dc936dfb43') in 0.018665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/GazeReticle.prefab
-  artifactKey: Guid(fedf8a3712dbdfb4496dc6180094bcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/GazeReticle.prefab using Guid(fedf8a3712dbdfb4496dc6180094bcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e2659e8335f661b3d56ec594bace61') in 0.010612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollHappySad.prefab
-  artifactKey: Guid(67b5d21118f281b4ba2ac6ea5c99b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.cognitive3d.c3d-sdk/Runtime/Resources/ExitPollHappySad.prefab using Guid(67b5d21118f281b4ba2ac6ea5c99b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c5215799a1fbe10f2379d2a1e90b93') in 0.015735 seconds 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 16.58 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 13.36 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (112.0 KB). Loaded Objects now: 6505.
-Memory consumption went from 90.2 MB to 90.1 MB.
-Total: 5.423900 ms (FindLiveObjects: 0.442800 ms CreateObjectMapping: 0.153800 ms MarkObjects: 4.712300 ms  DeleteObjects: 0.113700 ms)
+Unloading 69 unused Assets / (89.2 KB). Loaded Objects now: 6670.
+Memory consumption went from 105.1 MB to 105.0 MB.
+Total: 4.239800 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.141900 ms MarkObjects: 3.601600 ms  DeleteObjects: 0.099300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -276,7 +246,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

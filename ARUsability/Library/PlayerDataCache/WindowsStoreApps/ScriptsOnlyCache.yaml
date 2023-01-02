@@ -22,32 +22,22 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
-    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
-    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
-    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
-    Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll:
-    - Microsoft.MixedReality.Toolkit.LeapMotion.Input.LeapMotionDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
-    Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll:
-    - Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.SceneUnderstandingObserverProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.SDK.dll:
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
-    - Microsoft.MixedReality.Toolkit.Input.BaseCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
     - Microsoft.MixedReality.Toolkit.Input.MeshCursor
-    - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Input.MousePointer
     - Microsoft.MixedReality.Toolkit.Input.PokePointer
     - Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer
-    - Microsoft.MixedReality.Toolkit.Input.ScreenSpaceMousePointer
     - Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer
     - Microsoft.MixedReality.Toolkit.Input.SpherePointer
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint
@@ -56,7 +46,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
-    - Microsoft.MixedReality.Toolkit.UI.PulseShader.PulseShaderSpatialMeshHandler
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
@@ -76,7 +65,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionsProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystemProfile
-    - Microsoft.MixedReality.Toolkit.Input.MixedRealityMouseInputProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealitySpeechCommandsProfile
     - Microsoft.MixedReality.Toolkit.MixedRealityCameraProfile
@@ -273,169 +261,169 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 1790}
     - Class: 114
-      Script: {instanceID: 1926}
+      Script: {instanceID: 1924}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2050}
     - Class: 114
-      Script: {instanceID: 2078}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2410}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 2768}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3364}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3558}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 3948}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 3998}
+      Script: {instanceID: 3996}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 4702}
+      Script: {instanceID: 4700}
     - Class: 114
-      Script: {instanceID: 4708}
+      Script: {instanceID: 4706}
     - Class: 114
-      Script: {instanceID: 4942}
+      Script: {instanceID: 4940}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5028}
     - Class: 114
-      Script: {instanceID: 5070}
+      Script: {instanceID: 5068}
     - Class: 114
-      Script: {instanceID: 5088}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 5198}
+      Script: {instanceID: 5196}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5854}
+      Script: {instanceID: 5852}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 5996}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6304}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 6450}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 6512}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 6878}
+      Script: {instanceID: 6876}
     - Class: 114
-      Script: {instanceID: 7350}
+      Script: {instanceID: 7348}
     - Class: 114
-      Script: {instanceID: 7360}
+      Script: {instanceID: 7358}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7704}
     - Class: 114
-      Script: {instanceID: 8228}
+      Script: {instanceID: 8226}
     - Class: 114
-      Script: {instanceID: 8396}
+      Script: {instanceID: 8394}
     - Class: 114
-      Script: {instanceID: 8578}
+      Script: {instanceID: 8576}
     - Class: 114
-      Script: {instanceID: 8754}
+      Script: {instanceID: 8752}
+    - Class: 114
+      Script: {instanceID: 8872}
     - Class: 114
       Script: {instanceID: 8874}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8952}
     - Class: 114
       Script: {instanceID: 8954}
     - Class: 114
-      Script: {instanceID: 8956}
+      Script: {instanceID: 8982}
     - Class: 114
-      Script: {instanceID: 8984}
+      Script: {instanceID: 9006}
     - Class: 114
-      Script: {instanceID: 9008}
+      Script: {instanceID: 9262}
     - Class: 114
-      Script: {instanceID: 9264}
+      Script: {instanceID: 9510}
     - Class: 114
-      Script: {instanceID: 9512}
+      Script: {instanceID: 9538}
     - Class: 114
-      Script: {instanceID: 9540}
+      Script: {instanceID: 9730}
     - Class: 114
-      Script: {instanceID: 9732}
+      Script: {instanceID: 10348}
     - Class: 114
-      Script: {instanceID: 10350}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10362}
+      Script: {instanceID: 10392}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 10398}
     - Class: 114
-      Script: {instanceID: 10400}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10468}
+      Script: {instanceID: 10530}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10536}
     - Class: 114
-      Script: {instanceID: 10538}
+      Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 10598}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 10962}
+      Script: {instanceID: 11022}
     - Class: 114
-      Script: {instanceID: 11024}
+      Script: {instanceID: 11060}
     - Class: 114
-      Script: {instanceID: 11062}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 11190}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11334}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11520}
     - Class: 114
-      Script: {instanceID: 11522}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 11742}
+      Script: {instanceID: 12048}
     - Class: 114
-      Script: {instanceID: 12050}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12244}
     - Class: 114
-      Script: {instanceID: 12246}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12274}
+      Script: {instanceID: 12564}
     - Class: 114
-      Script: {instanceID: 12566}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 12628}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 13478}
-    - Class: 114
-      Script: {instanceID: 13850}
+      Script: {instanceID: 13848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
