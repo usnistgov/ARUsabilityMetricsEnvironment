@@ -127,7 +127,11 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
@@ -136,6 +140,10 @@ ScriptsOnlyBuild:
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.ImageTargetPreview
+    - Vuforia.SessionRecorderBehaviour
+    - Vuforia.SessionRecorderHolographicCanvas
+    - Vuforia.SessionRecorderInfoPopup
+    - Vuforia.SessionRecorderOverlayCanvas
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
     VuforiaScripts.dll:
@@ -200,9 +208,22 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
     Vuforia.Unity.Engine:
+    - Vuforia.SessionRecorderBehaviour/CleanStorageEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStartedEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStoppedEvent
+    - Vuforia.SessionRecorderBehaviour/ShareRecordingEvent
+    - Vuforia.SessionRecorderBehaviour/StartRecordingEvent
+    - Vuforia.SessionRecorderBehaviour/StopRecordingEvent
     - Vuforia.VuforiaConfiguration/DatabaseConfiguration
     - Vuforia.VuforiaConfiguration/DeviceTrackerConfiguration
     - Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration
@@ -211,7 +232,10 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/RequiredShaders
     - Vuforia.VuforiaConfiguration/VideoBackgroundConfiguration
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.SessionRecorderBehaviour
+    methodName: ShareRecording
   sceneClasses:
     Assets/Scenes/BaselineEnvironment.unity:
     - Class: 1
@@ -261,169 +285,185 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 20540}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 20674}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 20800}
+      Script: {instanceID: 1790}
     - Class: 114
-      Script: {instanceID: 20826}
+      Script: {instanceID: 1924}
     - Class: 114
-      Script: {instanceID: 21154}
+      Script: {instanceID: 2050}
     - Class: 114
-      Script: {instanceID: 21422}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 21512}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 21554}
+      Script: {instanceID: 2676}
     - Class: 114
-      Script: {instanceID: 21624}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 21668}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 21744}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 21846}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 21882}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 22104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 22298}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 22408}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 22688}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 22738}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 22840}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 22894}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 23310}
+      Script: {instanceID: 3996}
     - Class: 114
-      Script: {instanceID: 23440}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 23446}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 23678}
+      Script: {instanceID: 4272}
     - Class: 114
-      Script: {instanceID: 23766}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 23806}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 23824}
+      Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 23934}
+      Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 24552}
+      Script: {instanceID: 4700}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 4706}
     - Class: 114
-      Script: {instanceID: 24732}
+      Script: {instanceID: 4940}
     - Class: 114
-      Script: {instanceID: 25038}
+      Script: {instanceID: 5028}
     - Class: 114
-      Script: {instanceID: 25156}
+      Script: {instanceID: 5068}
     - Class: 114
-      Script: {instanceID: 25182}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 5196}
     - Class: 114
-      Script: {instanceID: 25244}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 25590}
+      Script: {instanceID: 5852}
     - Class: 114
-      Script: {instanceID: 25608}
+      Script: {instanceID: 5996}
     - Class: 114
-      Script: {instanceID: 26078}
+      Script: {instanceID: 6304}
     - Class: 114
-      Script: {instanceID: 26088}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 26432}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 26952}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 27120}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 27300}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 27476}
+      Script: {instanceID: 6876}
     - Class: 114
-      Script: {instanceID: 27596}
+      Script: {instanceID: 7348}
     - Class: 114
-      Script: {instanceID: 27598}
+      Script: {instanceID: 7358}
     - Class: 114
-      Script: {instanceID: 27676}
+      Script: {instanceID: 7704}
     - Class: 114
-      Script: {instanceID: 27678}
+      Script: {instanceID: 8226}
     - Class: 114
-      Script: {instanceID: 27706}
+      Script: {instanceID: 8394}
     - Class: 114
-      Script: {instanceID: 27730}
+      Script: {instanceID: 8576}
     - Class: 114
-      Script: {instanceID: 27988}
+      Script: {instanceID: 8752}
     - Class: 114
-      Script: {instanceID: 28236}
+      Script: {instanceID: 8872}
     - Class: 114
-      Script: {instanceID: 28264}
+      Script: {instanceID: 8874}
     - Class: 114
-      Script: {instanceID: 28456}
+      Script: {instanceID: 8952}
     - Class: 114
-      Script: {instanceID: 29072}
+      Script: {instanceID: 8954}
     - Class: 114
-      Script: {instanceID: 29084}
+      Script: {instanceID: 8982}
     - Class: 114
-      Script: {instanceID: 29116}
+      Script: {instanceID: 9006}
     - Class: 114
-      Script: {instanceID: 29122}
+      Script: {instanceID: 9262}
     - Class: 114
-      Script: {instanceID: 29190}
+      Script: {instanceID: 9510}
     - Class: 114
-      Script: {instanceID: 29254}
+      Script: {instanceID: 9538}
     - Class: 114
-      Script: {instanceID: 29260}
+      Script: {instanceID: 9730}
     - Class: 114
-      Script: {instanceID: 29320}
+      Script: {instanceID: 10348}
     - Class: 114
-      Script: {instanceID: 29680}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 29740}
+      Script: {instanceID: 10392}
     - Class: 114
-      Script: {instanceID: 29778}
+      Script: {instanceID: 10398}
     - Class: 114
-      Script: {instanceID: 29906}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 29912}
+      Script: {instanceID: 10530}
     - Class: 114
-      Script: {instanceID: 30052}
+      Script: {instanceID: 10536}
     - Class: 114
-      Script: {instanceID: 30072}
+      Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 30132}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 30238}
+      Script: {instanceID: 11022}
     - Class: 114
-      Script: {instanceID: 30438}
+      Script: {instanceID: 11060}
     - Class: 114
-      Script: {instanceID: 30460}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 30764}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 30850}
+      Script: {instanceID: 11334}
     - Class: 114
-      Script: {instanceID: 30960}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 30988}
+      Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 31280}
+      Script: {instanceID: 11520}
     - Class: 114
-      Script: {instanceID: 31342}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 32188}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 32558}
+      Script: {instanceID: 12048}
+    - Class: 114
+      Script: {instanceID: 12134}
+    - Class: 114
+      Script: {instanceID: 12244}
+    - Class: 114
+      Script: {instanceID: 12272}
+    - Class: 114
+      Script: {instanceID: 12564}
+    - Class: 114
+      Script: {instanceID: 12626}
+    - Class: 114
+      Script: {instanceID: 13004}
+    - Class: 114
+      Script: {instanceID: 13476}
+    - Class: 114
+      Script: {instanceID: 13848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -452,7 +492,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -461,10 +509,28 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
+      Hash: 8fbc134fd506d97c845cf2b715231396
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: Text
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -855,12 +921,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils.dll
     namespaceName: Unity.XR.CoreUtils
     className: OnDestroyNotifier
-  - hash:
-      serializedVersion: 2
-      Hash: 8fbc134fd506d97c845cf2b715231396
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: InputField
   - hash:
       serializedVersion: 2
       Hash: bda47d8d681c9b5fb4c4602acb4727e6
@@ -3401,12 +3461,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 11ad40c30f85fd15ef55a4ef590e6cb3
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
       Hash: 72095f3bdca6a5ced808052624115e3b
     assemblyName: Vuforia.Unity.Engine.dll
     namespaceName: Vuforia
@@ -3819,12 +3873,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -4911,12 +4959,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit
     className: MixedRealityRegisteredServiceProvidersProfile
-  - hash:
-      serializedVersion: 2
-      Hash: a1aa98c78061c6f03a8c124cda576e67
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 75199b62ab6206c5ccf6f64360b78483

@@ -1,0 +1,7 @@
+<linker>
+	<assembly fullname="Vuforia.Unity.Engine" ignoreIfMissing="1">
+		<type fullname="Vuforia.SessionRecorderBehaviour">
+			<method name="ShareRecording"/>
+		</type>
+	</assembly>
+</linker>
