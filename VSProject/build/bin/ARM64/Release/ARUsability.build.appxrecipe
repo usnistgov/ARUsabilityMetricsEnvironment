@@ -68,6 +68,9 @@
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.xml</PackagePath>
     </AppxPackagedFile>
@@ -133,6 +136,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.dat</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.dat</PackagePath>

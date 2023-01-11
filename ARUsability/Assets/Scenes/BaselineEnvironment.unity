@@ -831,7 +831,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1086108358}
   mHiddenRoot: {fileID: 0}
   mTargetName: FireExtinguisher
-  mDatasetName: Vuforia/SampleDb.xml
+  mDatasetName: Vuforia/ARTestEnvironment.xml
   mCastedBehaviour: {fileID: 1086108358}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -896,11 +896,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: FireExtinguisher
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/SampleDb.xml
-  mAspectRatio: 0.5625
+  mDataSetPath: Vuforia/ARTestEnvironment.xml
+  mAspectRatio: 1.2941176
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.5625
+  mWidth: 0.2159
+  mHeight: 0.2794
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -956,7 +956,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1106843170}
   mHiddenRoot: {fileID: 0}
   mTargetName: Oven
-  mDatasetName: Vuforia/SampleDb.xml
+  mDatasetName: Vuforia/ARTestEnvironment.xml
   mCastedBehaviour: {fileID: 1106843170}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1021,11 +1021,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: Oven
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/SampleDb.xml
-  mAspectRatio: 0.666667
+  mDataSetPath: Vuforia/ARTestEnvironment.xml
+  mAspectRatio: 1.2941176
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 0.666667
+  mWidth: 0.2159
+  mHeight: 0.2794
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1039,7 +1039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106843167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.152, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1209,7 +1209,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

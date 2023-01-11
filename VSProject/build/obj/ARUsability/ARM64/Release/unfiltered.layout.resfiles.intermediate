@@ -24,6 +24,8 @@ Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
 Data\sharedassets0.resource
 Data\StreamingAssets\UnityServicesProjectConfiguration.json
+Data\StreamingAssets\Vuforia\ARTestEnvironment.dat
+Data\StreamingAssets\Vuforia\ARTestEnvironment.xml
 Data\StreamingAssets\Vuforia\SampleDb.dat
 Data\StreamingAssets\Vuforia\SampleDb.xml
 Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json

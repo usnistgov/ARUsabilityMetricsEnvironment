@@ -6,3 +6,4 @@ VSProject/build/bin/ARM64/Release/AppX/Data/sharedassets0.assets filter=lfs diff
 VSProject/build/bin/ARM64/Release/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
 VSProject/build/obj/il2cppOutputProject/ARM64/Release/linkresult_5DE060A27659B1DD5180284B393AAEAF/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
 VSProject/build/obj/il2cppOutputProject/ARM64/Release/linkresult_F33DBE26526A868E102425614522F2C6/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
+ARUsability/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text

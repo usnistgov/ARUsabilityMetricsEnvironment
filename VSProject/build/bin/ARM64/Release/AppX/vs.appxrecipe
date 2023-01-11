@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-02T22:27:58.793</Modified>
+      <Modified>2023-01-11T17:24:01.675</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe">
       <PackagePath>ARUsability.exe</PackagePath>
-      <Modified>2023-01-02T22:27:58.243</Modified>
+      <Modified>2023-01-11T17:24:01.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -47,62 +47,66 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.winmd">
       <PackagePath>ARUsability.winmd</PackagePath>
-      <Modified>2023-01-02T21:07:28.466</Modified>
+      <Modified>2023-01-02T23:38:21.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-12T20:29:08.000</Modified>
+      <Modified>2023-01-02T23:38:16.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2023-01-02T22:26:19.759</Modified>
+      <Modified>2023-01-11T17:23:02.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.xml</PackagePath>
+      <Modified>2023-01-11T17:21:13.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.xml</PackagePath>
-      <Modified>2022-12-07T20:13:18.000</Modified>
+      <Modified>2023-01-04T23:15:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2023-01-02T22:26:19.089</Modified>
+      <Modified>2023-01-11T17:23:02.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2023-01-02T22:26:18.152</Modified>
+      <Modified>2023-01-11T17:23:01.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2023-01-02T22:26:14.960</Modified>
+      <Modified>2023-01-11T17:22:58.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -110,51 +114,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2023-01-02T22:26:19.089</Modified>
+      <Modified>2023-01-11T17:23:02.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2023-01-02T22:26:18.231</Modified>
+      <Modified>2023-01-11T17:23:01.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2023-01-02T22:26:18.321</Modified>
+      <Modified>2023-01-11T17:23:01.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2023-01-02T22:26:18.882</Modified>
+      <Modified>2023-01-11T17:23:01.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2023-01-02T22:26:14.945</Modified>
+      <Modified>2023-01-11T17:22:58.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2023-01-02T22:26:18.311</Modified>
+      <Modified>2023-01-11T17:23:01.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2023-01-02T22:26:18.851</Modified>
+      <Modified>2023-01-11T17:23:01.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2023-01-02T22:26:35.434</Modified>
+      <Modified>2023-01-11T17:23:19.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
-      <Modified>2023-01-02T22:26:14.532</Modified>
+      <Modified>2023-01-11T17:22:57.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\ScriptingAssemblies.json">
       <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
-      <Modified>2023-01-02T22:26:18.062</Modified>
+      <Modified>2023-01-11T17:23:01.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\UnityServicesProjectConfiguration.json">
       <PackagePath>Data\StreamingAssets\UnityServicesProjectConfiguration.json</PackagePath>
-      <Modified>2023-01-02T22:26:11.136</Modified>
+      <Modified>2023-01-11T17:22:54.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
-      <Modified>2022-12-19T20:01:27.389</Modified>
+      <Modified>2023-01-02T23:37:52.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
@@ -162,31 +166,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2023-01-02T22:26:18.835</Modified>
+      <Modified>2023-01-11T17:23:01.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2023-01-02T21:04:38.455</Modified>
+      <Modified>2023-01-04T23:18:47.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2023-01-02T21:04:32.854</Modified>
+      <Modified>2023-01-04T23:18:42.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2023-01-02T21:04:32.854</Modified>
+      <Modified>2023-01-04T23:18:41.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.dat</PackagePath>
+      <Modified>2023-01-11T17:21:13.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.dat</PackagePath>
-      <Modified>2022-12-07T20:13:18.000</Modified>
+      <Modified>2023-01-04T23:15:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\VuforiaEngine.dll">
       <PackagePath>VuforiaEngine.dll</PackagePath>
-      <Modified>2022-12-07T10:18:18.000</Modified>
+      <Modified>2023-01-02T23:37:54.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\MicrosoftOpenXRPlugin.dll">
       <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
-      <Modified>2022-12-19T20:01:27.389</Modified>
+      <Modified>2023-01-02T23:37:52.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\openxr_loader.dll">
       <PackagePath>openxr_loader.dll</PackagePath>
@@ -198,7 +206,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2023-01-02T21:07:24.164</Modified>
+      <Modified>2023-01-02T23:38:29.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
@@ -206,7 +214,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-02T22:27:58.643</Modified>
+      <Modified>2023-01-11T17:24:01.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
