@@ -46,6 +46,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
+    - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
+    - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
@@ -53,6 +55,7 @@ ScriptsOnlyBuild:
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
     - Microsoft.MixedReality.Toolkit.Input.GazeProvider
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
+    - Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
     Microsoft.MixedReality.Toolkit.dll:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile
@@ -180,6 +183,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose
     - Microsoft.MixedReality.Toolkit.Utilities.ProximityLight/LightSettings
     - Microsoft.MixedReality.Toolkit.Utilities.SystemType
+    Microsoft.MixedReality.Toolkit.SDK:
+    - Microsoft.MixedReality.Toolkit.UI.ManipulationEvent
     Microsoft.MixedReality.Toolkit.Services.InputSimulation:
     - Microsoft.MixedReality.Toolkit.Input.KeyBinding
     Unity.TextMeshPro:
@@ -299,6 +304,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2408}
     - Class: 114
+      Script: {instanceID: 2574}
+    - Class: 114
       Script: {instanceID: 2676}
     - Class: 114
       Script: {instanceID: 2766}
@@ -316,6 +323,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3138}
     - Class: 114
       Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3246}
     - Class: 114
       Script: {instanceID: 3362}
     - Class: 114
@@ -378,6 +387,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7348}
     - Class: 114
       Script: {instanceID: 7358}
+    - Class: 114
+      Script: {instanceID: 7670}
     - Class: 114
       Script: {instanceID: 7704}
     - Class: 114
