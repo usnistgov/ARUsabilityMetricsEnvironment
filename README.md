@@ -14,15 +14,18 @@
 2. Press the Play Button. 
 ### HoloLens 2
 1. Open the solution with Microsoft Visual Studio 2022
-2. Set the Solution Configuration to Release![image](https://user-images.githubusercontent.com/16603171/221979716-ae424b36-ec43-4ce7-936d-12f259cef157.png)
+2. Set the Solution Configuration to Release
+![image](https://user-images.githubusercontent.com/16603171/221979716-ae424b36-ec43-4ce7-936d-12f259cef157.png)
 
-3. Set the Solution Platform to ARM64![image](https://user-images.githubusercontent.com/16603171/221979802-5a78ad38-e30f-4658-92a8-73ec5439bbe3.png)
+3. Set the Solution Platform to ARM64
+![image](https://user-images.githubusercontent.com/16603171/221979802-5a78ad38-e30f-4658-92a8-73ec5439bbe3.png)
 
 4. Set the Machine Name for Debugging.
     * From the Visual Studio menu; Project -> Properties
     * Under Configuration Properties, click Debugging
     * Under Debugger to launch, choose Remote Machine
-    * In the section below, edit the Machine Name to the IP Address of the HoloLens 2![image](https://user-images.githubusercontent.com/16603171/221979919-80995d48-41ad-4c56-b003-269f6d2b0f06.png)
+    * In the section below, edit the Machine Name to the IP Address of the HoloLens 2
+ ![image](https://user-images.githubusercontent.com/16603171/221979919-80995d48-41ad-4c56-b003-269f6d2b0f06.png)
 
 ## Cognitive3D
 * Open the [Dashboard](https://app.cognitive3d.com/organizations), Login needed.
