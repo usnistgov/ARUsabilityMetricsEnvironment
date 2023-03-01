@@ -2611,9 +2611,9 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_1;
 	// System.Single UnityEngine.Plane::m_Distance
-	float ___m_Distance_1;
+	float ___m_Distance_2;
 };
 
 // UnityEngine.Ray
@@ -20144,7 +20144,7 @@ IL_0177_2:
 							String_t* L_42 = V_1;
 							NullCheck(L_41);
 							Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_43;
-							L_43 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(19 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_41, L_42);
+							L_43 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, String_t* >::Invoke(20 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String) */, L_41, L_42);
 							NullCheck(L_43);
 							TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_44;
 							L_44 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_43, NULL);

@@ -38,6 +38,22 @@
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.KeyBinding" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Obi">
+		<type fullname="Obi.ObiAerodynamicConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiBendConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiBendTwistConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiChainConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiDistanceConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiEmitterShape/DistributionPoint" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiNativeCellSpanList" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiShapeMatchingConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiSkinConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiStretchShearConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiTetherConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Obi.ObiVolumeConstraintsData" preserve="nothing" serialized="true"/>
+		<type fullname="Oni/ConstraintParameters" preserve="nothing" serialized="true"/>
+		<type fullname="Oni/SolverParameters" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
 		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
@@ -59,6 +75,10 @@
 		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.IMGUIModule">
+		<type fullname="UnityEngine.GUISettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.GUIStyle" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
 		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>

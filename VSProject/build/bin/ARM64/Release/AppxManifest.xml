@@ -49,16 +49,16 @@
     </Extension>
   </Extensions>
   <build:Metadata>
-    <build:Item Name="cl.exe" Version="19.34.31937.0" />
+    <build:Item Name="cl.exe" Version="19.35.32215.0" />
     <build:Item Name="CodeSharingProject" Value="6A2255BE-B368-4127-9782-BD762DEA33C5" />
     <build:Item Name="VisualStudio" Version="17.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.22621.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.4.33122.133" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.5.33414.496" />
     <build:Item Name="ProjectGUID" Value="{2fabdf39-a3a3-4497-95ba-5aee089ebf0f}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Native" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="17.0.33118.351" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="17.0.33413.192" />
     <build:Item Name="WindowsMobile" Version="10.0.22621.0" />
     <build:Item Name="MakePri.exe" Version="10.0.22621.755 (WinBuild.160101.0800)" />
   </build:Metadata>

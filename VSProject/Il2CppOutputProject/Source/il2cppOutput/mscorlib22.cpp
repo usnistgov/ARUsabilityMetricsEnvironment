@@ -53,6 +53,17 @@ struct VirtualActionInvoker3
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
 	}
 };
+template <typename T1, typename T2, typename T3, typename T4>
+struct VirtualActionInvoker4
+{
+	typedef void (*Action)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
 template <typename R>
 struct VirtualFuncInvoker0
 {
@@ -4706,6 +4717,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* String_ToCharArray_m0699A92AA3E744229EF29CB9D943C47DF4FE5B46 (String_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.IFormatProvider,System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m3844098E7C18576D263AAF62F69BE5C70BF9A744 (RuntimeObject* ___0_provider, String_t* ___1_format, RuntimeObject* ___2_arg0, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mF8E53122BE8F0F617357DFB75C3912D1242DE263 (RuntimeObject* ___0_provider, String_t* ___1_format, RuntimeObject* ___2_arg0, RuntimeObject* ___3_arg1, RuntimeObject* ___4_arg2, const RuntimeMethod* method) ;
 // System.Void System.Tuple`2<System.IO.TextWriter,System.String>::.ctor(T1,T2)
 inline void Tuple_2__ctor_m946EF2BCB2993B5D5A60CE7A62B3DC7B7551A1AB (Tuple_2_t3BCAED4DFCCBC11E57D377D55E9156C69D2F40AF* __this, TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* ___0_item1, String_t* ___1_item2, const RuntimeMethod* method)
 {
@@ -12345,6 +12358,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextWriter_WriteLine_m6B28B7D036AD97916F
 		return;
 	}
 }
+// System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextWriter_WriteLine_m3EAC3DF30AAFB7C5A8E71DFECDA7ABF6C72E8C92 (TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* __this, String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(7 /* System.IFormatProvider System.IO.TextWriter::get_FormatProvider() */, __this);
+		String_t* L_1 = ___0_format;
+		RuntimeObject* L_2 = ___1_arg0;
+		RuntimeObject* L_3 = ___2_arg1;
+		RuntimeObject* L_4 = ___3_arg2;
+		String_t* L_5;
+		L_5 = String_Format_mF8E53122BE8F0F617357DFB75C3912D1242DE263(L_0, L_1, L_2, L_3, L_4, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(17 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, __this, L_5);
+		return;
+	}
+}
 // System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TextWriter_WriteAsync_mF4AF9EAB83F608510F66377827FF237788DBCC9E (TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
@@ -12723,6 +12752,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_m3C88A40913E0AF
 		RuntimeObject* L_2 = ___1_arg0;
 		NullCheck(L_0);
 		VirtualActionInvoker2< String_t*, RuntimeObject* >::Invoke(18 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object) */, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void System.IO.TextWriter/SyncTextWriter::WriteLine(System.String,System.Object,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyncTextWriter_WriteLine_m7A32D7A22556BE41B5C249899437C35D4D08FE3E (SyncTextWriter_t2B0E74B8B5F076D9DAA63A884B64E6AED5454340* __this, String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) 
+{
+	{
+		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->____out_6;
+		String_t* L_1 = ___0_format;
+		RuntimeObject* L_2 = ___1_arg0;
+		RuntimeObject* L_3 = ___2_arg1;
+		RuntimeObject* L_4 = ___3_arg2;
+		NullCheck(L_0);
+		VirtualActionInvoker4< String_t*, RuntimeObject*, RuntimeObject*, RuntimeObject* >::Invoke(19 /* System.Void System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object,System.Object) */, L_0, L_1, L_2, L_3, L_4);
 		return;
 	}
 }

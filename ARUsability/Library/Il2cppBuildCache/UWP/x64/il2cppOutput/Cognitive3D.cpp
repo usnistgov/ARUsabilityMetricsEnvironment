@@ -15979,7 +15979,7 @@ IL_00d8:
 		StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_35 = __this->___writer_7;
 		NullCheck(L_35);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_36;
-		L_36 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(21 /* System.IO.Stream System.IO.StreamWriter::get_BaseStream() */, L_35);
+		L_36 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(22 /* System.IO.Stream System.IO.StreamWriter::get_BaseStream() */, L_35);
 		NullCheck(L_36);
 		int64_t L_37;
 		L_37 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_36, ((int64_t)0), 2);
@@ -16537,7 +16537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DualFileCache_MergeDataFiles_m7EC3F98899
 		StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_6 = __this->___read_writer_5;
 		NullCheck(L_6);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_7;
-		L_7 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(21 /* System.IO.Stream System.IO.StreamWriter::get_BaseStream() */, L_6);
+		L_7 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(22 /* System.IO.Stream System.IO.StreamWriter::get_BaseStream() */, L_6);
 		NullCheck(L_7);
 		int64_t L_8;
 		L_8 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(31 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_7, ((int64_t)0), 2);

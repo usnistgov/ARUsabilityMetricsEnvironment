@@ -26,9 +26,9 @@ static Il2CppMethodPointer s_methodPointers[3] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	9055,
-	9055,
-	9055,
+	10368,
+	10368,
+	10368,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Demos_InspectorFields_CodeGenModule = 

@@ -1,5 +1,12 @@
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_F8833D46EAC836D2.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_BF7533F9633D12CF.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.Editor.ref.dll_E4E2923355E97C1D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.ref.dll_AD782737132D34D4.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_140873357F31F622.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_45397BA240987688.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Jobs.ref.dll_622F4C139006353D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Mathematics.Editor.ref.dll_9ABA436F1A8CE6AC.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_30FA8E41B908AD55.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_8F519A9A3F68CBB2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_B0C8A17853BFA6FD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_B0DFA11C096BF1B8.mvfrm
@@ -48,8 +55,14 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.SpatialTracking.ref.dll_186DC1499E2C377
 Library\Bee\artifacts\mvdfrm\UnityEngine.TestRunner.ref.dll_B9169C5DE0E191E7.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_DC03957FAF798D29.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XR.LegacyInputHelpers.ref.dll_2FAB46CBD01A2C89.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.dll_5144D72B080CD980.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Mdb.dll_87A44B558B867CBD.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Pdb.dll_9EF6C3C50A3B7E40.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Rocks.dll_FB9649B1F67C4660.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Unsafe.dll_A2347940130E3113.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_D9469E7621419A6A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_70DEC0551D2B7F2B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.LowLevel.ILSupport.dll_74C52034C9DBF2C2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_0313C123FC6D09C0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_8D9CE11A8F4032BC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.TextureAssets.dll_24BB0A6E500D90B4.mvfrm

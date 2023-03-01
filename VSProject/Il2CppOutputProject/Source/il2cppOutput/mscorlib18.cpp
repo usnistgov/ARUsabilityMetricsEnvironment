@@ -494,10 +494,32 @@ struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
 struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
 // System.Reflection.Assembly
 struct Assembly_t;
+// System.Reflection.AssemblyCompanyAttribute
+struct AssemblyCompanyAttribute_tB1E99BD8AACD8D0DFD028C96C4B2E4337FAD4673;
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B;
+// System.Reflection.AssemblyCopyrightAttribute
+struct AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E;
+// System.Reflection.AssemblyDefaultAliasAttribute
+struct AssemblyDefaultAliasAttribute_tABCE8261C3B98B7EC1327AB5AC5B381719ED930D;
+// System.Reflection.AssemblyDelaySignAttribute
+struct AssemblyDelaySignAttribute_tF1B079F333B73E0AFA7B00DBCE0AE8265180F43E;
+// System.Reflection.AssemblyDescriptionAttribute
+struct AssemblyDescriptionAttribute_tB948CD61A3623EA73E3A31296FA1638B5ED41881;
+// System.Reflection.AssemblyFileVersionAttribute
+struct AssemblyFileVersionAttribute_tEBD946AEBE271D135B9161CE0B423ED10AA933F4;
+// System.Reflection.AssemblyInformationalVersionAttribute
+struct AssemblyInformationalVersionAttribute_t24D264AA00C510A899261B63CA129794CCBFAF9D;
+// System.Reflection.AssemblyKeyFileAttribute
+struct AssemblyKeyFileAttribute_tB0EC930762855DB7BE70FEE34F70977A7D238DD1;
 // System.AssemblyLoadEventHandler
 struct AssemblyLoadEventHandler_t74AF5FF25F520B9786A20D862AE69BE733774A42;
+// System.Reflection.AssemblyMetadataAttribute
+struct AssemblyMetadataAttribute_tC5FB9DAC21EE77DAA8CF2105D01E2D9569A23812;
 // System.Reflection.AssemblyName
 struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2;
+// System.Reflection.AssemblyProductAttribute
+struct AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A;
 // System.Reflection.AssemblyTitleAttribute
 struct AssemblyTitleAttribute_tD662898804D6F2837455D81BA60B9F75C67636F1;
 // System.Reflection.AssemblyTrademarkAttribute
@@ -1040,6 +1062,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCE649C223E6F1234DD58FCD272F7E40B70FD3BB8
 IL2CPP_EXTERN_C String_t* _stringLiteralCF7DF948FC4905FED1A56776B9DFCCB86C46912A;
 IL2CPP_EXTERN_C String_t* _stringLiteralCFC4A754642031A9C52CF57557A9814B6FE93322;
 IL2CPP_EXTERN_C String_t* _stringLiteralD2A5C0DDF2C4FC5979C189BE26C9EB8F94F639CE;
+IL2CPP_EXTERN_C String_t* _stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052;
 IL2CPP_EXTERN_C String_t* _stringLiteralD552954B744AF69539992B9CB172AA11B41C58C8;
 IL2CPP_EXTERN_C String_t* _stringLiteralD56ECCB13770E8300FEE31DF9CFA9B022470BE5A;
 IL2CPP_EXTERN_C String_t* _stringLiteralD5AC0AA5A492845D5A4D50FD0F20E3E1AA5FEADC;
@@ -1088,6 +1111,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisCustomAttributeNamedArgument
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisCustomAttributeTypedArgument_tAAA19ADE66B16A67D030C8C67D7ADB29A7BEC75F_m28D774586D7CE1823B499357A15DFF204259D387_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisType_t_m1FD9ED0B09CEAFFC537EF0C71689FDB03AEF72AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AssemblyFileVersionAttribute__ctor_m5D73446D0B66AF8477742EC9270D6FED72FB3D36_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssemblyName_GetObjectData_mDB37514F3ACF4699F248396176C900BADD20F59A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssemblyName_GetPublicKeyToken_m4FCC5742FE2D06BE08290F30E186CFF24D0C871D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AssemblyName_InternalGetPublicKeyToken_m5F3E5E924AC908F8E2B641F86DA2E7B00BA7FC98_RuntimeMethod_var;
@@ -2341,6 +2365,85 @@ struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01
 // System.Reflection.Emit.AssemblyBuilder
 struct AssemblyBuilder_t87D45090370084F95DC55357D97AC3FBD578220A  : public Assembly_t
 {
+};
+
+// System.Reflection.AssemblyCompanyAttribute
+struct AssemblyCompanyAttribute_tB1E99BD8AACD8D0DFD028C96C4B2E4337FAD4673  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyCompanyAttribute::<Company>k__BackingField
+	String_t* ___U3CCompanyU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyConfigurationAttribute::<Configuration>k__BackingField
+	String_t* ___U3CConfigurationU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyCopyrightAttribute
+struct AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyCopyrightAttribute::<Copyright>k__BackingField
+	String_t* ___U3CCopyrightU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyDefaultAliasAttribute
+struct AssemblyDefaultAliasAttribute_tABCE8261C3B98B7EC1327AB5AC5B381719ED930D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyDefaultAliasAttribute::<DefaultAlias>k__BackingField
+	String_t* ___U3CDefaultAliasU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyDelaySignAttribute
+struct AssemblyDelaySignAttribute_tF1B079F333B73E0AFA7B00DBCE0AE8265180F43E  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.Boolean System.Reflection.AssemblyDelaySignAttribute::<DelaySign>k__BackingField
+	bool ___U3CDelaySignU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyDescriptionAttribute
+struct AssemblyDescriptionAttribute_tB948CD61A3623EA73E3A31296FA1638B5ED41881  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyDescriptionAttribute::<Description>k__BackingField
+	String_t* ___U3CDescriptionU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyFileVersionAttribute
+struct AssemblyFileVersionAttribute_tEBD946AEBE271D135B9161CE0B423ED10AA933F4  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyFileVersionAttribute::<Version>k__BackingField
+	String_t* ___U3CVersionU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyInformationalVersionAttribute
+struct AssemblyInformationalVersionAttribute_t24D264AA00C510A899261B63CA129794CCBFAF9D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyInformationalVersionAttribute::<InformationalVersion>k__BackingField
+	String_t* ___U3CInformationalVersionU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyKeyFileAttribute
+struct AssemblyKeyFileAttribute_tB0EC930762855DB7BE70FEE34F70977A7D238DD1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyKeyFileAttribute::<KeyFile>k__BackingField
+	String_t* ___U3CKeyFileU3Ek__BackingField_0;
+};
+
+// System.Reflection.AssemblyMetadataAttribute
+struct AssemblyMetadataAttribute_tC5FB9DAC21EE77DAA8CF2105D01E2D9569A23812  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyMetadataAttribute::<Key>k__BackingField
+	String_t* ___U3CKeyU3Ek__BackingField_0;
+	// System.String System.Reflection.AssemblyMetadataAttribute::<Value>k__BackingField
+	String_t* ___U3CValueU3Ek__BackingField_1;
+};
+
+// System.Reflection.AssemblyProductAttribute
+struct AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String System.Reflection.AssemblyProductAttribute::<Product>k__BackingField
+	String_t* ___U3CProductU3Ek__BackingField_0;
 };
 
 // System.Reflection.AssemblyTitleAttribute
@@ -6062,6 +6165,50 @@ struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06_StaticFields
 
 // System.Reflection.Emit.AssemblyBuilder
 
+// System.Reflection.AssemblyCompanyAttribute
+
+// System.Reflection.AssemblyCompanyAttribute
+
+// System.Reflection.AssemblyConfigurationAttribute
+
+// System.Reflection.AssemblyConfigurationAttribute
+
+// System.Reflection.AssemblyCopyrightAttribute
+
+// System.Reflection.AssemblyCopyrightAttribute
+
+// System.Reflection.AssemblyDefaultAliasAttribute
+
+// System.Reflection.AssemblyDefaultAliasAttribute
+
+// System.Reflection.AssemblyDelaySignAttribute
+
+// System.Reflection.AssemblyDelaySignAttribute
+
+// System.Reflection.AssemblyDescriptionAttribute
+
+// System.Reflection.AssemblyDescriptionAttribute
+
+// System.Reflection.AssemblyFileVersionAttribute
+
+// System.Reflection.AssemblyFileVersionAttribute
+
+// System.Reflection.AssemblyInformationalVersionAttribute
+
+// System.Reflection.AssemblyInformationalVersionAttribute
+
+// System.Reflection.AssemblyKeyFileAttribute
+
+// System.Reflection.AssemblyKeyFileAttribute
+
+// System.Reflection.AssemblyMetadataAttribute
+
+// System.Reflection.AssemblyMetadataAttribute
+
+// System.Reflection.AssemblyProductAttribute
+
+// System.Reflection.AssemblyProductAttribute
+
 // System.Reflection.AssemblyTitleAttribute
 
 // System.Reflection.AssemblyTitleAttribute
@@ -8138,6 +8285,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Span_1__ctor_m947BF95D54571B
 
 // System.Void System.Attribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Reflection.MethodBase::.ctor()
@@ -8212,8 +8361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomAttributeData__ctor_mFC60E115E80D1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MarshalAsAttribute_get_Value_m66DE74E6CB1FCB905319263C04DC5BA554E0E07E_inline (MarshalAsAttribute_t01C6F0A583661ACCA85234683F50A4D4F82C9B7E* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Type::op_Equality(System.Type,System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
-// System.Void System.ArgumentNullException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
 // System.Void System.Reflection.TypeDelegator::.ctor(System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeDelegator__ctor_m1D95F925ECA720A8650D34229FFF4426B0A2105A (TypeDelegator_t168F3627EB52B399C4BE15869A6A959390870812* __this, Type_t* ___0_delegatingType, const RuntimeMethod* method) ;
 // System.Void System.Reflection.InvalidFilterCriteriaException::.ctor(System.String)
@@ -8483,6 +8630,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* Attribute_GetCustomAttribute_mF48604D4722E67239F3D6A48CFCCBCDE7BCFFB06 (MemberInfo_t* ___0_element, Type_t* ___1_attributeType, const RuntimeMethod* method) ;
 // System.Attribute System.Attribute::GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* Attribute_GetCustomAttribute_mBF35997518AA6969E0E9A29D7E8C5FE6FCF36AC1 (MemberInfo_t* ___0_element, Type_t* ___1_attributeType, bool ___2_inherit, const RuntimeMethod* method) ;
+// System.Attribute[] System.Attribute::GetCustomAttributes(System.Reflection.Assembly)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* Attribute_GetCustomAttributes_mD4455DC35BFA6EFA35E1A16A08D2519E44ADB5E8 (Assembly_t* ___0_element, const RuntimeMethod* method) ;
+// System.Attribute[] System.Attribute::GetCustomAttributes(System.Reflection.MemberInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* Attribute_GetCustomAttributes_m4C0D259C25DCA89493CA59BD2AB393F29558AEA9 (MemberInfo_t* ___0_element, const RuntimeMethod* method) ;
 // System.Attribute[] System.Attribute::GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* Attribute_GetCustomAttributes_m5D97AC5988A85310657B4740FC3655188C5176E1 (MemberInfo_t* ___0_element, Type_t* ___1_type, const RuntimeMethod* method) ;
 // System.Attribute[] System.Attribute::GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
@@ -9234,6 +9385,232 @@ inline void Span_1__ctor_m947BF95D54571BF3897F96822B7A8FDA5853497B_inline (Span_
 {
 	((  void (*) (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305*, uint8_t*, int32_t, const RuntimeMethod*))Span_1__ctor_m947BF95D54571BF3897F96822B7A8FDA5853497B_gshared_inline)(__this, ___0_ptr, ___1_length, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyCompanyAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyCompanyAttribute__ctor_m5FAB94A558B5352334077154D0B5BB4326114D09 (AssemblyCompanyAttribute_tB1E99BD8AACD8D0DFD028C96C4B2E4337FAD4673* __this, String_t* ___0_company, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_company;
+		__this->___U3CCompanyU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCompanyU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyConfigurationAttribute__ctor_mA81BF242FD2647374B36EEF689F5586B112FBD13 (AssemblyConfigurationAttribute_t0A68EE0AE862DBFB409961D6DD94BCA8CFE2D95B* __this, String_t* ___0_configuration, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_configuration;
+		__this->___U3CConfigurationU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConfigurationU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyCopyrightAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyCopyrightAttribute__ctor_m8E5E832C1B917B552ED1350D366AD210610EBBDF (AssemblyCopyrightAttribute_tE509AB280F1465293563388BA462EADB223C062E* __this, String_t* ___0_copyright, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_copyright;
+		__this->___U3CCopyrightU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCopyrightU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyDefaultAliasAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyDefaultAliasAttribute__ctor_m12D778E6DBAD84DA12C5491B108D5AB24B527EAB (AssemblyDefaultAliasAttribute_tABCE8261C3B98B7EC1327AB5AC5B381719ED930D* __this, String_t* ___0_defaultAlias, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_defaultAlias;
+		__this->___U3CDefaultAliasU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDefaultAliasU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyDelaySignAttribute::.ctor(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyDelaySignAttribute__ctor_m379BD5A2CAFCC3948CF41371E767FEC0976813FA (AssemblyDelaySignAttribute_tF1B079F333B73E0AFA7B00DBCE0AE8265180F43E* __this, bool ___0_delaySign, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		bool L_0 = ___0_delaySign;
+		__this->___U3CDelaySignU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyDescriptionAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyDescriptionAttribute__ctor_m0158B3228EBC0CEBAAB2BC23302971F3DFE41702 (AssemblyDescriptionAttribute_tB948CD61A3623EA73E3A31296FA1638B5ED41881* __this, String_t* ___0_description, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_description;
+		__this->___U3CDescriptionU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDescriptionU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyFileVersionAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyFileVersionAttribute__ctor_m5D73446D0B66AF8477742EC9270D6FED72FB3D36 (AssemblyFileVersionAttribute_tEBD946AEBE271D135B9161CE0B423ED10AA933F4* __this, String_t* ___0_version, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_version;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_1);
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AssemblyFileVersionAttribute__ctor_m5D73446D0B66AF8477742EC9270D6FED72FB3D36_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		String_t* L_2 = ___0_version;
+		__this->___U3CVersionU3Ek__BackingField_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVersionU3Ek__BackingField_0), (void*)L_2);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyInformationalVersionAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyInformationalVersionAttribute__ctor_m3D974DDB883FBD364F61FEDD3AA88FC4AA8C721F (AssemblyInformationalVersionAttribute_t24D264AA00C510A899261B63CA129794CCBFAF9D* __this, String_t* ___0_informationalVersion, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_informationalVersion;
+		__this->___U3CInformationalVersionU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInformationalVersionU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyKeyFileAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyKeyFileAttribute__ctor_m11F1AA635F4B04B4AB29BF81F2D22D2B79154DDB (AssemblyKeyFileAttribute_tB0EC930762855DB7BE70FEE34F70977A7D238DD1* __this, String_t* ___0_keyFile, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_keyFile;
+		__this->___U3CKeyFileU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeyFileU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyMetadataAttribute::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyMetadataAttribute__ctor_m0F1FDBE73FA5E211A94394BDA95E5637A333905C (AssemblyMetadataAttribute_tC5FB9DAC21EE77DAA8CF2105D01E2D9569A23812* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_key;
+		__this->___U3CKeyU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeyU3Ek__BackingField_0), (void*)L_0);
+		String_t* L_1 = ___1_value;
+		__this->___U3CValueU3Ek__BackingField_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CValueU3Ek__BackingField_1), (void*)L_1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyProductAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyProductAttribute__ctor_m8486088445EC4F4896115D97A779A8E7DCE94C74 (AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A* __this, String_t* ___0_product, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_product;
+		__this->___U3CProductU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CProductU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -18486,6 +18863,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 		Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* L_3;
 		L_3 = Attribute_GetCustomAttribute_mBF35997518AA6969E0E9A29D7E8C5FE6FCF36AC1(L_0, L_1, L_2, NULL);
 		return L_3;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.Attribute> System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Assembly)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttributes_m9511916CC49687147205F586192B7D86F355E374 (Assembly_t* ___0_element, const RuntimeMethod* method) 
+{
+	{
+		Assembly_t* L_0 = ___0_element;
+		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_1;
+		L_1 = Attribute_GetCustomAttributes_mD4455DC35BFA6EFA35E1A16A08D2519E44ADB5E8(L_0, NULL);
+		return (RuntimeObject*)L_1;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.Attribute> System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttributes_m2851556A37AAF9A808EFB2C603D11E48635FA785 (MemberInfo_t* ___0_element, const RuntimeMethod* method) 
+{
+	{
+		MemberInfo_t* L_0 = ___0_element;
+		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_1;
+		L_1 = Attribute_GetCustomAttributes_m4C0D259C25DCA89493CA59BD2AB393F29558AEA9(L_0, NULL);
+		return (RuntimeObject*)L_1;
 	}
 }
 // System.Collections.Generic.IEnumerable`1<System.Attribute> System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo,System.Type)

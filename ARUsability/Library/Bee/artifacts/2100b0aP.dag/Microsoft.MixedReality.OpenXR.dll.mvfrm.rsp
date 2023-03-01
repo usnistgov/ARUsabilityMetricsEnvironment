@@ -4,6 +4,12 @@ Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.ref.dll_07C8BB1BBE22BDC3.mvfr
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.ref.dll_0E9BF2D9F462D5A1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.ref.dll_74F9F7CFA50F76F2.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_CDEBC717C64AFBAE.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.dll_5144D72B080CD980.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Mdb.dll_87A44B558B867CBD.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Pdb.dll_9EF6C3C50A3B7E40.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Cecil.Rocks.dll_FB9649B1F67C4660.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Unsafe.dll_A2347940130E3113.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.LowLevel.ILSupport.dll_74C52034C9DBF2C2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_3F0A07FBC00942DB.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_0D31BD064C438CF6.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_AC16033B111171A4.mvfrm
