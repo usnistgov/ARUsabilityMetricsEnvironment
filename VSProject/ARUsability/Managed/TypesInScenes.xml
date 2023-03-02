@@ -93,12 +93,14 @@
 	</assembly>
 	<assembly fullname="Obi">
 		<type fullname="Obi.BurstColliderWorld" preserve="nothing"/>
+		<type fullname="Obi.ObiCollider" preserve="nothing"/>
 		<type fullname="Obi.ObiCollisionMaterial" preserve="nothing"/>
 		<type fullname="Obi.ObiEmitter" preserve="nothing"/>
 		<type fullname="Obi.ObiEmitterShapeDisk" preserve="nothing"/>
 		<type fullname="Obi.ObiFixedUpdater" preserve="nothing"/>
 		<type fullname="Obi.ObiFluidEmitterBlueprint" preserve="nothing"/>
 		<type fullname="Obi.ObiParticleRenderer" preserve="nothing"/>
+		<type fullname="Obi.ObiRigidbody" preserve="nothing"/>
 		<type fullname="Obi.ObiSolver" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">

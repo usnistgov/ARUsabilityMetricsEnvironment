@@ -2,34 +2,34 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{e13205b2-caa9-43c3-84f3-91eebc67e146}</UniqueIdentifier>
+      <UniqueIdentifier>{f69d3eac-f2ff-49ab-a632-476cbd80c98a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{a092a96f-d2e8-47ad-8cc0-a17dc4167b85}</UniqueIdentifier>
+      <UniqueIdentifier>{672d624d-3627-4179-a396-f3a293c7aa15}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{13d058bb-7687-4462-a1ff-6dd2067777b6}</UniqueIdentifier>
+      <UniqueIdentifier>{4b62cdf6-6bd9-47e6-91d2-5a120d7248dd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{5fefe64a-8c17-4984-81b9-c43902ecacf9}</UniqueIdentifier>
+      <UniqueIdentifier>{374eb600-6883-48e4-b744-fe0c732ce98c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{78cba064-348b-40de-a57f-930612987bce}</UniqueIdentifier>
+      <UniqueIdentifier>{d24a89f8-a8fc-483a-9a87-8701017da9dc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{da05a4fb-1a94-4d78-8ea0-a34de117b00d}</UniqueIdentifier>
+      <UniqueIdentifier>{4701ead8-139f-481f-913e-aa99241ff78e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\MicrosoftOpenXRPlugin">
-      <UniqueIdentifier>{c94f3090-a5c7-4866-b1fc-3c7e966b069c}</UniqueIdentifier>
+      <UniqueIdentifier>{c824a011-9789-47da-97f3-1163b75257be}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\UnityOpenXR">
-      <UniqueIdentifier>{285c85bb-d190-4ac8-89a5-4e717dbd3bdd}</UniqueIdentifier>
+      <UniqueIdentifier>{399fdc3e-b012-4918-827c-b89bda57919f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{66d3752e-18aa-4a39-ab1c-299f1b6e962f}</UniqueIdentifier>
+      <UniqueIdentifier>{f2b26fc6-a295-433c-9c2c-af004d636d2f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{a1e95321-2153-4562-9984-60ee67cebaf3}</UniqueIdentifier>
+      <UniqueIdentifier>{22d7af64-fc0b-4199-be1d-62f03781602f}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />

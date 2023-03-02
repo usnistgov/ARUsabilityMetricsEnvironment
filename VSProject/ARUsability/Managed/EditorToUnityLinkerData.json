@@ -609,6 +609,13 @@
         {
             "managedAssemblyName": "Obi.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiCollider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Obi.ObiCollisionMaterial",
             "moduleName": "",
             "usedInScenes": []
@@ -645,6 +652,13 @@
             "managedAssemblyName": "Obi.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Obi.ObiParticleRenderer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiRigidbody",
             "moduleName": "",
             "usedInScenes": []
         },
