@@ -448,6 +448,7 @@
 -r:"Library/Bee/artifacts/2100b0aEDbg.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aEDbg.dag/VuforiaScripts.ref.dll"
 "Assets/FireExtinguisherActivation.cs"
+"Assets/FireExtinguisherWaterInteraction.cs"
 "Assets/Obi/Samples/Common/SampleResources/Scripts/ActorCOMTransform.cs"
 "Assets/Obi/Samples/Common/SampleResources/Scripts/ActorSpawner.cs"
 "Assets/Obi/Samples/Common/SampleResources/Scripts/AddRandomVelocity.cs"
