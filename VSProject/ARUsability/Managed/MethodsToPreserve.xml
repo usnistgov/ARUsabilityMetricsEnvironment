@@ -1,4 +1,10 @@
 <linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="FireExtinguisherActivation">
+			<method name="StartWater"/>
+			<method name="StopWater"/>
+		</type>
+	</assembly>
 	<assembly fullname="UnityEngine.PhysicsModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rigidbody">
 			<method name="set_useGravity"/>

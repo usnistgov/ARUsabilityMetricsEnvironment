@@ -91,6 +91,7 @@
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ExtrapolationCamera.cs" />
     <Compile Include="Assets\Obi\Samples\Fluid\SampleResources\Scripts\ViscositySurfTensionToUserData.cs" />
     <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\WorldSpaceGravity.cs" />
+    <Compile Include="Assets\FireExtinguisherActivation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Obi\Samples\Fluid\SampleResources\Materials\StandardPerInstanceColor.shader" />

@@ -130,6 +130,13 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FireExtinguisherActivation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "GameManager",
             "fullManagedTypeName": "",

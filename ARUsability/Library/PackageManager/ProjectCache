@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638132825455316325
-    m_Hash: 3366208034
+      ticks: 638139911947818210
+    m_Hash: 1619071657
   m_LockFileStatus:
     m_FilePath: C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638132825455339384
-    m_Hash: 527727935
+      ticks: 638139911947818210
+    m_Hash: 3545010877
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1696,9 +1696,11 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.5.3
     - 1.6.0
+    - 1.7.0
     compatible:
     - 1.5.3
     - 1.6.0
+    - 1.7.0
     verified: 1.5.3
   dependencies:
   - name: com.unity.xr.management
@@ -4319,10 +4321,12 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     - 1.7.1
+    - 1.8.1
     compatible:
     - 1.6.0
     - 1.7.0
     - 1.7.1
+    - 1.8.1
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -4478,6 +4482,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.13
     - 5.0.2
     - 5.0.3
+    - 5.0.4
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3
@@ -4492,6 +4497,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.13
     - 5.0.2
     - 5.0.3
+    - 5.0.4
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     - 5.1.0-pre.3

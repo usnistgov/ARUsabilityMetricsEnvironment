@@ -7,7 +7,7 @@
     },
     {
       "FullName": "Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-03-01T16:11:29.1849774Z"
+      "LastWriteTime": "2023-03-09T20:40:38.2066459Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,11 +15,11 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-03-01T15:49:26.4105053Z"
+      "LastWriteTime": "2023-03-09T20:40:38.2976843Z"
     },
     {
       "FullName": "Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-03-01T15:49:26.4135062Z"
+      "LastWriteTime": "2023-03-09T20:40:38.2558395Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -27,7 +27,7 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-03-01T15:49:26.3554666Z"
+      "LastWriteTime": "2023-03-09T20:40:38.2443306Z"
     },
     {
       "FullName": "Unity.Burst.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=null",
@@ -54,7 +54,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.ParticleGrid+UpdateGrid, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ParticleGrid+UpdateGrid&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "a6f1a0cdc51513e8315c1ba3bcc760ae",
+      "ModuleHash": "bec871747a23458cab8f45ea2c5adbb3",
       "LinkName": "31BF3D99B9F4AF6D",
       "AssemblyDependencyIndices": [
         0,
@@ -71,7 +71,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstColliderFrictionConstraintsBatch+FrictionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderFrictionConstraintsBatch+FrictionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "be749452390f273b962060737f8f8863",
+      "ModuleHash": "4e3361a08e089f53fce6680fd97b0995",
       "LinkName": "F69250EC7D597D62",
       "AssemblyDependencyIndices": [
         0,
@@ -87,7 +87,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstColliderWorld+UpdateMovingColliders, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderWorld+UpdateMovingColliders&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d1c2be28f340aaacefc6c0fb50f425c0",
+      "ModuleHash": "cb6183ffb2c0224400feb667581de31c",
       "LinkName": "37E369CBF0838652",
       "AssemblyDependencyIndices": [
         0,
@@ -104,7 +104,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "10a5dfc4a4890694443a06fa0a8d745e",
+      "ModuleHash": "e2921579b4b3e2274d6493d8357588a8",
       "LinkName": "3E554C87C63A79BB",
       "AssemblyDependencyIndices": [
         0,
@@ -121,14 +121,14 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.UpdateNormalsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.UpdateNormalsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "f84bc551e24d4ed796052591ec4f1e18",
+      "ModuleHash": "b0544650fdf26d0cbc8f19998a2feae5",
       "LinkName": "A531EFCAC87E9A11",
       "AssemblyDependencyIndices": [
         0,
         1,
+        3,
         2,
         4,
-        3,
         5,
         6,
         8
@@ -137,14 +137,14 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeReferenceDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeReferenceDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "abf97b5e8fc9226c20dceddba1a631c6",
+      "ModuleHash": "cffb73cca3d81dfa2806a86721808da0",
       "LinkName": "703CA6DADE3415F0",
       "AssemblyDependencyIndices": [
         0,
         4,
-        3,
         2,
         5,
+        3,
         6,
         7,
         8,
@@ -154,7 +154,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeStream+DisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeStream+DisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "10c200a67b0318dc57cf44de2cf99a36",
+      "ModuleHash": "4b668180fe61478c43faf7bae6f36129",
       "LinkName": "A8134E26EAC44A70",
       "AssemblyDependencyIndices": [
         0,
@@ -171,7 +171,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstPinConstraintsBatch+ApplyPinConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstPinConstraintsBatch+ApplyPinConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "2be5000a3a4d2a10c00929a178fa450a",
+      "ModuleHash": "4cff1a87033b63f9a2ee2897fd73c57a",
       "LinkName": "63A1E18A1EFBB730",
       "AssemblyDependencyIndices": [
         0,
@@ -185,7 +185,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeListDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeListDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "37af397348d02c9a9125774bf025d922",
+      "ModuleHash": "8b38024de6fb65d74fa069e5282122a3",
       "LinkName": "352B6D5D03F8F621",
       "AssemblyDependencyIndices": [
         0,
@@ -202,11 +202,12 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.FindFluidParticlesJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.FindFluidParticlesJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e810e27ef955ad3882d9df0393a2cf59",
+      "ModuleHash": "71441dfe7653caddb3d6268350661aa0",
       "LinkName": "963660629C97D9AA",
       "AssemblyDependencyIndices": [
         0,
         1,
+        10,
         2,
         4,
         5,
@@ -219,13 +220,13 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeStream+ConstructJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeStream+ConstructJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "fba6458a4d471ad04968b894b6f5d727",
+      "ModuleHash": "ce5e5b0755cde7322eb7b45976f3c472",
       "LinkName": "1F3827F16D435181",
       "AssemblyDependencyIndices": [
         0,
         4,
-        6,
         2,
+        6,
         5,
         3,
         7,
@@ -236,7 +237,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ApplyBatchedCollisionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ApplyBatchedCollisionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "bf7bb34b2a4552d7292209f9a98d2147",
+      "ModuleHash": "9e4c63fe67d928db420f27a3f875962b",
       "LinkName": "7502A81B52F8E7E0",
       "AssemblyDependencyIndices": [
         0,
@@ -252,7 +253,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "3aedb4ea9c815420e968045cc506c9b8",
+      "ModuleHash": "85ea2d40093f2851294dfd137c0f80df",
       "LinkName": "D1DC97AAE50D861E",
       "AssemblyDependencyIndices": [
         0,
@@ -269,7 +270,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeStream+ConstructJobList, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeStream+ConstructJobList&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "7700ec236e3653edea30a821526d8626",
+      "ModuleHash": "e92796a1098b237a6fac8b19f70b73c9",
       "LinkName": "18F4EDFD51FD6159",
       "AssemblyDependencyIndices": [
         0,
@@ -286,7 +287,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstStitchConstraintsBatch+ApplyStitchConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstStitchConstraintsBatch+ApplyStitchConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "fb79777f87fa9e249e3803b996ccb13b",
+      "ModuleHash": "b373e256f9563bfe92f377eb6bba32e1",
       "LinkName": "0F87386761E65E61",
       "AssemblyDependencyIndices": [
         0,
@@ -300,7 +301,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstPinConstraintsBatch+PinConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstPinConstraintsBatch+PinConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "4b7c83ff648a5550835355244c775572",
+      "ModuleHash": "bce53afe7928f2b38b6df1d5f86a8631",
       "LinkName": "7B751F0A6808C885",
       "AssemblyDependencyIndices": [
         0,
@@ -314,13 +315,13 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeStream+ConstructJobList, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeStream+ConstructJobList&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "69e849dc2a56b19f0710394678cb1fb0",
+      "ModuleHash": "76049cba2db9eebdf786be74573f263f",
       "LinkName": "846F65225A066FD6",
       "AssemblyDependencyIndices": [
         0,
         4,
-        2,
         6,
+        2,
         5,
         3,
         7,
@@ -331,7 +332,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstStitchConstraintsBatch+StitchConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstStitchConstraintsBatch+StitchConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6328a762e0762714b347d77c0ec63871",
+      "ModuleHash": "361948a8414ae06a0d7db84e4b3d0330",
       "LinkName": "9B219C51BA0827CC",
       "AssemblyDependencyIndices": [
         0,
@@ -345,12 +346,11 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6e1f1fbf883821763c9c11f6975d65e8",
+      "ModuleHash": "c64827e30998679473b1a65696a018b4",
       "LinkName": "5AAE3265C3BCB248",
       "AssemblyDependencyIndices": [
         0,
         4,
-        10,
         7,
         2,
         5,
@@ -363,7 +363,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeQueueDisposeJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeQueueDisposeJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e86387dca5704789aedc49c49fb1e92b",
+      "ModuleHash": "a6ab37caf25cb63c33a3c25176e16eaa",
       "LinkName": "8F02018D2DAA4F36",
       "AssemblyDependencyIndices": [
         0,
@@ -379,7 +379,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.ApplyCollisionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ApplyCollisionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "7d932f9939dfff6a876d23f8b08d6abd",
+      "ModuleHash": "1185c1160f3226884e8058d409f237a4",
       "LinkName": "56DF452298F27236",
       "AssemblyDependencyIndices": [
         0,
@@ -395,7 +395,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.LowLevel.Unsafe.UnsafeStream+ConstructJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.LowLevel.Unsafe.UnsafeStream+ConstructJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "81b048730e8217c81609e170bcfed92a",
+      "ModuleHash": "e1d0392c7ffcb0818ecb8aee1c8470a2",
       "LinkName": "EC65C6FB1FDE45E6",
       "AssemblyDependencyIndices": [
         0,
@@ -412,7 +412,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.BurstColliderCollisionConstraintsBatch+CollisionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderCollisionConstraintsBatch+CollisionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "b5cd92986942e83a3849a6bc3874b4e8",
+      "ModuleHash": "dd5ce82c408c587b860417adb50cb2e2",
       "LinkName": "45300622DE7099E8",
       "AssemblyDependencyIndices": [
         0,
@@ -428,7 +428,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.SpatialQueryJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.SpatialQueryJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "67cc32c458ccb9b1036fd19793cc539f",
+      "ModuleHash": "17bf4fe3c3e3dbdba5b48cfa062995d4",
       "LinkName": "F0A5323FAD4E8E9C",
       "AssemblyDependencyIndices": [
         0,
@@ -445,7 +445,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ApplyInertialForcesJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ApplyInertialForcesJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "8a7559f1bc6796f272888db6f39fb6ac",
+      "ModuleHash": "77760a7aefc1d385c9480e3e9e370f34",
       "LinkName": "C679341530FB6FD4",
       "AssemblyDependencyIndices": [
         0,
@@ -461,7 +461,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.CalculateQueryDistances, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.CalculateQueryDistances&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "2f245b1be7388a0e026eaf8fda0d1290",
+      "ModuleHash": "e3676f7453bb1f5abaf54e1065cb06e7",
       "LinkName": "F2A0B5555DD0BBFB",
       "AssemblyDependencyIndices": [
         0,
@@ -477,7 +477,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ParticleToBoundsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ParticleToBoundsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e7736aadebb95eaa52d60cf5a8bae5fa",
+      "ModuleHash": "ab222b3c9540145d6971ab4aa2af14f9",
       "LinkName": "6CAB6347A8F99115",
       "AssemblyDependencyIndices": [
         0,
@@ -493,7 +493,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BoundsReductionJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BoundsReductionJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "5fc02d6d660067103730345cdb99f45d",
+      "ModuleHash": "202f61f0c0643a8c1ed7c5818a227c7a",
       "LinkName": "E8D09DBC494B301B",
       "AssemblyDependencyIndices": [
         0,
@@ -507,7 +507,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BuildSimplexAabbs, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BuildSimplexAabbs&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e75d9f4ab6fbf5aff82ba853dea97a7a",
+      "ModuleHash": "ef34ab7275959488c6a90e024a5e02ed",
       "LinkName": "A001FBFA8368032C",
       "AssemblyDependencyIndices": [
         0,
@@ -523,7 +523,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.InterpolationJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.InterpolationJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "776a0c4587ea24476aaa49aaa7ca4dcb",
+      "ModuleHash": "9746b6a9037969c782cb1ed4e7493dc3",
       "LinkName": "ED3AF88385CACB87",
       "AssemblyDependencyIndices": [
         0,
@@ -537,7 +537,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.UpdateInertiaTensorsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.UpdateInertiaTensorsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "c93c26251fb1f7cc5fb52b17022944c9",
+      "ModuleHash": "e422e1ef10c94c4001c566d684c59851",
       "LinkName": "4BF7C69D28EF8333",
       "AssemblyDependencyIndices": [
         0,
@@ -553,7 +553,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.PredictPositionsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.PredictPositionsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "1bd32a60256eaa6d097f8d49daee156f",
+      "ModuleHash": "b0a3c236c0a8b9c6b86d254701fa7de5",
       "LinkName": "0F3CCF2853BCC15C",
       "AssemblyDependencyIndices": [
         0,
@@ -569,7 +569,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.UpdatePositionsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.UpdatePositionsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "810eb7e81a5be1602859430a9b60d1b8",
+      "ModuleHash": "cc3e4cc6976c35b28b936e67d8e62bf9",
       "LinkName": "9F87EF264336BF20",
       "AssemblyDependencyIndices": [
         0,
@@ -585,7 +585,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.UpdatePrincipalAxisJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.UpdatePrincipalAxisJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d0baa707d093e37b27cfb52ee0852c84",
+      "ModuleHash": "cfcc34d1d30a08dfe4d6003011cd2bdd",
       "LinkName": "8DB70F37E32D65A7",
       "AssemblyDependencyIndices": [
         0,
@@ -601,7 +601,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstColliderWorld+IdentifyMovingColliders, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderWorld+IdentifyMovingColliders&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e88bb07b3f1ab1732a08ef9fca835065",
+      "ModuleHash": "2e90dcc8b7c5693a6b01608a3f3eae6a",
       "LinkName": "5159CC2DF74168DC",
       "AssemblyDependencyIndices": [
         0,
@@ -618,7 +618,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.UpdateVelocitiesJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.UpdateVelocitiesJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "15bccfa0f33c62978b0ff88a68d00a6c",
+      "ModuleHash": "cff03e0ec5d55ce642e3721267c49657",
       "LinkName": "1B8521A7C6B98263",
       "AssemblyDependencyIndices": [
         0,
@@ -634,7 +634,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstColliderWorld+GenerateContactsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderWorld+GenerateContactsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "639d0cad7b999d34fe95584e5aebdd34",
+      "ModuleHash": "3fdf14a79bc054b8ff78cec584fecfdf",
       "LinkName": "5A57CE1A4A783826",
       "AssemblyDependencyIndices": [
         0,
@@ -651,7 +651,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstBendConstraintsBatch+BendConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstBendConstraintsBatch+BendConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6f79c0b145df122cf2a6636b07810e0d",
+      "ModuleHash": "a11e30962f4d017909e2582bafa7b911",
       "LinkName": "2F9B0B9DB72F27F8",
       "AssemblyDependencyIndices": [
         0,
@@ -665,7 +665,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstAerodynamicConstraintsBatch+AerodynamicConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstAerodynamicConstraintsBatch+AerodynamicConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e923cc4114eef6d2154121fc128af4bd",
+      "ModuleHash": "1f4f3b80c93ad5dfbe619d605af9ad3b",
       "LinkName": "09E9EE6F8D961AC6",
       "AssemblyDependencyIndices": [
         0,
@@ -679,7 +679,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstBendTwistConstraintsBatch+ApplyBendTwistConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstBendTwistConstraintsBatch+ApplyBendTwistConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "94766f4ba1b9a096f157fe322276ad06",
+      "ModuleHash": "a4f3bdb045f1f75c3c6ffa51dcf82f4e",
       "LinkName": "FD7CC864B3B89F7B",
       "AssemblyDependencyIndices": [
         0,
@@ -693,7 +693,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstBendConstraintsBatch+ApplyBendConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstBendConstraintsBatch+ApplyBendConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "2b4116cf1a20154f61197f5177753b2e",
+      "ModuleHash": "c96e2439f3a6fcdc87ee2e804058a131",
       "LinkName": "006AADFE59430BC7",
       "AssemblyDependencyIndices": [
         0,
@@ -707,7 +707,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstBendTwistConstraintsBatch+BendTwistConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstBendTwistConstraintsBatch+BendTwistConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "dac72ba114de8df52ffb98e7a3564607",
+      "ModuleHash": "da481e4c8a07e12ff408102d84300d1c",
       "LinkName": "D858C4A638758604",
       "AssemblyDependencyIndices": [
         0,
@@ -721,7 +721,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstChainConstraintsBatch+ApplyChainConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstChainConstraintsBatch+ApplyChainConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "f4f7ae3ac4d553afa80c9cf54633f40e",
+      "ModuleHash": "0603da12d5720fa32721f7411ead5009",
       "LinkName": "86D4689C44F25203",
       "AssemblyDependencyIndices": [
         0,
@@ -735,7 +735,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstChainConstraintsBatch+ChainConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstChainConstraintsBatch+ChainConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "fa7c438b736aa62c4111e57093377a19",
+      "ModuleHash": "b3513578a1d94de85ad0bffae1b71f21",
       "LinkName": "88E426E13C18EA1B",
       "AssemblyDependencyIndices": [
         0,
@@ -749,7 +749,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstColliderCollisionConstraintsBatch+UpdateContactsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstColliderCollisionConstraintsBatch+UpdateContactsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "ce3dac60bdc72987394b0823d6a345fc",
+      "ModuleHash": "786eb0cc229d039731546fceece8dc1b",
       "LinkName": "4615D1896BA059D1",
       "AssemblyDependencyIndices": [
         0,
@@ -765,7 +765,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+ClearFluidDataJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+ClearFluidDataJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d8810969ab8d5b24117ce40dec25588b",
+      "ModuleHash": "0aa9517ce004a7844a563d1c91a3b6d2",
       "LinkName": "F333B2C34CD31A3E",
       "AssemblyDependencyIndices": [
         0,
@@ -779,7 +779,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+UpdateInteractionsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+UpdateInteractionsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "213eec3e480d0c412ea284a2e484a633",
+      "ModuleHash": "0278b9149944803fa67006d477c3e8a6",
       "LinkName": "57DB738807C7809F",
       "AssemblyDependencyIndices": [
         0,
@@ -793,7 +793,7 @@
     {
       "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e6f541a772d2f20772ffec7038f07d72",
+      "ModuleHash": "ed15c40a5ba435d2c15baafa3a56d081",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         6,
@@ -804,7 +804,7 @@
     {
       "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "b78de1e43ccf8c58b3f053e29545668b",
+      "ModuleHash": "234bb5f979e05bdcd27f717ce7dcdb04",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         6,
@@ -815,7 +815,7 @@
     {
       "FullName": "Unity.Collections.AllocatorManager+StackAllocator, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Try(System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Collections.AllocatorManager+Block&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "9d35dcdf90339fe93253be9762a4fa8c",
+      "ModuleHash": "b4289850209c3f0ffd3cff3f1978edc0",
       "LinkName": "31D71C750A9E4345",
       "AssemblyDependencyIndices": [
         4,
@@ -829,7 +829,7 @@
     {
       "FullName": "Unity.Collections.AllocatorManager+SlabAllocator, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Try(System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Collections.AllocatorManager+Block&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6eecba1654cff3cea21b94e7c34bebfa",
+      "ModuleHash": "1266574f6371bd3ec7771179cd71fc37",
       "LinkName": "8CC3C64CA4A3FEDE",
       "AssemblyDependencyIndices": [
         4,
@@ -845,7 +845,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+CalculateLambdasJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+CalculateLambdasJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "9e30c83365a11ac15415d8c90036981a",
+      "ModuleHash": "86d7adfe12379ecc11db515ba525901e",
       "LinkName": "6AF4663F14ADBE09",
       "AssemblyDependencyIndices": [
         0,
@@ -859,7 +859,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+ApplyVorticityConfinementAndAtmosphere, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+ApplyVorticityConfinementAndAtmosphere&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e4431e5090c595fa97ca3ef4e3defe62",
+      "ModuleHash": "499005b7aa751559c36bd2784e90e350",
       "LinkName": "3B326E4D53714FA3",
       "AssemblyDependencyIndices": [
         0,
@@ -873,7 +873,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+IdentityAnisotropyJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+IdentityAnisotropyJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "dd7b5d82848401e61f50f443e34bd6c8",
+      "ModuleHash": "1ea56b0b45e52a7b4231163a3c190f02",
       "LinkName": "D3AB7F45A3A2FF55",
       "AssemblyDependencyIndices": [
         0,
@@ -887,7 +887,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+AverageSmoothPositionsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+AverageSmoothPositionsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d04cf3da0c93fe5f62bba34d1b3f4afb",
+      "ModuleHash": "fce2da3948ee560b6cbeeaf537e80abd",
       "LinkName": "0C08851524564D65",
       "AssemblyDependencyIndices": [
         0,
@@ -901,7 +901,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraints+AverageAnisotropyJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraints+AverageAnisotropyJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "70a4e31044541d151ff6556b0c9aa218",
+      "ModuleHash": "6b06e05f163ba8d409d2d005a8023b97",
       "LinkName": "728754DC7347BB92",
       "AssemblyDependencyIndices": [
         0,
@@ -915,7 +915,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+UpdateDensitiesJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+UpdateDensitiesJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "2712f7b814723207af5cbede600f9c6d",
+      "ModuleHash": "a2c3eb257d2b085a721c7abc2f6d0d9c",
       "LinkName": "3E1FE87C907AA1EE",
       "AssemblyDependencyIndices": [
         0,
@@ -929,7 +929,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+ApplyDensityConstraintsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+ApplyDensityConstraintsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e956300d38aced6eb3bdb843dc113545",
+      "ModuleHash": "053868f97148695e50732899fc393e26",
       "LinkName": "837043BF3F40E3EF",
       "AssemblyDependencyIndices": [
         0,
@@ -943,7 +943,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+NormalsViscosityAndVorticityJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+NormalsViscosityAndVorticityJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "69a037c6982ec62da14fa5dc6db673eb",
+      "ModuleHash": "ab8238eb0cbdd6428746247318a2abb6",
       "LinkName": "279B787D7A63B978",
       "AssemblyDependencyIndices": [
         0,
@@ -957,7 +957,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+CalculateVorticityEta, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+CalculateVorticityEta&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "5464faf9ef7b87bd7e64a00fe92a14b0",
+      "ModuleHash": "2fd98aa2c804a20c75f2702c92c41194",
       "LinkName": "58FB3BCA1ACD1700",
       "AssemblyDependencyIndices": [
         0,
@@ -971,7 +971,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+AccumulateSmoothPositionsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+AccumulateSmoothPositionsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "108b3ed37f05ec0f06b2009cb2f35d7f",
+      "ModuleHash": "24e9998832dc48cd6e3f76c84e4f9bb2",
       "LinkName": "504CE3A9AD4FD64B",
       "AssemblyDependencyIndices": [
         0,
@@ -985,7 +985,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDensityConstraintsBatch+AccumulateAnisotropyJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDensityConstraintsBatch+AccumulateAnisotropyJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "12cefddb021f98835895d25be6e34128",
+      "ModuleHash": "b83b14eccd91aeb623fc36265629b03c",
       "LinkName": "75A8F70FBBC56978",
       "AssemblyDependencyIndices": [
         0,
@@ -999,7 +999,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDistanceConstraintsBatch+DistanceConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDistanceConstraintsBatch+DistanceConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e77d7cf250444de863885cd5c811c0ba",
+      "ModuleHash": "97ede2da600b8a044fba536ee7953a56",
       "LinkName": "9B71E3A2CFA0302D",
       "AssemblyDependencyIndices": [
         0,
@@ -1013,7 +1013,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstDistanceConstraintsBatch+ApplyDistanceConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstDistanceConstraintsBatch+ApplyDistanceConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "8a9b01016d7134221b86ff98024f3c5f",
+      "ModuleHash": "ac8761c82159b37a9564471d56b9189f",
       "LinkName": "D4F0B0CC1508125A",
       "AssemblyDependencyIndices": [
         0,
@@ -1027,7 +1027,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstParticleCollisionConstraintsBatch+UpdateParticleContactsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstParticleCollisionConstraintsBatch+UpdateParticleContactsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "8da9798379b874ddc8c2c0245b353139",
+      "ModuleHash": "7c0026b178767cd2b70bbcd88c075d5c",
       "LinkName": "7E6264871D929ECD",
       "AssemblyDependencyIndices": [
         0,
@@ -1043,7 +1043,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstParticleCollisionConstraintsBatch+ParticleCollisionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstParticleCollisionConstraintsBatch+ParticleCollisionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "68b2c7f30894399afcb9df10b181e767",
+      "ModuleHash": "9abbb2c78c174e8aff9be45e234da8f9",
       "LinkName": "A16F4A9FFB63173C",
       "AssemblyDependencyIndices": [
         0,
@@ -1059,7 +1059,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstParticleFrictionConstraintsBatch+ParticleFrictionConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstParticleFrictionConstraintsBatch+ParticleFrictionConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "b555a4473b43ab1a6bcb8c4115f61bc5",
+      "ModuleHash": "740bb54b2e06b21fb307e92f5a7c5294",
       "LinkName": "E8979B200BD1F006",
       "AssemblyDependencyIndices": [
         0,
@@ -1075,7 +1075,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstShapeMatchingConstraintsBatch+ShapeMatchingCalculateRestJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstShapeMatchingConstraintsBatch+ShapeMatchingCalculateRestJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "33cb57ee705c7aa1218cbf2319e0eaf1",
+      "ModuleHash": "778ea848e7508db1e790a4bcb560fc02",
       "LinkName": "A2213B27DF6D7283",
       "AssemblyDependencyIndices": [
         0,
@@ -1089,7 +1089,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstShapeMatchingConstraintsBatch+ShapeMatchingConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstShapeMatchingConstraintsBatch+ShapeMatchingConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "56a389fa6d00dcf7080a014832e6176a",
+      "ModuleHash": "5b11635378cb50bd7799e7adc5b66a23",
       "LinkName": "45BB1E5075344C51",
       "AssemblyDependencyIndices": [
         0,
@@ -1103,7 +1103,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstShapeMatchingConstraintsBatch+ApplyShapeMatchingConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstShapeMatchingConstraintsBatch+ApplyShapeMatchingConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6ce30d75d661779a4cc0849b06933c6c",
+      "ModuleHash": "e6b3bbcb0de5a83b3a28fcec14be7945",
       "LinkName": "36EF79665C24B6A1",
       "AssemblyDependencyIndices": [
         0,
@@ -1117,7 +1117,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstSkinConstraintsBatch+SkinConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstSkinConstraintsBatch+SkinConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "908df3639f0aad3c8ce052cdb9cc2687",
+      "ModuleHash": "9c71c9b3e722d2508bbc176ded5c6712",
       "LinkName": "6087DDE12F0DCD83",
       "AssemblyDependencyIndices": [
         0,
@@ -1131,7 +1131,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstSkinConstraintsBatch+ApplySkinConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstSkinConstraintsBatch+ApplySkinConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d12c4c4155bd36450f2f2b365108cc8a",
+      "ModuleHash": "3e23ef2d6b45778660d0ad508f57b67c",
       "LinkName": "25AC1526FB825D2A",
       "AssemblyDependencyIndices": [
         0,
@@ -1145,7 +1145,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstStretchShearConstraintsBatch+StretchShearConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstStretchShearConstraintsBatch+StretchShearConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "3b7e7314635dfb1370dae863735282ca",
+      "ModuleHash": "42d2d09ba7f948a7ccab0d52032446b9",
       "LinkName": "703CB777C86675A6",
       "AssemblyDependencyIndices": [
         0,
@@ -1159,7 +1159,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstStretchShearConstraintsBatch+ApplyStretchShearConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstStretchShearConstraintsBatch+ApplyStretchShearConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "9d307e07ea4f76e515508d75f5f6e282",
+      "ModuleHash": "7e93c5da532846a79e465c7e85077b0c",
       "LinkName": "8BFF9C75EFAE7653",
       "AssemblyDependencyIndices": [
         0,
@@ -1173,7 +1173,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstTetherConstraintsBatch+TetherConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstTetherConstraintsBatch+TetherConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "8611d16998b767c45f31ea89e364b3b7",
+      "ModuleHash": "bc9cf96603fbeb4f5b3c4e16a056c2c2",
       "LinkName": "8FCE4BD610B93EC4",
       "AssemblyDependencyIndices": [
         0,
@@ -1187,7 +1187,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstTetherConstraintsBatch+ApplyTetherConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstTetherConstraintsBatch+ApplyTetherConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "3487c2afeab329cef762233b1e93babe",
+      "ModuleHash": "0f8d38220f17b3077e7267e615010ba0",
       "LinkName": "0C659964D3D64A64",
       "AssemblyDependencyIndices": [
         0,
@@ -1201,7 +1201,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstVolumeConstraintsBatch+VolumeConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstVolumeConstraintsBatch+VolumeConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "5946d833ecdd7a9523574eaeb27271c6",
+      "ModuleHash": "c898b1903a3687973b4777e228d6182f",
       "LinkName": "055BA0A28C6AE293",
       "AssemblyDependencyIndices": [
         0,
@@ -1218,7 +1218,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.BurstVolumeConstraintsBatch+ApplyVolumeConstraintsBatchJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.BurstVolumeConstraintsBatch+ApplyVolumeConstraintsBatchJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "f0735fa058de7b671b7154c92d3e18bc",
+      "ModuleHash": "dfeb0e30adb21160fad9334a4b24e111",
       "LinkName": "8CFB6D20476D64E2",
       "AssemblyDependencyIndices": [
         0,
@@ -1232,7 +1232,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ParticleGrid+CalculateCellCoords, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ParticleGrid+CalculateCellCoords&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "09aba3bf6c0b38848caf326262147d84",
+      "ModuleHash": "d3d26eada9f6b77636648f20302cce42",
       "LinkName": "5093E6C13F83DBFF",
       "AssemblyDependencyIndices": [
         0,
@@ -1246,7 +1246,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ParticleGrid+GenerateParticleParticleContactsJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ParticleGrid+GenerateParticleParticleContactsJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "7c978710ed73d934a6baabc9ff1e5dd8",
+      "ModuleHash": "e6be67ca2ff94863bd40919c6223e0a1",
       "LinkName": "7CC15CA7EFB9A59D",
       "AssemblyDependencyIndices": [
         0,
@@ -1263,7 +1263,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ParticleGrid+InterpolateDiffusePropertiesJob, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ParticleGrid+InterpolateDiffusePropertiesJob&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "ec9926afbe925bf170bc34d4bfbc37e8",
+      "ModuleHash": "a424caa2bdd017118fce87f6ee65ee21",
       "LinkName": "A6BF0D385DA2AC3C",
       "AssemblyDependencyIndices": [
         0,
@@ -1279,7 +1279,7 @@
     {
       "FullName": "Unity.Collections.RewindableAllocator, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Try(System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Collections.AllocatorManager+Block&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "6469eb9ac531a42e966c4d02a8751884",
+      "ModuleHash": "994c3f2484237873c09a42053a4e3489",
       "LinkName": "806B2D5E79A7443E",
       "AssemblyDependencyIndices": [
         4,
@@ -1296,7 +1296,7 @@
     {
       "FullName": "Unity.Collections.xxHash3, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Hash64Long(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "62ecd5b3927a6e0763d7f6b0c6f51e11",
+      "ModuleHash": "3e3f540836d530b3b091a7b855630fea",
       "LinkName": "073EC3FA933E2E4B",
       "AssemblyDependencyIndices": [
         4,
@@ -1311,7 +1311,7 @@
     {
       "FullName": "Unity.Collections.xxHash3, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Hash128Long(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Mathematics.uint4&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "f1c7d1350de8e95074860e45290f0a12",
+      "ModuleHash": "00e126a1a32b66a6492706480fcdd296",
       "LinkName": "64D279804013162E",
       "AssemblyDependencyIndices": [
         4,
@@ -1327,7 +1327,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.DequeueIntoArrayJob`1[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.DequeueIntoArrayJob`1[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "031f1c4ab2cfa8015c3ba1cdd093bfeb",
+      "ModuleHash": "8c5b3c7118061f599e05803071782afe",
       "LinkName": "93E4A3A0833ABE3F",
       "AssemblyDependencyIndices": [
         0,
@@ -1344,7 +1344,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.DequeueIntoArrayJob`1[[Obi.FluidInteraction, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.DequeueIntoArrayJob`1[[Obi.FluidInteraction, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "d939dd47cd9092b665c71e4a27f06303",
+      "ModuleHash": "e12a98aa1a3b25d276cfa0ee856d7b81",
       "LinkName": "AEF8F5F1D11D599B",
       "AssemblyDependencyIndices": [
         0,
@@ -1361,7 +1361,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.DequeueIntoArrayJob`1[[Obi.BurstQueryResult, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.DequeueIntoArrayJob`1[[Obi.BurstQueryResult, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "33bc73776bab7f9f1d54b1a47359ced5",
+      "ModuleHash": "c32572358d0eb33f12aef14ce3693f99",
       "LinkName": "2297940459CA1C83",
       "AssemblyDependencyIndices": [
         0,
@@ -1378,7 +1378,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.ConstraintSorter`1+CountSortPerFirstParticleJob[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ConstraintSorter`1+CountSortPerFirstParticleJob[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "e2e0fb6e939551aa14089433e2110ed8",
+      "ModuleHash": "a3e6d236fae23935e48ae49ee6ee9059",
       "LinkName": "13C4F482AD04D29E",
       "AssemblyDependencyIndices": [
         0,
@@ -1392,7 +1392,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Obi.ConstraintSorter`1+SortSubArraysJob[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ConstraintSorter`1+SortSubArraysJob[[Obi.BurstContact, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "dc232d0a19cc4bd5527deb2ddcb4ae1f",
+      "ModuleHash": "c622d0734675fd237fa0be18727e833b",
       "LinkName": "AC501CBA8B501037",
       "AssemblyDependencyIndices": [
         0,
@@ -1407,7 +1407,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.ConstraintBatcher`1+BatchContactsJob[[Obi.ContactProvider, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ConstraintBatcher`1+BatchContactsJob[[Obi.ContactProvider, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "ba5ddd17512ac601a0ede3e0df310ee0",
+      "ModuleHash": "29226bd914a86edfaf1fa96a936f2ecb",
       "LinkName": "F044B8901066E92C",
       "AssemblyDependencyIndices": [
         0,
@@ -1421,7 +1421,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Obi.ConstraintBatcher`1+BatchContactsJob[[Obi.FluidInteractionProvider, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Obi.ConstraintBatcher`1+BatchContactsJob[[Obi.FluidInteractionProvider, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Obi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "5c390b6766c4830546fd024e4c635f57",
+      "ModuleHash": "8d9d49909b517ece033e1830d8386344",
       "LinkName": "5BC7E8DA4CEF0EAF",
       "AssemblyDependencyIndices": [
         0,

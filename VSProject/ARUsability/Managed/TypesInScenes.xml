@@ -1,4 +1,7 @@
 <linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="FireExtinguisherActivation" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Cognitive3D">
 		<type fullname="Cognitive3D.Cognitive3D_Manager" preserve="nothing"/>
 		<type fullname="Cognitive3D.Cognitive3D_Preferences" preserve="nothing"/>

@@ -206,6 +206,8 @@ struct EmitOnKeyPress_t5A0E4D55220B5A79392CC9727A694E3F8C2CBC57;
 struct ExtrapolationCamera_tACC42496E956E059CBA7AAD5F9B0BCC7FE13A9CE;
 // FPSDisplay
 struct FPSDisplay_t50D635EA9397A8B28B58CD30B43319898BBC2E30;
+// FireExtinguisherActivation
+struct FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A;
 // FluidColorizer
 struct FluidColorizer_t34FEE6E8D919EC854B6641998CF7598BB56D0673;
 // FluidJetController
@@ -1759,6 +1761,15 @@ struct FPSDisplay_t50D635EA9397A8B28B58CD30B43319898BBC2E30  : public MonoBehavi
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___uguiText_13;
 };
 
+// FireExtinguisherActivation
+struct FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Obi.ObiSolver FireExtinguisherActivation::solver
+	ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* ___solver_4;
+	// System.Boolean FireExtinguisherActivation::isEnabled
+	bool ___isEnabled_5;
+};
+
 // FluidColorizer
 struct FluidColorizer_t34FEE6E8D919EC854B6641998CF7598BB56D0673  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2957,6 +2968,10 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 
 // FPSDisplay
 
+// FireExtinguisherActivation
+
+// FireExtinguisherActivation
+
 // FluidColorizer
 
 // FluidColorizer
@@ -3406,6 +3421,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiNativeList_1_set_Item_m0149E7CC897E6B
 // System.Void Obi.ObiNativeList`1<System.Single>::set_Item(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiNativeList_1_set_Item_m39AB124A137D36677270A6F819B4501895D68B47_gshared (ObiNativeList_1_tE2F4115A02C566791A50529070BC831E73D83EA4* __this, int32_t ___0_index, float ___1_value, const RuntimeMethod* method) ;
 
+// System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Behaviour::get_enabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Boolean Obi.ObiActor::get_isLoaded()
@@ -3422,8 +3443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_deltaTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
@@ -4035,6 +4054,117 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void FireExtinguisherActivation::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherActivation_Start_mD04BB062455DD4EF00A5F1537B3A8CDBFCC3E602 (FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A* __this, const RuntimeMethod* method) 
+{
+	{
+		// solver.enabled = isEnabled;
+		ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* L_0 = __this->___solver_4;
+		bool L_1 = __this->___isEnabled_5;
+		NullCheck(L_0);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void FireExtinguisherActivation::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherActivation_Update_mC46A3B1C52AC2E01AACE7AAF40E56269571EAFCF (FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (isEnabled && !solver.enabled) solver.enabled = true;
+		bool L_0 = __this->___isEnabled_5;
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* L_1 = __this->___solver_4;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// if (isEnabled && !solver.enabled) solver.enabled = true;
+		ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* L_3 = __this->___solver_4;
+		NullCheck(L_3);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_3, (bool)1, NULL);
+	}
+
+IL_0021:
+	{
+		// if (!isEnabled && solver.enabled) solver.enabled = false;
+		bool L_4 = __this->___isEnabled_5;
+		if (L_4)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* L_5 = __this->___solver_4;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		// if (!isEnabled && solver.enabled) solver.enabled = false;
+		ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B* L_7 = __this->___solver_4;
+		NullCheck(L_7);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, (bool)0, NULL);
+	}
+
+IL_0042:
+	{
+		// }
+		return;
+	}
+}
+// System.Void FireExtinguisherActivation::StartWater()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherActivation_StartWater_mF0881278724B938F9B720C04D9DD77BD31BA61C0 (FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A* __this, const RuntimeMethod* method) 
+{
+	{
+		// isEnabled = true;
+		__this->___isEnabled_5 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void FireExtinguisherActivation::StopWater()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherActivation_StopWater_mEA879D8776E3B5B5BD8FF990C811B3EE8B205885 (FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A* __this, const RuntimeMethod* method) 
+{
+	{
+		// isEnabled = false;
+		__this->___isEnabled_5 = (bool)0;
+		// }
+		return;
+	}
+}
+// System.Void FireExtinguisherActivation::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FireExtinguisherActivation__ctor_m3B81A46864E09B66787A8CA1182E1A898CE71E50 (FireExtinguisherActivation_t1884DAB171D8B23A88CE6A0BD43F0E39E3CA625A* __this, const RuntimeMethod* method) 
+{
+	{
+		// private bool isEnabled = true;
+		__this->___isEnabled_5 = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
