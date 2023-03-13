@@ -40,11 +40,24 @@ public class FireExtinguisherWaterInteraction : MonoBehaviour
                 // if this collider is tagged as "zero gravity":
                 if (col != null && col.gameObject.CompareTag("Oven"))
                 {
-                    var particleSystem = col.gameObject.GetComponent<ParticleSystem>();
+
+                    var ovenController = col.gameObject.GetComponent<OvenController>();
+                    if (!ovenController.IsFireOut())
+                    {
+                        ovenController.DecreaseFire();
+                    } 
+                    else
+                    {
+                        // TODO display the sucessful completion
+
+                    }
+                    
+
+                    // var particleSystem = col.gameObject.GetComponent<ParticleSystem>();
 
 
                     // get the index of the particle involved in the contact:
-                    int particleIndex = solver.simplices[contact.bodyA];
+                    // int particleIndex = solver.simplices[contact.bodyA];
 
                     // set the particle velocity:
                     // solver.velocities[particleIndex] += antiGravityAccel;
