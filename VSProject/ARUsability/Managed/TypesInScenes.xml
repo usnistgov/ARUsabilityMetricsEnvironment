@@ -1,4 +1,7 @@
 <linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="FireExtinguisherActivation" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Cognitive3D">
 		<type fullname="Cognitive3D.Cognitive3D_Manager" preserve="nothing"/>
 		<type fullname="Cognitive3D.Cognitive3D_Preferences" preserve="nothing"/>
@@ -90,6 +93,18 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GazeProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Obi">
+		<type fullname="Obi.BurstColliderWorld" preserve="nothing"/>
+		<type fullname="Obi.ObiCollider" preserve="nothing"/>
+		<type fullname="Obi.ObiCollisionMaterial" preserve="nothing"/>
+		<type fullname="Obi.ObiEmitter" preserve="nothing"/>
+		<type fullname="Obi.ObiEmitterShapeDisk" preserve="nothing"/>
+		<type fullname="Obi.ObiFixedUpdater" preserve="nothing"/>
+		<type fullname="Obi.ObiFluidEmitterBlueprint" preserve="nothing"/>
+		<type fullname="Obi.ObiParticleRenderer" preserve="nothing"/>
+		<type fullname="Obi.ObiRigidbody" preserve="nothing"/>
+		<type fullname="Obi.ObiSolver" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputSettings" preserve="nothing"/>
@@ -184,6 +199,9 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.IMGUIModule">
+		<type fullname="UnityEngine.GUISkin" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.SpatialTracking">
 		<type fullname="UnityEngine.SpatialTracking.TrackedPoseDriver" preserve="nothing"/>

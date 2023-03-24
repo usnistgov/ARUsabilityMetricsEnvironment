@@ -12,378 +12,340 @@
 #include "utils/New.h"
 
 
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.MeshFilter>
-struct IIterator_1_tCF2181118173B0581E65725E9147CA7A1CF2721E;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.XR.MeshId>
-struct IIterator_1_t36D4B94E4BFC2739A9E43E36A48C8771763CEE86;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.XR.MeshInfo>
-struct IIterator_1_tD2414697DEBCB770CB5C00B4BD4B0F39FF5C2E00;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Internal.Observers.MeshObservationBlock>
-struct IIterator_1_tD9023D5B653E1E3EC3E1AEF616AC9023682FE0A3;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.MeshRenderer>
-struct IIterator_1_t9FAC515DEC64D993147E54E4B1EC78702B49323A;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.XR.MeshTransform>
-struct IIterator_1_tB38CA5FA4B192227220629945F6EF13C2D06290D;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.MeshWriteData>
-struct IIterator_1_t67F44FDE76F353E1859D60931DD1E974F0D48CD0;
-// Windows.Foundation.Collections.IIterator`1<System.Reflection.MethodBase>
-struct IIterator_1_tBEC0782CF1A447D9AF7C3994F95F97041BCF3412;
-// Windows.Foundation.Collections.IIterator`1<System.Reflection.MethodInfo>
-struct IIterator_1_t4E01C951F4E1EB3EF4845D9AD8AA12294630629B;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction>
-struct IIterator_1_t0761D7EE372C116FA02608D191684C1DFFB20BD4;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
-struct IIterator_1_tF44513D872D62F9F2CE2CD74D0958955CCE80FFA;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.MixedRealityToolkit>
-struct IIterator_1_tA8D402505465A2C823FE128B96AA3E55C4A50D5D;
-// Windows.Foundation.Collections.IIterator`1<Mono.Net.Security.MobileTlsProvider>
-struct IIterator_1_t6649EB69D60BB77FE294325B52C82F050027D9D9;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.ModelTargetBehaviour>
-struct IIterator_1_tEF2D2E748161A7E1F70D48D831F226C53D3F3F0B;
-// Windows.Foundation.Collections.IIterator`1<System.ModifierSpec>
-struct IIterator_1_tF04973542E254BA9BC9726BBA25A9732903B59B3;
-// Windows.Foundation.Collections.IIterator`1<System.Reflection.Module>
-struct IIterator_1_t90157535A955FC9E5B308880BDE3688D3DFDA7F8;
-// Windows.Foundation.Collections.IIterator`1<Mono.Btls.MonoBtlsX509Lookup>
-struct IIterator_1_t4F68C70FD5A557213702D18F208E7DF68F749AE2;
-// Windows.Foundation.Collections.IIterator`1<Mono.Btls.MonoBtlsX509LookupMono>
-struct IIterator_1_t4707ED79A48D0A141D9E330F2F68B2F59D37ADA7;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
-struct IIterator_1_t245E7F9FD2E40F464C4D4F87DF4C8757E8B65D49;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.InputSystem.Utilities.NamedValue>
-struct IIterator_1_t99FAF995798D6FE8DF5FE6B7226FFF7B622603AD;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable>
-struct IIterator_1_t84FDA682EF41C8E2227D2FCDD10795DFCE705B88;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI>
-struct IIterator_1_tCF3DEFA5F1446556E92E748A86189632BB093530;
-// Windows.Foundation.Collections.IIterator`1<System.Object>
-struct IIterator_1_tCD324A8CB8C6E90BDFF46D5256D8DDCC46C41274;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Object>
-struct IIterator_1_tDE65C9F03EEC88A17BD0CC70ED3EB03955E427AE;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode>
-struct IIterator_1_t2F17187DD2C1A6E5297FBC28F476F29EE906AB25;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.ObserverBehaviour>
-struct IIterator_1_t9A41CC251BD5FC0A26C1441AB7DA8FF978456A95;
-// Windows.Foundation.Collections.IIterator`1<System.Security.Cryptography.Oid>
-struct IIterator_1_t9BB56457E2103C60AD7A8E64243523A56693DCA5;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.XR.OpenXR.Features.OpenXRFeature>
-struct IIterator_1_t8E2D2D04CEAB4A781E5357FA5B63BED394CEF13B;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature>
-struct IIterator_1_t888FF533C8590B470B66727213EDB4FB32C136E3;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.PCTile>
-struct IIterator_1_t9E5F62A65518985F9913D0583BD199978404E707;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.Panel>
-struct IIterator_1_t35C3E954973803249F6166A7074A3697F208BE86;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.PanelSettings>
-struct IIterator_1_t27E0B13CB6C57D2AD2DEC2F3902124300EF4C9FA;
-// Windows.Foundation.Collections.IIterator`1<System.Linq.Expressions.ParameterExpression>
-struct IIterator_1_t9D0DD0A5F7D1AE03C8C678548A5A78EC3D017F37;
-// Windows.Foundation.Collections.IIterator`1<System.Reflection.ParameterInfo>
-struct IIterator_1_tC7DE454C5CE956BAE9E6126E3F832EE6C83E77B1;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData>
-struct IIterator_1_tE04A7735A44A34CC92FD14A1BA15A552CE7D169D;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter>
-struct IIterator_1_tC6F36C76759975899857A0AE03653547CBC8053E;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Internal.Permissions.Permission>
-struct IIterator_1_tDA8760305BFD43BD12F857F151C0D6B5ADD511FC;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Events.PersistentCall>
-struct IIterator_1_t41F8070E0C4C06CABFE5EC9CC24739E8767AA6CE;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.UI.PinchSlider>
-struct IIterator_1_t1ADA7316684A058EE5AD047FA4D912ADD7CB041B;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.PixelFormat>
-struct IIterator_1_t42C106FBC50EAB4BF3E73D02704F31B253A3C5C5;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Playables.PlayableBinding>
-struct IIterator_1_t802D6C491A0ACB50A040073F39570D287299D142;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.PointCloudMaterial>
-struct IIterator_1_tD59863B7033649EB056E58BB5C43EEBAC8F01D61;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.EventSystems.PointerEventData>
-struct IIterator_1_t92A69170993597AAFBD3885467EFD1A926DD49DD;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Input.PokePointer>
-struct IIterator_1_tBE6716A07D16F51A5B077FF6570E3B1849D9CE43;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Pose>
-struct IIterator_1_t36CE992F317A8AE4E3BED3EA5AC84ABF9D699FD0;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
-struct IIterator_1_tB537CBAB3B2E9A1E15950E533E7B0E509CB3DD96;
-// Windows.Foundation.Collections.IIterator`1<System.Reflection.PropertyInfo>
-struct IIterator_1_tFE7408EB84A80DF3ABEC61CCD30B283BD1F13BFB;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Utilities.ProximityLight>
-struct IIterator_1_t23F914C1AB2471C9F5ADF69C5B198ABEA2CBA696;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression>
-struct IIterator_1_t4C9B184D7F0FAB4A483F197F1066F57CF4E83353;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.RadioButton>
-struct IIterator_1_t3B1C8CC72E903BE8D05EC8BF6D810997912F9947;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Ray>
-struct IIterator_1_t5F7F09F53664A15022CB56C60CD57EF132932403;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.RaycastHit>
-struct IIterator_1_t4664E479BB7E7274FDB28EBEF15E1E8839033D99;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.RaycastHit2D>
-struct IIterator_1_t600C7913FAA3DBA0B90B65B6508CF78AB21C8F48;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.EventSystems.RaycastResult>
-struct IIterator_1_t06B8512AFA609F65FAEE784F14EA03D802408A56;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.ReadType>
-struct IIterator_1_t061B95065FC4EC6D1B245E8C1517E5B4032D7ABC;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UI.RectMask2D>
-struct IIterator_1_t605F88C44BC366D812E51B71AF7502AFE74B59BA;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.RectTransform>
-struct IIterator_1_tB2718A5967DA5338CBEE97EFD01EC9FFC0F6AF4B;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
-struct IIterator_1_t1F4FDD9EC171D965D7CB59C827B50477FD76AA1C;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
-struct IIterator_1_t8E2002883DF97977B614CDA0B1D66109929A0458;
-// Windows.Foundation.Collections.IIterator`1<System.Text.RegularExpressions.RegexFC>
-struct IIterator_1_t2DCD4E81A81E3D016B1DEB9C988D08DE49AA4476;
-// Windows.Foundation.Collections.IIterator`1<System.Text.RegularExpressions.RegexNode>
-struct IIterator_1_t67E24D0EBD038BE33745F549AF7F2B7ACAE39B8B;
-// Windows.Foundation.Collections.IIterator`1<System.Text.RegularExpressions.RegexOptions>
-struct IIterator_1_tDB550B7232E1AA1D405778282C6FF8F166316E19;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.UIR.RenderChain>
-struct IIterator_1_t9F98E0C61FD6293D32F75BB4505BDD462CE5D41B;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.UIR.RenderChainTextEntry>
-struct IIterator_1_t9D5871EC08F062DCCBFA7BF46EDB81CE01715CD2;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.RenderTexture>
-struct IIterator_1_t6BEC666EE32F3DDB62C911B98C3D3C545ED769D9;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Renderer>
-struct IIterator_1_t04909880EB234324C488CF491334BB897908B82C;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.OpenXR.ReprojectionMode>
-struct IIterator_1_t66854CF98A11AE267174C91C05F2B8BC9714364E;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>
-struct IIterator_1_t6C5503FDABB4EECBFD9CDFF046FCD2539BC00873;
-// Windows.Foundation.Collections.IIterator`1<System.Resources.ResourceLocator>
-struct IIterator_1_t94F15F757C223E28E4A369A8127A933FBD23AD4D;
-// Windows.Foundation.Collections.IIterator`1<System.Resources.ResourceSet>
-struct IIterator_1_t8BC6A007AEBA28F6A8D26401914680E08874CB26;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.ReusableCollectionItem>
-struct IIterator_1_t444253225FF12A44A96C399B55D011E2023D482E;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.ReusableListViewItem>
-struct IIterator_1_tA0B8DEA466843CBAB12C0F25EFAF71835D096F06;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Rigidbody2D>
-struct IIterator_1_t4B84513330B60B78CE3EE7735F8A165D0F2CCF04;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.RuleMatcher>
-struct IIterator_1_tDB56371AD68181064287BD90D5674085BC710C63;
-// Windows.Foundation.Collections.IIterator`1<System.SByte>
-struct IIterator_1_tCE7F2AEED4CF97CFD57021F46FA132ACBA36A5D3;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.SceneManagement.Scene>
-struct IIterator_1_tD4416C671FBC25723CBE0003E170841E64132775;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
-struct IIterator_1_t976A56994868097F4F52256B5F641E6476FA0992;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.ScheduledItem>
-struct IIterator_1_t8F4E25C80DC6E36EAACADDDAF1428B588B380A07;
-// Windows.Foundation.Collections.IIterator`1<System.Xml.Schema.SchemaAttDef>
-struct IIterator_1_t0048437B0F0177BDAE971511A04C29A5FDA8350F;
-// Windows.Foundation.Collections.IIterator`1<System.Xml.Schema.SchemaElementDecl>
-struct IIterator_1_tA29B3A431A05D67C2063243631BB305F0795C651;
-// Windows.Foundation.Collections.IIterator`1<System.Xml.Schema.SchemaEntity>
-struct IIterator_1_t2119C158137EFEB48CC2DAD2358F7B59187EDC1B;
-// Windows.Foundation.Collections.IIterator`1<System.Xml.Schema.SchemaNotation>
-struct IIterator_1_tC8D9F4818A05E398B60987386CFD188E5010DDA2;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.ScreenOrientation>
-struct IIterator_1_tE8C7B0F7E0C1E86CA2E7D8EB78CE1B54C1709382;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UI.Selectable>
-struct IIterator_1_tA44C13F037BC5901DF4E6A7776920BB82BF1FF23;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>
-struct IIterator_1_t6C544EE2460CA1B7BAF269E75F01E1042A408073;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Serialization.SerializationCallback>
-struct IIterator_1_tE237657A80599BD040595049A90180E78AD68B64;
-// Windows.Foundation.Collections.IIterator`1<Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback>
-struct IIterator_1_t6BE6124ECA75448393E38AF39C5B6636A9EC3439;
-// Windows.Foundation.Collections.IIterator`1<System.Runtime.Serialization.SerializationEvents>
-struct IIterator_1_tDE5757DF8D3691E8504BA0CE33B8EAD9935A73AE;
-// Windows.Foundation.Collections.IIterator`1<System.Runtime.Serialization.SerializationFieldInfo>
-struct IIterator_1_t3DC71799B490210B8DAE7AA52BE2E7D1F4D9C85F;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
-struct IIterator_1_t27C831ECB5097FB41B4515E11A3355EB00A44D61;
-// Windows.Foundation.Collections.IIterator`1<System.Net.ServicePoint>
-struct IIterator_1_t1BE1BC621AB9ADBBB1EB5D801BB7FED296A5D04D;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.UI.ShaderProperties>
-struct IIterator_1_t3D69140C4E343CCE4C4AC173204A725D7246F83A;
-// Windows.Foundation.Collections.IIterator`1<System.Single>
-struct IIterator_1_t1385D68DD78DE574859F9B97BA2D44B82B20F491;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver>
-struct IIterator_1_t9984BC4AB90193A7D9057927591746AF101854BB;
-// Windows.Foundation.Collections.IIterator`1<Windows.Perception.Spatial.SpatialAnchor>
-struct IIterator_1_tF0F4DEBB963C180C50E773DB264D2FC34CA4F0F4;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
-struct IIterator_1_t130EEF472DD2861CE817D3F47F0419E300A11447;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject>
-struct IIterator_1_t180B21BC33A372F9C5C60BD86589BF9F20F097FA;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject>
-struct IIterator_1_t5ABE2C64008B1A0AB266D022145E7D476B01E40A;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes>
-struct IIterator_1_t72D1A27E2ADA6D0E6F76989847560BD01A3C968D;
-// Windows.Foundation.Collections.IIterator`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState>
-struct IIterator_1_t215BFCBF90F8A8537063932C7358A37A7FB48148;
-// Windows.Foundation.Collections.IIterator`1<Microsoft.MixedReality.Toolkit.Input.SpherePointer>
-struct IIterator_1_t0E5AD0D0246FE6462A70481DD12FF04D57B6844D;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.Sprite>
-struct IIterator_1_t9311A812265C8046245C6FFB0088D120AFBF1C47;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.TextCore.Text.SpriteAsset>
-struct IIterator_1_tC548626841A64B5D0FBF731F98075E7629612CE8;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.TextCore.Text.SpriteCharacter>
-struct IIterator_1_t358EE70C8AE651E323E7CACF8C2E6FA85DFC3578;
-// Windows.Foundation.Collections.IIterator`1<UnityEngine.TextCore.Text.SpriteGlyph>
-struct IIterator_1_tFAEB67004E502F1ED5F1E6B41D8FE042371C3217;
-// Windows.Foundation.Collections.IIterator`1<System.Diagnostics.StackFrame>
-struct IIterator_1_tF8F41269ED0569BAB2E7D83951DD740B7092D344;
-// Windows.Foundation.Collections.IIterator`1<System.Diagnostics.StackTrace>
-struct IIterator_1_tD7FF4CD55380432BAD96A70DCDEA42B412128683;
+// Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>
+struct BidirectionalDictionary_2_tFEE740B94CEBA1666154DD39344F397A64092BA0;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E;
+// System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>
+struct Func_2_t8EF254F70558B5F283D87657FDF195FBF01EACF9;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>>
+struct IIterator_1_tEA48F60B8D7A7832D91AE2CC829FDC62D395A205;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIterator_1_tB79DF15109BB079D31E8FE7FD0A3C7B4746CDCC5;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Action>>
+struct IIterator_1_t8998FD033C3FBE893359498ABA91885B272C3886;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
+struct IIterator_1_tC4C42822491164C936ABD1F4D44722079E79BF24;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>>
+struct IIterator_1_t750CB772ABDCCAED6CA8A9E88DDAE0A0A1A15990;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>>
+struct IIterator_1_t6538D673993D590E2BE95229F659D117A905D2A4;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>>
+struct IIterator_1_t162048FD1C22DF4DA32C93D588FCB697814B145D;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>>
+struct IIterator_1_t1B9B6721D898346C15A04EBEF9E55DCA4200151E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>>
+struct IIterator_1_t3374EDC01943A3F6E4428AF766D0AD340137C7FE;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>>
+struct IIterator_1_t1B2B2EF44132F99BC5CE71D0EDC4D1E2AF17338F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>>
+struct IIterator_1_tD2DFF2CFAB9DF527789C887BBCE8CB1E1E33A02E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>>
+struct IIterator_1_t81127E67D83838B12CBA5B44FEB7DDD791379BFF;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>>
+struct IIterator_1_t5A09E8A3F5A5E01BDF37A77671F838C499647E8B;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>>
+struct IIterator_1_t6F0866B79D313AA8A57CC4B68737C09631281210;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>>
+struct IIterator_1_t76F1980D4ECD20642D2FB3C8FAE4AB824FCC367F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
+struct IIterator_1_t5D94F8F6DA7939B44A0CAEA2C529E138E9519A83;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>>
+struct IIterator_1_tC4BFA81F6D918C0E00A9F0ED882389F5B8071420;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>>
+struct IIterator_1_t0787BD9439038961BBD8D1891E70B93252C5C10E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>>
+struct IIterator_1_t59AA128AAC0B2B8D5660EDC2AC29C46AF5253D0A;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>>
+struct IIterator_1_tBC7CE35305C287A3FD6BB8BB6523DFE969295889;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>>
+struct IIterator_1_tC86531845A152B23B7F3FB324C11F183EA014A7D;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>>
+struct IIterator_1_t29E2A35AFE56DF52451340C9A737F126244E970F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>>
+struct IIterator_1_tF6E1B0EC28AF169C2513FABE80D652FCCA9B894F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>>
+struct IIterator_1_t2A8AD76E4CCCC7D80875D10F36ABA4C35EA36EFC;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct IIterator_1_t66A0D1700F95C289C5585DDBAE26DFC77D58859F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>>
+struct IIterator_1_tCD4463A4E6A40121841F21F6B24E81CB42EF0142;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>>
+struct IIterator_1_tA5779C1A6669E93594518667199B41D5F8AD8F99;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>>
+struct IIterator_1_t70F0DB5027D9C1C62FBF75F2A9C977915C5A2A72;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>>
+struct IIterator_1_t667A589CCA03B892F210FE90C6F9488F557BDE52;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>>
+struct IIterator_1_t92BE66CFAADE800B8B717FF0266C5105CA68D47A;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
+struct IIterator_1_tB8231E9CC098E89FB872921C431DAB7071DC4E99;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>>
+struct IIterator_1_t01616FE106841871659DDE8278938530DE48E8CA;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>>
+struct IIterator_1_t84DC41CDB4B9C164738834597817667A4CE89C87;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct IIterator_1_t8D69E083BAD17D462387AB437229B563AF88EA65;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>>
+struct IIterator_1_tCD67E6852467A5F631D1CD7A860868600214CE89;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>>
+struct IIterator_1_t99CA5A73C6C5781936E2BAF7461E0F7ED962739B;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>
+struct IIterator_1_tD1630838298FEA86F5AB2447A892C0856CA0B855;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>>
+struct IIterator_1_t70C572FE7711E7051D42F07FCA74FFA08E7E41AB;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>>
+struct IIterator_1_t73D310B55D4CA594A1119F80EBF106859744DB08;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>>
+struct IIterator_1_tB6C4D049F00F1A5EA868761CDDC4EA4A9598C03E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>>
+struct IIterator_1_t42B7686E4F84AECFA8028D2F029BB9DB25066F8C;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>>
+struct IIterator_1_t209D3F0E8D1708AB6B2D106827BDC4AAFBDE58EE;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>>
+struct IIterator_1_tF647D4D75527A74D65DA0E69D75C2C94BC7965D6;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>>
+struct IIterator_1_tE19A4368A7ECFC438A61B6E7CB88E75739FAA922;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>>
+struct IIterator_1_t1397143828E11DFA17DFC9986B477F415C37608E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>>
+struct IIterator_1_t163CE218C4160109DDACC222505FB915E09305DF;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>>
+struct IIterator_1_t582AAD43C76B2A486E82FAFA3FB52BC3B4F55290;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>>
+struct IIterator_1_t7FEC6D5111E2242BEE49E758D43EB38F43CCEF57;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>>
+struct IIterator_1_t8B1F98B7DF2CC827D2A6F439A5F7B0EB127B3664;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>>
+struct IIterator_1_tE4F085811246A4462EE5D0B83392BBF45A9C2D88;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>>
+struct IIterator_1_tC085A6871D9727A38D3898BD68D455EB54F5029B;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>>
+struct IIterator_1_t92A783D4B00205B088455F022E206E95EF81B653;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>
+struct IIterator_1_tC1EC5FF4F38044C6C5FB55C8C587787B0B8B5199;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
+struct IIterator_1_tDC5E049D251531E3B65639FDACD96F55F3876FFA;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>>
+struct IIterator_1_tAC630C40B63646027ED40DDBA22267532B149929;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>>
+struct IIterator_1_t99F67F379FC0004FF7FFC58D5E5F5D1F51ED60C6;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>>
+struct IIterator_1_tA4B3ABC51300890BA053D5E79DF265769C0A3AE5;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>>
+struct IIterator_1_t2279B1CB65A3FBB29C31782C1D220EA6EF96B924;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>>
+struct IIterator_1_tDAB35416EF454B873DD48DD5AC21D8718A42A6AB;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>>
+struct IIterator_1_t359E2E6BD76C8112155CB45E6B75E94FE916C061;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>
+struct IIterator_1_t7EBE3EFB333E47AB8B6AA71DDD5F26A65EBC1F2B;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>>
+struct IIterator_1_tAC7BDAD06A4A53E98B80096B72D6842535E5A248;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>>
+struct IIterator_1_t88B95CF6E0BC0872F2C8E4381C35D6797EC658DB;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>>
+struct IIterator_1_t419FD58DB4A54FCBFA25487F7D26D2972608E1E7;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>>
+struct IIterator_1_tCF97A761B7234CC4F7285AA6EBBC15252CE9A730;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>>
+struct IIterator_1_t536A0D6535B7701DAF8D16CDD6F4DF775BF7BDCB;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>>
+struct IIterator_1_t404FE44C5F4D6784041ABDDD6FBFFA742C75305F;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>>
+struct IIterator_1_tA176E617FBE330E5A8A0A582924B059E6863B171;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>>
+struct IIterator_1_tABC0411DD0EF831E1BD37DDFFEDB7129A4356951;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>>
+struct IIterator_1_t0C347F02E648508312DBD7FDB7595AA60F9520F2;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>>
+struct IIterator_1_tDB0E3A28AA0AC82DC324987591503B9F1BC1D700;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIterator_1_t26EFF01ED259AB0B8E357655B4E4D6A7FAE32A06;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>>
+struct IIterator_1_t6F2C10C99551E1C419F336EBBA9A02FFEA688364;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>>
+struct IIterator_1_tDF0B472684AF0CAC8348A35AD5D7B85FCE8ECEA0;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>>
+struct IIterator_1_tD0BC3E1E2048C3B386B1DE67F6845F83B129B956;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>>
+struct IIterator_1_tBA4CBF70222258D648776DE14BED49D2598045C1;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>>
+struct IIterator_1_t5D5C9B3546FA33BC5BF935AF721E805351E133A4;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>>
+struct IIterator_1_t9E0041FBDBC99C13E725EADDC3998AF804343274;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>>
+struct IIterator_1_t7DE95F1402CB141C135ADB8D19E317E7C492BDE6;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>>
+struct IIterator_1_t2BA04B1B4F8C1668B7D9D3A7920198B45C769B3C;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>>
+struct IIterator_1_tFAEDD8FEF26C32F3993CE4C0728205687937A2EC;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>>
+struct IIterator_1_t949A41B35A636CC85F7AF746638DC84164234D1A;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>>
+struct IIterator_1_t083D8DEC74D7027715AF2F58BB6465503E682B22;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>>
+struct IIterator_1_t09879568E860895E9339E0FDB64D0CBFB7B14885;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>>
+struct IIterator_1_t2BD512026B59BE23918E979E6CFF64E4429ED596;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>>
+struct IIterator_1_t7C980D8F23F4B1F11C3E57A5518697BEAF54BDAF;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>>
+struct IIterator_1_t65F5278ABF5DC8316998D7EB39170431B32C8F1E;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>>
+struct IIterator_1_tEAD53A323459073925320A70F2470BA957064498;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>>
+struct IIterator_1_t8E605BFE624149BA0588B1091DA94FF180091EFB;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>>
+struct IIterator_1_t3A65E2E898AABC52BD0161333FF1697B158A8362;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>>
+struct IIterator_1_t692C5793F4AF47F39AAD4F25902CCD46680D7776;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>>
+struct IIterator_1_tC6C1D0CE154C004C89957CABAF2245BF6F52DEA4;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>>
+struct IIterator_1_tC20519EA49B533BAF0284E4BBE8CD15B6A2C398A;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+struct IIterator_1_t7D7E893537AA66B339298B9D1DB4478A8C584104;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>>
+struct IIterator_1_t55C9794B528C04D001B57253C07D3D12CA36C0D9;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>>
+struct IIterator_1_tE22A0547D9C63EC424B724CAE10C5A5152F32A93;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>>
+struct IIterator_1_tA57333A01104EB2C8B8D7A5B7537F49C0AD0EA95;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>>
+struct IIterator_1_t7DE0A017E303A7FD08B0F2929474DBE906DB8A8D;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>>
+struct IIterator_1_t455FE3B864982898751C141A81108FD90011E62C;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>>
+struct IIterator_1_t0E3ECB52B72416CBBF7228343F6B841F804B4F7A;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>>
+struct IIterator_1_tD99795A533DF2E56C3E222C5C5ECB64954BCBDF0;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>>
+struct IIterator_1_t7D2407E249CC5C7625BA53BA46FD8B945CD3076D;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>>
+struct IIterator_1_tAD0441A40C0E7E83C71A4DE3414F3F5505085FCD;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>>
+struct IIterator_1_t0BD0AB057806A7A02CA4B8B079DD521A01E6BD29;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>>
+struct IIterator_1_tD2E5BC3DFCFAF9FFEB7907FB00A48099784665EA;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>>
+struct IIterator_1_t67C3E9AF23AAF8A59B2205D6346EFBDA3AEABB82;
+// Windows.Foundation.Collections.IIterator`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>>
+struct IIterator_1_tBB7F3B5FAD4AAF23EFEF07EFE3C397C37DF3682D;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>
+struct List_1_tCF77AFE52E0EC9C5233DE6B94C921A5FEBA3F50E;
+// System.Collections.Generic.List`1<System.Type>
+struct List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>
+struct List_1_tA8D9A7D399445C1F3511FA45583C6550B6F1FFCC;
+// System.Collections.Generic.List`1<Vuforia.ConfigData/MultiTargetPartData>
+struct List_1_t86DE555F7234D971C3FF4F1C74A8631E8498BFEA;
+// System.Collections.Generic.List`1<Vuforia.ConfigData/VirtualButtonData>
+struct List_1_tFBF6622ACFA21196D1439E941B05AD68D6F8B154;
+// System.Collections.Generic.List`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A;
+// System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>
+struct WeakReference_1_t0E52EA5ECE35681407C7718FCABD447C1D90D782;
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// UnityEngine.InputSystem.Utilities.InternedString[]
+struct InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5;
+// UnityEngine.InputSystem.Utilities.NameAndParameters[]
+struct NameAndParametersU5BU5D_tA6C2AC34ACDB1967A7A2CEF4BE1D717ADA695CA2;
 // UnityEngine.InputSystem.Utilities.NamedValue[]
 struct NamedValueU5BU5D_tADD8F1373B88C55F68499688D72C21A97F63303A;
-// UnityEngine.Playables.PlayableBinding[]
-struct PlayableBindingU5BU5D_tC50C3F27A8E4246488F7A5998CAABAC4811A92CD;
-// UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// UnityEngine.XR.ARFoundation.ARAnchor
+struct ARAnchor_t832D3D366D3F1D43F995A298974D4EDABACC0E06;
+// UnityEngine.XR.ARFoundation.AREnvironmentProbe
+struct AREnvironmentProbe_t8DEA824ECD1C0D4A827F6960AB661FBD8E7FEECB;
+// UnityEngine.XR.ARFoundation.ARFace
+struct ARFace_t73C068C9C8422F79A858EC41C322D399305B8453;
+// UnityEngine.XR.ARFoundation.ARHumanBody
+struct ARHumanBody_t0BF65EB4E08787EC83A31FCD744FCF2BFB81A1BE;
+// UnityEngine.XR.ARFoundation.ARParticipant
+struct ARParticipant_t96678E5B07E308E9F6BEBB28B642D9B5FB31223D;
+// UnityEngine.XR.ARFoundation.ARPlane
+struct ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0;
+// UnityEngine.XR.ARFoundation.ARPointCloud
+struct ARPointCloud_t884F66E095A8DEA1E8207FBF9E15F98D7C75B1F2;
+// UnityEngine.XR.ARFoundation.ARRaycast
+struct ARRaycast_t141143E16F40B1580060317DA867423FF2624E76;
+// UnityEngine.XR.ARFoundation.ARReferencePoint
+struct ARReferencePoint_t15CC64893A2374DB16197BD2138990BA22FC937A;
+// UnityEngine.XR.ARFoundation.ARTrackedImage
+struct ARTrackedImage_tC1D6394277D354FB2B952C6D5CAB62140AA455C2;
+// UnityEngine.XR.ARFoundation.ARTrackedObject
+struct ARTrackedObject_t31A67C6A4BA10E7CAC4EF69D5C2BB2E4C72D1FEB;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// System.AttributeUsageAttribute
+struct AttributeUsageAttribute_t25F34EEA4F7DBA1A8EEFA0685E986AEECE621C49;
+// Cognitive3D.ButtonState
+struct ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554;
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+// Cognitive3D.CustomEvent
+struct CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84;
+// UnityEngine.UIElements.StyleSheets.Syntax.Expression
+struct Expression_tCF765985229BD440260CA349B7CCD263AEF4A7C6;
+// UnityEngine.GUIStyle
+struct GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
-// UnityEngine.MeshFilter
-struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5;
-// Vuforia.Internal.Observers.MeshObservationBlock
-struct MeshObservationBlock_tC6D050CB4FD78AB13B5948D71116EC29A16DD3D7;
-// UnityEngine.MeshRenderer
-struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
-// UnityEngine.UIElements.MeshWriteData
-struct MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9;
-// System.Reflection.MethodBase
-struct MethodBase_t;
-// System.Reflection.MethodInfo
-struct MethodInfo_t;
-// Microsoft.MixedReality.Toolkit.MixedRealityToolkit
-struct MixedRealityToolkit_t34094ACADA92B29D4E89DBB9ECBDD3BF74777D9D;
-// Mono.Net.Security.MobileTlsProvider
-struct MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017;
-// Vuforia.ModelTargetBehaviour
-struct ModelTargetBehaviour_t59E58A226A424E39DED3D8BCD47D810BED97F362;
-// System.ModifierSpec
-struct ModifierSpec_t4FCFF60BECB8AD4B92C9100D597637AE9A9D316D;
-// System.Reflection.Module
-struct Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0;
-// Mono.Btls.MonoBtlsX509Lookup
-struct MonoBtlsX509Lookup_t286E27505BA7236C88012E717E12C6EC392C7281;
-// Mono.Btls.MonoBtlsX509LookupMono
-struct MonoBtlsX509LookupMono_t9143A79C52F33A69C3E137220025763FC420C0C6;
-// Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
-struct NearInteractionGrabbable_tD38EDA009476DBDF5642F3EA120A521970761FBA;
-// Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI
-struct NearInteractionTouchableUnityUI_t86123ECF22EE6D42187517CE7BCFD29236742C5D;
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
-// Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode
-struct ObjectCollectionNode_t797F5EF7BEBA1CAD193F6B3516086B978BE2B3A6;
+// Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator
+struct GameObjectCreator_tDF9AA2885CD56972BCC55A96462511147DBF1466;
+// Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController
+struct GenericJoystickController_t973A6C1908E4F5C9D15B9448798CFF811C3B9A90;
+// Microsoft.MixedReality.Toolkit.IMixedRealityService
+struct IMixedRealityService_tF14A48320F9A1B2C7A26406624A0620B1653382C;
+// System.Globalization.ISimpleCollator
+struct ISimpleCollator_t084383013F96378AFFD4540649E086C9C13BFF5B;
+// UnityEngine.ISubsystem
+struct ISubsystem_t20F8E773FE1B915229571E9F78B3BC95C9E1CB67;
+// Vuforia.IVuEngineConfig
+struct IVuEngineConfig_t75FFA722E8BEBF4BBD155E6B477B127B1D42F5C0;
+// Vuforia.Internal.Observers.ImageTargetObserver
+struct ImageTargetObserver_t37CA9AEAE11535DFD06CD5C9D7D2F356A5D20252;
+// Vuforia.Newtonsoft.Json.Linq.JToken
+struct JToken_t034BD5C010BDF99670727D17139F467527005F66;
+// Vuforia.Newtonsoft.Json.Serialization.JsonProperty
+struct JsonProperty_t3BA776ED1EF4760F1DCA10AF343D8E884C34B0B0;
+// Vuforia.Newtonsoft.Json.Schema.JsonSchema
+struct JsonSchema_tB4537CF9B9ECCC0584090F88D2F0BB60BBB6527D;
+// Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel
+struct JsonSchemaModel_t090BAB8841FE387E913C84E609BA6BB7DB9429B9;
+// Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode
+struct JsonSchemaNode_tC457E1AED8E7F2E80D88DB9806D0438088928CF4;
+// System.LocalDataStoreSlot
+struct LocalDataStoreSlot_tEE8D2C2A87B7336B3C04BFCF3963F1307EAA2499;
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+// Obi.ObiHeightFieldHandle
+struct ObiHeightFieldHandle_tD7CC9F7D2F7F26F675D7A485B7BAB0AEA6F0A2A8;
 // Vuforia.ObserverBehaviour
 struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB;
-// System.Security.Cryptography.Oid
-struct Oid_t9CF958D45B2027FCEDB1EE544E3FBB8351F61287;
-// UnityEngine.XR.OpenXR.Features.OpenXRFeature
-struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143;
-// UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature
-struct OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E;
-// Vuforia.PCTile
-struct PCTile_t5E9E70CFF630AEA5809D05CCB0440F2255B70BE8;
-// UnityEngine.UIElements.Panel
-struct Panel_t2B0DCF68A7A5EBC347FAE66F046EA98B53AF1AB9;
-// UnityEngine.UIElements.PanelSettings
-struct PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC;
-// System.Linq.Expressions.ParameterExpression
-struct ParameterExpression_tE8D3A1137422F75D256CBB200EDC82820F240110;
-// System.Reflection.ParameterInfo
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData
-struct ParticleHeatmapParticleData_t367300D187C8CE3BA3F6485074865605B8C859C7;
-// Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter
-struct PathFilter_tF7A98FF75CBBB43B74C12A7772B993E8CD957217;
-// UnityEngine.Events.PersistentCall
-struct PersistentCall_tECEBF49ED60D3AEE696FCCDB50DA03C1A9EBD5AF;
-// Microsoft.MixedReality.Toolkit.UI.PinchSlider
-struct PinchSlider_tE4C006EED1C607D874C2F39F587C6143C2DC5F01;
-// Vuforia.PointCloudMaterial
-struct PointCloudMaterial_t6CFDCC92144311093C1AC1BB53F9D35E74E9AB62;
-// UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
-// Microsoft.MixedReality.Toolkit.Input.PokePointer
-struct PokePointer_tC58AE2ED529C5B266673144B85A91871F2940B60;
-// System.Reflection.PropertyInfo
-struct PropertyInfo_t;
-// Microsoft.MixedReality.Toolkit.Utilities.ProximityLight
-struct ProximityLight_t724C24FB42CCA7FA353A22CBCCB86669AF161969;
-// Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression
-struct QueryExpression_t7323EB8D0369B2D3F756D0C15ECF259E161C8CD2;
-// UnityEngine.UIElements.RadioButton
-struct RadioButton_t47B7368AB0B24A865401F69F0AC0BFB54F3CE8C8;
-// UnityEngine.UI.RectMask2D
-struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
-// UnityEngine.RectTransform
-struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 // Vuforia.Newtonsoft.Json.Utilities.ReflectionMember
 struct ReflectionMember_tB69AB792585C9B146DBFDB6BDCA29A864D57D95B;
 // Vuforia.Newtonsoft.Json.Utilities.ReflectionObject
 struct ReflectionObject_t244398099DDEE2F50A2C03CF3F5370AB97907956;
-// System.Text.RegularExpressions.RegexFC
-struct RegexFC_t94F85EACC55F7CDAB62F6B2DD79513A694EA77C4;
-// System.Text.RegularExpressions.RegexNode
-struct RegexNode_tF9909B4015A9F5644B5772AB476ABCF721593360;
-// UnityEngine.UIElements.UIR.RenderChain
-struct RenderChain_tCCA9360D5721E675E5632E4B2F4AF7CDC453E363;
-// UnityEngine.UIElements.UIR.RenderChainCommand
-struct RenderChainCommand_t4F70E36AF4BC3645C8F9C822B7A3ACE9CB815727;
-// UnityEngine.RenderTexture
-struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
-// UnityEngine.Renderer
-struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+// System.Text.RegularExpressions.Regex
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
 // System.Resources.ResourceSet
 struct ResourceSet_tA2F16C08175368D3899938AD0FFCDC07B32B518D;
-// UnityEngine.UIElements.ReusableCollectionItem
-struct ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086;
-// UnityEngine.UIElements.ReusableListViewItem
-struct ReusableListViewItem_tAF9E92C2374E878D5269E1831B27BCF31B922AF5;
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F;
-// UnityEngine.UIElements.ScheduledItem
-struct ScheduledItem_t423152D61DCAD8E5EC98FB4DEFC04FB023EDADE0;
-// System.Xml.Schema.SchemaAttDef
-struct SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553;
-// System.Xml.Schema.SchemaElementDecl
-struct SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD;
-// System.Xml.Schema.SchemaEntity
-struct SchemaEntity_t9ED2BB66C74E37F782F6002ED5BED20306D103E7;
 // System.Xml.Schema.SchemaNotation
 struct SchemaNotation_tDA4063F0DD51070BAD94B42C2F44BD1055372269;
-// UnityEngine.UI.Selectable
-struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
-// Vuforia.Newtonsoft.Json.Serialization.SerializationCallback
-struct SerializationCallback_t8760A12554AD0693621F4C71D061A51C532049BA;
-// Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback
-struct SerializationErrorCallback_t86571B95E32C931DB3071C87A30B8BBE8D741B7B;
 // System.Runtime.Serialization.SerializationEvents
 struct SerializationEvents_t9F041CF09EEDAA7862FD930BB6C6D6D366E17CB7;
-// System.Runtime.Serialization.SerializationFieldInfo
-struct SerializationFieldInfo_tD5308113704FA6FE94E560395B231A5F60C43826;
 // Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade
 struct ServiceFacade_tDE2897E0B78C7114E812FB0DB1E421ED27985625;
-// System.Net.ServicePoint
-struct ServicePoint_t5DB5939994CAA6A0DF221C5F58D59D1A6131CE29;
-// Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver
-struct Solver_tF0A1009704901DB614C4CDDAB42E02AE533EB9F0;
 // Windows.Perception.Spatial.SpatialAnchor
 struct SpatialAnchor_t2B7F0E6BA6FEB0F93FB9AB810D966C6A18CE35F3;
-// Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject
-struct SpatialAwarenessMeshObject_t5577B6C05F0A1138C582A8F1B7A717B81AE11379;
-// Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject
-struct SpatialAwarenessPlanarObject_t4A04A7900E8CB3CA113A4FC9796267F8B5B20461;
-// Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject
-struct SpatialAwarenessSceneObject_tF2D3AF410F271E9AF4D552CA79ABB6E3CE043D5C;
-// Windows.UI.Input.Spatial.SpatialInteractionSourceState
-struct SpatialInteractionSourceState_t642347B035410FE3AA30A1F67EF306D3A5AFEC7E;
-// Microsoft.MixedReality.Toolkit.Input.SpherePointer
-struct SpherePointer_tC2A8206BCD75D9000A30D7BFFF9D464B6D0B9DF8;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
-// UnityEngine.TextCore.Text.SpriteAsset
-struct SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313;
-// UnityEngine.TextCore.Text.SpriteCharacter
-struct SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5;
-// UnityEngine.TextCore.Text.SpriteGlyph
-struct SpriteGlyph_t0BD62F6EB8D19B2C4B246BC436A8F4BF2E0ACA1A;
-// System.Diagnostics.StackFrame
-struct StackFrame_tB901270D6679ED5D24D872C25D4AD053F22F3443;
 // System.Diagnostics.StackTrace
 struct StackTrace_t7C150C7C14136F985311A83A93524B1019F70853;
 // System.String
@@ -392,14 +354,61 @@ struct String_t;
 struct StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD;
 // UnityEngine.UIElements.StyleSheet
 struct StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428;
+// UnityEngine.Terrain
+struct Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667;
+// UnityEngine.TerrainData
+struct TerrainData_t615A68EAC648066681875D47FC641496D12F2E24;
+// UnityEngine.Texture
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+// UnityEngine.Texture2D
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+// Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue
+struct ThemePropertyValue_tDDED256F8DEE95FFCF5B4BE01EA08299D1478192;
+// Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty
+struct ThemeStateProperty_t1F970AB999BE19D1A6AB2595879A9E9393781AFC;
+// System.Threading.Thread
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
+// System.TimeZoneInfo
+struct TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8;
+// UnityEngine.Transform
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // System.Type
 struct Type_t;
-// System.Void
-struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
-// UnityEngine.Playables.PlayableBinding/CreateOutputMethod
-struct CreateOutputMethod_tD18AFE3B69E6DDD913D82D5FA1D5D909CEEC8509;
+// System.Runtime.Serialization.Formatters.Binary.TypeInformation
+struct TypeInformation_tDD3B3F023E4F59438075F37170536824C8D51324;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+// System.UriParser
+struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+// UnityEngine.UIElements.VisualElement
+struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115;
+// Vuforia.VuController
+struct VuController_t0E0C6E2A1AE9E9807712554C20C0A0B8B3BB5672;
+// Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union
+struct Union_t8D8BEF332DD21BDC7F6F3EE2D1C8B4EBA5AB1CA7;
+// System.Xml.DtdParser/UndeclaredNotation
+struct UndeclaredNotation_t82679CBF782A166873D4AA6AE22DFBF9FA2FDC1E;
+// UnityEngine.UIElements.DynamicAtlas/TextureInfo
+struct TextureInfo_t1CEA0DD342E63322DEA32A9C25EB4B01AB000A9F;
+// Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves
+struct PoseCurves_t6550558C84A4779609F9505C9007C465D9B12BFC;
+// UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate
+struct AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552;
+// UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate
+struct BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA;
+// System.MonoCustomAttrs/AttributeInfo
+struct AttributeInfo_t9AE048DE0EC4748F7D8722FA5D5C181F10033BFB;
+// Vuforia.ObserverFactory/BehaviourFromObserverDelegate
+struct BehaviourFromObserverDelegate_t981D2B8B68938732E343E2CA196DAE07DF48D926;
+// Cognitive3D.SensorRecorder/SensorData
+struct SensorData_tFC9CD50F5EB73E34239B8773015244DA5C34A337;
+// System.Net.ServicePointScheduler/ConnectionGroup
+struct ConnectionGroup_tCCD63C39E616C7AA50A627F059CF0ED69D58C037;
+// Cognitive3D.Serialization.SharedCore/SensorData
+struct SensorData_tBDFD648186813586CA7545D2DE94DD261CFA1C88;
+// UnityEngine.UIElements.StylePropertyAnimationSystem/Values
+struct Values_t810A8E7A95A5716F91CE1BDC1EE3AD25FE329E24;
 
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -417,1124 +426,6 @@ struct NOVTABLE IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301 : Il2CppIIns
 	virtual il2cpp_hresult_t STDCALL IClosable_Close_mCB0DF137CDDDCC22063CF8D95ECE3BC9B8FA0D88() = 0;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshFilter>
-struct IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Observers.MeshObservationBlock>
-struct IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshObservationBlock_tC6D050CB4FD78AB13B5948D71116EC29A16DD3D7* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshRenderer>
-struct IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.MeshWriteData>
-struct IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshWriteData_tE09883A6419D2A92CC453702AD6D30486B44F5F9* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodBase>
-struct IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MethodBase_t* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodInfo>
-struct IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MethodInfo_t* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.MixedRealityToolkit>
-struct IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MixedRealityToolkit_t34094ACADA92B29D4E89DBB9ECBDD3BF74777D9D* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Net.Security.MobileTlsProvider>
-struct IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ModelTargetBehaviour>
-struct IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ModelTargetBehaviour_t59E58A226A424E39DED3D8BCD47D810BED97F362* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.ModifierSpec>
-struct IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RuntimeObject* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.Module>
-struct IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Module_tABB9217F7F2BA3E0F4277D03C2B234A7313BB8D0* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509Lookup>
-struct IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MonoBtlsX509Lookup_t286E27505BA7236C88012E717E12C6EC392C7281* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509LookupMono>
-struct IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MonoBtlsX509LookupMono_t9143A79C52F33A69C3E137220025763FC420C0C6* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable>
-struct IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	NearInteractionGrabbable_tD38EDA009476DBDF5642F3EA120A521970761FBA* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI>
-struct IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	NearInteractionTouchableUnityUI_t86123ECF22EE6D42187517CE7BCFD29236742C5D* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Object>
-struct IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RuntimeObject* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Object>
-struct IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode>
-struct IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ObjectCollectionNode_t797F5EF7BEBA1CAD193F6B3516086B978BE2B3A6* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ObserverBehaviour>
-struct IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Security.Cryptography.Oid>
-struct IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Oid_t9CF958D45B2027FCEDB1EE544E3FBB8351F61287* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRFeature>
-struct IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature>
-struct IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PCTile>
-struct IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PCTile_t5E9E70CFF630AEA5809D05CCB0440F2255B70BE8* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.Panel>
-struct IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Panel_t2B0DCF68A7A5EBC347FAE66F046EA98B53AF1AB9* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.PanelSettings>
-struct IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Linq.Expressions.ParameterExpression>
-struct IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ParameterExpression_tE8D3A1137422F75D256CBB200EDC82820F240110* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.ParameterInfo>
-struct IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData>
-struct IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ParticleHeatmapParticleData_t367300D187C8CE3BA3F6485074865605B8C859C7* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter>
-struct IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PathFilter_tF7A98FF75CBBB43B74C12A7772B993E8CD957217* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Permissions.Permission>
-struct IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Events.PersistentCall>
-struct IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PersistentCall_tECEBF49ED60D3AEE696FCCDB50DA03C1A9EBD5AF* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.PinchSlider>
-struct IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PinchSlider_tE4C006EED1C607D874C2F39F587C6143C2DC5F01* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PixelFormat>
-struct IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PointCloudMaterial>
-struct IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PointCloudMaterial_t6CFDCC92144311093C1AC1BB53F9D35E74E9AB62* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.PointerEventData>
-struct IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.PokePointer>
-struct IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PokePointer_tC58AE2ED529C5B266673144B85A91871F2940B60* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
-struct IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.PropertyInfo>
-struct IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PropertyInfo_t* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ProximityLight>
-struct IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ProximityLight_t724C24FB42CCA7FA353A22CBCCB86669AF161969* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression>
-struct IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	QueryExpression_t7323EB8D0369B2D3F756D0C15ECF259E161C8CD2* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RadioButton>
-struct IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RadioButton_t47B7368AB0B24A865401F69F0AC0BFB54F3CE8C8* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.ReadType>
-struct IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.RectMask2D>
-struct IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RectTransform>
-struct IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
-struct IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ReflectionMember_tB69AB792585C9B146DBFDB6BDCA29A864D57D95B* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
-struct IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ReflectionObject_t244398099DDEE2F50A2C03CF3F5370AB97907956* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexFC>
-struct IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RegexFC_t94F85EACC55F7CDAB62F6B2DD79513A694EA77C4* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexNode>
-struct IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RegexNode_tF9909B4015A9F5644B5772AB476ABCF721593360* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexOptions>
-struct IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChain>
-struct IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RenderChain_tCCA9360D5721E675E5632E4B2F4AF7CDC453E363* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RenderTexture>
-struct IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Renderer>
-struct IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.OpenXR.ReprojectionMode>
-struct IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceSet>
-struct IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ResourceSet_tA2F16C08175368D3899938AD0FFCDC07B32B518D* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableCollectionItem>
-struct IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableListViewItem>
-struct IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ReusableListViewItem_tAF9E92C2374E878D5269E1831B27BCF31B922AF5* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Rigidbody2D>
-struct IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.SByte>
-struct IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int8_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ScheduledItem>
-struct IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ScheduledItem_t423152D61DCAD8E5EC98FB4DEFC04FB023EDADE0* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaAttDef>
-struct IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaElementDecl>
-struct IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaEntity>
-struct IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SchemaEntity_t9ED2BB66C74E37F782F6002ED5BED20306D103E7* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaNotation>
-struct IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SchemaNotation_tDA4063F0DD51070BAD94B42C2F44BD1055372269* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.ScreenOrientation>
-struct IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.Selectable>
-struct IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationCallback>
-struct IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SerializationCallback_t8760A12554AD0693621F4C71D061A51C532049BA* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback>
-struct IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SerializationErrorCallback_t86571B95E32C931DB3071C87A30B8BBE8D741B7B* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationEvents>
-struct IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SerializationEvents_t9F041CF09EEDAA7862FD930BB6C6D6D366E17CB7* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationFieldInfo>
-struct IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SerializationFieldInfo_tD5308113704FA6FE94E560395B231A5F60C43826* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
-struct IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ServiceFacade_tDE2897E0B78C7114E812FB0DB1E421ED27985625* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Net.ServicePoint>
-struct IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ServicePoint_t5DB5939994CAA6A0DF221C5F58D59D1A6131CE29* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Single>
-struct IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	float ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver>
-struct IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Solver_tF0A1009704901DB614C4CDDAB42E02AE533EB9F0* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.Perception.Spatial.SpatialAnchor>
-struct IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpatialAnchor_t2B7F0E6BA6FEB0F93FB9AB810D966C6A18CE35F3* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
-struct IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpatialAwarenessMeshObject_t5577B6C05F0A1138C582A8F1B7A717B81AE11379* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject>
-struct IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpatialAwarenessPlanarObject_t4A04A7900E8CB3CA113A4FC9796267F8B5B20461* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject>
-struct IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpatialAwarenessSceneObject_tF2D3AF410F271E9AF4D552CA79ABB6E3CE043D5C* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes>
-struct IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	int32_t ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState>
-struct IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpatialInteractionSourceState_t642347B035410FE3AA30A1F67EF306D3A5AFEC7E* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.SpherePointer>
-struct IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpherePointer_tC2A8206BCD75D9000A30D7BFFF9D464B6D0B9DF8* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Sprite>
-struct IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteAsset>
-struct IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteCharacter>
-struct IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteGlyph>
-struct IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SpriteGlyph_t0BD62F6EB8D19B2C4B246BC436A8F4BF2E0ACA1A* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackFrame>
-struct IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	StackFrame_tB901270D6679ED5D24D872C25D4AD053F22F3443* ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackTrace>
-struct IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	StackTrace_t7C150C7C14136F985311A83A93524B1019F70853* ___current_3;
-};
-
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -1548,6 +439,730 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>
+struct KeyValuePair_2_tC0C2722FB0EC11CEFA541AC26A414A7180F00A5E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>
+struct KeyValuePair_2_t74D8D3B83D269629FD030D4A9E19725133E8AF5E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARAnchor_t832D3D366D3F1D43F995A298974D4EDABACC0E06* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Action>
+struct KeyValuePair_2_t76F3D20D88C3AD45EB49763ADD08CEF86B9AEEF2 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
+struct KeyValuePair_2_t6FBA699E626F0DB5D988252D056F02A4938CF89C 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	bool ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>
+struct KeyValuePair_2_tB2845F04075A02A2470D574323D27DA7B9CF885E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ButtonState_t7703CAE23F3F8452AF8B080406F6B57D44DA9554* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>
+struct KeyValuePair_2_t9DDD52427AF8E866FA1AC23AFEE1E4288D735C9B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>
+struct KeyValuePair_2_t51314A638CF6DFF937699F7CA45FA43E70C552D1 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	CustomEvent_t0C6B1EA5EFA10F1BCE84F589C412D724779CFB84* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>
+struct KeyValuePair_2_tB5CABD9FE1E8EE8184C0A65B2FF391A24000CA16 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Expression_tCF765985229BD440260CA349B7CCD263AEF4A7C6* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
+struct KeyValuePair_2_t1DBA87B6E908F0145995651C3C1F7AFFCF4553EA 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>
+struct KeyValuePair_2_t892CCB9B380FA6AB6AE5170EF15E487945929771 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>
+struct KeyValuePair_2_t220F2250E0FFF7AFDAD7FC4D307681EF5A572031 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	GameObjectCreator_tDF9AA2885CD56972BCC55A96462511147DBF1466* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+struct KeyValuePair_2_t21692FDC79F9AF44D84659557EBC97613BB90DC1 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	GenericJoystickController_t973A6C1908E4F5C9D15B9448798CFF811C3B9A90* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>
+struct KeyValuePair_2_t0FD3AB0A5BA53C729585677DC89621F51327A7D8 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>
+struct KeyValuePair_2_t5D9FA17B9BE88C935786F5305140107611D62993 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ImageTargetObserver_t37CA9AEAE11535DFD06CD5C9D7D2F356A5D20252* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
+struct KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>
+struct KeyValuePair_2_t376970DDC2EE3C97BABBA3028E27C507C454F218 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JToken_t034BD5C010BDF99670727D17139F467527005F66* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>
+struct KeyValuePair_2_t6A4685E5697FF198268A00449EE60A68F9A77BB9 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonProperty_t3BA776ED1EF4760F1DCA10AF343D8E884C34B0B0* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>
+struct KeyValuePair_2_t3C8927C30971328288E36B0BEDAB166C639FDE76 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonSchema_tB4537CF9B9ECCC0584090F88D2F0BB60BBB6527D* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>
+struct KeyValuePair_2_t9A6EBAEC57E7059E0C44BF9F5C94EF64ED383026 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonSchemaModel_t090BAB8841FE387E913C84E609BA6BB7DB9429B9* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>
+struct KeyValuePair_2_t311F1B489A96794DFB418CAF9779AB726602D5B9 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonSchemaNode_tC457E1AED8E7F2E80D88DB9806D0438088928CF4* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>
+struct KeyValuePair_2_t0F607A7AEEC8E08768B64AFDF0FE11CFFFC1F840 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>
+struct KeyValuePair_2_t2FE89B07832B6CB864C66FD2BFA785B296621D70 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	LocalDataStoreSlot_tEE8D2C2A87B7336B3C04BFCF3963F1307EAA2499* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>
+struct KeyValuePair_2_tFDB32FCE729564CCDC57A7FB3995D67C0259FB4D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+struct KeyValuePair_2_tBEE55F2A4574C64393155C322376FD98C7BFC7B9 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>
+struct KeyValuePair_2_t17B49F08EB08B37EBCEFA97BA804188AC393498D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
+struct KeyValuePair_2_t79DB5042D0283B4D0D65958250C08E51C7308FA9 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ReflectionMember_tB69AB792585C9B146DBFDB6BDCA29A864D57D95B* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>
+struct KeyValuePair_2_t71BB7BED5B09D18D087E06CE308FD652FBD536E5 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ResourceSet_tA2F16C08175368D3899938AD0FFCDC07B32B518D* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>
+struct KeyValuePair_2_tEA3ABAD34C257460C13FF9E358164ACD1C3CCF22 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	SchemaNotation_tDA4063F0DD51070BAD94B42C2F44BD1055372269* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
+struct KeyValuePair_2_t730166D708411B4A6E7A81C0F07347F5880B8042 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	float ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>
+struct KeyValuePair_2_t1B3B6FB39CD0CB46CF68672666DD77EFACF57763 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	SpatialAnchor_t2B7F0E6BA6FEB0F93FB9AB810D966C6A18CE35F3* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>
+struct KeyValuePair_2_tECD1A33920EC960E41F27FCAF742E5912DBF9374 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+struct KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	String_t* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>
+struct KeyValuePair_2_tB1FB7D66A4443911322280C025413C7CB2BDB12B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>
+struct KeyValuePair_2_t5E9294D804146FFA4099BF6C6174D3D31C643567 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>
+struct KeyValuePair_2_tFDE9FAF4BD49CA066C50879320D35E9960C816B6 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>
+struct KeyValuePair_2_tD1E7E77D56AB4CF7B473B612E1FC9133168A636B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	TimeZoneInfo_t30FD24E315EC4F4D942AF797CCD4CC4ED6B5CAD8* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>
+struct KeyValuePair_2_tF996035A76141E764844E59AF6450F493F291D6E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	uint32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>
+struct KeyValuePair_2_t2DC05A2DD885489EB51D5F0A99A9C8819AA0D5A5 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>
+struct KeyValuePair_2_t2CB23F9F7C693D6B70458796832FFBE33A88F392 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>
+struct KeyValuePair_2_t30EE4BA67A5ECAE3A147073BAF7788CA4A4A0DE8 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>
+struct KeyValuePair_2_tDF93DDD18A497C8094A1378B2B494EF16C1DF1FC 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	UndeclaredNotation_t82679CBF782A166873D4AA6AE22DFBF9FA2FDC1E* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>
+struct KeyValuePair_2_t5E8D8BB2DA90335A8CE863726472E5F24B11E541 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>
+struct KeyValuePair_2_t04BF6EBDBF9E172E464F140A719186E57AD198A5 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>
+struct KeyValuePair_2_tEC985B7311ADD56B6299DF32D1323C57D8E8A55D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>
+struct KeyValuePair_2_tA1CBE030572D0E393585DA37754BDD480BBF9A44 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	SensorData_tFC9CD50F5EB73E34239B8773015244DA5C34A337* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>
+struct KeyValuePair_2_tEEF4D9B9E241804154E980A85A1295B1F9A6F06E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ConnectionGroup_tCCD63C39E616C7AA50A627F059CF0ED69D58C037* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>
+struct KeyValuePair_2_t7B452FD642C1AE840CDCEE74AF176B17A255FF18 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	SensorData_tBDFD648186813586CA7545D2DE94DD261CFA1C88* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>
+struct KeyValuePair_2_tF91D540B6070B8508F30616C7E6E12F1D0F277BD 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	String_t* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>
+struct KeyValuePair_2_tE0E173E35DA38250EED0149532ECABD0C5D48E07 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Values_t810A8E7A95A5716F91CE1BDC1EE3AD25FE329E24* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>
+struct KeyValuePair_2_t30EB6FB93E8BC9031DBA6FEA43C693DED9AF1766 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	String_t* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>
+struct KeyValuePair_2_t0625B71CE67FB3CD4B24275E69F15B0CAF72DA7E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ObiHeightFieldHandle_tD7CC9F7D2F7F26F675D7A485B7BAB0AEA6F0A2A8* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>
+struct KeyValuePair_2_tC8A979A1EC7BCAE92949F75FE6808F2D2C75E283 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	TextureInfo_t1CEA0DD342E63322DEA32A9C25EB4B01AB000A9F* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>
+struct KeyValuePair_2_tC2ACED936D6DD63D90F6A0EDDC8E2EED6C7FEB29 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	ThemeStateProperty_t1F970AB999BE19D1A6AB2595879A9E9393781AFC* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ThemePropertyValue_tDDED256F8DEE95FFCF5B4BE01EA08299D1478192* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>
+struct KeyValuePair_2_t495DC3A3CB365E3A0B58878F25714571F5F85BB4 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	StackTrace_t7C150C7C14136F985311A83A93524B1019F70853* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>
+struct KeyValuePair_2_tDA5FF933813735B2D9082193C828089F4DA7E077 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	float ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>
+struct KeyValuePair_2_tDFE27FE0B2C9A902157CB0FB5BDEF239C7F8AAE1 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>
+struct KeyValuePair_2_t7929B7D4F18BCEAF819C7BD0503588F87872F0D4 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	PoseCurves_t6550558C84A4779609F9505C9007C465D9B12BFC* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>
+struct KeyValuePair_2_t092EF432B0223F0136788D5993FAF3F8DB98B729 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	BidirectionalDictionary_2_tFEE740B94CEBA1666154DD39344F397A64092BA0* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>
+struct KeyValuePair_2_t5C33ADE34B4D35F927149DC3CF3C48C0D3587D6D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Func_2_t8EF254F70558B5F283D87657FDF195FBF01EACF9* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>
+struct KeyValuePair_2_t0C4A530F9935EC6666CEDDAB178DB18681AD9A9F 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	List_1_tCF77AFE52E0EC9C5233DE6B94C921A5FEBA3F50E* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>
+struct KeyValuePair_2_t116479D801EE3CA89BF05F3E815F11335C42FB74 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
+struct KeyValuePair_2_tF39890F560933C55279FF37E7313CDA273F5C694 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	List_1_tA8D9A7D399445C1F3511FA45583C6550B6F1FFCC* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+struct KeyValuePair_2_t2D0384DAF41BC44F57DFD6A777B63ACD9963DD2C 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	WeakReference_1_t0E52EA5ECE35681407C7718FCABD447C1D90D782* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>
+struct KeyValuePair_2_tE18BE4398A240EE81F6A0769499B679AB4CAAD2F 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	AttributeUsageAttribute_t25F34EEA4F7DBA1A8EEFA0685E986AEECE621C49* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>
+struct KeyValuePair_2_t7147D5E8DBBFC71CDB2E9ECFD56D11A259DFE1BD 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>
+struct KeyValuePair_2_t9D4530568CE873D8250496285BE1BD5A0C09ABEF 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>
+struct KeyValuePair_2_t8989FA042B4E215668854192F580DAB0585A1888 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
+struct KeyValuePair_2_t1885D808E31702DFA8AC176854AB23B01B154905 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>
+struct KeyValuePair_2_tD6622B02F2700395ECF2CAA269BE3337E3722345 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
+struct KeyValuePair_2_t47E6CA88F297D33E0CB7DD1DDCC948C2A372EC14 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ReflectionObject_t244398099DDEE2F50A2C03CF3F5370AB97907956* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>
+struct KeyValuePair_2_t19BEF7C453CD292E1C0BE0C6288CF0ECF5CEA88D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	SerializationEvents_t9F041CF09EEDAA7862FD930BB6C6D6D366E17CB7* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
+struct KeyValuePair_2_tE2F26C748C846D05F0C3DDA5049AEF5259B8E422 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ServiceFacade_tDE2897E0B78C7114E812FB0DB1E421ED27985625* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>
+struct KeyValuePair_2_tEC77CF91980E5E712367BC7411495E13CD9AAD7D 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Type_t* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>
+struct KeyValuePair_2_tEA54C27CCBD02458BB61338EBA4D07805921AE4B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	TypeInformation_tDD3B3F023E4F59438075F37170536824C8D51324* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>
+struct KeyValuePair_2_t192AE90B5CAB71F69CA42088AB5567575E0F4B09 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	VuController_t0E0C6E2A1AE9E9807712554C20C0A0B8B3BB5672* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>
+struct KeyValuePair_2_t60E4847695FFE97E3568FEFD3C7B66BC3B95EB6C 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Union_t8D8BEF332DD21BDC7F6F3EE2D1C8B4EBA5AB1CA7* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>
+struct KeyValuePair_2_tFFE33A0E0B0DDCAFB04D7AFC81E626C3D66D18A2 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	AttributeInfo_t9AE048DE0EC4748F7D8722FA5D5C181F10033BFB* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>
+struct KeyValuePair_2_tA35C81AC150F42D0F16C9C725BF1B8CEC0DDD904 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	BehaviourFromObserverDelegate_t981D2B8B68938732E343E2CA196DAE07DF48D926* ___value_1;
+};
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString>
+struct ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 
+{
+	// TValue[] UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Array
+	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___m_Array_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_StartIndex
+	int32_t ___m_StartIndex_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Length
+	int32_t ___m_Length_2;
+};
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
+struct ReadOnlyArray_1_t1B44D48F2E9F425D218BABD5DE616117E8725D41 
+{
+	// TValue[] UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Array
+	NameAndParametersU5BU5D_tA6C2AC34ACDB1967A7A2CEF4BE1D717ADA695CA2* ___m_Array_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_StartIndex
+	int32_t ___m_StartIndex_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1::m_Length
+	int32_t ___m_Length_2;
+};
+
 // UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
 struct ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 
 {
@@ -1559,45 +1174,101 @@ struct ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9
 	int32_t ___m_Length_2;
 };
 
-// System.IntPtr
-struct IntPtr_t 
+// UnityEngine.Color32
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
 {
-	// System.Void* System.IntPtr::m_value
-	void* ___m_value_0;
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 UnityEngine.Color32::rgba
+			int32_t ___rgba_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte UnityEngine.Color32::r
+			uint8_t ___r_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_2_OffsetPadding[1];
+			// System.Byte UnityEngine.Color32::g
+			uint8_t ___g_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_2_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_3_OffsetPadding[2];
+			// System.Byte UnityEngine.Color32::b
+			uint8_t ___b_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_3_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_4_OffsetPadding[3];
+			// System.Byte UnityEngine.Color32::a
+			uint8_t ___a_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_4_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_4_forAlignmentOnly;
+		};
+	};
 };
 
-// UnityEngine.XR.MeshId
-struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC 
+// UnityEngine.InputSystem.Utilities.FourCC
+struct FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED 
 {
-	// System.UInt64 UnityEngine.XR.MeshId::m_SubId1
-	uint64_t ___m_SubId1_1;
-	// System.UInt64 UnityEngine.XR.MeshId::m_SubId2
-	uint64_t ___m_SubId2_2;
+	// System.Int32 UnityEngine.InputSystem.Utilities.FourCC::m_Code
+	int32_t ___m_Code_0;
 };
 
-// Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction
-struct MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486 
+// UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 
 {
-	// System.UInt32 Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction::id
-	uint32_t ___id_1;
-	// System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction::description
-	String_t* ___description_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.AxisType Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction::axisConstraint
-	int32_t ___axisConstraint_3;
+	// System.String UnityEngine.InputSystem.Utilities.InternedString::m_StringOriginalCase
+	String_t* ___m_StringOriginalCase_0;
+	// System.String UnityEngine.InputSystem.Utilities.InternedString::m_StringLowerCase
+	String_t* ___m_StringLowerCase_1;
 };
-// Native definition for P/Invoke marshalling of Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction
-struct MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke
 {
-	uint32_t ___id_1;
-	char* ___description_2;
-	int32_t ___axisConstraint_3;
+	char* ___m_StringOriginalCase_0;
+	char* ___m_StringLowerCase_1;
 };
-// Native definition for COM marshalling of Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction
-struct MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486_marshaled_com
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.InternedString
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com
 {
-	uint32_t ___id_1;
-	Il2CppChar* ___description_2;
-	int32_t ___axisConstraint_3;
+	Il2CppChar* ___m_StringOriginalCase_0;
+	Il2CppChar* ___m_StringLowerCase_1;
 };
 
 // UnityEngine.InputSystem.Utilities.PrimitiveValue
@@ -2110,52 +1781,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___w_3;
 };
 
-// UnityEngine.UIElements.UIR.RenderChainTextEntry
-struct RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11 
-{
-	// UnityEngine.UIElements.UIR.RenderChainCommand UnityEngine.UIElements.UIR.RenderChainTextEntry::command
-	RenderChainCommand_t4F70E36AF4BC3645C8F9C822B7A3ACE9CB815727* ___command_0;
-	// System.Int32 UnityEngine.UIElements.UIR.RenderChainTextEntry::firstVertex
-	int32_t ___firstVertex_1;
-	// System.Int32 UnityEngine.UIElements.UIR.RenderChainTextEntry::vertexCount
-	int32_t ___vertexCount_2;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.UIElements.UIR.RenderChainTextEntry
-struct RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_pinvoke
-{
-	RenderChainCommand_t4F70E36AF4BC3645C8F9C822B7A3ACE9CB815727* ___command_0;
-	int32_t ___firstVertex_1;
-	int32_t ___vertexCount_2;
-};
-// Native definition for COM marshalling of UnityEngine.UIElements.UIR.RenderChainTextEntry
-struct RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_com
-{
-	RenderChainCommand_t4F70E36AF4BC3645C8F9C822B7A3ACE9CB815727* ___command_0;
-	int32_t ___firstVertex_1;
-	int32_t ___vertexCount_2;
-};
-
-// Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey
-struct ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E 
-{
-	// System.Type Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey::_resolverType
-	Type_t* ____resolverType_0;
-	// System.Type Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey::_contractType
-	Type_t* ____contractType_1;
-};
-// Native definition for P/Invoke marshalling of Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey
-struct ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E_marshaled_pinvoke
-{
-	Type_t* ____resolverType_0;
-	Type_t* ____contractType_1;
-};
-// Native definition for COM marshalling of Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey
-struct ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E_marshaled_com
-{
-	Type_t* ____resolverType_0;
-	Type_t* ____contractType_1;
-};
-
 // System.Resources.ResourceLocator
 struct ResourceLocator_t84F68A0DD2AA185761938E49BBE9B2C46A47E122 
 {
@@ -2177,57 +1802,63 @@ struct ResourceLocator_t84F68A0DD2AA185761938E49BBE9B2C46A47E122_marshaled_com
 	int32_t ____dataPos_1;
 };
 
-// UnityEngine.UIElements.RuleMatcher
-struct RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E 
+// UnityEngine.UIElements.StyleValueHandle
+struct StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D 
 {
-	// UnityEngine.UIElements.StyleSheet UnityEngine.UIElements.RuleMatcher::sheet
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	// UnityEngine.UIElements.StyleComplexSelector UnityEngine.UIElements.RuleMatcher::complexSelector
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_1;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.UIElements.RuleMatcher
-struct RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E_marshaled_pinvoke
-{
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_1;
-};
-// Native definition for COM marshalling of UnityEngine.UIElements.RuleMatcher
-struct RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E_marshaled_com
-{
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_1;
+	// UnityEngine.UIElements.StyleValueType UnityEngine.UIElements.StyleValueHandle::m_ValueType
+	int32_t ___m_ValueType_0;
+	// System.Int32 UnityEngine.UIElements.StyleValueHandle::valueIndex
+	int32_t ___valueIndex_1;
 };
 
-// UnityEngine.SceneManagement.Scene
-struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+// UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849 
 {
-	// System.Int32 UnityEngine.SceneManagement.Scene::m_Handle
-	int32_t ___m_Handle_0;
+	// System.String UnityEngine.InputSystem.Utilities.Substring::m_String
+	String_t* ___m_String_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.Substring::m_Index
+	int32_t ___m_Index_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.Substring::m_Length
+	int32_t ___m_Length_2;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_pinvoke
+{
+	char* ___m_String_0;
+	int32_t ___m_Index_1;
+	int32_t ___m_Length_2;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_com
+{
+	Il2CppChar* ___m_String_0;
+	int32_t ___m_Index_1;
+	int32_t ___m_Length_2;
 };
 
-// UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
-struct SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7 
+// UnityEngine.TerrainUtils.TerrainTileCoord
+struct TerrainTileCoord_t2181DDF40A8A428A84817957CB7FB19A314F4F09 
 {
-	// UnityEngine.UIElements.StyleSheet UnityEngine.UIElements.StyleSheets.SelectorMatchRecord::sheet
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	// System.Int32 UnityEngine.UIElements.StyleSheets.SelectorMatchRecord::styleSheetIndexInStack
-	int32_t ___styleSheetIndexInStack_1;
-	// UnityEngine.UIElements.StyleComplexSelector UnityEngine.UIElements.StyleSheets.SelectorMatchRecord::complexSelector
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_2;
+	// System.Int32 UnityEngine.TerrainUtils.TerrainTileCoord::tileX
+	int32_t ___tileX_0;
+	// System.Int32 UnityEngine.TerrainUtils.TerrainTileCoord::tileZ
+	int32_t ___tileZ_1;
 };
-// Native definition for P/Invoke marshalling of UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
-struct SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7_marshaled_pinvoke
+
+// UnityEngine.UIElements.TextureId
+struct TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 
 {
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	int32_t ___styleSheetIndexInStack_1;
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_2;
+	// System.Int32 UnityEngine.UIElements.TextureId::m_Index
+	int32_t ___m_Index_0;
 };
-// Native definition for COM marshalling of UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
-struct SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7_marshaled_com
+
+// UnityEngine.XR.ARSubsystems.TrackableId
+struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 
 {
-	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
-	int32_t ___styleSheetIndexInStack_1;
-	StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD* ___complexSelector_2;
+	// System.UInt64 UnityEngine.XR.ARSubsystems.TrackableId::m_SubId1
+	uint64_t ___m_SubId1_2;
+	// System.UInt64 UnityEngine.XR.ARSubsystems.TrackableId::m_SubId2
+	uint64_t ___m_SubId2_3;
 };
 
 // UnityEngine.Vector2
@@ -2237,6 +1868,15 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___x_0;
 	// System.Single UnityEngine.Vector2::y
 	float ___y_1;
+};
+
+// UnityEngine.Vector2Int
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	// System.Int32 UnityEngine.Vector2Int::m_X
+	int32_t ___m_X_0;
+	// System.Int32 UnityEngine.Vector2Int::m_Y
+	int32_t ___m_Y_1;
 };
 
 // UnityEngine.Vector3
@@ -2250,8 +1890,100 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___z_4;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshId>
-struct IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F  : public RuntimeObject
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	// System.Single UnityEngine.Vector4::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector4::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector4::z
+	float ___z_3;
+	// System.Single UnityEngine.Vector4::w
+	float ___w_4;
+};
+
+// Vuforia.ConfigData/CylinderTargetData
+struct CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9 
+{
+	// System.String Vuforia.ConfigData/CylinderTargetData::name
+	String_t* ___name_0;
+	// System.Single Vuforia.ConfigData/CylinderTargetData::sideLength
+	float ___sideLength_1;
+	// System.Single Vuforia.ConfigData/CylinderTargetData::topDiameter
+	float ___topDiameter_2;
+	// System.Single Vuforia.ConfigData/CylinderTargetData::bottomDiameter
+	float ___bottomDiameter_3;
+	// System.String Vuforia.ConfigData/CylinderTargetData::previewSide
+	String_t* ___previewSide_4;
+	// System.String Vuforia.ConfigData/CylinderTargetData::previewTop
+	String_t* ___previewTop_5;
+	// System.String Vuforia.ConfigData/CylinderTargetData::previewBottom
+	String_t* ___previewBottom_6;
+};
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/CylinderTargetData
+struct CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9_marshaled_pinvoke
+{
+	char* ___name_0;
+	float ___sideLength_1;
+	float ___topDiameter_2;
+	float ___bottomDiameter_3;
+	char* ___previewSide_4;
+	char* ___previewTop_5;
+	char* ___previewBottom_6;
+};
+// Native definition for COM marshalling of Vuforia.ConfigData/CylinderTargetData
+struct CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9_marshaled_com
+{
+	Il2CppChar* ___name_0;
+	float ___sideLength_1;
+	float ___topDiameter_2;
+	float ___bottomDiameter_3;
+	Il2CppChar* ___previewSide_4;
+	Il2CppChar* ___previewTop_5;
+	Il2CppChar* ___previewBottom_6;
+};
+
+// Vuforia.ConfigData/MultiTargetData
+struct MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD 
+{
+	// System.Collections.Generic.List`1<Vuforia.ConfigData/MultiTargetPartData> Vuforia.ConfigData/MultiTargetData::parts
+	List_1_t86DE555F7234D971C3FF4F1C74A8631E8498BFEA* ___parts_0;
+};
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/MultiTargetData
+struct MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD_marshaled_pinvoke
+{
+	List_1_t86DE555F7234D971C3FF4F1C74A8631E8498BFEA* ___parts_0;
+};
+// Native definition for COM marshalling of Vuforia.ConfigData/MultiTargetData
+struct MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD_marshaled_com
+{
+	List_1_t86DE555F7234D971C3FF4F1C74A8631E8498BFEA* ___parts_0;
+};
+
+// UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
+struct PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8 
+{
+	// UnityEngine.UIElements.PseudoStates UnityEngine.UIElements.StyleComplexSelector/PseudoStateData::state
+	int32_t ___state_0;
+	// System.Boolean UnityEngine.UIElements.StyleComplexSelector/PseudoStateData::negate
+	bool ___negate_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
+struct PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8_marshaled_pinvoke
+{
+	int32_t ___state_0;
+	int32_t ___negate_1;
+};
+// Native definition for COM marshalling of UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
+struct PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8_marshaled_com
+{
+	int32_t ___state_0;
+	int32_t ___negate_1;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>>
+struct IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2260,11 +1992,11 @@ struct IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___current_3;
+	KeyValuePair_2_tC0C2722FB0EC11CEFA541AC26A414A7180F00A5E ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction>
-struct IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2273,11 +2005,11 @@ struct IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486 ___current_3;
+	KeyValuePair_2_t74D8D3B83D269629FD030D4A9E19725133E8AF5E ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChainTextEntry>
-struct IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Action>>
+struct IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2286,11 +2018,11 @@ struct IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11 ___current_3;
+	KeyValuePair_2_t76F3D20D88C3AD45EB49763ADD08CEF86B9AEEF2 ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>
-struct IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
+struct IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2299,11 +2031,11 @@ struct IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ResolverContractKey_tE2D82D8CA1856116845C671153EF76D834A7B45E ___current_3;
+	KeyValuePair_2_t6FBA699E626F0DB5D988252D056F02A4938CF89C ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceLocator>
-struct IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>>
+struct IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2312,11 +2044,11 @@ struct IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ResourceLocator_t84F68A0DD2AA185761938E49BBE9B2C46A47E122 ___current_3;
+	KeyValuePair_2_tB2845F04075A02A2470D574323D27DA7B9CF885E ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RuleMatcher>
-struct IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>>
+struct IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2325,11 +2057,11 @@ struct IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RuleMatcher_t327CFEB02C81AA20E639DE949DCBBAB5E92FF28E ___current_3;
+	KeyValuePair_2_t9DDD52427AF8E866FA1AC23AFEE1E4288D735C9B ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.SceneManagement.Scene>
-struct IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>>
+struct IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2338,11 +2070,11 @@ struct IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Scene_tA1DC762B79745EB5140F054C884855B922318356 ___current_3;
+	KeyValuePair_2_t51314A638CF6DFF937699F7CA45FA43E70C552D1 ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>
-struct IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>>
+struct IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2351,33 +2083,1088 @@ struct IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SelectorMatchRecord_t1E93CDB54312CFB4A67768BB25ABB9AFB31BC5D7 ___current_3;
+	KeyValuePair_2_tB5CABD9FE1E8EE8184C0A65B2FF391A24000CA16 ___current_3;
 };
 
-// UnityEngine.XR.MeshInfo
-struct MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA 
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>>
+struct IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF  : public RuntimeObject
 {
-	// UnityEngine.XR.MeshId UnityEngine.XR.MeshInfo::<MeshId>k__BackingField
-	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___U3CMeshIdU3Ek__BackingField_0;
-	// UnityEngine.XR.MeshChangeState UnityEngine.XR.MeshInfo::<ChangeState>k__BackingField
-	int32_t ___U3CChangeStateU3Ek__BackingField_1;
-	// System.Int32 UnityEngine.XR.MeshInfo::<PriorityHint>k__BackingField
-	int32_t ___U3CPriorityHintU3Ek__BackingField_2;
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t1DBA87B6E908F0145995651C3C1F7AFFCF4553EA ___current_3;
 };
 
-// UnityEngine.XR.MeshTransform
-struct MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A 
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>>
+struct IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288  : public RuntimeObject
 {
-	// UnityEngine.XR.MeshId UnityEngine.XR.MeshTransform::<MeshId>k__BackingField
-	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___U3CMeshIdU3Ek__BackingField_0;
-	// System.UInt64 UnityEngine.XR.MeshTransform::<Timestamp>k__BackingField
-	uint64_t ___U3CTimestampU3Ek__BackingField_1;
-	// UnityEngine.Vector3 UnityEngine.XR.MeshTransform::<Position>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CPositionU3Ek__BackingField_2;
-	// UnityEngine.Quaternion UnityEngine.XR.MeshTransform::<Rotation>k__BackingField
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CRotationU3Ek__BackingField_3;
-	// UnityEngine.Vector3 UnityEngine.XR.MeshTransform::<Scale>k__BackingField
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CScaleU3Ek__BackingField_4;
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t892CCB9B380FA6AB6AE5170EF15E487945929771 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>>
+struct IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t220F2250E0FFF7AFDAD7FC4D307681EF5A572031 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>>
+struct IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t21692FDC79F9AF44D84659557EBC97613BB90DC1 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>>
+struct IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0FD3AB0A5BA53C729585677DC89621F51327A7D8 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>>
+struct IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t5D9FA17B9BE88C935786F5305140107611D62993 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
+struct IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>>
+struct IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t376970DDC2EE3C97BABBA3028E27C507C454F218 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>>
+struct IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t6A4685E5697FF198268A00449EE60A68F9A77BB9 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>>
+struct IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t3C8927C30971328288E36B0BEDAB166C639FDE76 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>>
+struct IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t9A6EBAEC57E7059E0C44BF9F5C94EF64ED383026 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>>
+struct IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t311F1B489A96794DFB418CAF9779AB726602D5B9 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>>
+struct IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0F607A7AEEC8E08768B64AFDF0FE11CFFFC1F840 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>>
+struct IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t2FE89B07832B6CB864C66FD2BFA785B296621D70 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>>
+struct IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tFDB32FCE729564CCDC57A7FB3995D67C0259FB4D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tBEE55F2A4574C64393155C322376FD98C7BFC7B9 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>>
+struct IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t17B49F08EB08B37EBCEFA97BA804188AC393498D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>>
+struct IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t79DB5042D0283B4D0D65958250C08E51C7308FA9 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>>
+struct IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t71BB7BED5B09D18D087E06CE308FD652FBD536E5 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>>
+struct IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEA3ABAD34C257460C13FF9E358164ACD1C3CCF22 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
+struct IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t730166D708411B4A6E7A81C0F07347F5880B8042 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t1B3B6FB39CD0CB46CF68672666DD77EFACF57763 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>>
+struct IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tECD1A33920EC960E41F27FCAF742E5912DBF9374 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>>
+struct IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tB1FB7D66A4443911322280C025413C7CB2BDB12B ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>>
+struct IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t5E9294D804146FFA4099BF6C6174D3D31C643567 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>>
+struct IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tFDE9FAF4BD49CA066C50879320D35E9960C816B6 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tD1E7E77D56AB4CF7B473B612E1FC9133168A636B ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>>
+struct IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tF996035A76141E764844E59AF6450F493F291D6E ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>>
+struct IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t2DC05A2DD885489EB51D5F0A99A9C8819AA0D5A5 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>>
+struct IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t2CB23F9F7C693D6B70458796832FFBE33A88F392 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>>
+struct IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t30EE4BA67A5ECAE3A147073BAF7788CA4A4A0DE8 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>>
+struct IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tDF93DDD18A497C8094A1378B2B494EF16C1DF1FC ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t5E8D8BB2DA90335A8CE863726472E5F24B11E541 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t04BF6EBDBF9E172E464F140A719186E57AD198A5 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>>
+struct IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEC985B7311ADD56B6299DF32D1323C57D8E8A55D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>>
+struct IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tA1CBE030572D0E393585DA37754BDD480BBF9A44 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>>
+struct IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEEF4D9B9E241804154E980A85A1295B1F9A6F06E ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>>
+struct IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t7B452FD642C1AE840CDCEE74AF176B17A255FF18 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tF91D540B6070B8508F30616C7E6E12F1D0F277BD ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>>
+struct IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tE0E173E35DA38250EED0149532ECABD0C5D48E07 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t30EB6FB93E8BC9031DBA6FEA43C693DED9AF1766 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>>
+struct IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0625B71CE67FB3CD4B24275E69F15B0CAF72DA7E ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tC8A979A1EC7BCAE92949F75FE6808F2D2C75E283 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>>
+struct IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tC2ACED936D6DD63D90F6A0EDDC8E2EED6C7FEB29 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>>
+struct IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t495DC3A3CB365E3A0B58878F25714571F5F85BB4 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>>
+struct IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tDA5FF933813735B2D9082193C828089F4DA7E077 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>>
+struct IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tDFE27FE0B2C9A902157CB0FB5BDEF239C7F8AAE1 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>>
+struct IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t7929B7D4F18BCEAF819C7BD0503588F87872F0D4 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>>
+struct IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t092EF432B0223F0136788D5993FAF3F8DB98B729 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>>
+struct IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t5C33ADE34B4D35F927149DC3CF3C48C0D3587D6D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>>
+struct IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0C4A530F9935EC6666CEDDAB178DB18681AD9A9F ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>>
+struct IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t116479D801EE3CA89BF05F3E815F11335C42FB74 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>>
+struct IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tF39890F560933C55279FF37E7313CDA273F5C694 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>>
+struct IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t2D0384DAF41BC44F57DFD6A777B63ACD9963DD2C ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>>
+struct IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tE18BE4398A240EE81F6A0769499B679AB4CAAD2F ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+struct IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t7147D5E8DBBFC71CDB2E9ECFD56D11A259DFE1BD ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>>
+struct IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t9D4530568CE873D8250496285BE1BD5A0C09ABEF ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>>
+struct IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t8989FA042B4E215668854192F580DAB0585A1888 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>>
+struct IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t1885D808E31702DFA8AC176854AB23B01B154905 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>>
+struct IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tD6622B02F2700395ECF2CAA269BE3337E3722345 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>>
+struct IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t47E6CA88F297D33E0CB7DD1DDCC948C2A372EC14 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>>
+struct IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t19BEF7C453CD292E1C0BE0C6288CF0ECF5CEA88D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>>
+struct IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tE2F26C748C846D05F0C3DDA5049AEF5259B8E422 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>>
+struct IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEC77CF91980E5E712367BC7411495E13CD9AAD7D ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>>
+struct IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEA54C27CCBD02458BB61338EBA4D07805921AE4B ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>>
+struct IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t192AE90B5CAB71F69CA42088AB5567575E0F4B09 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>>
+struct IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t60E4847695FFE97E3568FEFD3C7B66BC3B95EB6C ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tFFE33A0E0B0DDCAFB04D7AFC81E626C3D66D18A2 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tA35C81AC150F42D0F16C9C725BF1B8CEC0DDD904 ___current_3;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>
+struct KeyValuePair_2_t1A8FABA811EFD77613B70864A83B5B1364C74B98 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>
+struct KeyValuePair_2_t1A05D497B9BE981D1DEB77C47E504EF7A884BD5E 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ResourceLocator_t84F68A0DD2AA185761938E49BBE9B2C46A47E122 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>
+struct KeyValuePair_2_tB4BA5F194309B3877384DBBBC70F1A041CFA4A69 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>
+struct KeyValuePair_2_t0AF6308DD8440B30BDE16D40BED57FAF4719C6E3 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	CylinderTargetData_t44BC2130A9D17AF0DA730F85E07FD43BB6104FE9 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>
+struct KeyValuePair_2_tCC730A133591F3BAF61075E89437EA36147DBA42 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	MultiTargetData_t06F442BF6288A84E28C091779A69B363A9E58EDD ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>
+struct KeyValuePair_2_t9525C8AC2D0B639B94FE367E7473C472DAB6A183 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	PseudoStateData_tE5B3EBF682E8DE88E9325F44841D5B95FEB6F3A8 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>
+struct KeyValuePair_2_t69A51C36FF679E64375AD7C88BC0B6EC664E71E3 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TerrainTileCoord_t2181DDF40A8A428A84817957CB7FB19A314F4F09 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>
+struct KeyValuePair_2_t6E717143F503B2DBD5DE0A81418D4F75AED25D64 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>
+struct KeyValuePair_2_t2EECA291E1D5C2F76AACF45D85FFD7493C692660 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARAnchor_t832D3D366D3F1D43F995A298974D4EDABACC0E06* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>
+struct KeyValuePair_2_tD6E3A15030F740BECFDEFA00CA56809CFBC3FCDD 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	AREnvironmentProbe_t8DEA824ECD1C0D4A827F6960AB661FBD8E7FEECB* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>
+struct KeyValuePair_2_tD7E059BFBE1BF83B12A8CD28EEAF96FF90E92B13 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>
+struct KeyValuePair_2_tC0F68EF2993631406DA87D846AD52EBD612B5FA2 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARHumanBody_t0BF65EB4E08787EC83A31FCD744FCF2BFB81A1BE* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>
+struct KeyValuePair_2_t6EC6D681E3F23EABB351BDC4EC260CECB799D716 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARParticipant_t96678E5B07E308E9F6BEBB28B642D9B5FB31223D* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>
+struct KeyValuePair_2_tF4103E1E436E82040535A2C299BE9A183DB1BCA6 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>
+struct KeyValuePair_2_t949107A86077D4A37F445699731B5EBB1EF06C06 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARPointCloud_t884F66E095A8DEA1E8207FBF9E15F98D7C75B1F2* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>
+struct KeyValuePair_2_tEE7BF9D8FE8B1DD8D5EED88A0A77CB25F784C035 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARRaycast_t141143E16F40B1580060317DA867423FF2624E76* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>
+struct KeyValuePair_2_t0AFFEE2F11C80BD2221C451973C33C25A54CF75B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARReferencePoint_t15CC64893A2374DB16197BD2138990BA22FC937A* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>
+struct KeyValuePair_2_tFAB38D07E7BCD97D01652C71C07ED66FFA2D4EA9 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARTrackedImage_tC1D6394277D354FB2B952C6D5CAB62140AA455C2* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>
+struct KeyValuePair_2_tFC7B00A2D42E78C4DDB7B2ADCA77E967EC139AB7 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ARTrackedObject_t31A67C6A4BA10E7CAC4EF69D5C2BB2E4C72D1FEB* ___value_1;
 };
 
 // Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose
@@ -2389,410 +3176,363 @@ struct MixedRealityPose_tE60115C271AC50B8C11BA3B404BFCA99C7B2EFF5
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_2;
 };
 
-// UnityEngine.InputSystem.Utilities.NameAndParameters
-struct NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01 
+// UnityEngine.UIElements.StyleSheets.StylePropertyValue
+struct StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2 
 {
-	// System.String UnityEngine.InputSystem.Utilities.NameAndParameters::<name>k__BackingField
-	String_t* ___U3CnameU3Ek__BackingField_0;
-	// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> UnityEngine.InputSystem.Utilities.NameAndParameters::<parameters>k__BackingField
-	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_1;
+	// UnityEngine.UIElements.StyleSheet UnityEngine.UIElements.StyleSheets.StylePropertyValue::sheet
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
+	// UnityEngine.UIElements.StyleValueHandle UnityEngine.UIElements.StyleSheets.StylePropertyValue::handle
+	StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D ___handle_1;
 };
-// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.NameAndParameters
-struct NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of UnityEngine.UIElements.StyleSheets.StylePropertyValue
+struct StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2_marshaled_pinvoke
 {
-	char* ___U3CnameU3Ek__BackingField_0;
-	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_1;
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
+	StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D ___handle_1;
 };
-// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.NameAndParameters
-struct NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01_marshaled_com
+// Native definition for COM marshalling of UnityEngine.UIElements.StyleSheets.StylePropertyValue
+struct StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2_marshaled_com
 {
-	Il2CppChar* ___U3CnameU3Ek__BackingField_0;
-	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_1;
-};
-
-// UnityEngine.InputSystem.Utilities.NamedValue
-struct NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED 
-{
-	// System.String UnityEngine.InputSystem.Utilities.NamedValue::<name>k__BackingField
-	String_t* ___U3CnameU3Ek__BackingField_1;
-	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.Utilities.NamedValue::<value>k__BackingField
-	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___U3CvalueU3Ek__BackingField_2;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.NamedValue
-struct NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED_marshaled_pinvoke
-{
-	char* ___U3CnameU3Ek__BackingField_1;
-	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke ___U3CvalueU3Ek__BackingField_2;
-};
-// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.NamedValue
-struct NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED_marshaled_com
-{
-	Il2CppChar* ___U3CnameU3Ek__BackingField_1;
-	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com ___U3CvalueU3Ek__BackingField_2;
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___sheet_0;
+	StyleValueHandle_t5831643AAA7AD8C5C43A4498C5E0A2545F78227D ___handle_1;
 };
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+// Vuforia.ConfigData/AreaTargetData
+struct AreaTargetData_tAF1E1697E6D7C71E030BC00BA36F0462C459A116 
 {
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
+	// System.String Vuforia.ConfigData/AreaTargetData::name
+	String_t* ___name_0;
+	// System.String Vuforia.ConfigData/AreaTargetData::targetID
+	String_t* ___targetID_1;
+	// UnityEngine.Vector3 Vuforia.ConfigData/AreaTargetData::bboxMin
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_2;
+	// UnityEngine.Vector3 Vuforia.ConfigData/AreaTargetData::bboxMax
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_3;
+	// System.String Vuforia.ConfigData/AreaTargetData::authoringModelPath
+	String_t* ___authoringModelPath_4;
+	// System.String Vuforia.ConfigData/AreaTargetData::occlusionModelPath
+	String_t* ___occlusionModelPath_5;
+	// System.String Vuforia.ConfigData/AreaTargetData::navMeshModelPath
+	String_t* ___navMeshModelPath_6;
+	// System.String Vuforia.ConfigData/AreaTargetData::version
+	String_t* ___version_7;
 };
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/AreaTargetData
+struct AreaTargetData_tAF1E1697E6D7C71E030BC00BA36F0462C459A116_marshaled_pinvoke
 {
-	intptr_t ___m_CachedPtr_0;
+	char* ___name_0;
+	char* ___targetID_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_3;
+	char* ___authoringModelPath_4;
+	char* ___occlusionModelPath_5;
+	char* ___navMeshModelPath_6;
+	char* ___version_7;
 };
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+// Native definition for COM marshalling of Vuforia.ConfigData/AreaTargetData
+struct AreaTargetData_tAF1E1697E6D7C71E030BC00BA36F0462C459A116_marshaled_com
 {
-	intptr_t ___m_CachedPtr_0;
-};
-
-// UnityEngine.Pose
-struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
-{
-	// UnityEngine.Vector3 UnityEngine.Pose::position
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_0;
-	// UnityEngine.Quaternion UnityEngine.Pose::rotation
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_1;
-};
-
-// UnityEngine.Ray
-struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
-{
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin_0;
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction_1;
-};
-
-// UnityEngine.RaycastHit
-struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
-{
-	// UnityEngine.Vector3 UnityEngine.RaycastHit::m_Point
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point_0;
-	// UnityEngine.Vector3 UnityEngine.RaycastHit::m_Normal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_1;
-	// System.UInt32 UnityEngine.RaycastHit::m_FaceID
-	uint32_t ___m_FaceID_2;
-	// System.Single UnityEngine.RaycastHit::m_Distance
-	float ___m_Distance_3;
-	// UnityEngine.Vector2 UnityEngine.RaycastHit::m_UV
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV_4;
-	// System.Int32 UnityEngine.RaycastHit::m_Collider
-	int32_t ___m_Collider_5;
+	Il2CppChar* ___name_0;
+	Il2CppChar* ___targetID_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_3;
+	Il2CppChar* ___authoringModelPath_4;
+	Il2CppChar* ___occlusionModelPath_5;
+	Il2CppChar* ___navMeshModelPath_6;
+	Il2CppChar* ___version_7;
 };
 
-// UnityEngine.RaycastHit2D
-struct RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA 
+// Vuforia.ConfigData/ImageTargetData
+struct ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B 
 {
-	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Centroid
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Centroid_0;
-	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Point
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Point_1;
-	// UnityEngine.Vector2 UnityEngine.RaycastHit2D::m_Normal
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Normal_2;
-	// System.Single UnityEngine.RaycastHit2D::m_Distance
-	float ___m_Distance_3;
-	// System.Single UnityEngine.RaycastHit2D::m_Fraction
-	float ___m_Fraction_4;
-	// System.Int32 UnityEngine.RaycastHit2D::m_Collider
-	int32_t ___m_Collider_5;
+	// UnityEngine.Vector2 Vuforia.ConfigData/ImageTargetData::size
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_0;
+	// System.Collections.Generic.List`1<Vuforia.ConfigData/VirtualButtonData> Vuforia.ConfigData/ImageTargetData::virtualButtons
+	List_1_tFBF6622ACFA21196D1439E941B05AD68D6F8B154* ___virtualButtons_1;
+	// System.String Vuforia.ConfigData/ImageTargetData::previewImage
+	String_t* ___previewImage_2;
+};
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/ImageTargetData
+struct ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B_marshaled_pinvoke
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_0;
+	List_1_tFBF6622ACFA21196D1439E941B05AD68D6F8B154* ___virtualButtons_1;
+	char* ___previewImage_2;
+};
+// Native definition for COM marshalling of Vuforia.ConfigData/ImageTargetData
+struct ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B_marshaled_com
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_0;
+	List_1_tFBF6622ACFA21196D1439E941B05AD68D6F8B154* ___virtualButtons_1;
+	Il2CppChar* ___previewImage_2;
 };
 
-// UnityEngine.EventSystems.RaycastResult
-struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+// Vuforia.ConfigData/ModelTargetData
+struct ModelTargetData_t9ADFCD29536760032C777CDBCA3E86026138610D 
 {
-	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	// UnityEngine.EventSystems.BaseRaycaster UnityEngine.EventSystems.RaycastResult::module
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	// System.Single UnityEngine.EventSystems.RaycastResult::distance
-	float ___distance_2;
-	// System.Single UnityEngine.EventSystems.RaycastResult::index
-	float ___index_3;
-	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
-	int32_t ___depth_4;
-	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
-	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
-	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	// System.String Vuforia.ConfigData/ModelTargetData::name
+	String_t* ___name_0;
+	// System.String Vuforia.ConfigData/ModelTargetData::targetID
+	String_t* ___targetID_1;
+	// UnityEngine.Vector3 Vuforia.ConfigData/ModelTargetData::size
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_2;
+	// UnityEngine.Vector3 Vuforia.ConfigData/ModelTargetData::bboxMin
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_3;
+	// UnityEngine.Vector3 Vuforia.ConfigData/ModelTargetData::bboxMax
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_4;
+	// System.String[] Vuforia.ConfigData/ModelTargetData::guideViewNames
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___guideViewNames_5;
+	// System.Boolean Vuforia.ConfigData/ModelTargetData::lowPower
+	bool ___lowPower_6;
+	// System.Int32[] Vuforia.ConfigData/ModelTargetData::version
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___version_7;
+	// System.Boolean Vuforia.ConfigData/ModelTargetData::hasRealisticTextures
+	bool ___hasRealisticTextures_8;
+	// System.String Vuforia.ConfigData/ModelTargetData::previewImage
+	String_t* ___previewImage_9;
+	// System.String Vuforia.ConfigData/ModelTargetData::assemblyId
+	String_t* ___assemblyId_10;
+	// System.Boolean Vuforia.ConfigData/ModelTargetData::containsTrainedEntryPoint
+	bool ___containsTrainedEntryPoint_11;
+	// System.Boolean Vuforia.ConfigData/ModelTargetData::containsMTDatabase
+	bool ___containsMTDatabase_12;
 };
-// Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
-struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/ModelTargetData
+struct ModelTargetData_t9ADFCD29536760032C777CDBCA3E86026138610D_marshaled_pinvoke
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	float ___distance_2;
-	float ___index_3;
-	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	char* ___name_0;
+	char* ___targetID_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_3;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_4;
+	char** ___guideViewNames_5;
+	int32_t ___lowPower_6;
+	Il2CppSafeArray/*NONE*/* ___version_7;
+	int32_t ___hasRealisticTextures_8;
+	char* ___previewImage_9;
+	char* ___assemblyId_10;
+	int32_t ___containsTrainedEntryPoint_11;
+	int32_t ___containsMTDatabase_12;
 };
-// Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
-struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+// Native definition for COM marshalling of Vuforia.ConfigData/ModelTargetData
+struct ModelTargetData_t9ADFCD29536760032C777CDBCA3E86026138610D_marshaled_com
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject_0;
-	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module_1;
-	float ___distance_2;
-	float ___index_3;
-	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
-};
-
-// Microsoft.MixedReality.Toolkit.UI.ShaderProperties
-struct ShaderProperties_t3BCECD85FABDCE76938D89349C2E0DB19917BCF3 
-{
-	// System.String Microsoft.MixedReality.Toolkit.UI.ShaderProperties::Name
-	String_t* ___Name_0;
-	// Microsoft.MixedReality.Toolkit.UI.ShaderPropertyType Microsoft.MixedReality.Toolkit.UI.ShaderProperties::Type
-	int32_t ___Type_1;
-	// UnityEngine.Vector2 Microsoft.MixedReality.Toolkit.UI.ShaderProperties::Range
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Range_2;
-};
-// Native definition for P/Invoke marshalling of Microsoft.MixedReality.Toolkit.UI.ShaderProperties
-struct ShaderProperties_t3BCECD85FABDCE76938D89349C2E0DB19917BCF3_marshaled_pinvoke
-{
-	char* ___Name_0;
-	int32_t ___Type_1;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Range_2;
-};
-// Native definition for COM marshalling of Microsoft.MixedReality.Toolkit.UI.ShaderProperties
-struct ShaderProperties_t3BCECD85FABDCE76938D89349C2E0DB19917BCF3_marshaled_com
-{
-	Il2CppChar* ___Name_0;
-	int32_t ___Type_1;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Range_2;
+	Il2CppChar* ___name_0;
+	Il2CppChar* ___targetID_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMin_3;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___bboxMax_4;
+	Il2CppChar** ___guideViewNames_5;
+	int32_t ___lowPower_6;
+	Il2CppSafeArray/*NONE*/* ___version_7;
+	int32_t ___hasRealisticTextures_8;
+	Il2CppChar* ___previewImage_9;
+	Il2CppChar* ___assemblyId_10;
+	int32_t ___containsTrainedEntryPoint_11;
+	int32_t ___containsMTDatabase_12;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshInfo>
-struct IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1  : public RuntimeObject
+// Vuforia.ConfigData/ValidationAreaData
+struct ValidationAreaData_t3F6B02113A782A8A075E017133DD63C669357F3C 
 {
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshInfo_t0BB7A8C2C586FD5EAD40E9E4E1749150915FDFFA ___current_3;
+	// System.String Vuforia.ConfigData/ValidationAreaData::name
+	String_t* ___name_0;
+	// UnityEngine.Vector3 Vuforia.ConfigData/ValidationAreaData::size
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_1;
+	// UnityEngine.Vector3 Vuforia.ConfigData/ValidationAreaData::translation
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation_2;
+	// UnityEngine.Quaternion Vuforia.ConfigData/ValidationAreaData::rotation
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_3;
+	// System.String[] Vuforia.ConfigData/ValidationAreaData::availableLabels
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___availableLabels_4;
+};
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/ValidationAreaData
+struct ValidationAreaData_t3F6B02113A782A8A075E017133DD63C669357F3C_marshaled_pinvoke
+{
+	char* ___name_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation_2;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_3;
+	char** ___availableLabels_4;
+};
+// Native definition for COM marshalling of Vuforia.ConfigData/ValidationAreaData
+struct ValidationAreaData_t3F6B02113A782A8A075E017133DD63C669357F3C_marshaled_com
+{
+	Il2CppChar* ___name_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___size_1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation_2;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_3;
+	Il2CppChar** ___availableLabels_4;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshTransform>
-struct IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB  : public RuntimeObject
+// Vuforia.ConfigData/VuMarkData
+struct VuMarkData_tCA2C474941EB81B41AE716F777CE97F870A655F1 
 {
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MeshTransform_t669BDD0278EB7AC2976F16FD341CC1C4747FAA6A ___current_3;
+	// System.String Vuforia.ConfigData/VuMarkData::name
+	String_t* ___name_0;
+	// UnityEngine.Vector2 Vuforia.ConfigData/VuMarkData::size
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_1;
+	// System.String Vuforia.ConfigData/VuMarkData::previewImage
+	String_t* ___previewImage_2;
+	// UnityEngine.Vector4 Vuforia.ConfigData/VuMarkData::boundingBox2D
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___boundingBox2D_3;
+	// UnityEngine.Vector2 Vuforia.ConfigData/VuMarkData::origin
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___origin_4;
+	// Vuforia.InstanceIdType Vuforia.ConfigData/VuMarkData::idType
+	int32_t ___idType_5;
+	// System.Int32 Vuforia.ConfigData/VuMarkData::idLength
+	int32_t ___idLength_6;
+	// System.Int32 Vuforia.ConfigData/VuMarkData::maxId
+	int32_t ___maxId_7;
+};
+// Native definition for P/Invoke marshalling of Vuforia.ConfigData/VuMarkData
+struct VuMarkData_tCA2C474941EB81B41AE716F777CE97F870A655F1_marshaled_pinvoke
+{
+	char* ___name_0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_1;
+	char* ___previewImage_2;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___boundingBox2D_3;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___origin_4;
+	int32_t ___idType_5;
+	int32_t ___idLength_6;
+	int32_t ___maxId_7;
+};
+// Native definition for COM marshalling of Vuforia.ConfigData/VuMarkData
+struct VuMarkData_tCA2C474941EB81B41AE716F777CE97F870A655F1_marshaled_com
+{
+	Il2CppChar* ___name_0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size_1;
+	Il2CppChar* ___previewImage_2;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___boundingBox2D_3;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___origin_4;
+	int32_t ___idType_5;
+	int32_t ___idLength_6;
+	int32_t ___maxId_7;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
-struct IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D  : public RuntimeObject
+// UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
+struct ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD 
 {
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	MixedRealityPose_tE60115C271AC50B8C11BA3B404BFCA99C7B2EFF5 ___current_3;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<name>k__BackingField
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___U3CnameU3Ek__BackingField_0;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<layout>k__BackingField
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___U3ClayoutU3Ek__BackingField_1;
+	// UnityEngine.InputSystem.Utilities.InternedString UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<variants>k__BackingField
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___U3CvariantsU3Ek__BackingField_2;
+	// System.String UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<useStateFrom>k__BackingField
+	String_t* ___U3CuseStateFromU3Ek__BackingField_3;
+	// System.String UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<displayName>k__BackingField
+	String_t* ___U3CdisplayNameU3Ek__BackingField_4;
+	// System.String UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<shortDisplayName>k__BackingField
+	String_t* ___U3CshortDisplayNameU3Ek__BackingField_5;
+	// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<usages>k__BackingField
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CusagesU3Ek__BackingField_6;
+	// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString> UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<aliases>k__BackingField
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CaliasesU3Ek__BackingField_7;
+	// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue> UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<parameters>k__BackingField
+	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_8;
+	// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters> UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<processors>k__BackingField
+	ReadOnlyArray_1_t1B44D48F2E9F425D218BABD5DE616117E8725D41 ___U3CprocessorsU3Ek__BackingField_9;
+	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<offset>k__BackingField
+	uint32_t ___U3CoffsetU3Ek__BackingField_10;
+	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<bit>k__BackingField
+	uint32_t ___U3CbitU3Ek__BackingField_11;
+	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<sizeInBits>k__BackingField
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_12;
+	// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<format>k__BackingField
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField_13;
+	// UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem/Flags UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<flags>k__BackingField
+	int32_t ___U3CflagsU3Ek__BackingField_14;
+	// System.Int32 UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<arraySize>k__BackingField
+	int32_t ___U3CarraySizeU3Ek__BackingField_15;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<defaultState>k__BackingField
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___U3CdefaultStateU3Ek__BackingField_16;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<minValue>k__BackingField
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___U3CminValueU3Ek__BackingField_17;
+	// UnityEngine.InputSystem.Utilities.PrimitiveValue UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem::<maxValue>k__BackingField
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___U3CmaxValueU3Ek__BackingField_18;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
+struct ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD_marshaled_pinvoke
+{
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke ___U3CnameU3Ek__BackingField_0;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke ___U3ClayoutU3Ek__BackingField_1;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke ___U3CvariantsU3Ek__BackingField_2;
+	char* ___U3CuseStateFromU3Ek__BackingField_3;
+	char* ___U3CdisplayNameU3Ek__BackingField_4;
+	char* ___U3CshortDisplayNameU3Ek__BackingField_5;
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CusagesU3Ek__BackingField_6;
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CaliasesU3Ek__BackingField_7;
+	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_8;
+	ReadOnlyArray_1_t1B44D48F2E9F425D218BABD5DE616117E8725D41 ___U3CprocessorsU3Ek__BackingField_9;
+	uint32_t ___U3CoffsetU3Ek__BackingField_10;
+	uint32_t ___U3CbitU3Ek__BackingField_11;
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_12;
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField_13;
+	int32_t ___U3CflagsU3Ek__BackingField_14;
+	int32_t ___U3CarraySizeU3Ek__BackingField_15;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke ___U3CdefaultStateU3Ek__BackingField_16;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke ___U3CminValueU3Ek__BackingField_17;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke ___U3CmaxValueU3Ek__BackingField_18;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
+struct ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD_marshaled_com
+{
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com ___U3CnameU3Ek__BackingField_0;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com ___U3ClayoutU3Ek__BackingField_1;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com ___U3CvariantsU3Ek__BackingField_2;
+	Il2CppChar* ___U3CuseStateFromU3Ek__BackingField_3;
+	Il2CppChar* ___U3CdisplayNameU3Ek__BackingField_4;
+	Il2CppChar* ___U3CshortDisplayNameU3Ek__BackingField_5;
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CusagesU3Ek__BackingField_6;
+	ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 ___U3CaliasesU3Ek__BackingField_7;
+	ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 ___U3CparametersU3Ek__BackingField_8;
+	ReadOnlyArray_1_t1B44D48F2E9F425D218BABD5DE616117E8725D41 ___U3CprocessorsU3Ek__BackingField_9;
+	uint32_t ___U3CoffsetU3Ek__BackingField_10;
+	uint32_t ___U3CbitU3Ek__BackingField_11;
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_12;
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField_13;
+	int32_t ___U3CflagsU3Ek__BackingField_14;
+	int32_t ___U3CarraySizeU3Ek__BackingField_15;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com ___U3CdefaultStateU3Ek__BackingField_16;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com ___U3CminValueU3Ek__BackingField_17;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com ___U3CmaxValueU3Ek__BackingField_18;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
-struct IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01  : public RuntimeObject
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB 
 {
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	NameAndParameters_t8F37102128EFD31CA57808AE6E3D1244758DEA01 ___current_3;
+	// UnityEngine.InputSystem.Utilities.Substring UnityEngine.InputSystem.Utilities.JsonParser/JsonString::text
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___text_0;
+	// System.Boolean UnityEngine.InputSystem.Utilities.JsonParser/JsonString::hasEscapes
+	bool ___hasEscapes_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_pinvoke
+{
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_pinvoke ___text_0;
+	int32_t ___hasEscapes_1;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com
+{
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_com ___text_0;
+	int32_t ___hasEscapes_1;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NamedValue>
-struct IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5  : public RuntimeObject
+// Vuforia.WebCamProfile/ProfileData
+struct ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6 
 {
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED ___current_3;
+	// UnityEngine.Vector2Int Vuforia.WebCamProfile/ProfileData::RequestedTextureSize
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___RequestedTextureSize_0;
+	// UnityEngine.Vector2Int Vuforia.WebCamProfile/ProfileData::ResampledTextureSize
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___ResampledTextureSize_1;
+	// System.Int32 Vuforia.WebCamProfile/ProfileData::RequestedFPS
+	int32_t ___RequestedFPS_2;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Pose>
-struct IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Ray>
-struct IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit>
-struct IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit2D>
-struct IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.RaycastResult>
-struct IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___current_3;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.ShaderProperties>
-struct IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816  : public RuntimeObject
-{
-	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
-	RuntimeObject* ___iterator_0;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
-	bool ___initialized_1;
-	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
-	bool ___hadCurrent_2;
-	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	ShaderProperties_t3BCECD85FABDCE76938D89349C2E0DB19917BCF3 ___current_3;
-};
-
-// UnityEngine.Playables.PlayableBinding
-struct PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4 
-{
-	// System.String UnityEngine.Playables.PlayableBinding::m_StreamName
-	String_t* ___m_StreamName_0;
-	// UnityEngine.Object UnityEngine.Playables.PlayableBinding::m_SourceObject
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_SourceObject_1;
-	// System.Type UnityEngine.Playables.PlayableBinding::m_SourceBindingType
-	Type_t* ___m_SourceBindingType_2;
-	// UnityEngine.Playables.PlayableBinding/CreateOutputMethod UnityEngine.Playables.PlayableBinding::m_CreateOutputMethod
-	CreateOutputMethod_tD18AFE3B69E6DDD913D82D5FA1D5D909CEEC8509* ___m_CreateOutputMethod_3;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.Playables.PlayableBinding
-struct PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_marshaled_pinvoke
-{
-	char* ___m_StreamName_0;
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke ___m_SourceObject_1;
-	Type_t* ___m_SourceBindingType_2;
-	Il2CppMethodPointer ___m_CreateOutputMethod_3;
-};
-// Native definition for COM marshalling of UnityEngine.Playables.PlayableBinding
-struct PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_marshaled_com
-{
-	Il2CppChar* ___m_StreamName_0;
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com* ___m_SourceObject_1;
-	Type_t* ___m_SourceBindingType_2;
-	Il2CppMethodPointer ___m_CreateOutputMethod_3;
-};
-
-// Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
-struct SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D 
-{
-	// System.String Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::Name
-	String_t* ___Name_1;
-	// System.String Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::Path
-	String_t* ___Path_2;
-	// System.Boolean Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::Included
-	bool ___Included_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::BuildIndex
-	int32_t ___BuildIndex_4;
-	// System.String Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::Tag
-	String_t* ___Tag_5;
-	// UnityEngine.Object Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::Asset
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___Asset_6;
-};
-// Native definition for P/Invoke marshalling of Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
-struct SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D_marshaled_pinvoke
-{
-	char* ___Name_1;
-	char* ___Path_2;
-	int32_t ___Included_3;
-	int32_t ___BuildIndex_4;
-	char* ___Tag_5;
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke ___Asset_6;
-};
-// Native definition for COM marshalling of Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
-struct SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D_marshaled_com
-{
-	Il2CppChar* ___Name_1;
-	Il2CppChar* ___Path_2;
-	int32_t ___Included_3;
-	int32_t ___BuildIndex_4;
-	Il2CppChar* ___Tag_5;
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com* ___Asset_6;
-};
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Playables.PlayableBinding>
-struct IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>>
+struct IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2801,11 +3541,11 @@ struct IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4 ___current_3;
+	KeyValuePair_2_t1A8FABA811EFD77613B70864A83B5B1364C74B98 ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
-struct IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662  : public RuntimeObject
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>>
+struct IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF  : public RuntimeObject
 {
 	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
 	RuntimeObject* ___iterator_0;
@@ -2814,387 +3554,834 @@ struct IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662
 	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
 	bool ___hadCurrent_2;
 	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
-	SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D ___current_3;
+	KeyValuePair_2_t1A05D497B9BE981D1DEB77C47E504EF7A884BD5E ___current_3;
 };
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshFilter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshFilter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Observers.MeshObservationBlock>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Observers.MeshObservationBlock>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshRenderer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshRenderer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.MeshWriteData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.MeshWriteData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodBase>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodBase>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.MixedRealityToolkit>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.MixedRealityToolkit>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Net.Security.MobileTlsProvider>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Net.Security.MobileTlsProvider>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ModelTargetBehaviour>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ModelTargetBehaviour>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.ModifierSpec>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.ModifierSpec>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.Module>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.Module>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509Lookup>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509Lookup>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509LookupMono>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509LookupMono>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Object>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Object>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Object>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Object>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ObserverBehaviour>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ObserverBehaviour>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Security.Cryptography.Oid>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Security.Cryptography.Oid>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRFeature>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRFeature>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PCTile>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PCTile>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.Panel>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.Panel>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.PanelSettings>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.PanelSettings>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Linq.Expressions.ParameterExpression>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Linq.Expressions.ParameterExpression>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.ParameterInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.ParameterInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Permissions.Permission>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Permissions.Permission>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Events.PersistentCall>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Events.PersistentCall>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.PinchSlider>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.PinchSlider>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PixelFormat>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PixelFormat>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PointCloudMaterial>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PointCloudMaterial>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.PointerEventData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.PointerEventData>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.PokePointer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.PokePointer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.PropertyInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.PropertyInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ProximityLight>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ProximityLight>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RadioButton>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RadioButton>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.ReadType>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.ReadType>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.RectMask2D>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.RectMask2D>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RectTransform>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RectTransform>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexFC>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexFC>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexNode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexNode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexOptions>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexOptions>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChain>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChain>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RenderTexture>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RenderTexture>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Renderer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Renderer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.OpenXR.ReprojectionMode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.OpenXR.ReprojectionMode>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceSet>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceSet>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableCollectionItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableCollectionItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableListViewItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableListViewItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Rigidbody2D>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Rigidbody2D>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.SByte>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.SByte>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ScheduledItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ScheduledItem>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaAttDef>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaAttDef>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaElementDecl>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaElementDecl>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaEntity>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaEntity>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaNotation>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaNotation>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.ScreenOrientation>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.ScreenOrientation>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.Selectable>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.Selectable>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationCallback>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationCallback>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationEvents>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationEvents>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationFieldInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationFieldInfo>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Net.ServicePoint>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Net.ServicePoint>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Single>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Single>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.Perception.Spatial.SpatialAnchor>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.Perception.Spatial.SpatialAnchor>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.SpherePointer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.SpherePointer>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Sprite>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Sprite>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteAsset>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteAsset>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteCharacter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteCharacter>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteGlyph>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteGlyph>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackFrame>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackFrame>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackTrace>
-
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackTrace>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>>
+struct IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tB4BA5F194309B3877384DBBBC70F1A041CFA4A69 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0AF6308DD8440B30BDE16D40BED57FAF4719C6E3 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tCC730A133591F3BAF61075E89437EA36147DBA42 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>
+struct IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t9525C8AC2D0B639B94FE367E7473C472DAB6A183 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>>
+struct IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t69A51C36FF679E64375AD7C88BC0B6EC664E71E3 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>>
+struct IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t6E717143F503B2DBD5DE0A81418D4F75AED25D64 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t2EECA291E1D5C2F76AACF45D85FFD7493C692660 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>>
+struct IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tD6E3A15030F740BECFDEFA00CA56809CFBC3FCDD ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>>
+struct IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tD7E059BFBE1BF83B12A8CD28EEAF96FF90E92B13 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>>
+struct IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tC0F68EF2993631406DA87D846AD52EBD612B5FA2 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>>
+struct IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t6EC6D681E3F23EABB351BDC4EC260CECB799D716 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>>
+struct IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tF4103E1E436E82040535A2C299BE9A183DB1BCA6 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>>
+struct IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t949107A86077D4A37F445699731B5EBB1EF06C06 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>>
+struct IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEE7BF9D8FE8B1DD8D5EED88A0A77CB25F784C035 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>>
+struct IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t0AFFEE2F11C80BD2221C451973C33C25A54CF75B ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>>
+struct IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tFAB38D07E7BCD97D01652C71C07ED66FFA2D4EA9 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>>
+struct IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tFC7B00A2D42E78C4DDB7B2ADCA77E967EC139AB7 ___current_3;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>
+struct KeyValuePair_2_tB4800C6EC7B47B196E9C248983C8113E7FFCC3D7 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	StylePropertyValue_tED32F617FABE99611B213BFCF9D1D909E7F141C2 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>
+struct KeyValuePair_2_t81982C223B8C34C718710F0D135B7D98A1D9872B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	AreaTargetData_tAF1E1697E6D7C71E030BC00BA36F0462C459A116 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>
+struct KeyValuePair_2_t985BF6A46B30166257A7E92FD5171D9E346640D4 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ImageTargetData_tAC7CDC3C9AFC3FD2AEA91228C1A7E56E3F2BD54B ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>
+struct KeyValuePair_2_tA923F6AA4230E929248B0AD7779A0C829F3F95B0 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ModelTargetData_t9ADFCD29536760032C777CDBCA3E86026138610D ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>
+struct KeyValuePair_2_t76D1AACD16B9AE12BAF0B63F0B8AF0F0A5AF1368 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ValidationAreaData_t3F6B02113A782A8A075E017133DD63C669357F3C ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>
+struct KeyValuePair_2_t56BD193D06F34B6CA1D2266E715E803681AD78BC 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	VuMarkData_tCA2C474941EB81B41AE716F777CE97F870A655F1 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>
+struct KeyValuePair_2_tEF774DF9AE88629615A657C4AE974F48009E2FFC 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>
+struct KeyValuePair_2_t3C17932304BA7F8966CBE6DE3E4B5501E44A0F37 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6 ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
+struct KeyValuePair_2_t8AE5C045E927DD1BAF015FCFCDDC60AA77018C8B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	MixedRealityPose_tE60115C271AC50B8C11BA3B404BFCA99C7B2EFF5 ___value_1;
+};
+
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2 
+{
+	// UnityEngine.InputSystem.Utilities.JsonParser/JsonValueType UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::type
+	int32_t ___type_0;
+	// System.Boolean UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::boolValue
+	bool ___boolValue_1;
+	// System.Double UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::realValue
+	double ___realValue_2;
+	// System.Int64 UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::integerValue
+	int64_t ___integerValue_3;
+	// UnityEngine.InputSystem.Utilities.JsonParser/JsonString UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::stringValue
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB ___stringValue_4;
+	// System.Collections.Generic.List`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue> UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::arrayValue
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue> UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::objectValue
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	// System.Object UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::anyValue
+	RuntimeObject* ___anyValue_7;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_pinvoke
+{
+	int32_t ___type_0;
+	int32_t ___boolValue_1;
+	double ___realValue_2;
+	int64_t ___integerValue_3;
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_pinvoke ___stringValue_4;
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	Il2CppIUnknown* ___anyValue_7;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_com
+{
+	int32_t ___type_0;
+	int32_t ___boolValue_1;
+	double ___realValue_2;
+	int64_t ___integerValue_3;
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com ___stringValue_4;
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	Il2CppIUnknown* ___anyValue_7;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>
+struct IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tB4800C6EC7B47B196E9C248983C8113E7FFCC3D7 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t81982C223B8C34C718710F0D135B7D98A1D9872B ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t985BF6A46B30166257A7E92FD5171D9E346640D4 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tA923F6AA4230E929248B0AD7779A0C829F3F95B0 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>>
+struct IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t76D1AACD16B9AE12BAF0B63F0B8AF0F0A5AF1368 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>>
+struct IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t56BD193D06F34B6CA1D2266E715E803681AD78BC ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>
+struct IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_tEF774DF9AE88629615A657C4AE974F48009E2FFC ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>>
+struct IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t3C17932304BA7F8966CBE6DE3E4B5501E44A0F37 ___current_3;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>>
+struct IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t8AE5C045E927DD1BAF015FCFCDDC60AA77018C8B ___current_3;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct KeyValuePair_2_t3B08CB565546FAA05345E98661ADF3C33916BDE8 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___value_1;
+};
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
+struct IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA  : public RuntimeObject
+{
+	// Windows.Foundation.Collections.IIterator`1<T> System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::iterator
+	RuntimeObject* ___iterator_0;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::initialized
+	bool ___initialized_1;
+	// System.Boolean System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::hadCurrent
+	bool ___hadCurrent_2;
+	// T System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1::current
+	KeyValuePair_2_t3B08CB565546FAA05345E98661ADF3C33916BDE8 ___current_3;
+};
 
 // System.ValueType
 
 // System.ValueType
 
-// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Action>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Action>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>
+
+// System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>
+
+// System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>
+
+// System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.InternedString>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
+
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
 
 // UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
 
-// System.IntPtr
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.Utilities.NamedValue>
 
-// System.IntPtr
+// UnityEngine.Color32
 
-// UnityEngine.XR.MeshId
-struct MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC_StaticFields
-{
-	// UnityEngine.XR.MeshId UnityEngine.XR.MeshId::s_InvalidId
-	MeshId_t2CF122567F06D0AA4F80DDA5CB51E8CD3B7EA2AC ___s_InvalidId_0;
-};
+// UnityEngine.Color32
 
-// UnityEngine.XR.MeshId
+// UnityEngine.InputSystem.Utilities.FourCC
 
-// Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction
-struct MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486_StaticFields
-{
-	// Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction::<None>k__BackingField
-	MixedRealityInputAction_tD3B6E9CE7F20EFC9D066C519FAB848679FC62486 ___U3CNoneU3Ek__BackingField_0;
-};
+// UnityEngine.InputSystem.Utilities.FourCC
 
-// Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction
+// UnityEngine.InputSystem.Utilities.InternedString
+
+// UnityEngine.InputSystem.Utilities.InternedString
 
 // UnityEngine.InputSystem.Utilities.PrimitiveValue
 
@@ -3209,29 +4396,41 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 
 // UnityEngine.Quaternion
 
-// UnityEngine.UIElements.UIR.RenderChainTextEntry
-
-// UnityEngine.UIElements.UIR.RenderChainTextEntry
-
-// Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey
-
-// Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey
-
 // System.Resources.ResourceLocator
 
 // System.Resources.ResourceLocator
 
-// UnityEngine.UIElements.RuleMatcher
+// UnityEngine.UIElements.StyleValueHandle
 
-// UnityEngine.UIElements.RuleMatcher
+// UnityEngine.UIElements.StyleValueHandle
 
-// UnityEngine.SceneManagement.Scene
+// UnityEngine.InputSystem.Utilities.Substring
 
-// UnityEngine.SceneManagement.Scene
+// UnityEngine.InputSystem.Utilities.Substring
 
-// UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
+// UnityEngine.TerrainUtils.TerrainTileCoord
 
-// UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
+// UnityEngine.TerrainUtils.TerrainTileCoord
+
+// UnityEngine.UIElements.TextureId
+struct TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_StaticFields
+{
+	// UnityEngine.UIElements.TextureId UnityEngine.UIElements.TextureId::invalid
+	TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___invalid_1;
+};
+
+// UnityEngine.UIElements.TextureId
+
+// UnityEngine.XR.ARSubsystems.TrackableId
+struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7_StaticFields
+{
+	// System.Text.RegularExpressions.Regex UnityEngine.XR.ARSubsystems.TrackableId::s_TrackableIdRegex
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___s_TrackableIdRegex_0;
+	// UnityEngine.XR.ARSubsystems.TrackableId UnityEngine.XR.ARSubsystems.TrackableId::s_InvalidId
+	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___s_InvalidId_1;
+};
+
+// UnityEngine.XR.ARSubsystems.TrackableId
 
 // UnityEngine.Vector2
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
@@ -3255,6 +4454,25 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
 };
 
 // UnityEngine.Vector2
+
+// UnityEngine.Vector2Int
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields
+{
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Zero
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Zero_2;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_One
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_One_3;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Up
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Up_4;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Down
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Down_5;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Left
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Left_6;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Right
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Right_7;
+};
+
+// UnityEngine.Vector2Int
 
 // UnityEngine.Vector3
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
@@ -3283,45 +4501,420 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // UnityEngine.Vector3
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshId>
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
+};
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshId>
+// UnityEngine.Vector4
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction>
+// Vuforia.ConfigData/CylinderTargetData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction>
+// Vuforia.ConfigData/CylinderTargetData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChainTextEntry>
+// Vuforia.ConfigData/MultiTargetData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChainTextEntry>
+// Vuforia.ConfigData/MultiTargetData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>
+// UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>
+// UnityEngine.UIElements.StyleComplexSelector/PseudoStateData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceLocator>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceLocator>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RuleMatcher>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RuleMatcher>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.SceneManagement.Scene>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Action>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.SceneManagement.Scene>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Action>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
 
-// UnityEngine.XR.MeshInfo
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>>
 
-// UnityEngine.XR.MeshInfo
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>>
 
-// UnityEngine.XR.MeshTransform
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>>
 
-// UnityEngine.XR.MeshTransform
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>
+
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>
 
 // Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose
 struct MixedRealityPose_tE60115C271AC50B8C11BA3B404BFCA99C7B2EFF5_StaticFields
@@ -3332,123 +4925,201 @@ struct MixedRealityPose_tE60115C271AC50B8C11BA3B404BFCA99C7B2EFF5_StaticFields
 
 // Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose
 
-// UnityEngine.InputSystem.Utilities.NameAndParameters
+// UnityEngine.UIElements.StyleSheets.StylePropertyValue
 
-// UnityEngine.InputSystem.Utilities.NameAndParameters
+// UnityEngine.UIElements.StyleSheets.StylePropertyValue
 
-// UnityEngine.InputSystem.Utilities.NamedValue
+// Vuforia.ConfigData/AreaTargetData
 
-// UnityEngine.InputSystem.Utilities.NamedValue
+// Vuforia.ConfigData/AreaTargetData
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
+// Vuforia.ConfigData/ImageTargetData
 
-// UnityEngine.Object
+// Vuforia.ConfigData/ImageTargetData
 
-// UnityEngine.Pose
-struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
-{
-	// UnityEngine.Pose UnityEngine.Pose::k_Identity
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity_2;
-};
+// Vuforia.ConfigData/ModelTargetData
 
-// UnityEngine.Pose
+// Vuforia.ConfigData/ModelTargetData
 
-// UnityEngine.Ray
+// Vuforia.ConfigData/ValidationAreaData
 
-// UnityEngine.Ray
+// Vuforia.ConfigData/ValidationAreaData
 
-// UnityEngine.RaycastHit
+// Vuforia.ConfigData/VuMarkData
 
-// UnityEngine.RaycastHit
+// Vuforia.ConfigData/VuMarkData
 
-// UnityEngine.RaycastHit2D
+// UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
 
-// UnityEngine.RaycastHit2D
+// UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
 
-// UnityEngine.EventSystems.RaycastResult
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
-// UnityEngine.EventSystems.RaycastResult
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
-// Microsoft.MixedReality.Toolkit.UI.ShaderProperties
+// Vuforia.WebCamProfile/ProfileData
 
-// Microsoft.MixedReality.Toolkit.UI.ShaderProperties
+// Vuforia.WebCamProfile/ProfileData
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshInfo>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshInfo>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshTransform>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshTransform>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NamedValue>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NamedValue>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Pose>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Pose>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Ray>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Ray>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit2D>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit2D>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.RaycastResult>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.RaycastResult>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.ShaderProperties>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.ShaderProperties>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>>
 
-// UnityEngine.Playables.PlayableBinding
-struct PlayableBinding_tB68B3BAC47F4F4C559640472174D5BEF93CB6AB4_StaticFields
-{
-	// UnityEngine.Playables.PlayableBinding[] UnityEngine.Playables.PlayableBinding::None
-	PlayableBindingU5BU5D_tC50C3F27A8E4246488F7A5998CAABAC4811A92CD* ___None_4;
-	// System.Double UnityEngine.Playables.PlayableBinding::DefaultDuration
-	double ___DefaultDuration_5;
-};
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>>
 
-// UnityEngine.Playables.PlayableBinding
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>>
 
-// Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
-struct SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D_StaticFields
-{
-	// Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo::empty
-	SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D ___empty_0;
-};
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>>
 
-// Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Playables.PlayableBinding>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Playables.PlayableBinding>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>>
 
-// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
+
+// System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
+
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
+
+// System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3457,10 +5128,10 @@ il2cpp_hresult_t IClosable_Close_mCB0DF137CDDDCC22063CF8D95ECE3BC9B8FA0D88_ComCa
 
 
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshFilter>
-struct IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte[]>>
+struct IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -3541,21 +5212,21 @@ struct IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEA116D32D7CFD54A5E7465A78DBA853CF63951D6_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t08C33EE17B7035E22034C5E97B99353ECAFADD5B_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshId>
-struct IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -3636,21 +5307,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFA9D1DBD8454FF393F8D33A2EB4EDBC339C35B1F_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB7240B82596C5D87AC2AB1920850904D11B0E8FE_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshInfo>
-struct IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Action>>
+struct IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -3731,21 +5402,21 @@ struct IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5EF2E6FCF893B85E0037FFFC4DE0C21E0F7616C1_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tC1BAA0FF6FFEE4061E9618090B494DAE5C84A3DB_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Observers.MeshObservationBlock>
-struct IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>>
+struct IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -3826,21 +5497,21 @@ struct IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6C20040E233BE158D7D5661F85DD89749EC46D11_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t19713CA29F4B798C49E0786F5B2DE6B92BF2964A_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.MeshRenderer>
-struct IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.ButtonState>>
+struct IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -3921,21 +5592,21 @@ struct IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBABA638FF3B5C4E71550453A862D9947F66524B9_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8A94D042E19261DDB85C9F032F2140C43B2E5D4E_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.MeshTransform>
-struct IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Color32>>
+struct IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4016,21 +5687,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE6552459FABE18C8774CE6AC501EA3B84389E5BB_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t09E7634A2A9C1A9976BC46D560248D9661583568_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.MeshWriteData>
-struct IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.CultureInfo>>
+struct IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4111,21 +5782,21 @@ struct IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t443CB3E26F31841C2CE171C9892AC90ADE18B974_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFDA0F9A8FC63B361E52B2645B969CE5543F81CB8_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodBase>
-struct IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.CustomEvent>>
+struct IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4206,21 +5877,21 @@ struct IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t4C341BE878407673CFFD53F634E4A6079EA7A22B_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB300C17B92D485F133B31951AAEB06AC35684275_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.MethodInfo>
-struct IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.Syntax.Expression>>
+struct IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4301,21 +5972,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE14B5BDCFC384264BD1F0CB2C573CCE67534BC93_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t52AAF716517912C0D93AB9ED5956523281B96126_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.MixedRealityInputAction>
-struct IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>>
+struct IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4396,21 +6067,21 @@ struct IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t182D0B3224589C0E9AB2407C9BF2F187137D2B5E_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t44E09DE0F663DF3BF789B0E7CDB2A385A6DF44BF_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
-struct IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GameObject>>
+struct IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4491,21 +6162,21 @@ struct IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0AA9205753C3F53D2D8734B505E06F214B55741D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9BF6EB67ACF4D293683AF4832FCEACA157AAA288_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.MixedRealityToolkit>
-struct IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>>
+struct IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4586,21 +6257,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE9002E8F6543A5A05B5D3DD5CD33A4D15DA8E973_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBCB0BA5ED2136FC5E6E100FAFA30400D38703EE0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Net.Security.MobileTlsProvider>
-struct IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Input.UnityInput.GenericJoystickController>>
+struct IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4681,21 +6352,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE9CACA38906487D0DA288F7CF2BFDC616B1F9ED5_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD9E4090525FA5024CA74815BB157CFD0CB53B573_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ModelTargetBehaviour>
-struct IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Globalization.ISimpleCollator>>
+struct IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4776,21 +6447,21 @@ struct IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t947F4597532EE6594B28867A9944A084F20FD85F_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8C0FDBD4DC4257646829509CE9963E22AC5DC894_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.ModifierSpec>
-struct IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Internal.Observers.ImageTargetObserver>>
+struct IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4871,21 +6542,21 @@ struct IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCD1DFF387615C8F4EA20BE3B2976BA59CDC21A7C_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t578025FD8070C9598A6F7B8DB0F9AAC4B5028DA5_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.Module>
-struct IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
+struct IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -4966,21 +6637,21 @@ struct IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9BEAAA3AACDD6E1E09BA447C33A4C9979F56E9EF_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1CDF8F49BE154FE66E13175D117DEBD0D56694FD_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509Lookup>
-struct IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Linq.JToken>>
+struct IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5061,21 +6732,21 @@ struct IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9141FEAEE9DD943DFF4122A3045AA0F1A8706C7A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEB375E6A4F5AA889A7D4591EA913A8ADF1762FB3_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Mono.Btls.MonoBtlsX509LookupMono>
-struct IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Serialization.JsonProperty>>
+struct IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5156,21 +6827,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF0DD35DAEAF5325DA3E83BF7D1B5726D8042FD94_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE40A6BAB7656A79B2E7B0B670E9E20285152A821_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NameAndParameters>
-struct IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchema>>
+struct IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5251,21 +6922,21 @@ struct IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9A4527213AA8CD46F604C751DB0FF7C1A4CBFB01_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBFFECA81C35F5066A8B38CA22D817133B4BED95B_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.InputSystem.Utilities.NamedValue>
-struct IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaModel>>
+struct IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5346,21 +7017,21 @@ struct IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t4E990E31BC751CF5F8184F9DD917A7A0E6EA84A5_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t67482D4FA5697750BBFD4B8AB1D98F0B77AF1BE6_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable>
-struct IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaNode>>
+struct IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5441,21 +7112,21 @@ struct IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t3023154B003A7740BA9637B4BFA75F763126FFEB_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6A18DF5C6BF4A9EBE5220CA9ED10A9AE598C11A0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI>
-struct IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Schema.JsonSchemaType>>
+struct IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5536,21 +7207,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD75F8BDAF4A207F924C9B84663385B43979AF176_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t725E80CC31DF58EFC16BAB05E4E8543BAA71F4FD_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Object>
-struct IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.LocalDataStoreSlot>>
+struct IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5631,21 +7302,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD6229654EB7F94AAAB0FFF9CF71837A16D5C58AE_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tAD3135505B179274256F7CAC37FE51E615E270CF_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Object>
-struct IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Material>>
+struct IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5726,21 +7397,21 @@ struct IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6864FB6A5B85E3B117E9E95D4E1A6D1C3C10D518_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFBBA867BEBE750136A7F1E8818BB5EAA8F38B7DE_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode>
-struct IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>
+struct IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5821,21 +7492,21 @@ struct IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t66B890027E13BE9A66A9973F900E842C24332E1E_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9A1C7D6E34DBCC5E3F1E1A853516F13652B24EEC_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.ObserverBehaviour>
-struct IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ObserverBehaviour>>
+struct IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -5916,21 +7587,21 @@ struct IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1CDED8F43B2E6D8075249FFCBF4F002B3F972000_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t57281DD57E2A2333AEEED3D82C217D499962748A_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Security.Cryptography.Oid>
-struct IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>>
+struct IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6011,21 +7682,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFB2B047F4C86900B44C128641CA03EA5F1638B08_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9F6BAA33402F30AFFD6021CAC1A81D8D4306FBC0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRFeature>
-struct IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceLocator>>
+struct IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6106,21 +7777,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD8A2055DEBC5D5660103E098D26FF0598D3ADDE2_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0C38984571FC6E2B4C2B00C92C910D74C25F7AFF_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature>
-struct IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Resources.ResourceSet>>
+struct IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6201,21 +7872,21 @@ struct IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t37E999433BA72E2F3B95A275BCFBDA65B9AD53FC_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t941058FD34A557F62C26FF8E61D31B2F2F036FE6_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PCTile>
-struct IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.Schema.SchemaNotation>>
+struct IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6296,21 +7967,21 @@ struct IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8CBCD0CA85610FF6733D9FF9103E4D084390CA82_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8ADBEBB47F3D335DF6D9103FF4676709C23F9AFE_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.Panel>
-struct IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Single>>
+struct IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6391,21 +8062,21 @@ struct IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tA86F26147621802C3C85ECDED27815EC76CA4BC0_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t196912D72F32BD12810AE6A5E5CB91986D17FFEB_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.PanelSettings>
-struct IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Windows.Perception.Spatial.SpatialAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6486,21 +8157,21 @@ struct IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tA5176B7971DC1012CF36B7D16092BD0E3A065F39_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6A8FDB0422F0583551A7B430F6DFF4F9FF58483F_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Linq.Expressions.ParameterExpression>
-struct IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Sprite>>
+struct IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6581,21 +8252,21 @@ struct IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tC9592435C06FDB67539B2312456CE326795EDC36_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5894D729292762CDDDB3DBAA405CF648E9518942_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.ParameterInfo>
-struct IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6676,21 +8347,21 @@ struct IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEDEF9F833EFB749B90599D840BF65CF438B9D4AB_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8A6EB977E68CD3A95F6A40FCC8AABD26DBDE86C3_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking.ParticleHeatmapParticleData>
-struct IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector>>
+struct IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6771,21 +8442,21 @@ struct IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0BAA2FB1DA60DD322CFB3E3D1827AA91DA7CDFD9_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t107E04E6EEEB2F88FB7C9D2662A7BD0AD50004FA_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.PathFilter>
-struct IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyId>>
+struct IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6866,21 +8537,21 @@ struct IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t762F9F48F690E7574F6881D49E2B9BA241BB8C7B_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t598CC8F2CF08A09FE2837B76895DB43EE2B37521_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Internal.Permissions.Permission>
-struct IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue>>
+struct IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -6961,21 +8632,21 @@ struct IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1B259D2A81C7FD212C02ACF278A3D3B1D425FD81_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD3D94B22B821D7B4A6484BFFBF582C8050421EF9_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Events.PersistentCall>
-struct IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Texture2D>>
+struct IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7056,21 +8727,21 @@ struct IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t07FCD4259760B4F90ECB6324BCBCBAB4BED67A5A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t4D093059BAE6D4C65502B93EC072B66A1B728058_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.PinchSlider>
-struct IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.TimeZoneInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7151,21 +8822,21 @@ struct IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tAE532C138CE04434A1BD358A0EB1BD0CC59EE6D5_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0D72C52929C4ACC5CEE6E695FD731BB6CBFD23C4_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PixelFormat>
-struct IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>>
+struct IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7246,21 +8917,21 @@ struct IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t7944FEB853A8148DFBF50C9A75519474DF942F5D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t31BCD6A3A4B59DACC6731306B80C2DA2980054A1_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Playables.PlayableBinding>
-struct IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Events.UnityEvent>>
+struct IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7341,21 +9012,21 @@ struct IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1D180CEAA7308C2784915D152734E7708033E887_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6B1FD7D0F1E49E18519A17CA5AB11A407B66779A_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.PointCloudMaterial>
-struct IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.UriParser>>
+struct IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7436,21 +9107,21 @@ struct IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8BADF00CDB6C33B5136677D6ACFDDA6D5EFE7BB3_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t430F993A23280E308F2E42DA9332511E2143E826_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.PointerEventData>
-struct IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.Vector3>>
+struct IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7531,21 +9202,21 @@ struct IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBFD3A17273C608A16E3919813571DFEC8C5E59E5_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9D077B9DC533B501AA04DDFC4853DEEC7E3402F0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.PokePointer>
-struct IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.VisualElement>>
+struct IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7626,21 +9297,21 @@ struct IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB6F0558B2BA026D5F8C8C9BCE6B2E2420F5DCF98_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t111FA5C5A1F97C259EB836C52F8FC867CD16CEB5_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Pose>
-struct IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/AreaTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7721,21 +9392,21 @@ struct IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t48D9E8290E62F7251D1803EFD26FA6C1D0DDBC6D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tDEAB7FBA943A9C989EB7ACF76B95156B7F87BF4F_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>
-struct IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/CylinderTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7816,21 +9487,21 @@ struct IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t93E977F4BF1F22A391227429FC78E5F2A1872208_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t848FEB76552751E67EC7FC746D93B17626485B61_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Reflection.PropertyInfo>
-struct IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ImageTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -7911,21 +9582,21 @@ struct IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2A2C7C71236737562D5FD7103090A6ABFFD7C1C9_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB58D9DB84DF79E01C0B38F6299F07A1D74B326B7_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.ProximityLight>
-struct IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ModelTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8006,21 +9677,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFEE7B8AF801E26975B09E1B1CC0AA78B19245C8C_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2D9B0D7856F3E4A4CC1AC498593109C321EC4E16_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Linq.JsonPath.QueryExpression>
-struct IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/MultiTargetData>>
+struct IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8101,21 +9772,21 @@ struct IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t626E3BF601724742A2BAAA1E45EC12589D770A11_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEFB79990FDBE236DA7386CB80B54E112A182974E_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RadioButton>
-struct IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/ValidationAreaData>>
+struct IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8196,21 +9867,21 @@ struct IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t3B742E0568735DEED10584BE19CBF6E66994753A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tDE473820EC5490FFA7C6F5FEB305DD6374F7DF5C_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Ray>
-struct IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.ConfigData/VuMarkData>>
+struct IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8291,21 +9962,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF31B91B28F8BE5AB82D3FB94F57EC15F8FF24CF8_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9BA6F5DB3BCC9E857311D9E1B69A861BF52283F7_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit>
-struct IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Xml.DtdParser/UndeclaredNotation>>
+struct IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8386,21 +10057,21 @@ struct IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t50C624107A8CC2D852494493982CD54BA68C3B2C_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t328FD6ADC4B7028BC3F27D77193B4E78B8A770BC_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RaycastHit2D>
-struct IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>>
+struct IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8481,21 +10152,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF7D0639D604481E74181D55D9961A0959ABD3079_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t21A9D5C4D1972331F4CF12009C217AD4FF4E4C64_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.EventSystems.RaycastResult>
-struct IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
+struct IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8576,21 +10247,21 @@ struct IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t4F5020536B4477A4E264D07D8F2EDB987B7342B7_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9B1E82609696B396338F8E597544E38E0B6744AA_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.ReadType>
-struct IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/AfterFunctionDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8671,21 +10342,21 @@ struct IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t4A362CE5659FE0A0F44398531ECC6459C32DBF2B_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t3B9EB4CD63407298B600CD64BE3E22F7480231EE_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.RectMask2D>
-struct IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/BeforeFunctionDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8766,21 +10437,21 @@ struct IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9F492F83CD0F56434E933D94811C7BFFE01585B2_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t9665A166D019FD00F2E5E85E520B8183A1169647_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RectTransform>
-struct IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionType>>
+struct IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8861,21 +10532,21 @@ struct IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5D4CB9AA062277B826E4955246FA35F4F6D9E17A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCD6FC793358377DBF65E531E1B4E2C76B5812106_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionMember>
-struct IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.SensorRecorder/SensorData>>
+struct IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -8956,21 +10627,21 @@ struct IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t359C89D25087366C1695CDFFA688053299A3616B_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6E63F1A0FC8F57B814ACAF48089A5C3D0DA6DD2C_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>
-struct IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Net.ServicePointScheduler/ConnectionGroup>>
+struct IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9051,21 +10722,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD53EB50724C68152E10C3750FA99F565CC63EF5D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t7B93F5EA08CA740BC62982EC2D812E0B6B1B43EA_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexFC>
-struct IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Cognitive3D.Serialization.SharedCore/SensorData>>
+struct IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9146,21 +10817,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE6CF0CD2DF88DD1955AA6B666C5A27D5489F4108_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tA5DB1CF9DA4DAFC2063514EA8E0F54349DD20AF9_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexNode>
-struct IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.UIElements.StyleComplexSelector/PseudoStateData>>
+struct IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9241,21 +10912,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFC3E23A7E50737875256216A1C80C70F745C39F1_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5447F4B1752BA1D4247CB344DB688294571C09C0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Text.RegularExpressions.RegexOptions>
-struct IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>>
+struct IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9336,21 +11007,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD4E9739DFDEF3038C9E81866C319639EE3235A05_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t65402AC97315ABCD7A5E249A86E9D90E1CA95B46_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChain>
-struct IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9431,21 +11102,21 @@ struct IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCBE7448F0A769F3198EE16729EC9CC4BB7D51E12_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t76F5BCD1669A36ED09C937EE298558B5C0B7C7ED_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.UIR.RenderChainTextEntry>
-struct IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UIElements.StyleSheets.StylePropertyId,UnityEngine.UIElements.StylePropertyAnimationSystem/Values>>
+struct IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9526,21 +11197,21 @@ struct IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1E3B0A38A1AEB59D42AC313AFEBC3043D1FB424A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t13B8ADB9B6797561463E30C663E45C5C2A9F4D71_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.RenderTexture>
-struct IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.SystemLanguage,System.String>>
+struct IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9621,21 +11292,21 @@ struct IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tC3F1D0279C048B682E014D16D7120F4DE997F3F7_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tC642E1A5592FA11F56466B514BCADAA8CD5CACF9_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Renderer>
-struct IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainData,Obi.ObiHeightFieldHandle>>
+struct IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9716,21 +11387,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFFA73263CFEB8E26773614DAD0A7BE30B780EFFA_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1FD43FD5DA905A52A36A2CAF13905ECCC81DA10D_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.OpenXR.ReprojectionMode>
-struct IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>>
+struct IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9811,21 +11482,21 @@ struct IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCC44934B79B412CB141018184C2FFDB9C3A5898F_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBBA05843C349518354C3C8DFE8CC4EECAC06A092_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.ResolverContractKey>
-struct IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.TextureId>>
+struct IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -9906,21 +11577,21 @@ struct IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t33CFF75C96E1E795D2574E135EF968B5E0C7CB46_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t366933F610628519CAF30BEABC557B6EBDE7E2A4_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceLocator>
-struct IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Texture,UnityEngine.UIElements.DynamicAtlas/TextureInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10001,21 +11672,21 @@ struct IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCED8DCDDE1EA7CEC6A6F3B009970F6C1F66673CE_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0CB0ED347D71039F3BCB4ED1B02CA4B8F0E016E7_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Resources.ResourceSet>
-struct IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty,Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue>>
+struct IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10096,21 +11767,21 @@ struct IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t92CC343406F1BA982791C04C4A953A05F8756380_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tCC11FD2CB1654D9AAA34BBDEC42BDED47A2F582E_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableCollectionItem>
-struct IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Threading.Thread,System.Diagnostics.StackTrace>>
+struct IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10191,21 +11862,21 @@ struct IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5F9B1AF5502B3D9B81E0952A6CB13F599D388E0A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEFCD0C938FD1203592968B78820B312077B28BA9_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ReusableListViewItem>
-struct IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARAnchor>>
+struct IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10286,21 +11957,21 @@ struct IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD1AA08B04F38639DA23B7C740E2767AA5BF4AB0D_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2CF54D07E0B4DC656FA6B323BE642E272796A462_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Rigidbody2D>
-struct IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.AREnvironmentProbe>>
+struct IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10381,21 +12052,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE224E7E0B404FE3D7F947E79CB43526A7155C5F5_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t46ECBFF446691DC5597E9352625A7EDE00E752E8_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.RuleMatcher>
-struct IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARFace>>
+struct IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10476,21 +12147,21 @@ struct IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tDC9787E6BD7DBAD8D52204C4918EA04F288B8A7F_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t58D9A5F87A087E4F127E1C1594B0C86AFDB063FB_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.SByte>
-struct IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARHumanBody>>
+struct IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10571,21 +12242,21 @@ struct IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t612D316BC3400D484933D5351981626747D56477_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2B7C2D1ABA295F551E940B3601DD108778A313D2_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.SceneManagement.Scene>
-struct IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARParticipant>>
+struct IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10666,21 +12337,21 @@ struct IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t81502CC0FCB30E37038258C60EDDF3C733F7586A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t88FF61D5C4E6CEFC4766098BEECDA406D34E60D7_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
-struct IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPlane>>
+struct IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10761,21 +12432,21 @@ struct IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB9314A935DF8FFC9E477D533FC42C02A7230A662_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t198F35A2A2D522FFD59D1A2122D055FA3744FA2B_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.ScheduledItem>
-struct IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARPointCloud>>
+struct IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10856,21 +12527,21 @@ struct IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t840790A480F99B08EA43F1F15897549FA6374AF6_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2C763948D0B6DB850D98F8C81C8CA6A2350B5875_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaAttDef>
-struct IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARRaycast>>
+struct IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -10951,21 +12622,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF09FEE768868D2DACB1C35A44929604976E5414E_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t55D01AD62C218F9654A18EB33B0B76A56B7E2E0D_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaElementDecl>
-struct IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARReferencePoint>>
+struct IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11046,21 +12717,21 @@ struct IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEE6660C90305DC51D4700DF31DDF0A951A33B156_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF008A44BD4615C41D23622F9F68A655E4500E649_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaEntity>
-struct IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedImage>>
+struct IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11141,21 +12812,21 @@ struct IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t87A5E450D2A94FA9EBD12578C560C7C6DC14EE3C_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t689A6D00E683259D13274C987AB6C62501DFE42C_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Xml.Schema.SchemaNotation>
-struct IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>>
+struct IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11236,21 +12907,21 @@ struct IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t99340E2E0135458EC12C14F60017198588B19534_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFF428E17688D24F4E99A077FAD9B27019B8937ED_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.ScreenOrientation>
-struct IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>>
+struct IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11331,21 +13002,21 @@ struct IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6FC9D514E54EC66C3AD017FA41EBCEA88496DDBF_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE89B119459FE480E6EE5625014B5B5494A3AEE4D_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UI.Selectable>
-struct IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,System.Single>>
+struct IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11426,21 +13097,21 @@ struct IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t253CBA5C10C6797CBEDB134D04EA6F2917F9E5AA_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t39C56636DD770D786E07ECEDF487C3A296243538_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.UIElements.StyleSheets.SelectorMatchRecord>
-struct IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,UnityEngine.Transform>>
+struct IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11521,21 +13192,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF5921958143F9BEA6D05812D7834950ABEBF4299_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t31FC79757AA29394CD9BD9BDBADE02A9BA20554A_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationCallback>
-struct IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Input.InputAnimation/PoseCurves>>
+struct IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11616,21 +13287,21 @@ struct IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t3368724C25CC7246A4E1476EC75EA66FAC82B8D3_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t51C6ED20B0694F559279BB5646E7F49F61B449F0_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Vuforia.Newtonsoft.Json.Serialization.SerializationErrorCallback>
-struct IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.String>>>
+struct IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11711,21 +13382,21 @@ struct IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8DA764A82F78026CCABF26F4CC193D4471D52A86_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t1C460C4286DC18892CC828EFB1D9043C9CFA8A72_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationEvents>
-struct IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Func`2<System.Object[],Vuforia.Newtonsoft.Json.JsonConverter>>>
+struct IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11806,21 +13477,21 @@ struct IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t12C6C18177BB6A22C320210830FC2FEF1A1AAC9F_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tC1776B80B3C25C4F30D7357924B9871730150CEC_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Runtime.Serialization.SerializationFieldInfo>
-struct IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<Microsoft.MixedReality.Toolkit.IMixedRealityService,Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar>>>>
+struct IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11901,21 +13572,21 @@ struct IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t89F8689F9F2D7F72EBE7147DD3231C222571BADC_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB221862CA59A16D39A5058AF0AD8233DE97CB99C_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>
-struct IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<System.Type>>>
+struct IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -11996,21 +13667,21 @@ struct IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t81D390C5E4AD07B53C3F35CA27609B2790093373_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t0E7ED3AC802CD5B5BE457D149BB744217F81E7AD_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Net.ServicePoint>
-struct IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.BaseEventSystem/EventHandlerEntry>>>
+struct IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12091,21 +13762,21 @@ struct IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB937EDD9C4F76C677E5BA417609E5A2094FA91CA_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t280FAAAC5422B3B462A44843DCE6FBCFB5F6BBEF_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.UI.ShaderProperties>
-struct IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.WeakReference`1<Microsoft.MixedReality.Toolkit.IMixedRealityService>>>
+struct IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12186,21 +13857,21 @@ struct IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tFF06C75807B53CB826042116167C74B19C59C816_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5594BE8CFA28A9FF3107577ADC305DE81DCA780B_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Single>
-struct IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.AttributeUsageAttribute>>
+struct IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12281,21 +13952,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE09BA7C4A97F7263434AD3FB69C2708A3A50F9A1_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE772E3FE36C0A22E28F6B67E111BF9520E85BD2A_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Utilities.Solvers.Solver>
-struct IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>>
+struct IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12376,21 +14047,21 @@ struct IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tB39EE3B58BAA0A933304DC7B1AA09C830682EE99_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tA37B982FA8EC348375586C2651990BFA3A2F5B3E_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.Perception.Spatial.SpatialAnchor>
-struct IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,UnityEngine.ISubsystem>>
+struct IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12471,21 +14142,21 @@ struct IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t57C0315DF9803E051BCB2B3DB968E85DFE9AEA06_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t85479C5D54AC5F9BD5704E7E925D82CCB8E7263F_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
-struct IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.IVuEngineConfig>>
+struct IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12566,21 +14237,21 @@ struct IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t41BD08DACBF8CB531E05907CAD24E07D48B17A33_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tEFB4017C209A3D6998B0FAFC642B9D7301BB8BD3_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject>
-struct IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.PrimitiveTypeCode>>
+struct IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12661,21 +14332,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF3B28591945D859B97FF858563E9C067F603F6E9_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t57061BCB95952EB44E3A01BD25C1672C260634E8_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject>
-struct IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.ReadType>>
+struct IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12756,21 +14427,21 @@ struct IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2DF44A40A3111A4328C433E201C8DD94B84723F4_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE695313400EFACAD0174766F9CBDB98EC9565F8D_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes>
-struct IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Utilities.ReflectionObject>>
+struct IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12851,21 +14522,21 @@ struct IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t133ED694E53817B9DD68D249FFB7CBA210CD3538_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2A31D3B985AA996651932E6D46BC41949D477EB3_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState>
-struct IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.SerializationEvents>>
+struct IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -12946,21 +14617,21 @@ struct IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tBA515856688BC188C90B949B164602D74EAAF32C_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5DF3DB7ABB0718A39C8C270C9B99CBE9E40D790E_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<Microsoft.MixedReality.Toolkit.Input.SpherePointer>
-struct IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade>>
+struct IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13041,21 +14712,21 @@ struct IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE19C9734A3F1EF919847D15BE37BB6DCD78DA634_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tD8E88009DA9E0E010D0EBF91A0087A52DB38FD70_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.Sprite>
-struct IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Type>>
+struct IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13136,21 +14807,21 @@ struct IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t8D06CAFF328CCD547C6FF23DF09087DA47CBAB1A_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t95BD80CA08894294C52E20F51DECC8B727B65685_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteAsset>
-struct IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation>>
+struct IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13231,21 +14902,21 @@ struct IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t5880C3C958823784BD1589292B57B4C49F381603_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tE0B5F1E8B6AED9C25DB37EC627F761CE619CF2BC_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteCharacter>
-struct IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.VuController>>
+struct IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13326,21 +14997,21 @@ struct IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_tF6C69D22329E202EA54C659794A278AED2BBDB69_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t22A7610F76B5A4545504785866C4617870769F43_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<UnityEngine.TextCore.Text.SpriteGlyph>
-struct IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Union>>
+struct IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13421,21 +15092,21 @@ struct IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t315A91860BC7D14B7B9DD18E2AD19E3341976099_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t654DEDD82FECF56C7654B7F7D997E1A24EB26190_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackFrame>
-struct IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,System.MonoCustomAttrs/AttributeInfo>>
+struct IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13516,21 +15187,21 @@ struct IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t52832BD14095FD4BC8E75C5C043B26FBFF7134A6_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2E38FEB0BF8E0FDD7D71EF1470B617C7CAFA7EA4_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Diagnostics.StackTrace>
-struct IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
+// COM Callable Wrapper for System.Runtime.InteropServices.WindowsRuntime.IIteratorToIEnumeratorAdapter`1<System.Collections.Generic.KeyValuePair`2<System.Type,Vuforia.ObserverFactory/BehaviourFromObserverDelegate>>
+struct IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper>, IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301
 {
-	inline IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper>(obj) {}
+	inline IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -13611,13 +15282,13 @@ struct IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t6D7B2F3B41859AC0986CB2308DED59465B363406_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) IIteratorToIEnumeratorAdapter_1_t2B21C6C1F761034B8CD822F4593906DB7CAC9990_ComCallableWrapper(obj));
 }

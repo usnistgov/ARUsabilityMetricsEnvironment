@@ -130,6 +130,13 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FireExtinguisherActivation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "GameManager",
             "fullManagedTypeName": "",
@@ -600,6 +607,76 @@
             ]
         },
         {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.BurstColliderWorld",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiCollider",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiCollisionMaterial",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiEmitter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiEmitterShapeDisk",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiFixedUpdater",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiFluidEmitterBlueprint",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiParticleRenderer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiRigidbody",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Obi.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Obi.ObiSolver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
@@ -936,6 +1013,13 @@
             "usedInScenes": [
                 "Assets/Scenes/BaselineEnvironment.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.IMGUIModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.GUISkin",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.InputSystem.dll",

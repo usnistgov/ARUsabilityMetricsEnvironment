@@ -23,6 +23,7 @@ Data\StreamingAssets\Vuforia\SampleDb.dat
 Data\StreamingAssets\Vuforia\SampleDb.xml
 Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json
 Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json
+lib_burst_generated.dll
 MicrosoftOpenXRPlugin.dll
 openxr_loader.dll
 StoreManifest.xml

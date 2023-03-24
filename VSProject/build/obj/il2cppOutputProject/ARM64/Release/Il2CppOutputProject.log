@@ -1,11 +1,26 @@
 ﻿  Building GameAssembly.dll with MsvcWinRtToolChain
   	Msvc Install Version: 17.0
   	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
-  	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\ARM64\link.exe
-  	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\ARM64\cl.exe
+  	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\ARM64\cl.exe
   
   	Output directory: C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release
   	Cache directory: C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\il2cppOutputProject\ARM64\Release
-  ObjectFiles: 752 of which compiled: 0
-  Total compilation time: 901 milliseconds.
-  Cleaned up 1 object files.
+  Assembly-CSharp.cpp
+C:\NIST\ARUsabilityMetricsEnvironment\VSProject\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\NIST\ARUsabilityMetricsEnvironment\VSProject\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp.cpp(11980): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\NIST\ARUsabilityMetricsEnvironment\VSProject\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': truncation of constant value
+  ObjectFiles: 824 of which compiled: 1
+  	Time Compile: 420 milliseconds Assembly-CSharp.cpp
+  Total compilation time: 967 milliseconds.
+  Creating library C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\il2cppOutputProject\ARM64\Release\linkresult_BA3A1A7A12B5D7F1C6EA14CB57C069FF\GameAssembly.lib and object C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\il2cppOutputProject\ARM64\Release\linkresult_BA3A1A7A12B5D7F1C6EA14CB57C069FF\GameAssembly.exp
+  Total link time: 12385 milliseconds.
+  Cleaned up 2 object files.

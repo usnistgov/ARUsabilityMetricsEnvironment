@@ -637,6 +637,7 @@ IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2
 IL2CPP_EXTERN_C RuntimeClass* NetEventSource_tCFE66E755A29D53FCCB21E599710B768BA6E0282_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkCredential_tC8E2931557131BA3E6F42A8E1E2A10EC62567313_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OidCollection_tAAFE5AD288B6365182B7C9D4D66D0DA9A56712B3_il2cpp_TypeInfo_var;
@@ -691,6 +692,7 @@ IL2CPP_EXTERN_C RuntimeClass* X509ChainPolicy_t34F49B4067492A1E5F91DD91FA7C934B6
 IL2CPP_EXTERN_C RuntimeClass* X509ChainStatusFlags_t57C80D7C1F4C319F6D6B9FBDEA402E3023E6C769_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* X509ChainStatusU5BU5D_tA4CB502E13E6D62B9C824B15F3193FE7EC889299_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* X509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* X509Crl_t44039854AA43FD70925AB7812C3BDF8F392D7698_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* X509ExtensionCollection_t03E0B5DD255DCFF3FE91FE55C5127BC834ABF4D0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* X509ExtensionEnumerator_t7C4F4F5D65C7023FA1BEE3F6522B066A6CECCFF6_il2cpp_TypeInfo_var;
@@ -1058,6 +1060,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* X509ChainImplMono_CheckRevocationOnChain_m8
 IL2CPP_EXTERN_C const RuntimeMethod* X509ChainImpl_ThrowIfContextInvalid_m85AF480D1B87D8DA3D780040385CBB88D9B173CD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509ChainPolicy_set_RevocationMode_mD31CF4CA6A09443829F91980F8AC98E21D5888AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509ChainPolicy_set_VerificationFlags_mA0C6910C20FCC1FB1DA1A35ED2E7429FA527A69E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* X509Chain__ctor_m2B6C93313DDBB62BE6E2AE073958B7662C5FBB7D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509EnhancedKeyUsageExtension_CopyFrom_m9577FF97B8E3074B12B7056BF7E30AA0F84309BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509EnhancedKeyUsageExtension_Decode_m1110DD9BD5D717540009DB5D90805458CF07423C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* X509EnhancedKeyUsageExtension__ctor_mE0CA01F89B6532A7E7B256F248C23B61F0A909CC_RuntimeMethod_var;
@@ -1807,6 +1810,13 @@ struct X509Certificate2Enumerator_t22D702E84069BAFE855F2A160A391D77A05090EC  : p
 // System.Security.Cryptography.X509Certificates.X509CertificateImpl
 struct X509CertificateImpl_tF590E81705CE1FE152C590E5A875D4FE3BE348EF  : public RuntimeObject
 {
+};
+
+// System.Security.Cryptography.X509Certificates.X509Chain
+struct X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5  : public RuntimeObject
+{
+	// System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Chain::impl
+	X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* ___impl_0;
 };
 
 // System.Security.Cryptography.X509Certificates.X509ChainElement
@@ -3880,6 +3890,10 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 
 // System.Security.Cryptography.X509Certificates.X509CertificateImpl
 
+// System.Security.Cryptography.X509Certificates.X509Chain
+
+// System.Security.Cryptography.X509Certificates.X509Chain
+
 // System.Security.Cryptography.X509Certificates.X509ChainElement
 
 // System.Security.Cryptography.X509Certificates.X509ChainElement
@@ -4923,8 +4937,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReadOnlySpan_1__ctor_mFEB9E8
 // System.Int32 System.ReadOnlySpan`1<System.UInt32>::get_Length()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlySpan_1_get_Length_m031225D82859BA85FEE8375AA52B4CE8DF1ACE00_gshared_inline (ReadOnlySpan_1_t57F4BBC957039E8E904443D25F3A78AE60DC94B4* __this, const RuntimeMethod* method) ;
 
+// System.Void System.Security.Cryptography.X509Certificates.X509Helper2::ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509ChainImpl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Helper2_ThrowIfContextInvalid_mB6E09D4292818B28DC4FA6BA9695006B0B0119C8 (X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* ___0_impl, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_mF765A0057950154FC61FF1D112A8EFCB73314EC4 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, bool ___0_useMachineContext, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Helper2::CreateChainImpl(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* X509Helper2_CreateChainImpl_m37D8C8E930B60BDF04C0E5ED0A6D279C959A8A7D (bool ___0_useMachineContext, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Chain::get_Impl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_mE938759A3C3CA007FB171DDD375312F03394D3F6 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) ;
+// System.Void System.GC::SuppressFinalize(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509ChainImpl_Dispose_mB7A6D60B308E90F0173FA8160F7FF0A00709A25A (X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainStatus::set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void X509ChainStatus_set_Status_m55D0302200912F7B74F7805470551EB33C28246D_inline (X509ChainStatus_t5A57DDA24AA1FCA9F2B8D70B767CDDF388E4A80D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.String System.Security.Cryptography.X509Certificates.X509ChainStatus::GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
@@ -4945,10 +4977,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509ChainElement__ctor_m7088FBE9A6938494
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* X509ChainElement_get_Certificate_m6AF210BCAD2D94C19DFEF475BDAA84E5FF4AF105_inline (X509ChainElement_t95FFAD3F504A1CA731ECCBA88C5CB3B0EE28786D* __this, const RuntimeMethod* method) ;
 // System.Exception System.Security.Cryptography.X509Certificates.X509Helper2::GetInvalidChainContextException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* X509Helper2_GetInvalidChainContextException_m9C124C1AD37A16B10C791BB76505016059EFC9C5 (const RuntimeMethod* method) ;
-// System.Void System.GC::SuppressFinalize(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-// System.Void System.Object::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509ChainImpl__ctor_m16F671EB135FB6E7E3CF6C42715D7106E6FAAF18 (X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* __this, const RuntimeMethod* method) ;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementCollection::.ctor()
@@ -6205,6 +6233,201 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntPtr_get_Size_m1FAAA59DA73D7E32BB1A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpanHelpers_ClearWithReferences_m9641D8B6DC3AE81B4B0734BBA0E477EF131CD430 (intptr_t* ___0_ip, uint64_t ___1_pointerSizeLength, const RuntimeMethod* method) ;
 // System.Void System.SpanHelpers::ClearWithoutReferences(System.Byte&,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpanHelpers_ClearWithoutReferences_m65DB2925AE7A5FF88BB3EA1BF90513C9ADF0653D (uint8_t* ___0_b, uint64_t ___1_byteLength, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Security.Cryptography.X509Certificates.X509ChainImpl System.Security.Cryptography.X509Certificates.X509Chain::get_Impl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0 = __this->___impl_0;
+		X509Helper2_ThrowIfContextInvalid_mB6E09D4292818B28DC4FA6BA9695006B0B0119C8(L_0, NULL);
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_1 = __this->___impl_0;
+		return L_1;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_mE938759A3C3CA007FB171DDD375312F03394D3F6 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		X509Chain__ctor_mF765A0057950154FC61FF1D112A8EFCB73314EC4(__this, (bool)0, NULL);
+		return;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_mF765A0057950154FC61FF1D112A8EFCB73314EC4 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, bool ___0_useMachineContext, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		bool L_0 = ___0_useMachineContext;
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_1;
+		L_1 = X509Helper2_CreateChainImpl_m37D8C8E930B60BDF04C0E5ED0A6D279C959A8A7D(L_0, NULL);
+		__this->___impl_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___impl_0), (void*)L_1);
+		return;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Security.Cryptography.X509Certificates.X509ChainImpl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_m6F2404400D7192FDA4CCB37DC67F18F12616000B (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* ___0_impl, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0 = ___0_impl;
+		X509Helper2_ThrowIfContextInvalid_mB6E09D4292818B28DC4FA6BA9695006B0B0119C8(L_0, NULL);
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_1 = ___0_impl;
+		__this->___impl_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___impl_0), (void*)L_1);
+		return;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain__ctor_m2B6C93313DDBB62BE6E2AE073958B7662C5FBB7D (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, intptr_t ___0_chainContext, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&X509Chain__ctor_m2B6C93313DDBB62BE6E2AE073958B7662C5FBB7D_RuntimeMethod_var)));
+	}
+}
+// System.Security.Cryptography.X509Certificates.X509ChainElementCollection System.Security.Cryptography.X509Certificates.X509Chain::get_ChainElements()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509ChainElementCollection_t543DE35924C12A624ADA5111F7F47C1F9F99E70D* X509Chain_get_ChainElements_m656A4A5EEA69BB8C4F5995DEF7C88AD9EB961AED (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0;
+		L_0 = X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6(__this, NULL);
+		NullCheck(L_0);
+		X509ChainElementCollection_t543DE35924C12A624ADA5111F7F47C1F9F99E70D* L_1;
+		L_1 = VirtualFuncInvoker0< X509ChainElementCollection_t543DE35924C12A624ADA5111F7F47C1F9F99E70D* >::Invoke(6 /* System.Security.Cryptography.X509Certificates.X509ChainElementCollection System.Security.Cryptography.X509Certificates.X509ChainImpl::get_ChainElements() */, L_0);
+		return L_1;
+	}
+}
+// System.Security.Cryptography.X509Certificates.X509ChainPolicy System.Security.Cryptography.X509Certificates.X509Chain::get_ChainPolicy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509ChainPolicy_t34F49B4067492A1E5F91DD91FA7C934B68D880EC* X509Chain_get_ChainPolicy_m947CBD207A65DB28D0EE7909004E44CBEDF34348 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0;
+		L_0 = X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6(__this, NULL);
+		NullCheck(L_0);
+		X509ChainPolicy_t34F49B4067492A1E5F91DD91FA7C934B68D880EC* L_1;
+		L_1 = VirtualFuncInvoker0< X509ChainPolicy_t34F49B4067492A1E5F91DD91FA7C934B68D880EC* >::Invoke(7 /* System.Security.Cryptography.X509Certificates.X509ChainPolicy System.Security.Cryptography.X509Certificates.X509ChainImpl::get_ChainPolicy() */, L_0);
+		return L_1;
+	}
+}
+// System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::Build(System.Security.Cryptography.X509Certificates.X509Certificate2)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool X509Chain_Build_mF368D6BAE5925C8311B41BFBA08C5D91277C67E5 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* ___0_certificate, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0;
+		L_0 = X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6(__this, NULL);
+		X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* L_1 = ___0_certificate;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = VirtualFuncInvoker1< bool, X509Certificate2_t2BEAEA485A3CEA81D191B12A341675DBC54CDD2D* >::Invoke(8 /* System.Boolean System.Security.Cryptography.X509Certificates.X509ChainImpl::Build(System.Security.Cryptography.X509Certificates.X509Certificate2) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain_Reset_mE9CFDF83BD0B08994DEF29C30556429B2FD55860 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0;
+		L_0 = X509Chain_get_Impl_m4B712BC99067069BCE090957082F5FE17EE237A6(__this, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker0::Invoke(10 /* System.Void System.Security.Cryptography.X509Certificates.X509ChainImpl::Reset() */, L_0);
+		return;
+	}
+}
+// System.Security.Cryptography.X509Certificates.X509Chain System.Security.Cryptography.X509Certificates.X509Chain::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* X509Chain_Create_m2B7D0A1E83D208493994F28656BA210FCD3C948A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* L_0 = (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5*)il2cpp_codegen_object_new(X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		X509Chain__ctor_mE938759A3C3CA007FB171DDD375312F03394D3F6(L_0, NULL);
+		return L_0;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain_Dispose_mC10F7CE7DAF0799F13C798184330C046222E305D (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		VirtualActionInvoker1< bool >::Invoke(5 /* System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose(System.Boolean) */, __this, (bool)1);
+		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
+		return;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain_Dispose_m24B2B8C5A29F06A8A1F8564EB0B39820616B3930 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, bool ___0_disposing, const RuntimeMethod* method) 
+{
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_0 = __this->___impl_0;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F* L_1 = __this->___impl_0;
+		NullCheck(L_1);
+		X509ChainImpl_Dispose_mB7A6D60B308E90F0173FA8160F7FF0A00709A25A(L_1, NULL);
+		__this->___impl_0 = (X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___impl_0), (void*)(X509ChainImpl_tBA1BF154DB9DC321EE068BBC53C7CF43CAA2621F*)NULL);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Void System.Security.Cryptography.X509Certificates.X509Chain::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void X509Chain_Finalize_m76B5ABE85F3D5596788618FFD03C4831DB0EDB39 (X509Chain_t2E7F88A4C97CAB82AF938F13A11354A0475469E5* __this, const RuntimeMethod* method) 
+{
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0009:
+			{// begin finally (depth: 1)
+				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			VirtualActionInvoker1< bool >::Invoke(5 /* System.Void System.Security.Cryptography.X509Certificates.X509Chain::Dispose(System.Boolean) */, __this, (bool)0);
+			goto IL_0010;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0010:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
