@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
+C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49984
-Successfully changed project path to: C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
-C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
+54895
+Successfully changed project path to: C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability
+C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/NIST/ARUsabilityMetricsEnvironment/ARUsability
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31528] Host "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 2233800784 [EditorId] 2233800784 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [360328] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 3089657834 [EditorId] 3089657834 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31528] Host "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 2233800784 [EditorId] 2233800784 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [360328] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 3089657834 [EditorId] 3089657834 [Version] 1048832 [Id] WindowsEditor(7,JamesFolk_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 129.47 ms, found 17 plugins.
-Preloading 2 native plugins for Editor in 2.47 ms.
+Refreshing native plugins compatible for Editor in 158.04 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 2.44 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Assets
+[Subsystems] Discovering subsystems at path C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,53 +67,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004093 seconds.
+Registered in 0.004647 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.50 ms, found 17 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 126.00 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.519 seconds
+- Completed reload, in  0.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (519ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (591ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (83ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (247ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
+				RefreshPlugins (126ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014889 seconds.
+Registered in 0.015174 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\NIST\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\NIST\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\NIST\test\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\NIST\test\ARUsabilityMetricsEnvironment\ARUsability\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.28 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 130.79 ms, found 17 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -146,48 +146,48 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[XR] [MROpenXR][Info   ][12:52:15.207909][tid:7b28] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][12:52:15.207993][tid:7b28] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:32:57.711217][tid:57f88] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:32:57.711259][tid:57f88] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][12:52:15.209532][tid:7b28] OnPluginStarted UnityVersion=2021.3.16f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.7.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:32:57.712457][tid:57f88] OnPluginStarted UnityVersion=2021.3.16f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.7.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  1.959 seconds
+- Completed reload, in  2.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1960ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (2205ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (2024ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1320ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1507ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (1019ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (1111ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.68 ms, found 17 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 6768 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 106 unused Assets / (253.6 KB). Loaded Objects now: 7503.
-Memory consumption went from 257.6 MB to 257.3 MB.
-Total: 4.770500 ms (FindLiveObjects: 0.500400 ms CreateObjectMapping: 0.178700 ms MarkObjects: 3.892500 ms  DeleteObjects: 0.198000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 7870 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (1.7 MB). Loaded Objects now: 8591.
+Memory consumption went from 304.8 MB to 303.1 MB.
+Total: 4.855000 ms (FindLiveObjects: 0.513400 ms CreateObjectMapping: 0.453400 ms MarkObjects: 3.492200 ms  DeleteObjects: 0.395200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -202,7 +202,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4518.720379 seconds.
-  path: Assets/Scenes/BaselineEnvironment.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BaselineEnvironment.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e670b8e9c9e03388ebda0034b758892') in 0.014569 seconds 
+  Time since last request: 658922.814771 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Big_Flames_01.prefab
+  artifactKey: Guid(7dad3c17464f42a4ea62c049f4d07c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Big_Flames_01.prefab using Guid(7dad3c17464f42a4ea62c049f4d07c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c920e985ef78842c06731b5d70e96c4') in 0.608144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Torch.prefab
+  artifactKey: Guid(53b93a36c9d21ae4283eaffae0a531d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Torch.prefab using Guid(53b93a36c9d21ae4283eaffae0a531d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6242d95c75cc211ddef8312c0e320') in 1.307591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Torch_Smoke_01.prefab
+  artifactKey: Guid(4e6a298951c3e014a991f7284a7497f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Torch_Smoke_01.prefab using Guid(4e6a298951c3e014a991f7284a7497f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5cc10becdbaf778489e025e061bed') in 0.027254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Torch_Embers_01.prefab
+  artifactKey: Guid(e3f0c904e0d3ff44ca36a9fc596cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Torch_Embers_01.prefab using Guid(e3f0c904e0d3ff44ca36a9fc596cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c0cd54b13fdf91d8c25584e4bf5193') in 0.011381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Torch_Flames_01.prefab
+  artifactKey: Guid(682363d0081e8c14ab4d07a2e5c0a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Torch_Flames_01.prefab using Guid(682363d0081e8c14ab4d07a2e5c0a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f85670f11378087f290abaa61b7da90') in 0.013128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Small_Flames_02.prefab
+  artifactKey: Guid(8750473b94ca5da45a9562a3e77940e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Small_Flames_02.prefab using Guid(8750473b94ca5da45a9562a3e77940e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1e9b20a56625b629fa54b339490b15') in 0.014168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Pit.prefab
+  artifactKey: Guid(a30f6dba5ad71064b914268f6d79ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets/Fire and Smoke Particles/Prefabs/Other/Prefab_Fire_Pit.prefab using Guid(a30f6dba5ad71064b914268f6d79ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999aedc977f611b180a1d30be3a589f6') in 0.060140 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

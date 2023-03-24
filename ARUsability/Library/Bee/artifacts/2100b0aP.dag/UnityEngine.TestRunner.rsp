@@ -108,11 +108,12 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:C3D_MRTK
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
 -define:WINDOWS_UWP
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.AI.MachineLearning.MachineLearningContract/5.0.0.0/Windows.AI.MachineLearning.MachineLearningContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract/2.0.0.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.ApplicationModel.Activation.ActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd"

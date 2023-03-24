@@ -1,6 +1,1 @@
-﻿  App.cpp
-  UnityGenerated.cpp
-     Creating library C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.lib and object C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exp
-  Generating code
-  Finished generating code
-  ARUsability.vcxproj -> C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe
+﻿  ARUsability.vcxproj -> C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe

@@ -108,20 +108,21 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:C3D_MRTK
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
 -define:WINDOWS_UWP
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.ptc.vuforia.engine@778cd30f6ecb/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Engine.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.ptc.vuforia.engine@778cd30f6ecb/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Wrapper.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.collections@1.4.0/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.ptc.vuforia.engine@778cd30f6ecb/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Engine.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.ptc.vuforia.engine@778cd30f6ecb/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Wrapper.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.collections@1.4.0/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/NIST/test/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.AI.MachineLearning.MachineLearningContract/5.0.0.0/Windows.AI.MachineLearning.MachineLearningContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract/2.0.0.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd"
 -r:"C:/Program Files (x86)/Windows Kits/10/References/10.0.22621.0/Windows.ApplicationModel.Activation.ActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd"

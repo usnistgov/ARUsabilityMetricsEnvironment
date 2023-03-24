@@ -1,6 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="FireExtinguisherActivation" preserve="nothing"/>
+		<type fullname="FireExtinguisherWaterInteraction" preserve="nothing"/>
+		<type fullname="OvenController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Cognitive3D">
 		<type fullname="Cognitive3D.Cognitive3D_Manager" preserve="nothing"/>
@@ -111,6 +113,35 @@
 		<type fullname="UnityEngine.InputSystem.InputSystemObject" preserve="nothing"/>
 		<type fullname="UnityEngine.InputSystem.RemoteInputPlayerConnection" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerBitField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerCanvas" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerColor" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerContainer" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerEnumField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerFloatField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerFoldout" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerHBox" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerMessageBox" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerRow" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerToggle" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerValue" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVBox" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector2" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector3" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerVector4" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.UI.UIFoldout" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
@@ -183,6 +214,8 @@
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
+		<type fullname="UnityEngine.ParticleSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.ParticleSystemRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
@@ -216,7 +249,11 @@
 		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Toggle" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">

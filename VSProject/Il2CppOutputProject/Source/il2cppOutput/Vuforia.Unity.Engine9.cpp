@@ -25701,7 +25701,7 @@ IL_00b0:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_56 = L_55.___Texture_0;
 		NullCheck(L_56);
 		int32_t L_57;
-		L_57 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_56);
+		L_57 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_56);
 		U3CU3Ec__DisplayClass28_0_tDA23382E891C2EA27C8B848F1FBA319FEEC0545A* L_58 = V_0;
 		NullCheck(L_58);
 		List_1_t117F34C660B4F5981704AE36B42E30A7CBDF43B8* L_59 = L_58->___textures_1;
@@ -25711,7 +25711,7 @@ IL_00b0:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_61 = L_60.___Texture_0;
 		NullCheck(L_61);
 		int32_t L_62;
-		L_62 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_61);
+		L_62 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_61);
 		VideoBackgroundTextureUpdater_InitializeCommandBuffer_m44CA8B4D8C95EAF80FD2B2D97BB614693CF39FF0(__this, L_52, L_57, L_62, NULL);
 		return;
 	}

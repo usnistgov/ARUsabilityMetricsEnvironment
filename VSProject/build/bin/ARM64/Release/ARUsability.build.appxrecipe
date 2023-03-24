@@ -10,22 +10,22 @@
     <PackageArchitecture>arm64</PackageArchitecture>
     <PackageIdentityName>775a4416-b2b4-4c15-af0d-6dbc2f335e0b</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\AppX</LayoutDir>
+    <LayoutDir>C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\AppxManifest.xml">
+    <AppXManifest Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe">
       <PackagePath>ARUsability.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
@@ -34,137 +34,137 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
       <PackagePath>UnityPlayer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.winmd">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.winmd">
       <PackagePath>ARUsability.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\StoreManifest.xml">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.xml">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.xml">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\boot.config">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0.resS">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets.resS">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\RuntimeInitializeOnLoads.json">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\ScriptingAssemblies.json">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\ScriptingAssemblies.json">
       <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\UnityServicesProjectConfiguration.json">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\UnityServicesProjectConfiguration.json">
       <PackagePath>Data\StreamingAssets\UnityServicesProjectConfiguration.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Metadata\global-metadata.dat">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.dat">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\ARTestEnvironment.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\ARTestEnvironment.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.dat">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\Data\StreamingAssets\Vuforia\SampleDb.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\SampleDb.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\lib_burst_generated.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\lib_burst_generated.dll">
       <PackagePath>lib_burst_generated.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\VuforiaEngine.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\VuforiaEngine.dll">
       <PackagePath>VuforiaEngine.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\openxr_loader.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\openxr_loader.dll">
       <PackagePath>openxr_loader.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\UnityOpenXR.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\MicrosoftOpenXRPlugin.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\MicrosoftOpenXRPlugin.dll">
       <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\GameAssembly.dll">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\resources.pri">
+    <AppxPackagedFile Include="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

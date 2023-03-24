@@ -25106,7 +25106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiEmitterShapeImage_GetWorldSpaceEmitte
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = __this->___image_9;
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
 		float L_3 = __this->___pixelScale_10;
 		*((float*)L_0) = (float)((float)il2cpp_codegen_multiply(((float)L_2), L_3));
 		// height = image.height*pixelScale;
@@ -25114,7 +25114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiEmitterShapeImage_GetWorldSpaceEmitte
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_5 = __this->___image_9;
 		NullCheck(L_5);
 		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_5);
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_5);
 		float L_7 = __this->___pixelScale_10;
 		*((float*)L_4) = (float)((float)il2cpp_codegen_multiply(((float)L_6), L_7));
 		// float ratio = width/height;
