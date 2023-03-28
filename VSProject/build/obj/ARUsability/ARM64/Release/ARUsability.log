@@ -1,1 +1,8 @@
-﻿  ARUsability.vcxproj -> C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+     Creating library C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.lib and object C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exp
+  Generating code
+  Finished generating code
+  ARUsability.vcxproj -> C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\bin\ARM64\Release\ARUsability.exe

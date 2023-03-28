@@ -330,6 +330,8 @@ struct ObjectLimit_t8618E6237A1FAA9236DE9580DBF474E7985233AA;
 struct OvenController_t74E205DB26642D2F2FB93F562F125D2308294096;
 // OverlapTest
 struct OverlapTest_t0860BA55946189BC820503031F1AED45A9F4FFA9;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
 // UnityEngine.Events.PersistentCallGroup
 struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
 // UnityEngine.UI.RectMask2D
@@ -1123,6 +1125,23 @@ struct ConstraintParameters_tEE3F773CB930E6A0610F3F4B956885DEC4CAA4D3
 	bool ___enabled_3;
 };
 
+// UnityEngine.ParticleSystem/MainModule
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 
+{
+	// UnityEngine.ParticleSystem UnityEngine.ParticleSystem/MainModule::m_ParticleSystem
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ParticleSystem/MainModule
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_pinvoke
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem_0;
+};
+// Native definition for COM marshalling of UnityEngine.ParticleSystem/MainModule
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_com
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem_0;
+};
+
 // Obi.AffineTransform
 struct AffineTransform_tDB919D2BCAE88D8D9ED4E1AE6195AB182174C4CB 
 {
@@ -1562,6 +1581,11 @@ struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t3
 
 // System.IndexOutOfRangeException
 struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// UnityEngine.ParticleSystem
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
 
@@ -2342,8 +2366,10 @@ struct ObjectLimit_t8618E6237A1FAA9236DE9580DBF474E7985233AA  : public MonoBehav
 // OvenController
 struct OvenController_t74E205DB26642D2F2FB93F562F125D2308294096  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// System.Single OvenController::mFirePercentage
-	float ___mFirePercentage_4;
+	// UnityEngine.ParticleSystem OvenController::fireParticleSystem
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___fireParticleSystem_4;
+	// System.Single OvenController::mFireScale
+	float ___mFireScale_5;
 };
 
 // OverlapTest
@@ -2847,6 +2873,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // Oni/ConstraintParameters
 
+// UnityEngine.ParticleSystem/MainModule
+
+// UnityEngine.ParticleSystem/MainModule
+
 // Obi.AffineTransform
 
 // Obi.AffineTransform
@@ -2965,6 +2995,10 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
 // System.IndexOutOfRangeException
 
 // System.IndexOutOfRangeException
+
+// UnityEngine.ParticleSystem
+
+// UnityEngine.ParticleSystem
 
 // UnityEngine.Renderer
 
@@ -4024,6 +4058,12 @@ inline void ObiNativeList_1_set_Item_m39AB124A137D36677270A6F819B4501895D68B47 (
 }
 // System.Void OvenController::ResetFire()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_ResetFire_m9B1A76FBC640C97A68C3FE9900C1A4B1EA91261D (OvenController_t74E205DB26642D2F2FB93F562F125D2308294096* __this, const RuntimeMethod* method) ;
+// UnityEngine.ParticleSystem/MainModule UnityEngine.ParticleSystem::get_main()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode(UnityEngine.ParticleSystemScalingMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.LayerMask::NameToLayer(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139 (String_t* ___0_layerName, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Physics::IgnoreLayerCollision(System.Int32,System.Int32,System.Boolean)
@@ -9656,8 +9696,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_Update_m3C371D4791783DB6E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_ResetFire_m9B1A76FBC640C97A68C3FE9900C1A4B1EA91261D (OvenController_t74E205DB26642D2F2FB93F562F125D2308294096* __this, const RuntimeMethod* method) 
 {
 	{
-		// mFirePercentage = 100.0f;
-		__this->___mFirePercentage_4 = (100.0f);
+		// mFireScale = 1.0f;
+		__this->___mFireScale_5 = (1.0f);
 		// }
 		return;
 	}
@@ -9665,10 +9705,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_ResetFire_m9B1A76FBC640C9
 // System.Void OvenController::DecreaseFire()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_DecreaseFire_mE592E22BD3A36F327D1338FEBB3CA9C9655F3A1B (OvenController_t74E205DB26642D2F2FB93F562F125D2308294096* __this, const RuntimeMethod* method) 
 {
+	MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		// mFirePercentage -= 0.01f;
-		float L_0 = __this->___mFirePercentage_4;
-		__this->___mFirePercentage_4 = ((float)il2cpp_codegen_subtract(L_0, (0.00999999978f)));
+		// mFireScale -= 0.001f;
+		float L_0 = __this->___mFireScale_5;
+		__this->___mFireScale_5 = ((float)il2cpp_codegen_subtract(L_0, (0.00100000005f)));
+		// if (mFireScale < 0) mFireScale = 0;
+		float L_1 = __this->___mFireScale_5;
+		if ((!(((float)L_1) < ((float)(0.0f)))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		// if (mFireScale < 0) mFireScale = 0;
+		__this->___mFireScale_5 = (0.0f);
+	}
+
+IL_002a:
+	{
+		// var main = fireParticleSystem.main;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___fireParticleSystem_4;
+		NullCheck(L_2);
+		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 L_3;
+		L_3 = ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189(L_2, NULL);
+		V_0 = L_3;
+		// main.scalingMode = ParticleSystemScalingMode.Local;
+		MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D((&V_0), 1, NULL);
+		// fireParticleSystem.transform.localScale = new Vector3(mFireScale, mFireScale, mFireScale);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___fireParticleSystem_4;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
+		float L_6 = __this->___mFireScale_5;
+		float L_7 = __this->___mFireScale_5;
+		float L_8 = __this->___mFireScale_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), L_6, L_7, L_8, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_5, L_9, NULL);
 		// }
 		return;
 	}
@@ -9677,8 +9754,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController_DecreaseFire_mE592E22BD3A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OvenController_IsFireOut_mFB00496D3F01A8CBA0B06656E1C24D6703A3A6FB (OvenController_t74E205DB26642D2F2FB93F562F125D2308294096* __this, const RuntimeMethod* method) 
 {
 	{
-		// return mFirePercentage <= 0.0f;
-		float L_0 = __this->___mFirePercentage_4;
+		// return mFireScale <= 0.0f;
+		float L_0 = __this->___mFireScale_5;
 		return (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -9686,8 +9763,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OvenController_IsFireOut_mFB00496D3F01A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController__ctor_mA27393E7720FD88DE6D30A72B54036BB9A0FDFBF (OvenController_t74E205DB26642D2F2FB93F562F125D2308294096* __this, const RuntimeMethod* method) 
 {
 	{
-		// private float mFirePercentage = 100.0f;
-		__this->___mFirePercentage_4 = (100.0f);
+		// private float mFireScale = 1.0f;
+		__this->___mFireScale_5 = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

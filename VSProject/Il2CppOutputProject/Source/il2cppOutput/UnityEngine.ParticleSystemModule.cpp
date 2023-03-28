@@ -734,6 +734,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MinMaxGradient_tFF31B8EC2855D0074AB86E8B37BEA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_simulationSpace_Injected_m7710E894FA3BF3F226A89C24DC461672201445BA (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ParticleSystem/MainModule::set_simulationSpace(UnityEngine.ParticleSystemSimulationSpace)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_simulationSpace_m23D533E66925AABF0C336894FBF2FF03FF3891BC (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystemScalingMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710 (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode(UnityEngine.ParticleSystemScalingMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ParticleSystem/MainModule::set_playOnAwake_Injected(UnityEngine.ParticleSystem/MainModule&,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_playOnAwake_Injected_m78E74790A03FCE7E576933E31DA258375AEC7938 (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* ___0__unity_self, bool ___1_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ParticleSystem/MainModule::set_playOnAwake(System.Boolean)
@@ -1173,6 +1177,22 @@ IL2CPP_EXTERN_C  void MainModule_set_simulationSpace_m23D533E66925AABF0C336894FB
 	_thisAdjusted = reinterpret_cast<MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9*>(__this + _offset);
 	MainModule_set_simulationSpace_m23D533E66925AABF0C336894FBF2FF03FF3891BC(_thisAdjusted, ___0_value, method);
 }
+// System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode(UnityEngine.ParticleSystemScalingMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710(__this, L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D_AdjustorThunk (RuntimeObject* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9*>(__this + _offset);
+	MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D(_thisAdjusted, ___0_value, method);
+}
 // System.Void UnityEngine.ParticleSystem/MainModule::set_playOnAwake(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_playOnAwake_mC86DBF96156C8783FAC2AD1628529F354FB1C6D8 (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
@@ -1257,6 +1277,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_simulationSpace_Injected_
 	static MainModule_set_simulationSpace_Injected_m7710E894FA3BF3F226A89C24DC461672201445BA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (MainModule_set_simulationSpace_Injected_m7710E894FA3BF3F226A89C24DC461672201445BA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem/MainModule::set_simulationSpace_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystemSimulationSpace)");
+	_il2cpp_icall_func(___0__unity_self, ___1_value);
+}
+// System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystemScalingMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710 (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* ___0__unity_self, int32_t ___1_value, const RuntimeMethod* method) 
+{
+	typedef void (*MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710_ftn) (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9*, int32_t);
+	static MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (MainModule_set_scalingMode_Injected_m94EF6588FC02F1C08C47D37C4E2B0BBFA9C0E710_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem/MainModule::set_scalingMode_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystemScalingMode)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
 // System.Void UnityEngine.ParticleSystem/MainModule::set_playOnAwake_Injected(UnityEngine.ParticleSystem/MainModule&,System.Boolean)

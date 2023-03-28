@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class OvenController : MonoBehaviour
 {
-    private float mFirePercentage = 100.0f;
+    [SerializeField]
+    private ParticleSystem fireParticleSystem;
+
+    private float mFireScale = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,20 +18,38 @@ public class OvenController : MonoBehaviour
     void Update()
     {
         // update the particle...
+       
+
     }
 
     public void ResetFire()
     {
-        mFirePercentage = 100.0f;
+        mFireScale = 1.0f;
     }
 
     public void DecreaseFire()
     {
-        mFirePercentage -= 0.01f;
+        mFireScale -= 0.001f;
+        if (mFireScale < 0) mFireScale = 0;
+
+         var main = fireParticleSystem.main;
+        main.scalingMode = ParticleSystemScalingMode.Local;
+        fireParticleSystem.transform.localScale = new Vector3(mFireScale, mFireScale, mFireScale);
+        /*
+        var main = fireParticleSystem.main;
+        main.startLifetime = mFirePercentage;
+
+        fireParticleSystem.Stop();
+        fireParticleSystem.Play();
+        //fireParticleSystem.startLifetime = mFirePercentage;
+        fireParticleSystem.main.startLifetime = mFirePercentage;
+        if (mFirePercentage < 0.0)
+            mFirePercentage = 0.0F;
+        */
     }
 
     public bool IsFireOut()
     {
-        return mFirePercentage <= 0.0f;
+        return mFireScale <= 0.0f;
     }
 }
