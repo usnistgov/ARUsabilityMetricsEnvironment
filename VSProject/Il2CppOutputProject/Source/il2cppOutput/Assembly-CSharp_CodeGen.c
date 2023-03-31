@@ -244,93 +244,125 @@ extern void OvenController_DecreaseFire_mE592E22BD3A36F327D1338FEBB3CA9C9655F3A1
 extern void OvenController_IsFireOut_mFB00496D3F01A8CBA0B06656E1C24D6703A3A6FB (void);
 // 0x00000074 System.Void OvenController::.ctor()
 extern void OvenController__ctor_mA27393E7720FD88DE6D30A72B54036BB9A0FDFBF (void);
-// 0x00000075 System.Void Obi.ObiCharacter::Start()
+// 0x00000075 System.Void VideoCapture::Start()
+extern void VideoCapture_Start_mCEB9039EAB06A9EC4BD9C6C96DE6C23F0FD54630 (void);
+// 0x00000076 System.Void VideoCapture::OnDestroy()
+extern void VideoCapture_OnDestroy_m2F26DC949C8EDF38AC0BA2BD1F5441F3E79285F4 (void);
+// 0x00000077 System.Void VideoCapture::Update()
+extern void VideoCapture_Update_mF5C73FCA40A0776C22DD6659B1CCF0D1B61F773F (void);
+// 0x00000078 System.Void VideoCapture::StopVideoCaptureTest()
+extern void VideoCapture_StopVideoCaptureTest_mC2C1FFC116C3EC82B3A49AA4B78CB97C449BB1FE (void);
+// 0x00000079 System.Void VideoCapture::StartVideoCaptureTest()
+extern void VideoCapture_StartVideoCaptureTest_m3559A2C6CAC157CDFB21A4B88327D6D6C335847C (void);
+// 0x0000007A System.Void VideoCapture::OnStartedVideoCaptureMode(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+extern void VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9 (void);
+// 0x0000007B System.Void VideoCapture::OnStoppedVideoCaptureMode(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+extern void VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1 (void);
+// 0x0000007C System.Void VideoCapture::OnStartedRecordingVideo(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+extern void VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9 (void);
+// 0x0000007D System.Void VideoCapture::OnStoppedRecordingVideo(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+extern void VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8 (void);
+// 0x0000007E System.Void VideoCapture::.ctor()
+extern void VideoCapture__ctor_m4B2E6621744EAF81B76FDDA2046B75C04EC305DF (void);
+// 0x0000007F System.Void VideoCapture/<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_m37DF2ED240CAAD6A5A4548EF41585698A9E0C5A8 (void);
+// 0x00000080 System.Void VideoCapture/<>c__DisplayClass5_0::<StartVideoCaptureTest>b__2(UnityEngine.Windows.WebCam.VideoCapture)
+extern void U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620 (void);
+// 0x00000081 System.Void VideoCapture/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE531F2336379C6AFFD7A81DAAE4DC2A7A8FEAEFB (void);
+// 0x00000082 System.Void VideoCapture/<>c::.ctor()
+extern void U3CU3Ec__ctor_mA91975D8AEFC089DFA5EC57A4C3E9985CCD87B91 (void);
+// 0x00000083 System.Int32 VideoCapture/<>c::<StartVideoCaptureTest>b__5_0(UnityEngine.Resolution)
+extern void U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538 (void);
+// 0x00000084 System.Single VideoCapture/<>c::<StartVideoCaptureTest>b__5_1(System.Single)
+extern void U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E (void);
+// 0x00000085 System.Void Obi.ObiCharacter::Start()
 extern void ObiCharacter_Start_m16C58DDDC20BE97D18DA590BEFAE86397D9DE45C (void);
-// 0x00000076 System.Void Obi.ObiCharacter::Move(UnityEngine.Vector3,System.Boolean,System.Boolean)
+// 0x00000086 System.Void Obi.ObiCharacter::Move(UnityEngine.Vector3,System.Boolean,System.Boolean)
 extern void ObiCharacter_Move_m6F5639C3A7D30457458B4744D7F4B20C376CF149 (void);
-// 0x00000077 System.Void Obi.ObiCharacter::ScaleCapsuleForCrouching(System.Boolean)
+// 0x00000087 System.Void Obi.ObiCharacter::ScaleCapsuleForCrouching(System.Boolean)
 extern void ObiCharacter_ScaleCapsuleForCrouching_m08981FD900C2B3AB783AA47D761E76D67C316920 (void);
-// 0x00000078 System.Void Obi.ObiCharacter::PreventStandingInLowHeadroom()
+// 0x00000088 System.Void Obi.ObiCharacter::PreventStandingInLowHeadroom()
 extern void ObiCharacter_PreventStandingInLowHeadroom_m84F3767CD69F6029E7297E67E09B536523417A36 (void);
-// 0x00000079 System.Void Obi.ObiCharacter::UpdateAnimator(UnityEngine.Vector3)
+// 0x00000089 System.Void Obi.ObiCharacter::UpdateAnimator(UnityEngine.Vector3)
 extern void ObiCharacter_UpdateAnimator_mA749EF5DF8B6F87C08FF41C9FD5F20E107483124 (void);
-// 0x0000007A System.Void Obi.ObiCharacter::HandleAirborneMovement()
+// 0x0000008A System.Void Obi.ObiCharacter::HandleAirborneMovement()
 extern void ObiCharacter_HandleAirborneMovement_m8D8BF5EF3775F589591138CE338937255762830D (void);
-// 0x0000007B System.Void Obi.ObiCharacter::HandleGroundedMovement(System.Boolean,System.Boolean)
+// 0x0000008B System.Void Obi.ObiCharacter::HandleGroundedMovement(System.Boolean,System.Boolean)
 extern void ObiCharacter_HandleGroundedMovement_m725EFDBCE1F4A17FBBD63F54C98E3E8869A5472C (void);
-// 0x0000007C System.Void Obi.ObiCharacter::ApplyExtraTurnRotation()
+// 0x0000008C System.Void Obi.ObiCharacter::ApplyExtraTurnRotation()
 extern void ObiCharacter_ApplyExtraTurnRotation_mFF7273394800DC494BC0EB96AD29A576AE6B89C7 (void);
-// 0x0000007D System.Void Obi.ObiCharacter::OnAnimatorMove()
+// 0x0000008D System.Void Obi.ObiCharacter::OnAnimatorMove()
 extern void ObiCharacter_OnAnimatorMove_mEA5BE5E7F9413B7D66983C3C53540149E3F2645D (void);
-// 0x0000007E System.Void Obi.ObiCharacter::CheckGroundStatus()
+// 0x0000008E System.Void Obi.ObiCharacter::CheckGroundStatus()
 extern void ObiCharacter_CheckGroundStatus_m8B4A967FFB358CA6D6BAF3DBDAE8E529EE86F16C (void);
-// 0x0000007F System.Void Obi.ObiCharacter::.ctor()
+// 0x0000008F System.Void Obi.ObiCharacter::.ctor()
 extern void ObiCharacter__ctor_mE76853293AF2E2B9026BB6687BEAF265A00934D4 (void);
-// 0x00000080 System.Void Obi.SampleCharacterController::Start()
+// 0x00000090 System.Void Obi.SampleCharacterController::Start()
 extern void SampleCharacterController_Start_mAD571077B35E8246800A2BD981B538E2E7F2BA14 (void);
-// 0x00000081 System.Void Obi.SampleCharacterController::FixedUpdate()
+// 0x00000091 System.Void Obi.SampleCharacterController::FixedUpdate()
 extern void SampleCharacterController_FixedUpdate_m098C347204EF8C35F3AAE9366D0A6AD192EFED39 (void);
-// 0x00000082 System.Void Obi.SampleCharacterController::.ctor()
+// 0x00000092 System.Void Obi.SampleCharacterController::.ctor()
 extern void SampleCharacterController__ctor_m6D7BDAA002F151B13C0FFFF38BD22E346429DC32 (void);
-// 0x00000083 System.Void Obi.ColorFromPhase::Awake()
+// 0x00000093 System.Void Obi.ColorFromPhase::Awake()
 extern void ColorFromPhase_Awake_m369DB66FC50625D3E459E8955D2504A0CFF206E6 (void);
-// 0x00000084 System.Void Obi.ColorFromPhase::LateUpdate()
+// 0x00000094 System.Void Obi.ColorFromPhase::LateUpdate()
 extern void ColorFromPhase_LateUpdate_mD41121E0D37C9CB3B5AFC17CC640182A2484D19E (void);
-// 0x00000085 System.Void Obi.ColorFromPhase::.ctor()
+// 0x00000095 System.Void Obi.ColorFromPhase::.ctor()
 extern void ColorFromPhase__ctor_m04627B91073E356D8006154809522CCC3E3B406B (void);
-// 0x00000086 System.Void Obi.ColorFromVelocity::Awake()
+// 0x00000096 System.Void Obi.ColorFromVelocity::Awake()
 extern void ColorFromVelocity_Awake_mD4CED8FF1A4EA1AE5AB112AA186F8E41E78136E9 (void);
-// 0x00000087 System.Void Obi.ColorFromVelocity::OnEnable()
+// 0x00000097 System.Void Obi.ColorFromVelocity::OnEnable()
 extern void ColorFromVelocity_OnEnable_m3CB2981556A0AC99A49EA5325409E8BB24B742D9 (void);
-// 0x00000088 System.Void Obi.ColorFromVelocity::LateUpdate()
+// 0x00000098 System.Void Obi.ColorFromVelocity::LateUpdate()
 extern void ColorFromVelocity_LateUpdate_mCB83E62F77F170FA58E59D80100F7DD97AAB8015 (void);
-// 0x00000089 System.Void Obi.ColorFromVelocity::.ctor()
+// 0x00000099 System.Void Obi.ColorFromVelocity::.ctor()
 extern void ColorFromVelocity__ctor_m63A50B56029DE240EE6738C575A8ACDDA6D9FE8F (void);
-// 0x0000008A System.Void Obi.ColorFromViscosity::Awake()
+// 0x0000009A System.Void Obi.ColorFromViscosity::Awake()
 extern void ColorFromViscosity_Awake_m36692C0B4B99FF49662FA6E8609324952FDA09AA (void);
-// 0x0000008B System.Void Obi.ColorFromViscosity::LateUpdate()
+// 0x0000009B System.Void Obi.ColorFromViscosity::LateUpdate()
 extern void ColorFromViscosity_LateUpdate_m08B634DB829145D339DF8E03DEF3C25B7FACD2C5 (void);
-// 0x0000008C System.Void Obi.ColorFromViscosity::.ctor()
+// 0x0000009C System.Void Obi.ColorFromViscosity::.ctor()
 extern void ColorFromViscosity__ctor_m6B54A6AFDC1C7F6630EBB4D34BB2CB4809CA880A (void);
-// 0x0000008D System.Void Obi.ColorRandomizer::Start()
+// 0x0000009D System.Void Obi.ColorRandomizer::Start()
 extern void ColorRandomizer_Start_mCD413F040F477790A460D19B94AE0BB8905DE3A3 (void);
-// 0x0000008E System.Void Obi.ColorRandomizer::.ctor()
+// 0x0000009E System.Void Obi.ColorRandomizer::.ctor()
 extern void ColorRandomizer__ctor_m694D5DD4D47E3E5B0A2A154B7074F1CC3A7C5BB1 (void);
-// 0x0000008F System.Void Obi.LookAroundCamera::Awake()
+// 0x0000009F System.Void Obi.LookAroundCamera::Awake()
 extern void LookAroundCamera_Awake_mA513B42823F398025A05775B55E278CBCEAAFF6A (void);
-// 0x00000090 System.Void Obi.LookAroundCamera::LookAt(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x000000A0 System.Void Obi.LookAroundCamera::LookAt(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void LookAroundCamera_LookAt_mDC5402AE48AB10752E8A89AEB5E053C72118D64F (void);
-// 0x00000091 System.Void Obi.LookAroundCamera::UpdateShot()
+// 0x000000A1 System.Void Obi.LookAroundCamera::UpdateShot()
 extern void LookAroundCamera_UpdateShot_m909C2B732CE82D6583714A3A783CC81414987EBD (void);
-// 0x00000092 System.Void Obi.LookAroundCamera::LateUpdate()
+// 0x000000A2 System.Void Obi.LookAroundCamera::LateUpdate()
 extern void LookAroundCamera_LateUpdate_m05F34DFC534D0817C283E89D4F64E6F887821FAC (void);
-// 0x00000093 System.Void Obi.LookAroundCamera::.ctor()
+// 0x000000A3 System.Void Obi.LookAroundCamera::.ctor()
 extern void LookAroundCamera__ctor_m8C9EA9DABF5B96352BA08F94CDF65CB681DE4A9C (void);
-// 0x00000094 System.Void Obi.LookAroundCamera/CameraShot::.ctor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single)
+// 0x000000A4 System.Void Obi.LookAroundCamera/CameraShot::.ctor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single)
 extern void CameraShot__ctor_m0C33EEAE25AE5A10961A75FD92240824DB5DF441 (void);
-// 0x00000095 System.Void Obi.MoveAndRotate::Start()
+// 0x000000A5 System.Void Obi.MoveAndRotate::Start()
 extern void MoveAndRotate_Start_m4421D7242397D8DC77C2AEB21DD6667B3B23F473 (void);
-// 0x00000096 System.Void Obi.MoveAndRotate::FixedUpdate()
+// 0x000000A6 System.Void Obi.MoveAndRotate::FixedUpdate()
 extern void MoveAndRotate_FixedUpdate_m927377FEA86414A1B95A0AEBFDBE18910EE244D5 (void);
-// 0x00000097 System.Void Obi.MoveAndRotate::.ctor()
+// 0x000000A7 System.Void Obi.MoveAndRotate::.ctor()
 extern void MoveAndRotate__ctor_mE1F7C9EE4FA02C8A1D947C6FEDC23A5FFA66EDFA (void);
-// 0x00000098 System.Void Obi.MoveAndRotate/Vector3andSpace::.ctor()
+// 0x000000A8 System.Void Obi.MoveAndRotate/Vector3andSpace::.ctor()
 extern void Vector3andSpace__ctor_m3B8C9CA14D7AC9BBBC83027951A4FA9260ABD494 (void);
-// 0x00000099 System.Void Obi.ObiFluidPropertyColorizer::Awake()
+// 0x000000A9 System.Void Obi.ObiFluidPropertyColorizer::Awake()
 extern void ObiFluidPropertyColorizer_Awake_mEE1426C15CCC633E674135BDD155E458D5A163C1 (void);
-// 0x0000009A System.Void Obi.ObiFluidPropertyColorizer::OnEnable()
+// 0x000000AA System.Void Obi.ObiFluidPropertyColorizer::OnEnable()
 extern void ObiFluidPropertyColorizer_OnEnable_m918CC719742722193E42ACF798E06A16AD1B715B (void);
-// 0x0000009B System.Void Obi.ObiFluidPropertyColorizer::LateUpdate()
+// 0x000000AB System.Void Obi.ObiFluidPropertyColorizer::LateUpdate()
 extern void ObiFluidPropertyColorizer_LateUpdate_mD51EB27D7D8E0C388D3C16874EBA236ACC805464 (void);
-// 0x0000009C System.Void Obi.ObiFluidPropertyColorizer::.ctor()
+// 0x000000AC System.Void Obi.ObiFluidPropertyColorizer::.ctor()
 extern void ObiFluidPropertyColorizer__ctor_mF74DDDB82ED37E70F4F5097592E56B1861972AA6 (void);
-// 0x0000009D System.Void Obi.ViscositySurfTensionToUserData::Awake()
+// 0x000000AD System.Void Obi.ViscositySurfTensionToUserData::Awake()
 extern void ViscositySurfTensionToUserData_Awake_m3F38B54B5E740302F2600A95AF631BBC6321BB4F (void);
-// 0x0000009E System.Void Obi.ViscositySurfTensionToUserData::Emitter_OnEmitParticle(Obi.ObiEmitter,System.Int32)
+// 0x000000AE System.Void Obi.ViscositySurfTensionToUserData::Emitter_OnEmitParticle(Obi.ObiEmitter,System.Int32)
 extern void ViscositySurfTensionToUserData_Emitter_OnEmitParticle_m6F74DC7F54CA87F9C9D55F02DD1AA737FA47BB8C (void);
-// 0x0000009F System.Void Obi.ViscositySurfTensionToUserData::.ctor()
+// 0x000000AF System.Void Obi.ViscositySurfTensionToUserData::.ctor()
 extern void ViscositySurfTensionToUserData__ctor_mA115D5BEEC8417E347EBDE3D33379878066CF389 (void);
-static Il2CppMethodPointer s_methodPointers[159] = 
+static Il2CppMethodPointer s_methodPointers[175] = 
 {
 	FireExtinguisherActivation_Start_mD04BB062455DD4EF00A5F1537B3A8CDBFCC3E602,
 	FireExtinguisherActivation_Update_mC46A3B1C52AC2E01AACE7AAF40E56269571EAFCF,
@@ -448,6 +480,22 @@ static Il2CppMethodPointer s_methodPointers[159] =
 	OvenController_DecreaseFire_mE592E22BD3A36F327D1338FEBB3CA9C9655F3A1B,
 	OvenController_IsFireOut_mFB00496D3F01A8CBA0B06656E1C24D6703A3A6FB,
 	OvenController__ctor_mA27393E7720FD88DE6D30A72B54036BB9A0FDFBF,
+	VideoCapture_Start_mCEB9039EAB06A9EC4BD9C6C96DE6C23F0FD54630,
+	VideoCapture_OnDestroy_m2F26DC949C8EDF38AC0BA2BD1F5441F3E79285F4,
+	VideoCapture_Update_mF5C73FCA40A0776C22DD6659B1CCF0D1B61F773F,
+	VideoCapture_StopVideoCaptureTest_mC2C1FFC116C3EC82B3A49AA4B78CB97C449BB1FE,
+	VideoCapture_StartVideoCaptureTest_m3559A2C6CAC157CDFB21A4B88327D6D6C335847C,
+	VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9,
+	VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1,
+	VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9,
+	VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8,
+	VideoCapture__ctor_m4B2E6621744EAF81B76FDDA2046B75C04EC305DF,
+	U3CU3Ec__DisplayClass5_0__ctor_m37DF2ED240CAAD6A5A4548EF41585698A9E0C5A8,
+	U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620,
+	U3CU3Ec__cctor_mE531F2336379C6AFFD7A81DAAE4DC2A7A8FEAEFB,
+	U3CU3Ec__ctor_mA91975D8AEFC089DFA5EC57A4C3E9985CCD87B91,
+	U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538,
+	U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E,
 	ObiCharacter_Start_m16C58DDDC20BE97D18DA590BEFAE86397D9DE45C,
 	ObiCharacter_Move_m6F5639C3A7D30457458B4744D7F4B20C376CF149,
 	ObiCharacter_ScaleCapsuleForCrouching_m08981FD900C2B3AB783AA47D761E76D67C316920,
@@ -497,175 +545,191 @@ extern void CameraShot__ctor_m0C33EEAE25AE5A10961A75FD92240824DB5DF441_AdjustorT
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
 {
 	{ 0x0600006B, SolidData__ctor_m76C9498DEF26EEA81B0219A5903CBD504DCAC631_AdjustorThunk },
-	{ 0x06000094, CameraShot__ctor_m0C33EEAE25AE5A10961A75FD92240824DB5DF441_AdjustorThunk },
+	{ 0x060000A4, CameraShot__ctor_m0C33EEAE25AE5A10961A75FD92240824DB5DF441_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[159] = 
+static const int32_t s_InvokerIndices[175] = 
 {
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11287,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	5077,
-	11295,
-	11204,
-	11204,
-	11204,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	8740,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4887,
-	4896,
-	11295,
-	4484,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4896,
-	4896,
-	4905,
-	4795,
-	11295,
-	8908,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	10958,
-	11295,
-	11295,
-	2602,
-	8740,
-	11295,
-	9057,
-	11295,
-	4072,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	5079,
-	11295,
-	11295,
-	11295,
-	1869,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	11295,
-	4887,
-	11295,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11290,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	5080,
+	11298,
+	11207,
+	11207,
+	11207,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	8743,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4890,
+	4899,
+	11298,
+	4487,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4899,
+	4899,
+	4908,
+	4798,
+	11298,
+	8911,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	10961,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	9360,
+	9360,
+	9360,
+	9360,
+	11298,
+	11298,
+	8911,
+	18951,
+	11298,
+	7492,
+	8061,
+	11298,
+	2604,
+	8743,
+	11298,
+	9060,
+	11298,
+	4075,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	5082,
+	11298,
+	11298,
+	11298,
+	1870,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	11298,
+	4890,
+	11298,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	159,
+	175,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,

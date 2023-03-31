@@ -51390,6 +51390,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t IAsyncOperation_1_GetResults_mCF1E41
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Int32 System.Runtime.InteropServices.WindowsRuntime.IInspectableToICollectionAdapter`1<System.ArraySegment`1<System.Byte>>::System.Collections.Generic.ICollection`1.get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IInspectableToICollectionAdapter_1_System_Collections_Generic_ICollection_1_get_Count_mB019098A3337B3994B0F83D914C82F979AB68B2B_gshared (IInspectableToICollectionAdapter_1_t9FD45AEED43D40F17935A98DFBF71FB5616254BF* __this, const RuntimeMethod* method) 
 {

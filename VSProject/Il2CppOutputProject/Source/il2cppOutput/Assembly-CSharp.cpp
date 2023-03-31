@@ -54,16 +54,28 @@ struct InterfaceFuncInvoker0
 	}
 };
 
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+struct Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17;
+// System.Func`2<System.Single,System.Single>
+struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
 // System.Collections.Generic.HashSet`1<System.Int32>
 struct HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2;
 // System.Collections.Generic.IEnumerable`1<System.Int32>
 struct IEnumerable_1_tCE758D940790D6D0D56B457E522C195F8C413AF2;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Resolution>
+struct IEnumerable_1_tF003704BB20D860B66B7A704A722ACFA15C71331;
+// System.Collections.Generic.IEnumerable`1<System.Single>
+struct IEnumerable_1_t352FDDEA001ABE8E1D67849D2E2F3D1D75B03D41;
 // System.Collections.Generic.IEnumerator`1<Obi.ObiEmitterShape/DistributionPoint>
 struct IEnumerator_1_tFCCE88D3E6DFDD91C02C09097C54BE85B57C881B;
 // System.Collections.Generic.IEnumerator`1<Oni/Contact>
 struct IEnumerator_1_tAC49D83BF429EFAAAB22AEFD2E308F2BC971E64F;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
 struct IEqualityComparer_1_tDBFC8496F14612776AF930DBF84AFE7D06D1F0E9;
+// System.Linq.IOrderedEnumerable`1<UnityEngine.Resolution>
+struct IOrderedEnumerable_1_tD8D71C37FFD5AF5D76E34A168888BDA1C87EB88A;
+// System.Linq.IOrderedEnumerable`1<System.Single>
+struct IOrderedEnumerable_1_t9AAD7C9275FDCC6C941C75B7705677089BC9DB25;
 // System.Collections.Generic.List`1<Obi.IColliderWorldImpl>
 struct List_1_tC084D4F7A86C041A5546E1A761619685E3C907AC;
 // System.Collections.Generic.List`1<System.Int32>
@@ -130,6 +142,8 @@ struct PlaneU5BU5D_t4EEF66BAA8B0140EFFF34F6183CE7F80546592BE;
 struct QueryResultU5BU5D_t7632F1C39BB32F80A82FBE6B8ED33BA5C705BBA7;
 // Obi.QueryShape[]
 struct QueryShapeU5BU5D_tAE7C312FFACACFB9E41AF852C0D071045674011F;
+// UnityEngine.Resolution[]
+struct ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A;
 // System.Single[]
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
 // System.Diagnostics.StackTrace[]
@@ -368,6 +382,10 @@ struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
 // UnityEngine.UI.VertexHelper
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+// VideoCapture
+struct VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1;
+// UnityEngine.Windows.WebCam.VideoCapture
+struct VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B;
 // Obi.ViscositySurfTensionToUserData
 struct ViscositySurfTensionToUserData_tF140C23D143D8E0FF3E4E3A48396CDEE878C2D77;
 // System.Void
@@ -402,10 +420,26 @@ struct ObiCollisionEventArgs_t43DDA9EE5E63300F3467DC2AA79C520B2A86EE95;
 struct SolverCallback_tC853A7D4A859118B6E91FBB696A2FC6E29BEF280;
 // Obi.ObiSolver/SolverStepCallback
 struct SolverStepCallback_t6714CB14364194D8FC0B6939BB55A6CA0A392EFA;
+// VideoCapture/<>c
+struct U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D;
+// VideoCapture/<>c__DisplayClass5_0
+struct U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C;
+// UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback
+struct OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C;
+// UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback
+struct OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437;
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback
+struct OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C;
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback
+struct OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F;
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback
+struct OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054;
 
 IL2CPP_EXTERN_C RuntimeClass* CollisionCallback_tF781D24DE16B17255A50E43FC04F758590C6967E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EmitterParticleCallback_tD7D6198CB20EB537AA9BF15D72A768920A4D3421_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
@@ -420,14 +454,25 @@ IL2CPP_EXTERN_C RuntimeClass* ObiNativeQueryResultList_tC2A4921AE2C938943F495915
 IL2CPP_EXTERN_C RuntimeClass* ObiNativeQueryShapeList_tBEE7E6CC52532A6D061B5DC21DB72C85C06F64A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObiUtils_tBF9F7B76392466EFC740B84EADE36330FB7A62F5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SolidDataU5BU5D_tC4F573A177E44564140D4E2CB2CCFB7B8C5A6A29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SolverStepCallback_t6714CB14364194D8FC0B6939BB55A6CA0A392EFA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral025C2E4587FF04FF774D66AFFE40767817874560;
+IL2CPP_EXTERN_C String_t* _stringLiteral027833353F0A58A2945868AE167AE4083934E47A;
 IL2CPP_EXTERN_C String_t* _stringLiteral049E6AFDC011FD79808C524691F52311F925F5D4;
 IL2CPP_EXTERN_C String_t* _stringLiteral073636784DA1EA12164998BEE384713657E4BE14;
+IL2CPP_EXTERN_C String_t* _stringLiteral09B11B6CC411D8B9FFB75EAAE9A35B2AF248CE40;
 IL2CPP_EXTERN_C String_t* _stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral18508A182F7CDBB15AD52BF1ED3A12AEA2C5728A;
 IL2CPP_EXTERN_C String_t* _stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A;
@@ -435,14 +480,19 @@ IL2CPP_EXTERN_C String_t* _stringLiteral288B53F014E2C53296CBC94785B0521CC621D509
 IL2CPP_EXTERN_C String_t* _stringLiteral350E6D6540361EEDEEBD43F578F0CC9F51C49CFA;
 IL2CPP_EXTERN_C String_t* _stringLiteral37779FE86E1CB4A51A131CC582E99DDCDC41B4F2;
 IL2CPP_EXTERN_C String_t* _stringLiteral386364D784E9EBB79BC2A529A56F1826D1CD16F6;
+IL2CPP_EXTERN_C String_t* _stringLiteral45B9A324C04132C97DF68C67477DB8F073F3FB68;
+IL2CPP_EXTERN_C String_t* _stringLiteral484E85C3E3B18A82DEFC059116480B5B6199CE2F;
 IL2CPP_EXTERN_C String_t* _stringLiteral4C88192F2E55D836E7212DA493C15217F7B784A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral587CE16BC4DC558014D161453C542C306A77F40B;
 IL2CPP_EXTERN_C String_t* _stringLiteral599B0A0D55085533421C8B18BCD40D1C279EEC5E;
+IL2CPP_EXTERN_C String_t* _stringLiteral6824410A760400CD4F0BB913CF3F95C9583E7A9A;
 IL2CPP_EXTERN_C String_t* _stringLiteral6D931A3960FB7CEA48B3698BD6A5673C06F2C8C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral724F6EF07C0D3FFFD32A55027218B65FB4F377E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral754C874FC634206F535FBDF83FDEC992C48B53A2;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E;
+IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
+IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D03AA9913DCA259D4DD5308FF4B9088067268C2;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E;
@@ -454,11 +504,16 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBE56973388D59C08629D0FCCE91C53CBE3357EDE
 IL2CPP_EXTERN_C String_t* _stringLiteralBEA159A425212190508ED741CC4F9E36C3660D7D;
 IL2CPP_EXTERN_C String_t* _stringLiteralCC3C4270A3AB88F5BBA71D91B5181AE44EE67104;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE1D6B656C3573ED3D41EC57B74D3DA2E778E319;
+IL2CPP_EXTERN_C String_t* _stringLiteralCEDCD9A95C011C797BEE21B61FDFC2308A7B47D7;
 IL2CPP_EXTERN_C String_t* _stringLiteralD7AA4FA225FCE9AF53FF779F79883A2DF50AD161;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0750C2DE04D66CACA2E5001000C816899DF7904;
+IL2CPP_EXTERN_C String_t* _stringLiteralE76AFE6E8A4B9888440C7764BB04943D6E296B81;
 IL2CPP_EXTERN_C String_t* _stringLiteralEADE91E573B3BBA4B0C2F14237A82BADF354A2D6;
 IL2CPP_EXTERN_C String_t* _stringLiteralEB1018EBBD330B231ADCF3E0D809C0C4A7F770D4;
+IL2CPP_EXTERN_C String_t* _stringLiteralEB6192916E33F0E9A879D75E8439BFD34434C442;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0BFFDA088BD1CDAA41AB72838F89353A454A0CD;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA8196499BA22044D1EAEA88E3AF42A318FD0203;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisSolidData_tA3BB527781EC91973366E971826928BDC76C0A0D_mFB793145BC15D7567F5740C87688300082245475_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColliderHighlighter_Solver_OnCollision_m12DC7E9485348953C868471600A9A7EFBBD85059_RuntimeMethod_var;
@@ -476,6 +531,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisObiSolver_t0CE5AC
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FireExtinguisherWaterInteraction_Solver_OnCollision_mAAF2CA264B9F4550C799D98DDE920B1CBB714138_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisObiActor_t225C62C527A0691831A8789BC76AF8AE8DBF4D04_mBC4ED56A938662556FA0344EBFEB778EBB2C92C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisOvenController_t74E205DB26642D2F2FB93F562F125D2308294096_mD6DA279835153FF1944FB9EC81AEC6962701669D_RuntimeMethod_var;
@@ -512,9 +571,16 @@ IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663
 IL2CPP_EXTERN_C const RuntimeMethod* SolidifyOnContact_Solver_OnBeginStep_m562021A547E1B443171CAE14FAC1F26CAC5DA237_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SolidifyOnContact_Solver_OnCollision_m135596DD30DA4857E8C64139E3E65AD044EA2824_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SolidifyOnContact_Solver_OnParticleCollision_m7DE677A6D69D10C69E7FF2A0BF413E92A3F6AE9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_2__ctor_mBF924870A9172E74E01A58B93BF4F3B560478A6E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector4_get_Item_mB1D001A235857569E479FB799EF77C52391D19EF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector4_set_Item_mF24782F861A16BB0436C2262FA916B4EE69998A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ViscositySurfTensionToUserData_Emitter_OnEmitParticle_m6F74DC7F54CA87F9C9D55F02DD1AA737FA47BB8C_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -798,6 +864,11 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
 
+// VideoCapture/<>c
+struct U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D  : public RuntimeObject
+{
+};
+
 // UnityEngine.Events.UnityEvent`2<System.Int32,System.Int32>
 struct UnityEvent_2_t750A5CCCFC4D6C109624CD29B7A331D1B6517E73  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
 {
@@ -840,6 +911,21 @@ struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3
 {
 	// System.Byte System.Byte::m_value
 	uint8_t ___m_value_0;
+};
+
+// UnityEngine.Windows.WebCam.CameraParameters
+struct CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA 
+{
+	// System.Single UnityEngine.Windows.WebCam.CameraParameters::m_HologramOpacity
+	float ___m_HologramOpacity_0;
+	// System.Single UnityEngine.Windows.WebCam.CameraParameters::m_FrameRate
+	float ___m_FrameRate_1;
+	// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::m_CameraResolutionWidth
+	int32_t ___m_CameraResolutionWidth_2;
+	// System.Int32 UnityEngine.Windows.WebCam.CameraParameters::m_CameraResolutionHeight
+	int32_t ___m_CameraResolutionHeight_3;
+	// UnityEngine.Windows.WebCam.CapturePixelFormat UnityEngine.Windows.WebCam.CameraParameters::m_PixelFormat
+	int32_t ___m_PixelFormat_4;
 };
 
 // UnityEngine.Color
@@ -1042,6 +1128,17 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___w_3;
 };
 
+// UnityEngine.Resolution
+struct Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 
+{
+	// System.Int32 UnityEngine.Resolution::m_Width
+	int32_t ___m_Width_0;
+	// System.Int32 UnityEngine.Resolution::m_Height
+	int32_t ___m_Height_1;
+	// System.Int32 UnityEngine.Resolution::m_RefreshRate
+	int32_t ___m_RefreshRate_2;
+};
+
 // Obi.SimplexCounts
 struct SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 
 {
@@ -1140,6 +1237,15 @@ struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_pinvoke
 struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_com
 {
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem_0;
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult
+struct VideoCaptureResult_tD0E9941A78C58C6678A09657FDE7EF1C571A3DBE 
+{
+	// UnityEngine.Windows.WebCam.VideoCapture/CaptureResultType UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult::resultType
+	int32_t ___resultType_0;
+	// System.Int64 UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult::hResult
+	int64_t ___hResult_1;
 };
 
 // Obi.AffineTransform
@@ -1412,6 +1518,23 @@ struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5
 	int32_t ___m_Collider_5;
 };
 
+// UnityEngine.Windows.WebCam.VideoCapture
+struct VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Windows.WebCam.VideoCapture::m_NativePtr
+	intptr_t ___m_NativePtr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Windows.WebCam.VideoCapture
+struct VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B_marshaled_pinvoke
+{
+	intptr_t ___m_NativePtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Windows.WebCam.VideoCapture
+struct VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B_marshaled_com
+{
+	intptr_t ___m_NativePtr_0;
+};
+
 // Obi.LookAroundCamera/CameraShot
 struct CameraShot_t154A1A2D35542596F67D4340C7EA28059D6E8606 
 {
@@ -1527,6 +1650,17 @@ struct SolidData_tA3BB527781EC91973366E971826928BDC76C0A0D_marshaled_com
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localPos_1;
 };
 
+// VideoCapture/<>c__DisplayClass5_0
+struct U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C  : public RuntimeObject
+{
+	// VideoCapture VideoCapture/<>c__DisplayClass5_0::<>4__this
+	VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* ___U3CU3E4__this_0;
+	// System.Single VideoCapture/<>c__DisplayClass5_0::cameraFramerate
+	float ___cameraFramerate_1;
+	// UnityEngine.Resolution VideoCapture/<>c__DisplayClass5_0::cameraResolution
+	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 ___cameraResolution_2;
+};
+
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -1566,6 +1700,16 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+struct Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.Single,System.Single>
+struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2  : public MulticastDelegate_t
 {
 };
 
@@ -1626,6 +1770,31 @@ struct CollisionCallback_tF781D24DE16B17255A50E43FC04F758590C6967E  : public Mul
 
 // Obi.ObiSolver/SolverStepCallback
 struct SolverStepCallback_t6714CB14364194D8FC0B6939BB55A6CA0A392EFA  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback
+struct OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback
+struct OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback
+struct OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback
+struct OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback
+struct OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054  : public MulticastDelegate_t
 {
 };
 
@@ -2423,6 +2592,13 @@ struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehav
 {
 };
 
+// VideoCapture
+struct VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Windows.WebCam.VideoCapture VideoCapture::m_VideoCapture
+	VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* ___m_VideoCapture_4;
+};
+
 // Obi.ViscositySurfTensionToUserData
 struct ViscositySurfTensionToUserData_tF140C23D143D8E0FF3E4E3A48396CDEE878C2D77  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2683,6 +2859,19 @@ struct String_t_StaticFields
 
 // System.ValueType
 
+// VideoCapture/<>c
+struct U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields
+{
+	// VideoCapture/<>c VideoCapture/<>c::<>9
+	U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* ___U3CU3E9_0;
+	// System.Func`2<UnityEngine.Resolution,System.Int32> VideoCapture/<>c::<>9__5_0
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___U3CU3E9__5_0_1;
+	// System.Func`2<System.Single,System.Single> VideoCapture/<>c::<>9__5_1
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___U3CU3E9__5_1_2;
+};
+
+// VideoCapture/<>c
+
 // UnityEngine.Events.UnityEvent`2<System.Int32,System.Int32>
 
 // UnityEngine.Events.UnityEvent`2<System.Int32,System.Int32>
@@ -2705,6 +2894,10 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // System.Byte
 
 // System.Byte
+
+// UnityEngine.Windows.WebCam.CameraParameters
+
+// UnityEngine.Windows.WebCam.CameraParameters
 
 // UnityEngine.Color
 
@@ -2787,6 +2980,10 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
 };
 
 // UnityEngine.Quaternion
+
+// UnityEngine.Resolution
+
+// UnityEngine.Resolution
 
 // Obi.SimplexCounts
 
@@ -2877,6 +3074,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.ParticleSystem/MainModule
 
+// UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult
+
+// UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult
+
 // Obi.AffineTransform
 
 // Obi.AffineTransform
@@ -2931,6 +3132,17 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.RaycastHit
 
+// UnityEngine.Windows.WebCam.VideoCapture
+struct VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B_StaticFields
+{
+	// UnityEngine.Resolution[] UnityEngine.Windows.WebCam.VideoCapture::s_SupportedResolutions
+	ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A* ___s_SupportedResolutions_1;
+	// System.Int64 UnityEngine.Windows.WebCam.VideoCapture::HR_SUCCESS
+	int64_t ___HR_SUCCESS_2;
+};
+
+// UnityEngine.Windows.WebCam.VideoCapture
+
 // Obi.LookAroundCamera/CameraShot
 
 // Obi.LookAroundCamera/CameraShot
@@ -2954,6 +3166,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // SolidifyOnContact/SolidData
 
 // SolidifyOnContact/SolidData
+
+// VideoCapture/<>c__DisplayClass5_0
+
+// VideoCapture/<>c__DisplayClass5_0
 
 // UnityEngine.Component
 
@@ -2984,6 +3200,14 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
 
 // UnityEngine.Texture
 
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+
+// System.Func`2<System.Single,System.Single>
+
+// System.Func`2<System.Single,System.Single>
+
 // UnityEngine.Behaviour
 
 // UnityEngine.Behaviour
@@ -3031,6 +3255,26 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
 // Obi.ObiSolver/SolverStepCallback
 
 // Obi.ObiSolver/SolverStepCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback
+
+// UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback
 
 // UnityEngine.Animator
 
@@ -3229,6 +3473,10 @@ struct ObiSolver_t0CE5AC93E9DA0C91E9F989471D041B970F513F6B_StaticFields
 // UnityEngine.EventSystems.UIBehaviour
 
 // UnityEngine.EventSystems.UIBehaviour
+
+// VideoCapture
+
+// VideoCapture
 
 // Obi.ViscositySurfTensionToUserData
 
@@ -3581,6 +3829,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObiNativeList_1_get_Item_m9E26BFD687E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiNativeList_1_set_Item_m0149E7CC897E6BEE7D3DE02E3529D8E9401209A0_gshared (ObiNativeList_1_t0094C441AFFEFC4F7801B97662A8C159C72D345C* __this, int32_t ___0_index, int32_t ___1_value, const RuntimeMethod* method) ;
 // System.Void Obi.ObiNativeList`1<System.Single>::set_Item(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObiNativeList_1_set_Item_m39AB124A137D36677270A6F819B4501895D68B47_gshared (ObiNativeList_1_tE2F4115A02C566791A50529070BC831E73D83EA4* __this, int32_t ___0_index, float ___1_value, const RuntimeMethod* method) ;
+// System.Void System.Func`2<UnityEngine.Resolution,System.Int32>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m820E11A6F1E50ACD115877C91FDB5A80C843D476_gshared (Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderByDescending<UnityEngine.Resolution,System.Int32>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0_gshared (RuntimeObject* ___0_source, Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___1_keySelector, const RuntimeMethod* method) ;
+// TSource System.Linq.Enumerable::First<UnityEngine.Resolution>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Single,System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD64CD30418B670CBB35821EC2D8C91B7A1FAA959_gshared (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderByDescending<System.Single,System.Single>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0_gshared (RuntimeObject* ___0_source, Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___1_keySelector, const RuntimeMethod* method) ;
+// TSource System.Linq.Enumerable::First<System.Single>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
@@ -4064,6 +4324,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MainModule_tC7ECD8330C14B0808478A748048988A60
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_scalingMode_m08A4399A0E64E5894509084A42BB528BE16A648D (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+// System.Void VideoCapture::StartVideoCaptureTest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StartVideoCaptureTest_m3559A2C6CAC157CDFB21A4B88327D6D6C335847C (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) ;
+// System.Void VideoCapture::StopVideoCaptureTest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StopVideoCaptureTest_mC2C1FFC116C3EC82B3A49AA4B78CB97C449BB1FE (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Windows.WebCam.VideoCapture::get_IsRecording()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoCapture_get_IsRecording_m3BB6AC04502B9B631DC2A35F075FF4141A3D6DD2 (VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnStoppedRecordingVideoCallback__ctor_mF7ABDE9A5467F6ED8C80D67A047A8E2B36E4C93D (OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture::StopRecordingAsync(UnityEngine.Windows.WebCam.VideoCapture/OnStoppedRecordingVideoCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StopRecordingAsync_m57D8AF1F3E6FD87996E841BA6E2EF0423E9C88EA (VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* __this, OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437* ___0_onStoppedRecordingVideoCallback, const RuntimeMethod* method) ;
+// System.Void VideoCapture/<>c__DisplayClass5_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m37DF2ED240CAAD6A5A4548EF41585698A9E0C5A8 (U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Resolution> UnityEngine.Windows.WebCam.VideoCapture::get_SupportedResolutions()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VideoCapture_get_SupportedResolutions_mF8904FBD8A6E5AA54666E760F46E258CDFD4F866 (const RuntimeMethod* method) ;
+// System.Void System.Func`2<UnityEngine.Resolution,System.Int32>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m820E11A6F1E50ACD115877C91FDB5A80C843D476 (Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m820E11A6F1E50ACD115877C91FDB5A80C843D476_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderByDescending<UnityEngine.Resolution,System.Int32>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>)
+inline RuntimeObject* Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0 (RuntimeObject* ___0_source, Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___1_keySelector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17*, const RuntimeMethod*))Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0_gshared)(___0_source, ___1_keySelector, method);
+}
+// TSource System.Linq.Enumerable::First<UnityEngine.Resolution>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE_gshared)(___0_source, method);
+}
+// System.Collections.Generic.IEnumerable`1<System.Single> UnityEngine.Windows.WebCam.VideoCapture::GetSupportedFrameRatesForResolution(UnityEngine.Resolution)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VideoCapture_GetSupportedFrameRatesForResolution_mE08D3514BF01E599105E23EFDE4CFD47E86E6BDA (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 ___0_resolution, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Single,System.Single>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mD64CD30418B670CBB35821EC2D8C91B7A1FAA959 (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_mD64CD30418B670CBB35821EC2D8C91B7A1FAA959_gshared)(__this, ___0_object, ___1_method, method);
+}
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderByDescending<System.Single,System.Single>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>)
+inline RuntimeObject* Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0 (RuntimeObject* ___0_source, Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___1_keySelector, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2*, const RuntimeMethod*))Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0_gshared)(___0_source, ___1_keySelector, method);
+}
+// TSource System.Linq.Enumerable::First<System.Single>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline float Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  float (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4_gshared)(___0_source, method);
+}
+// System.Void UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnVideoCaptureResourceCreatedCallback__ctor_m594F6A6FBAE4A81359B414929983FEE40E912B4E (OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture::CreateAsync(System.Boolean,UnityEngine.Windows.WebCam.VideoCapture/OnVideoCaptureResourceCreatedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_CreateAsync_m21E756E0FC17FA8C1FE130E7C6AEC47D4F268E89 (bool ___0_showHolograms, OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C* ___1_onCreatedCallback, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Time::get_time()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+// System.String System.Single::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+// System.String System.String::Replace(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+// System.String UnityEngine.Application::get_persistentDataPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnStartedRecordingVideoCallback__ctor_mD8717E91EA5F000F483C275B13FE109AA7ADE0D9 (OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture::StartRecordingAsync(System.String,UnityEngine.Windows.WebCam.VideoCapture/OnStartedRecordingVideoCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StartRecordingAsync_m8EE4FE0E20EB6E34C61A76CD3C04D4A612853E33 (VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* __this, String_t* ___0_filename, OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C* ___1_onStartedRecordingVideoCallback, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnVideoModeStoppedCallback__ctor_m1618ED37C91424039CBF5A18243FFC0366A83C0B (OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture::StopVideoModeAsync(UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStoppedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StopVideoModeAsync_m7F05FA7A71A4B35648AA183B0B89513D3EA9A6B8 (VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* __this, OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054* ___0_onVideoModeStoppedCallback, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_hologramOpacity(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_hologramOpacity_mFC7C28B918ED1E6517C391983FDAE2A993FC9F4C (CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA* __this, float ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_frameRate(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_frameRate_m88939D7DCCB953A595F7FCB03A11545087902D59 (CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA* __this, float ___0_value, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Resolution::get_width()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Resolution_get_width_mC55423852D453EEC0B66E692AA3E7F5DE772FB24 (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionWidth(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionWidth_m9887AD1EED153CC6F9A053208F4DDAB6163A36D7 (CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Resolution::get_height()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Resolution_get_height_mD46754FA3634CA816BE91D1610D1FEBDECCEBE5B (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_cameraResolutionHeight(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_cameraResolutionHeight_mF4CAA13F21662E9B257765CF2154CE3703A3D260 (CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.CameraParameters::set_pixelFormat(UnityEngine.Windows.WebCam.CapturePixelFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraParameters_set_pixelFormat_mB818B1DECAD585CD0FF03A09CFAC0278B1F39091 (CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnVideoModeStartedCallback__ctor_m22EB614DA74F36A105031B4CEE36F81A9CF582BE (OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Windows.WebCam.VideoCapture::StartVideoModeAsync(UnityEngine.Windows.WebCam.CameraParameters,UnityEngine.Windows.WebCam.VideoCapture/AudioState,UnityEngine.Windows.WebCam.VideoCapture/OnVideoModeStartedCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StartVideoModeAsync_m9A9C266BE18472DBDE6D1161886D51958C7F1E3C (VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* __this, CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA ___0_setupParams, int32_t ___1_audioState, OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F* ___2_onVideoModeStartedCallback, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+// System.Void VideoCapture/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA91975D8AEFC089DFA5EC57A4C3E9985CCD87B91 (U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.LayerMask::NameToLayer(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139 (String_t* ___0_layerName, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Physics::IgnoreLayerCollision(System.Int32,System.Int32,System.Boolean)
@@ -4229,8 +4583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Translate_m4A9E3D8836586E7562F6A18EBF5F5B6089D8B649 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, int32_t ___1_relativeTo, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,UnityEngine.Space)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_mAE711E1B1F639FDBA7B456E1E1B35DB90EEB737A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_eulers, int32_t ___1_relativeTo, const RuntimeMethod* method) ;
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.IndexOutOfRangeException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425 (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::Normalize(UnityEngine.Vector3)
@@ -9767,6 +10119,559 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenController__ctor_mA27393E7720FD88DE6
 		__this->___mFireScale_5 = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VideoCapture::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_Start_mCEB9039EAB06A9EC4BD9C6C96DE6C23F0FD54630 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	{
+		// StartVideoCaptureTest();
+		VideoCapture_StartVideoCaptureTest_m3559A2C6CAC157CDFB21A4B88327D6D6C335847C(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::OnDestroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_OnDestroy_m2F26DC949C8EDF38AC0BA2BD1F5441F3E79285F4 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	{
+		// StopVideoCaptureTest();
+		VideoCapture_StopVideoCaptureTest_mC2C1FFC116C3EC82B3A49AA4B78CB97C449BB1FE(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_Update_mF5C73FCA40A0776C22DD6659B1CCF0D1B61F773F (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::StopVideoCaptureTest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StopVideoCaptureTest_mC2C1FFC116C3EC82B3A49AA4B78CB97C449BB1FE (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (m_VideoCapture == null || !m_VideoCapture.IsRecording)
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_0 = __this->___m_VideoCapture_4;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_1 = __this->___m_VideoCapture_4;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = VideoCapture_get_IsRecording_m3BB6AC04502B9B631DC2A35F075FF4141A3D6DD2(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0016;
+		}
+	}
+
+IL_0015:
+	{
+		// return;
+		return;
+	}
+
+IL_0016:
+	{
+		// m_VideoCapture.StopRecordingAsync(OnStoppedRecordingVideo);
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_3 = __this->___m_VideoCapture_4;
+		OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437* L_4 = (OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437*)il2cpp_codegen_object_new(OnStoppedRecordingVideoCallback_tC089900DD6C16C42C782522C257740BB222C1437_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		OnStoppedRecordingVideoCallback__ctor_mF7ABDE9A5467F6ED8C80D67A047A8E2B36E4C93D(L_4, __this, (intptr_t)((void*)VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		VideoCapture_StopRecordingAsync_m57D8AF1F3E6FD87996E841BA6E2EF0423E9C88EA(L_3, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::StartVideoCaptureTest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_StartVideoCaptureTest_m3559A2C6CAC157CDFB21A4B88327D6D6C335847C (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* V_0 = NULL;
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* G_B2_0 = NULL;
+	RuntimeObject* G_B2_1 = NULL;
+	U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* G_B2_2 = NULL;
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* G_B1_0 = NULL;
+	RuntimeObject* G_B1_1 = NULL;
+	U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* G_B1_2 = NULL;
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* G_B4_0 = NULL;
+	RuntimeObject* G_B4_1 = NULL;
+	U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* G_B4_2 = NULL;
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* G_B3_0 = NULL;
+	RuntimeObject* G_B3_1 = NULL;
+	U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* G_B3_2 = NULL;
+	{
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_0 = (U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass5_0__ctor_m37DF2ED240CAAD6A5A4548EF41585698A9E0C5A8(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
+		// Resolution cameraResolution = UnityEngine.Windows.WebCam.VideoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).First();
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_2 = V_0;
+		RuntimeObject* L_3;
+		L_3 = VideoCapture_get_SupportedResolutions_mF8904FBD8A6E5AA54666E760F46E258CDFD4F866(NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_4 = ((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_0_1;
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_5 = L_4;
+		G_B1_0 = L_5;
+		G_B1_1 = L_3;
+		G_B1_2 = L_2;
+		if (L_5)
+		{
+			G_B2_0 = L_5;
+			G_B2_1 = L_3;
+			G_B2_2 = L_2;
+			goto IL_0032;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* L_6 = ((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_7 = (Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17*)il2cpp_codegen_object_new(Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Func_2__ctor_m820E11A6F1E50ACD115877C91FDB5A80C843D476(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538_RuntimeMethod_var), NULL);
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_8 = L_7;
+		((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_0_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_0_1), (void*)L_8);
+		G_B2_0 = L_8;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+	}
+
+IL_0032:
+	{
+		RuntimeObject* L_9;
+		L_9 = Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0(G_B2_1, G_B2_0, Enumerable_OrderByDescending_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m8B9D9A25AF309D3196CF7FC53B94E0F25BA20BD0_RuntimeMethod_var);
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 L_10;
+		L_10 = Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE(L_9, Enumerable_First_TisResolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_mE628A373984B652783286714B86261FC7F274BCE_RuntimeMethod_var);
+		NullCheck(G_B2_2);
+		G_B2_2->___cameraResolution_2 = L_10;
+		// Debug.Log(cameraResolution);
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_11 = V_0;
+		NullCheck(L_11);
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 L_12 = L_11->___cameraResolution_2;
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 L_13 = L_12;
+		RuntimeObject* L_14 = Box(Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525_il2cpp_TypeInfo_var, &L_13);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
+		// float cameraFramerate = UnityEngine.Windows.WebCam.VideoCapture.GetSupportedFrameRatesForResolution(cameraResolution).OrderByDescending((fps) => fps).First();
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_15 = V_0;
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_16 = V_0;
+		NullCheck(L_16);
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 L_17 = L_16->___cameraResolution_2;
+		RuntimeObject* L_18;
+		L_18 = VideoCapture_GetSupportedFrameRatesForResolution_mE08D3514BF01E599105E23EFDE4CFD47E86E6BDA(L_17, NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_19 = ((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_1_2;
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_20 = L_19;
+		G_B3_0 = L_20;
+		G_B3_1 = L_18;
+		G_B3_2 = L_15;
+		if (L_20)
+		{
+			G_B4_0 = L_20;
+			G_B4_1 = L_18;
+			G_B4_2 = L_15;
+			goto IL_007c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* L_21 = ((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_22 = (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2*)il2cpp_codegen_object_new(Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2_il2cpp_TypeInfo_var);
+		NullCheck(L_22);
+		Func_2__ctor_mD64CD30418B670CBB35821EC2D8C91B7A1FAA959(L_22, L_21, (intptr_t)((void*)U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E_RuntimeMethod_var), NULL);
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_23 = L_22;
+		((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_1_2 = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9__5_1_2), (void*)L_23);
+		G_B4_0 = L_23;
+		G_B4_1 = G_B3_1;
+		G_B4_2 = G_B3_2;
+	}
+
+IL_007c:
+	{
+		RuntimeObject* L_24;
+		L_24 = Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0(G_B4_1, G_B4_0, Enumerable_OrderByDescending_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBB9F6AB716F2FDF2F8C66E4331CEEEE2EAA4A8E0_RuntimeMethod_var);
+		float L_25;
+		L_25 = Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4(L_24, Enumerable_First_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m6005CBC84A81A084A0C9F76DCACB9540CEFD90D4_RuntimeMethod_var);
+		NullCheck(G_B4_2);
+		G_B4_2->___cameraFramerate_1 = L_25;
+		// Debug.Log(cameraFramerate);
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_26 = V_0;
+		NullCheck(L_26);
+		float L_27 = L_26->___cameraFramerate_1;
+		float L_28 = L_27;
+		RuntimeObject* L_29 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_28);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_29, NULL);
+		// UnityEngine.Windows.WebCam.VideoCapture.CreateAsync(true, delegate (UnityEngine.Windows.WebCam.VideoCapture videoCapture)
+		// {
+		//     if (videoCapture != null)
+		//     {
+		//         m_VideoCapture = videoCapture;
+		//         Debug.Log("Created VideoCapture Instance!");
+		// 
+		//         UnityEngine.Windows.WebCam.CameraParameters cameraParameters = new UnityEngine.Windows.WebCam.CameraParameters();
+		//         cameraParameters.hologramOpacity = 1.0f;
+		//         cameraParameters.frameRate = cameraFramerate;
+		//         cameraParameters.cameraResolutionWidth = cameraResolution.width;
+		//         cameraParameters.cameraResolutionHeight = cameraResolution.height;
+		//         cameraParameters.pixelFormat = UnityEngine.Windows.WebCam.CapturePixelFormat.PNG;
+		// 
+		//         m_VideoCapture.StartVideoModeAsync(cameraParameters,
+		//             UnityEngine.Windows.WebCam.VideoCapture.AudioState.ApplicationAndMicAudio,
+		//             OnStartedVideoCaptureMode);
+		//     }
+		//     else
+		//     {
+		//         Debug.LogError("Failed to create VideoCapture Instance!");
+		//     }
+		// });
+		U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* L_30 = V_0;
+		OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C* L_31 = (OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C*)il2cpp_codegen_object_new(OnVideoCaptureResourceCreatedCallback_t5652A803A57C7FEA9BEAAA7250D14204C9AA114C_il2cpp_TypeInfo_var);
+		NullCheck(L_31);
+		OnVideoCaptureResourceCreatedCallback__ctor_m594F6A6FBAE4A81359B414929983FEE40E912B4E(L_31, L_30, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620_RuntimeMethod_var), NULL);
+		VideoCapture_CreateAsync_m21E756E0FC17FA8C1FE130E7C6AEC47D4F268E89((bool)1, L_31, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::OnStartedVideoCaptureMode(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, VideoCaptureResult_tD0E9941A78C58C6678A09657FDE7EF1C571A3DBE ___0_result, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral027833353F0A58A2945868AE167AE4083934E47A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral09B11B6CC411D8B9FFB75EAAE9A35B2AF248CE40);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE76AFE6E8A4B9888440C7764BB04943D6E296B81);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	float V_3 = 0.0f;
+	{
+		// Debug.Log("Started Video Capture Mode!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral027833353F0A58A2945868AE167AE4083934E47A, NULL);
+		// string timeStamp = Time.time.ToString().Replace(".", "").Replace(":", "");
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		V_3 = L_0;
+		String_t* L_1;
+		L_1 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_3), NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_2, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_3;
+		// string filename = string.Format("ARBaselineEnv_{0}.mp4", timeStamp);
+		String_t* L_4 = V_0;
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE76AFE6E8A4B9888440C7764BB04943D6E296B81, L_4, NULL);
+		V_1 = L_5;
+		// string filepath = System.IO.Path.Combine(Application.persistentDataPath, filename);
+		String_t* L_6;
+		L_6 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		String_t* L_7 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_8;
+		L_8 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_6, L_7, NULL);
+		V_2 = L_8;
+		// Debug.Log(filepath);
+		String_t* L_9 = V_2;
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		// filepath = filepath.Replace("/", @"\");
+		String_t* L_10 = V_2;
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_10, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, _stringLiteral09B11B6CC411D8B9FFB75EAAE9A35B2AF248CE40, NULL);
+		V_2 = L_11;
+		// m_VideoCapture.StartRecordingAsync(filepath, OnStartedRecordingVideo);
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_12 = __this->___m_VideoCapture_4;
+		String_t* L_13 = V_2;
+		OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C* L_14 = (OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C*)il2cpp_codegen_object_new(OnStartedRecordingVideoCallback_t64E6C26F7ABAB9254AACB9D62C693F8922C1E45C_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		OnStartedRecordingVideoCallback__ctor_mD8717E91EA5F000F483C275B13FE109AA7ADE0D9(L_14, __this, (intptr_t)((void*)VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		VideoCapture_StartRecordingAsync_m8EE4FE0E20EB6E34C61A76CD3C04D4A612853E33(L_12, L_13, L_14, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::OnStoppedVideoCaptureMode(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, VideoCaptureResult_tD0E9941A78C58C6678A09657FDE7EF1C571A3DBE ___0_result, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6824410A760400CD4F0BB913CF3F95C9583E7A9A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Stopped Video Capture Mode!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6824410A760400CD4F0BB913CF3F95C9583E7A9A, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::OnStartedRecordingVideo(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_OnStartedRecordingVideo_mD27547439E9EA830520F028B6405FD30EACD29E9 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, VideoCaptureResult_tD0E9941A78C58C6678A09657FDE7EF1C571A3DBE ___0_result, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEB6192916E33F0E9A879D75E8439BFD34434C442);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Started Recording Video!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralEB6192916E33F0E9A879D75E8439BFD34434C442, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::OnStoppedRecordingVideo(UnityEngine.Windows.WebCam.VideoCapture/VideoCaptureResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture_OnStoppedRecordingVideo_m9B73BB00268C8D016448C63A4AD91B99D3C038B8 (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, VideoCaptureResult_tD0E9941A78C58C6678A09657FDE7EF1C571A3DBE ___0_result, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral484E85C3E3B18A82DEFC059116480B5B6199CE2F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Stopped Recording Video!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral484E85C3E3B18A82DEFC059116480B5B6199CE2F, NULL);
+		// m_VideoCapture.StopVideoModeAsync(OnStoppedVideoCaptureMode);
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_0 = __this->___m_VideoCapture_4;
+		OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054* L_1 = (OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054*)il2cpp_codegen_object_new(OnVideoModeStoppedCallback_tA29659F86D8702608589583F3F415ABF57F6A054_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		OnVideoModeStoppedCallback__ctor_m1618ED37C91424039CBF5A18243FFC0366A83C0B(L_1, __this, (intptr_t)((void*)VideoCapture_OnStoppedVideoCaptureMode_mA5E5071B8574AC92F6820CDE670CE36459CEFBE1_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		VideoCapture_StopVideoModeAsync_m7F05FA7A71A4B35648AA183B0B89513D3EA9A6B8(L_0, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoCapture::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoCapture__ctor_m4B2E6621744EAF81B76FDDA2046B75C04EC305DF (VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VideoCapture/<>c__DisplayClass5_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m37DF2ED240CAAD6A5A4548EF41585698A9E0C5A8 (U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void VideoCapture/<>c__DisplayClass5_0::<StartVideoCaptureTest>b__2(UnityEngine.Windows.WebCam.VideoCapture)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CStartVideoCaptureTestU3Eb__2_m17E7DF1FAE88D385FFFEAC9F3C9B3F073B5C9620 (U3CU3Ec__DisplayClass5_0_tD8A0A1A3872F6E9689E59894C5B2017029AC181C* __this, VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* ___0_videoCapture, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45B9A324C04132C97DF68C67477DB8F073F3FB68);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCEDCD9A95C011C797BEE21B61FDFC2308A7B47D7);
+		s_Il2CppMethodInitialized = true;
+	}
+	CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// if (videoCapture != null)
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_0 = ___0_videoCapture;
+		if (!L_0)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		// m_VideoCapture = videoCapture;
+		VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* L_1 = __this->___U3CU3E4__this_0;
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_2 = ___0_videoCapture;
+		NullCheck(L_1);
+		L_1->___m_VideoCapture_4 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___m_VideoCapture_4), (void*)L_2);
+		// Debug.Log("Created VideoCapture Instance!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral45B9A324C04132C97DF68C67477DB8F073F3FB68, NULL);
+		// UnityEngine.Windows.WebCam.CameraParameters cameraParameters = new UnityEngine.Windows.WebCam.CameraParameters();
+		il2cpp_codegen_initobj((&V_0), sizeof(CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA));
+		// cameraParameters.hologramOpacity = 1.0f;
+		CameraParameters_set_hologramOpacity_mFC7C28B918ED1E6517C391983FDAE2A993FC9F4C((&V_0), (1.0f), NULL);
+		// cameraParameters.frameRate = cameraFramerate;
+		float L_3 = __this->___cameraFramerate_1;
+		CameraParameters_set_frameRate_m88939D7DCCB953A595F7FCB03A11545087902D59((&V_0), L_3, NULL);
+		// cameraParameters.cameraResolutionWidth = cameraResolution.width;
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* L_4 = (&__this->___cameraResolution_2);
+		int32_t L_5;
+		L_5 = Resolution_get_width_mC55423852D453EEC0B66E692AA3E7F5DE772FB24(L_4, NULL);
+		CameraParameters_set_cameraResolutionWidth_m9887AD1EED153CC6F9A053208F4DDAB6163A36D7((&V_0), L_5, NULL);
+		// cameraParameters.cameraResolutionHeight = cameraResolution.height;
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* L_6 = (&__this->___cameraResolution_2);
+		int32_t L_7;
+		L_7 = Resolution_get_height_mD46754FA3634CA816BE91D1610D1FEBDECCEBE5B(L_6, NULL);
+		CameraParameters_set_cameraResolutionHeight_mF4CAA13F21662E9B257765CF2154CE3703A3D260((&V_0), L_7, NULL);
+		// cameraParameters.pixelFormat = UnityEngine.Windows.WebCam.CapturePixelFormat.PNG;
+		CameraParameters_set_pixelFormat_mB818B1DECAD585CD0FF03A09CFAC0278B1F39091((&V_0), 3, NULL);
+		// m_VideoCapture.StartVideoModeAsync(cameraParameters,
+		//     UnityEngine.Windows.WebCam.VideoCapture.AudioState.ApplicationAndMicAudio,
+		//     OnStartedVideoCaptureMode);
+		VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* L_8 = __this->___U3CU3E4__this_0;
+		NullCheck(L_8);
+		VideoCapture_t4FC0DEDE3146D8313C7CD8B8B9D8EFB868CACD7B* L_9 = L_8->___m_VideoCapture_4;
+		CameraParameters_t7606AAA21B9B1E65C05AA6287A5FCA1AF6690CAA L_10 = V_0;
+		VideoCapture_tCB9EFBA012BBB9FF94DC36C57A80F6DDF32705C1* L_11 = __this->___U3CU3E4__this_0;
+		OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F* L_12 = (OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F*)il2cpp_codegen_object_new(OnVideoModeStartedCallback_t7BFBEBA2CDDBFA58023D8BA206E0D90920819C1F_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		OnVideoModeStartedCallback__ctor_m22EB614DA74F36A105031B4CEE36F81A9CF582BE(L_12, L_11, (intptr_t)((void*)VideoCapture_OnStartedVideoCaptureMode_m9AE51CFAC646EA638CF28C77AE38AA9243F9BCF9_RuntimeMethod_var), NULL);
+		NullCheck(L_9);
+		VideoCapture_StartVideoModeAsync_m9A9C266BE18472DBDE6D1161886D51958C7F1E3C(L_9, L_10, 2, L_12, NULL);
+		return;
+	}
+
+IL_008d:
+	{
+		// Debug.LogError("Failed to create VideoCapture Instance!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralCEDCD9A95C011C797BEE21B61FDFC2308A7B47D7, NULL);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VideoCapture/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE531F2336379C6AFFD7A81DAAE4DC2A7A8FEAEFB (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* L_0 = (U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D*)il2cpp_codegen_object_new(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__ctor_mA91975D8AEFC089DFA5EC57A4C3E9985CCD87B91(L_0, NULL);
+		((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void VideoCapture/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA91975D8AEFC089DFA5EC57A4C3E9985CCD87B91 (U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Int32 VideoCapture/<>c::<StartVideoCaptureTest>b__5_0(UnityEngine.Resolution)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_0_mA537D3D12613C55D5F7D0003A588A46A9B9E0538 (U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* __this, Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 ___0_res, const RuntimeMethod* method) 
+{
+	{
+		// Resolution cameraResolution = UnityEngine.Windows.WebCam.VideoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).First();
+		int32_t L_0;
+		L_0 = Resolution_get_width_mC55423852D453EEC0B66E692AA3E7F5DE772FB24((&___0_res), NULL);
+		int32_t L_1;
+		L_1 = Resolution_get_height_mD46754FA3634CA816BE91D1610D1FEBDECCEBE5B((&___0_res), NULL);
+		return ((int32_t)il2cpp_codegen_multiply(L_0, L_1));
+	}
+}
+// System.Single VideoCapture/<>c::<StartVideoCaptureTest>b__5_1(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CStartVideoCaptureTestU3Eb__5_1_m228F83ED6D865ED67931E40D75A81F79D5AADE7E (U3CU3Ec_tF9F9FDF949BF49BF8181EE34BD8D619DD8B5643D* __this, float ___0_fps, const RuntimeMethod* method) 
+{
+	{
+		// float cameraFramerate = UnityEngine.Windows.WebCam.VideoCapture.GetSupportedFrameRatesForResolution(cameraResolution).OrderByDescending((fps) => fps).First();
+		float L_0 = ___0_fps;
+		return L_0;
 	}
 }
 #ifdef __clang__

@@ -1699,6 +1699,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VideoCapture",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Vuforia.Unity.Engine.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vuforia.ImageTargetBehaviour",

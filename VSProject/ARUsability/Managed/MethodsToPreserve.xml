@@ -24,11 +24,6 @@
 			<method name="OnIncrement"/>
 		</type>
 	</assembly>
-	<assembly fullname="UnityEngine.PhysicsModule" ignoreIfMissing="1">
-		<type fullname="UnityEngine.Rigidbody">
-			<method name="set_useGravity"/>
-		</type>
-	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine" ignoreIfMissing="1">
 		<type fullname="Vuforia.SessionRecorderBehaviour">
 			<method name="ShareRecording"/>

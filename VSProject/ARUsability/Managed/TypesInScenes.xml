@@ -3,6 +3,7 @@
 		<type fullname="FireExtinguisherActivation" preserve="nothing"/>
 		<type fullname="FireExtinguisherWaterInteraction" preserve="nothing"/>
 		<type fullname="OvenController" preserve="nothing"/>
+		<type fullname="VideoCapture" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Cognitive3D">
 		<type fullname="Cognitive3D.Cognitive3D_Manager" preserve="nothing"/>

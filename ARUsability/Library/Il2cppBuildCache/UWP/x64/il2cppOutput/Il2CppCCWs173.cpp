@@ -46,8 +46,12 @@ struct Func_2_t2BECA93EEB5C5A67E9EFEE1DEEF90D0568B8514C;
 struct Func_2_t28249B4F229A9F7163C77E8DD37B083C3EB73C1D;
 // System.Func`2<UnityEngine.RaycastHit,System.Single>
 struct Func_2_t96A39E112843C5E4C0D74585BA105A0ED44D08C1;
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+struct Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17;
 // System.Func`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB;
+// System.Func`2<System.Single,System.Single>
+struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
 // System.Func`2<UnityEngine.TextCore.Text.SpriteCharacter,System.UInt32>
 struct Func_2_tF0A06FF312E9CFC173E3513FCD90DA99BA52B5B1;
 // System.Func`2<UnityEngine.TextCore.Text.SpriteGlyph,System.UInt32>
@@ -96,8 +100,12 @@ struct IEnumerable_1_t754AA74BCF7ABF50C833ACBAB61553AE7F94F10A;
 struct IEnumerable_1_t6EF5889D491CB62D82F8ECCB5E31B29A1E03E9ED;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.RaycastHit>
 struct IEnumerable_1_t8BC83955BB4626ACDAB88E89CABC85C7E3BEF89D;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Resolution>
+struct IEnumerable_1_tF003704BB20D860B66B7A704A722ACFA15C71331;
 // System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct IEnumerable_1_tF778D69F1BE07987CCF7A2C66A743E9375007113;
+// System.Collections.Generic.IEnumerable`1<System.Single>
+struct IEnumerable_1_t352FDDEA001ABE8E1D67849D2E2F3D1D75B03D41;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.TextCore.Text.SpriteCharacter>
 struct IEnumerable_1_t190AAC9AC2CD66F31973FE96DB9251B3B242EDA4;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.TextCore.Text.SpriteGlyph>
@@ -222,8 +230,12 @@ struct OrderedEnumerable_1_tE535AA1A039CC25AFC6B85F1A655E15ECDBC5D80;
 struct OrderedEnumerable_1_tD32691835511D233EDD4B7A74324138B16AED24D;
 // System.Linq.OrderedEnumerable`1<UnityEngine.RaycastHit>
 struct OrderedEnumerable_1_t34850493CDAB6C18BD010D6FEBE94B80DDB45850;
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+struct OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43;
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8;
+// System.Linq.OrderedEnumerable`1<System.Single>
+struct OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7;
 // System.Linq.OrderedEnumerable`1<UnityEngine.TextCore.Text.SpriteCharacter>
 struct OrderedEnumerable_1_t8F388C808CD91F25F061CD37FC292A4F1CFAA71F;
 // System.Linq.OrderedEnumerable`1<UnityEngine.TextCore.Text.SpriteGlyph>
@@ -321,6 +333,7 @@ struct IClosable_t408735E2F18F562F8A87A4C359E73D7C30A1D301;
 struct IIterable_1_t19EB3EB244CE5A0D42C41D17F13AA3B06D3C850D;
 struct IIterable_1_t67964498FC286EEC97D421764DAB3BBD44749B54;
 struct IIterator_1_t04C72867FEDCC8C661CDD86E3029B3BB0AE70A95;
+struct IIterator_1_t1385D68DD78DE574859F9B97BA2D44B82B20F491;
 struct IIterator_1_t237555B994ADF912C47BF2A88863C7FFA1EBAA3B;
 struct IIterator_1_t48E0DED97AB1D2133B95C8B4EF2944BA7D206925;
 struct IIterator_1_t525704805D94594DB030A232D9B0E793B9836E82;
@@ -388,6 +401,12 @@ struct NOVTABLE IIterable_1_t19EB3EB244CE5A0D42C41D17F13AA3B06D3C850D : Il2CppII
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IIterable_1_First_m3C4CBD4CBFF5D217BC350258F4FA9D1AC8B7F76C(IIterator_1_tCD324A8CB8C6E90BDFF46D5256D8DDCC46C41274** comReturnValue) = 0;
+};
+// Windows.Foundation.Collections.IIterable`1<System.Single>
+struct NOVTABLE IIterable_1_tC301F3168E128FAB21A5F6FC8662F4C2F1FCEE6D : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IIterable_1_First_m1A1B79CA6ECFBBBAF132F733DC5351CB15F47B04(IIterator_1_t1385D68DD78DE574859F9B97BA2D44B82B20F491** comReturnValue) = 0;
 };
 // Windows.Foundation.Collections.IIterable`1<System.String>
 struct NOVTABLE IIterable_1_t6A3283089F65FE1C298C4F830A14CD5C2196793A : Il2CppIInspectable
@@ -825,8 +844,22 @@ struct OrderedEnumerable_1_t34850493CDAB6C18BD010D6FEBE94B80DDB45850  : public R
 	RuntimeObject* ___source_0;
 };
 
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+struct OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43  : public RuntimeObject
+{
+	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
+	RuntimeObject* ___source_0;
+};
+
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8  : public RuntimeObject
+{
+	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
+	RuntimeObject* ___source_0;
+};
+
+// System.Linq.OrderedEnumerable`1<System.Single>
+struct OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7  : public RuntimeObject
 {
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
 	RuntimeObject* ___source_0;
@@ -1394,6 +1427,19 @@ struct OrderedEnumerable_2_tB2CB28995932F423866C23DA0C4529A8638DAC9E  : public O
 	bool ___descending_4;
 };
 
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+struct OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5  : public OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43
+{
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`2::parent
+	OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* ___parent_1;
+	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___keySelector_2;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
+	RuntimeObject* ___comparer_3;
+	// System.Boolean System.Linq.OrderedEnumerable`2::descending
+	bool ___descending_4;
+};
+
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208  : public OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8
 {
@@ -1401,6 +1447,19 @@ struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208  : public O
 	OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8* ___parent_1;
 	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
 	Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB* ___keySelector_2;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
+	RuntimeObject* ___comparer_3;
+	// System.Boolean System.Linq.OrderedEnumerable`2::descending
+	bool ___descending_4;
+};
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+struct OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5  : public OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7
+{
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`2::parent
+	OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* ___parent_1;
+	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___keySelector_2;
 	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
 	RuntimeObject* ___comparer_3;
 	// System.Boolean System.Linq.OrderedEnumerable`2::descending
@@ -1790,9 +1849,17 @@ struct NativeStruct_1_tED32B48E1382B0B97B1169D92E75D0C5D83723F9  : public Unmana
 
 // System.Linq.OrderedEnumerable`1<UnityEngine.RaycastHit>
 
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+
+// System.Linq.OrderedEnumerable`1<System.Single>
+
+// System.Linq.OrderedEnumerable`1<System.Single>
 
 // System.Linq.OrderedEnumerable`1<UnityEngine.TextCore.Text.SpriteCharacter>
 
@@ -2018,9 +2085,17 @@ struct NativeStruct_1_tED32B48E1382B0B97B1169D92E75D0C5D83723F9  : public Unmana
 
 // System.Linq.OrderedEnumerable`2<UnityEngine.RaycastHit,System.Single>
 
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
 
 // System.Linq.OrderedEnumerable`2<UnityEngine.TextCore.Text.SpriteCharacter,System.UInt32>
 
@@ -2161,6 +2236,7 @@ il2cpp_hresult_t IIterable_1_First_mE1912BE81B8B48A51906B614143DB2C5E65720B8_Com
 il2cpp_hresult_t IIterable_1_First_mF68280C4F6416BD749AD1F5494A05A63E6106682_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t6DD2C128CB080FC7ABB92CF5D88B44FE3987C83C** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_m58EF279DBDFD39F1F59C3E0FC0E7AD131910EA64_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t04C72867FEDCC8C661CDD86E3029B3BB0AE70A95** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_mA2A1BF30512E655012F26A62FAB85081231FC1D9_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t6D3C39C75DBE16D2237EC9A0B3E17DA9E379F427** comReturnValue);
+il2cpp_hresult_t IIterable_1_First_m1A1B79CA6ECFBBBAF132F733DC5351CB15F47B04_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t1385D68DD78DE574859F9B97BA2D44B82B20F491** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_m111BDB2A0B16875B357B2E971863262BB455E97D_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_tE1E604E7A9EDA024E9D8838EA95E5BCA2D8EF648** comReturnValue);
 il2cpp_hresult_t IIterable_1_First_m424D1A2AA3DB7A602178F89F11490E933A35CB65_ComCallableWrapperProjectedMethod(RuntimeObject* __this, IIterator_1_t525704805D94594DB030A232D9B0E793B9836E82** comReturnValue);
 
@@ -7558,6 +7634,101 @@ IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_OrderedEnumerable_2_
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) OrderedEnumerable_2_tB2CB28995932F423866C23DA0C4529A8638DAC9E_ComCallableWrapper(obj));
 }
 
+// COM Callable Wrapper for System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+struct OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+{
+	inline OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
+		interfaceIds[0] = IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID;
+
+		*iidCount = 1;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return GetRuntimeClassNameImpl(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+};
+
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5_ComCallableWrapper(obj));
+}
+
 // COM Callable Wrapper for System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
@@ -7651,6 +7822,114 @@ IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_OrderedEnumerable_2_
 	}
 
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208_ComCallableWrapper(obj));
+}
+
+// COM Callable Wrapper for System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+struct OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper>, IIterable_1_tC301F3168E128FAB21A5F6FC8662F4C2F1FCEE6D, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+{
+	inline OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IIterable_1_tC301F3168E128FAB21A5F6FC8662F4C2F1FCEE6D::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IIterable_1_tC301F3168E128FAB21A5F6FC8662F4C2F1FCEE6D*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(2);
+		interfaceIds[0] = IIterable_1_tC301F3168E128FAB21A5F6FC8662F4C2F1FCEE6D::IID;
+		interfaceIds[1] = IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C::IID;
+
+		*iidCount = 2;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return GetRuntimeClassNameImpl(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IIterable_1_First_m1A1B79CA6ECFBBBAF132F733DC5351CB15F47B04(IIterator_1_t1385D68DD78DE574859F9B97BA2D44B82B20F491** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IIterable_1_First_m1A1B79CA6ECFBBBAF132F733DC5351CB15F47B04_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) IL2CPP_OVERRIDE
+	{
+		return IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97_ComCallableWrapperProjectedMethod(GetManagedObjectInline(), comReturnValue);
+	}
+};
+
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5_ComCallableWrapper(obj));
 }
 
 // COM Callable Wrapper for System.Linq.OrderedEnumerable`2<UnityEngine.TextCore.Text.SpriteCharacter,System.UInt32>

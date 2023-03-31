@@ -180,6 +180,8 @@ struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879;
 struct ConditionalWeakTable_2_t41A74963A0EDC80AE123649159914342B542862F;
 // Vuforia.VuGenericList`1/DeleteListDelegate<System.IntPtr>
 struct DeleteListDelegate_tA2E6CDE68686D811E1976532813465847FC4D49A;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E;
 // System.Collections.Generic.Dictionary`2<Vuforia.VuObservationType,Vuforia.ObservationManager/INativeObservationPool>
 struct Dictionary_2_t7550B9285B847D0AF77AAD340BF8EC0ADCC29819;
 // System.Linq.EnumerableSorter`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
@@ -194,12 +196,36 @@ struct EnumerableSorter_1_t73BD78F524F14F06952F92C9FFC0D5A85F5BFF43;
 struct EnumerableSorter_1_t9DF0BF2FF3A689EB41C9CE2B42D3A91F5776B3AD;
 // System.Linq.EnumerableSorter`1<UnityEngine.RaycastHit>
 struct EnumerableSorter_1_t17272E4796D2D1FBEFDF5F1408186712BC046529;
+// System.Linq.EnumerableSorter`1<UnityEngine.Resolution>
+struct EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139;
 // System.Linq.EnumerableSorter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct EnumerableSorter_1_t984E73C3894C0165F0248DDB8A3A554ADD8B6B19;
+// System.Linq.EnumerableSorter`1<System.Single>
+struct EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729;
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector2>
 struct EnumerableSorter_1_t0A94B73E1EBFE14F45B26D082CBC3DABAF046179;
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector3>
 struct EnumerableSorter_1_t54BC53854719A01B2C1EBE5F9C27961E259A61DB;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+struct EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5;
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+struct EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E;
+// System.Collections.Generic.EqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+struct EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D;
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+struct EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+struct EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939;
+// System.Collections.Generic.EqualityComparer`1<Oni/Contact>
+struct EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+struct EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+struct EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+struct EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo>
 struct EqualityComparer_1_t13057C100082428B392391A2C4493B542DDE62C6;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick>
@@ -328,8 +354,12 @@ struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
 struct Func_2_tB86D019F1289E2D123C00796B373933613385952;
 // System.Func`2<UnityEngine.RaycastHit,System.Single>
 struct Func_2_t96A39E112843C5E4C0D74585BA105A0ED44D08C1;
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+struct Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17;
 // System.Func`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB;
+// System.Func`2<System.Single,System.Single>
+struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
 // System.Func`2<UnityEngine.Vector2,System.Single>
 struct Func_2_t768E45AC224B8B0A2FF0AF51561075C9EA671111;
 // System.Func`2<UnityEngine.Vector3,System.Single>
@@ -338,6 +368,8 @@ struct Func_2_tDC72553AEF8707070A5FFB9D46F144F9BE06A9EC;
 struct GetListElementDelegate_t3717DCFFE70FB0B3C60C880A17F675D62196CB9C;
 // Vuforia.VuGenericList`1/GetListSizeDelegate<System.IntPtr>
 struct GetListSizeDelegate_tA3CA672A07600BE2F0CF4538D2BC2EC83C7A696E;
+// System.Collections.Generic.HashSet`1<UnityEngine.Vector3Int>
+struct HashSet_1_t03A441EC1493E313B17FAEAEFD9B0BEBFA3F6206;
 // System.Collections.Generic.IComparer`1<System.Int32>
 struct IComparer_1_t4483F9B9F43C7B0F8D4FEEAE12FAFDD3F9CF81FD;
 // System.Collections.Generic.IComparer`1<System.Object>
@@ -364,8 +396,12 @@ struct IEnumerable_1_tCE758D940790D6D0D56B457E522C195F8C413AF2;
 struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.RaycastHit>
 struct IEnumerable_1_t8BC83955BB4626ACDAB88E89CABC85C7E3BEF89D;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.Resolution>
+struct IEnumerable_1_tF003704BB20D860B66B7A704A722ACFA15C71331;
 // System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct IEnumerable_1_tF778D69F1BE07987CCF7A2C66A743E9375007113;
+// System.Collections.Generic.IEnumerable`1<System.Single>
+struct IEnumerable_1_t352FDDEA001ABE8E1D67849D2E2F3D1D75B03D41;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>
 struct IEnumerable_1_t6C47A8FE62321E6AD75C312B8549AFD2B13F0591;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>
@@ -384,8 +420,12 @@ struct IEnumerator_1_tD6A90A7446DA8E6CF865EDFBBF18C1200BB6D452;
 struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.RaycastHit>
 struct IEnumerator_1_tBC69ED349ABDD7F22B3A9CBABBE3DA89E2E648C5;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.Resolution>
+struct IEnumerator_1_tD4CF4DEC1ED2D95B3CFC619FCF5691CB58E5FDD9;
 // System.Collections.Generic.IEnumerator`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct IEnumerator_1_t63EC7578E75CC3B5ABB9B146141D50ED4ADE97B4;
+// System.Collections.Generic.IEnumerator`1<System.Single>
+struct IEnumerator_1_t736E9F8BD2FD38A5E9EA2E8A510AFED788D05010;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Vector2>
 struct IEnumerator_1_tC0C08C9659581E6A592DEEC8CEE4A412A400B773;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3>
@@ -428,8 +468,32 @@ struct List_1_t7F362C1EE3A17C5F0DBA18E04A56A2A700B31EA0;
 struct List_1_t44EF1B9C71532303037AAC259AD8D405401724D8;
 // System.Collections.Generic.List`1<UnityEngine.Rendering.VolumeParameter>
 struct List_1_tD19F7E0FCBD7C3E8D363733582EF93B341DD3039;
+// System.Collections.Generic.List`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A;
+// System.Collections.Generic.List`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick>
+struct List_1_t76F0B957C54456D9FEEEA81D78039166218CC88A;
 // System.Collections.Generic.List`1<UnityEngine.SpatialTracking.TrackedPoseDriver/TrackedPose>
 struct List_1_t8A06DB5554CD76CE072807DE6EF4198109D84E53;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+struct ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45;
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+struct ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2;
+// System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+struct ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699;
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+struct ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+struct ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF;
+// System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>
+struct ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+struct ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+struct ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD;
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+struct ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056;
 // System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo>
 struct ObjectEqualityComparer_1_tE2DDD10A5EA8B37C3FB9644B750493DFA3BC6A4C;
 // System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick>
@@ -568,8 +632,12 @@ struct OrderedEnumerable_1_tCBFA6FED4B61EDEBE5C099D5763180E040019094;
 struct OrderedEnumerable_1_t635FACC705EB8D479616971CD818376DC3A5AF51;
 // System.Linq.OrderedEnumerable`1<UnityEngine.RaycastHit>
 struct OrderedEnumerable_1_t34850493CDAB6C18BD010D6FEBE94B80DDB45850;
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+struct OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43;
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8;
+// System.Linq.OrderedEnumerable`1<System.Single>
+struct OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7;
 // System.Linq.OrderedEnumerable`1<UnityEngine.Vector2>
 struct OrderedEnumerable_1_t2A839D56030A5BF16B67D5ECEA66459EBD766265;
 // System.Linq.OrderedEnumerable`1<UnityEngine.Vector3>
@@ -590,8 +658,12 @@ struct OrderedEnumerable_2_tA9DEFB149DAA0F612AACE71C5D5A35D6308A052D;
 struct OrderedEnumerable_2_t71BA6A9F8F94FD49AA530865BA9BF576305461A1;
 // System.Linq.OrderedEnumerable`2<UnityEngine.RaycastHit,System.Single>
 struct OrderedEnumerable_2_tB2CB28995932F423866C23DA0C4529A8638DAC9E;
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+struct OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5;
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208;
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+struct OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5;
 // System.Linq.OrderedEnumerable`2<UnityEngine.Vector2,System.Single>
 struct OrderedEnumerable_2_t57FCE52BA5AC72D098EF7799ABD5AE16652EF0D7;
 // System.Linq.OrderedEnumerable`2<UnityEngine.Vector3,System.Single>
@@ -612,8 +684,6 @@ struct Stack_1_t08E9B72954DC89AD9AC1DCAFDC7EFFDB16799DDF;
 struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5;
 // UnityEngine.Events.UnityAction`1<System.Object>
 struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
-// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Obi.NativeMultilevelGrid`1/Cell`1<System.Int32,System.Int32>>
-struct UnsafeList_1_t7D38C9ABBF74714AF030D420B32B97A46C389543;
 // Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.Int32>
 struct UnsafeList_1_t6C5E84D303190B625F3759C244502E1735453718;
 // Vuforia.VuGenericList`1<System.IntPtr>
@@ -640,6 +710,8 @@ struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 // UnityEngine.RaycastHit[]
 struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+// UnityEngine.Resolution[]
+struct ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A;
 // Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo[]
 struct SceneInfoU5BU5D_tEC901E445529C685ACA2F7EB9C771E2924F189EE;
 // System.Single[]
@@ -662,6 +734,26 @@ struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 // UnityEngine.Rendering.VolumeParameter[]
 struct VolumeParameterU5BU5D_t7025A98CA20F310D68D653DE8E37EA31FF25E103;
+// UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper[]
+struct TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A;
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue[]
+struct JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3;
+// Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData[]
+struct PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F;
+// Obi.ObiEmitterShape/DistributionPoint[]
+struct DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777;
+// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData[]
+struct PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE;
+// UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo[]
+struct OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30;
+// Oni/Contact[]
+struct ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB;
+// UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding[]
+struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick[]
+struct BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A;
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta[]
+struct BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7;
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo[]
 struct CellIndexUpdateInfoU5BU5D_t1DBD23C9FC2D547040B4A261FED8D790AF2EF56D;
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick[]
@@ -810,12 +902,18 @@ struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 // UnityEngine.UIElements.IEventHandler
 struct IEventHandler_tB1627CA1B7729F3E714572E69A79C91A1578C9A3;
+// Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer
+struct IMixedRealityPointer_t6B17FD29F171D88877AB2EF9C59FEBB65ED6E446;
 // Microsoft.MixedReality.OpenXR.IOpenXRContext
 struct IOpenXRContext_t9516AC31F508ED22DB3791D6A9A88C9963328263;
 // UnityEngine.UIElements.IPanel
 struct IPanel_tAD0F3807B6DE2ECA557380E7DB5F3A179BE5A7A5;
 // UnityEngine.UIElements.ITreeViewItem
 struct ITreeViewItem_t0C5908872EA2842688BFFB2055D5096EC1EA9EFC;
+// UnityEngine.InputSystem.InputDevice
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+// UnityEngine.InputSystem.LowLevel.InputEvent
+struct InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5;
 // System.Linq.Expressions.Interpreter.Instruction
 struct Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998;
 // System.Threading.ManualResetEvent
@@ -834,16 +932,14 @@ struct MethodInfo_t;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 // Microsoft.MixedReality.OpenXR.NativeLibTokenAttribute
 struct NativeLibTokenAttribute_t01598012A9CF3F2075D020DC294FB1E9244947D6;
-// Unity.Collections.NativeQueueBlockPoolData
-struct NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87;
-// Unity.Collections.NativeQueueData
-struct NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52;
 // System.NotSupportedException
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 // Vuforia.ObservationManager
 struct ObservationManager_t99938AFA7E9803564F4E20B3E0B9BB3B0C0E251C;
+// UnityEngine.InputSystem.OnScreen.OnScreenControl
+struct OnScreenControl_t449BC1FA3DCA3F7787643FAB4F4B1906A7B32418;
 // Microsoft.MixedReality.OpenXR.OpenXRContextEvent
 struct OpenXRContextEvent_t43AB6D56F89A80518E1F159C3BC95CE862768ECF;
 // UnityEngine.XR.OpenXR.Features.OpenXRFeature
@@ -878,8 +974,6 @@ struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Type_t;
 // UnityEngine.UIElements.UIR.UIRenderDevice
 struct UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302;
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData
-struct UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926;
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F;
 // UnityEngine.UIElements.VisualElement
@@ -990,10 +1084,12 @@ IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_m4D5BE379C9DCACFB
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_m5A5492A71F9D3F956F16D4F7B1F04BE47AC7FEB7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_m95ECD3FC3686640963CAD3DB706B668BB5C7B2DB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mABF546A99E37E0E5A9FB6446949B2CDDEE2E8CC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mB3877CE76BC8AF64CBE100D087B312BA80EB1B61_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mBE55EFC6E4C9C25042A441DB70B0599B8464BCD6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mCE6FF66A1073D45A4BF3DAB966E00AC56B6501F9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mD116CB37E35F9F9B6308C9FE5421B4DC8C21BE20_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mDBD22B8FD21EB8AA78E215E6189E6A53CC537403_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OrderedEnumerable_2__ctor_mE4D92340114B3DEA5BCC899D25C97AE8B1E13392_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Count_m5795D735A06D839F9B0A765A426E896606195F5A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Item_mE42F1931815AFE09BE54D05CA9D6D0F4AA411274_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VuGenericList_1_get_Item_mA182C144C84CD15DEB05AFDA811920338D867010_RuntimeMethod_var;
@@ -1010,6 +1106,16 @@ struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A;
+struct JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3;
+struct PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F;
+struct DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777;
+struct PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE;
+struct OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30;
+struct ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB;
+struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
+struct BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A;
+struct BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7;
 struct CellIndexUpdateInfoU5BU5D_t1DBD23C9FC2D547040B4A261FED8D790AF2EF56D;
 struct ReservedBrickU5BU5D_t98A3F64CA6E94ACD5600BF3902964DFA64D67D49;
 struct VoxelMetaU5BU5D_t75FE020BCD374AE42D4CA10991E5B2B24BE86F21;
@@ -1131,8 +1237,18 @@ struct EnumerableSorter_1_t17272E4796D2D1FBEFDF5F1408186712BC046529  : public Ru
 {
 };
 
+// System.Linq.EnumerableSorter`1<UnityEngine.Resolution>
+struct EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139  : public RuntimeObject
+{
+};
+
 // System.Linq.EnumerableSorter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct EnumerableSorter_1_t984E73C3894C0165F0248DDB8A3A554ADD8B6B19  : public RuntimeObject
+{
+};
+
+// System.Linq.EnumerableSorter`1<System.Single>
+struct EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729  : public RuntimeObject
 {
 };
 
@@ -1143,6 +1259,56 @@ struct EnumerableSorter_1_t0A94B73E1EBFE14F45B26D082CBC3DABAF046179  : public Ru
 
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector3>
 struct EnumerableSorter_1_t54BC53854719A01B2C1EBE5F9C27961E259A61DB  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+struct EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+struct EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+struct EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+struct EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+struct EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<Oni/Contact>
+struct EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+struct EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+struct EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B  : public RuntimeObject
+{
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+struct EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4  : public RuntimeObject
 {
 };
 
@@ -1573,8 +1739,22 @@ struct OrderedEnumerable_1_t34850493CDAB6C18BD010D6FEBE94B80DDB45850  : public R
 	RuntimeObject* ___source_0;
 };
 
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+struct OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43  : public RuntimeObject
+{
+	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
+	RuntimeObject* ___source_0;
+};
+
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8  : public RuntimeObject
+{
+	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
+	RuntimeObject* ___source_0;
+};
+
+// System.Linq.OrderedEnumerable`1<System.Single>
+struct OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7  : public RuntimeObject
 {
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1::source
 	RuntimeObject* ___source_0;
@@ -1785,11 +1965,29 @@ struct Buffer_1_tFF14CADA0C205F272650858F29ABF1B9B0003673
 	int32_t ___count_1;
 };
 
+// System.Linq.Buffer`1<UnityEngine.Resolution>
+struct Buffer_1_tDA0DD68119D71CE6C027508D1F5F070442D8D81A 
+{
+	// TElement[] System.Linq.Buffer`1::items
+	ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A* ___items_0;
+	// System.Int32 System.Linq.Buffer`1::count
+	int32_t ___count_1;
+};
+
 // System.Linq.Buffer`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 struct Buffer_1_t0D78C87BFECB62EB8CDEAFBDC21499381B8FBC8E 
 {
 	// TElement[] System.Linq.Buffer`1::items
 	SceneInfoU5BU5D_tEC901E445529C685ACA2F7EB9C771E2924F189EE* ___items_0;
+	// System.Int32 System.Linq.Buffer`1::count
+	int32_t ___count_1;
+};
+
+// System.Linq.Buffer`1<System.Single>
+struct Buffer_1_t2FD814309FC90C74DA22185891C0EFD492B26BF8 
+{
+	// TElement[] System.Linq.Buffer`1::items
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___items_0;
 	// System.Int32 System.Linq.Buffer`1::count
 	int32_t ___count_1;
 };
@@ -1944,6 +2142,21 @@ struct EnumerableSorter_2_tB68497FF55AF34AA9F3E3EC50C37655440682307  : public En
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___keys_4;
 };
 
+// System.Linq.EnumerableSorter`2<UnityEngine.Resolution,System.Int32>
+struct EnumerableSorter_2_tA68B717948769A7ADFE81445C693A0655021E8C3  : public EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139
+{
+	// System.Func`2<TElement,TKey> System.Linq.EnumerableSorter`2::keySelector
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___keySelector_0;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.EnumerableSorter`2::comparer
+	RuntimeObject* ___comparer_1;
+	// System.Boolean System.Linq.EnumerableSorter`2::descending
+	bool ___descending_2;
+	// System.Linq.EnumerableSorter`1<TElement> System.Linq.EnumerableSorter`2::next
+	EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* ___next_3;
+	// TKey[] System.Linq.EnumerableSorter`2::keys
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___keys_4;
+};
+
 // System.Linq.EnumerableSorter`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct EnumerableSorter_2_t607D8F2CDA06AE8E0BA94D386C2DDA457CAFB0CF  : public EnumerableSorter_1_t984E73C3894C0165F0248DDB8A3A554ADD8B6B19
 {
@@ -1957,6 +2170,21 @@ struct EnumerableSorter_2_t607D8F2CDA06AE8E0BA94D386C2DDA457CAFB0CF  : public En
 	EnumerableSorter_1_t984E73C3894C0165F0248DDB8A3A554ADD8B6B19* ___next_3;
 	// TKey[] System.Linq.EnumerableSorter`2::keys
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___keys_4;
+};
+
+// System.Linq.EnumerableSorter`2<System.Single,System.Single>
+struct EnumerableSorter_2_t71F96D4E16F5ECD6367740638E6F58F75FDC6199  : public EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729
+{
+	// System.Func`2<TElement,TKey> System.Linq.EnumerableSorter`2::keySelector
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___keySelector_0;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.EnumerableSorter`2::comparer
+	RuntimeObject* ___comparer_1;
+	// System.Boolean System.Linq.EnumerableSorter`2::descending
+	bool ___descending_2;
+	// System.Linq.EnumerableSorter`1<TElement> System.Linq.EnumerableSorter`2::next
+	EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* ___next_3;
+	// TKey[] System.Linq.EnumerableSorter`2::keys
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___keys_4;
 };
 
 // System.Linq.EnumerableSorter`2<UnityEngine.Vector2,System.Single>
@@ -2033,72 +2261,6 @@ struct ListChangedEventArgs_1_t6F28DAF41E028C918C16FA38A5947F647612F5E4  : publi
 	RuntimeObject* ___item_2;
 };
 
-// Unity.Collections.NativeArray`1<Obi.BIHNode>
-struct NativeArray_1_t4E7ED67296CA0F78D71F13823E8D82A636C6D82A 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstAabb>
-struct NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform>
-struct NativeArray_1_t794D1EDCB116E8B6C12D30449B88A627BFBDA5F5 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstCellSpan>
-struct NativeArray_1_t8C8B76767CD337C67670ECDE25015AFC5AC6BFF4 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstColliderShape>
-struct NativeArray_1_t8CF5C553F7F2F505AD7288E1ABB6D2B278B0C274 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial>
-struct NativeArray_1_t5BBDE017F7F991E356898F90D13F929D9E6CE693 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
 // Unity.Collections.NativeArray`1<Obi.BurstContact>
 struct NativeArray_1_t2705545761658589B4952261F0D3597E41FA32B2 
 {
@@ -2110,96 +2272,8 @@ struct NativeArray_1_t2705545761658589B4952261F0D3597E41FA32B2
 	int32_t ___m_AllocatorLabel_2;
 };
 
-// Unity.Collections.NativeArray`1<Obi.BurstDFNode>
-struct NativeArray_1_t947E663622D29BA8C92A2A052C6CC6D3BA171407 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryResult>
-struct NativeArray_1_tBE0D65FEC55E9CF48F6BB025C1D1579DCED02055 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryShape>
-struct NativeArray_1_t633059C0B750D0C8B8B209CA0B75A24AFF11D9DF 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.BurstRigidbody>
-struct NativeArray_1_tACE22C080DB9BF1E4CF2761F3DA8C0764711D8D5 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.DistanceFieldHeader>
-struct NativeArray_1_t56C8DCA84A108D88CA7E8C6D6BEB213EA5B5368F 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.Edge>
-struct NativeArray_1_tFDDC7417E777E9E41BF41F7CCB7891A7AA0B3A00 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.EdgeMeshHeader>
-struct NativeArray_1_t10147E82CF8AB19A6DE794C63FD27833AF10F4E3 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.FluidInteraction>
-struct NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.HeightFieldHeader>
-struct NativeArray_1_t69EE9820AC912F0AEEAF7312CFE469CCAD398F68 
+// Unity.Collections.NativeArray`1<System.Byte>
+struct NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF 
 {
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
 	void* ___m_Buffer_0;
@@ -2211,72 +2285,6 @@ struct NativeArray_1_t69EE9820AC912F0AEEAF7312CFE469CCAD398F68
 
 // Unity.Collections.NativeArray`1<System.Int32>
 struct NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<System.Single>
-struct NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.Triangle>
-struct NativeArray_1_t339B8D033EE23C5FE6322A9538E6CF66F9806687 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Obi.TriangleMeshHeader>
-struct NativeArray_1_t14E977B25D22DEB8A9072AA92FAFBB2F50DB95F4 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float2>
-struct NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3>
-struct NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3x3>
-struct NativeArray_1_tF9A59D3BB90F9B48E2241BFBA702CB67AFF0DC15 
 {
 	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
 	void* ___m_Buffer_0;
@@ -2308,17 +2316,6 @@ struct NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A
 	int32_t ___m_AllocatorLabel_2;
 };
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo>
-struct NativeArray_1_tA1E97291673A9D64EEF306BAF92C2FFE8DA08E84 
-{
-	// System.Void* Unity.Collections.NativeArray`1::m_Buffer
-	void* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeArray`1::m_Length
-	int32_t ___m_Length_1;
-	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
-	int32_t ___m_AllocatorLabel_2;
-};
-
 // Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>
 struct NativeSlice_1_t8229A12E65C90A3900340F6E126089DB5696D370 
 {
@@ -2332,17 +2329,6 @@ struct NativeSlice_1_t8229A12E65C90A3900340F6E126089DB5696D370
 
 // Unity.Collections.NativeSlice`1<System.UInt16>
 struct NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A 
-{
-	// System.Byte* Unity.Collections.NativeSlice`1::m_Buffer
-	uint8_t* ___m_Buffer_0;
-	// System.Int32 Unity.Collections.NativeSlice`1::m_Stride
-	int32_t ___m_Stride_1;
-	// System.Int32 Unity.Collections.NativeSlice`1::m_Length
-	int32_t ___m_Length_2;
-};
-
-// Unity.Collections.NativeSlice`1<UnityEngine.Vector3>
-struct NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A 
 {
 	// System.Byte* Unity.Collections.NativeSlice`1::m_Buffer
 	uint8_t* ___m_Buffer_0;
@@ -2381,6 +2367,56 @@ struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28
 	bool ___hasValue_0;
 	// T System.Nullable`1::value
 	int32_t ___value_1;
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+struct ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706  : public EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45  : public EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+struct ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2  : public EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+struct ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699  : public EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+struct ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C  : public EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+struct ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF  : public EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>
+struct ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B  : public EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+struct ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB  : public EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+struct ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD  : public EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B
+{
+};
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+struct ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056  : public EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4
+{
 };
 
 // System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo>
@@ -2754,6 +2790,19 @@ struct OrderedEnumerable_2_tB2CB28995932F423866C23DA0C4529A8638DAC9E  : public O
 	bool ___descending_4;
 };
 
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+struct OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5  : public OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43
+{
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`2::parent
+	OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* ___parent_1;
+	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
+	Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___keySelector_2;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
+	RuntimeObject* ___comparer_3;
+	// System.Boolean System.Linq.OrderedEnumerable`2::descending
+	bool ___descending_4;
+};
+
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208  : public OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8
 {
@@ -2761,6 +2810,19 @@ struct OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208  : public O
 	OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8* ___parent_1;
 	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
 	Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB* ___keySelector_2;
+	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
+	RuntimeObject* ___comparer_3;
+	// System.Boolean System.Linq.OrderedEnumerable`2::descending
+	bool ___descending_4;
+};
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+struct OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5  : public OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7
+{
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`2::parent
+	OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* ___parent_1;
+	// System.Func`2<TElement,TKey> System.Linq.OrderedEnumerable`2::keySelector
+	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___keySelector_2;
 	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedEnumerable`2::comparer
 	RuntimeObject* ___comparer_3;
 	// System.Boolean System.Linq.OrderedEnumerable`2::descending
@@ -2800,39 +2862,6 @@ struct Pair_2_tFFBFFFF102F16D7C818CB07A11E047A16C700793
 	RuntimeObject* ___key_0;
 	// Value Unity.Collections.Pair`2::value
 	RuntimeObject* ___value_1;
-};
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstContact>
-struct ParallelWriter_t94FDC1FDCA613CFC9994E338A787A53B87948822 
-{
-	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
-	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
-	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
-	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
-	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
-	int32_t ___m_ThreadIndex_2;
-};
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstQueryResult>
-struct ParallelWriter_t62CC79D02D56D0A14ED62745FA9A8824DA2D1ED6 
-{
-	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
-	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
-	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
-	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
-	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
-	int32_t ___m_ThreadIndex_2;
-};
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstColliderWorld/MovingCollider>
-struct ParallelWriter_t31B6F22CFBC55C9FCA82B985B5AB4F36D73244AC 
-{
-	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
-	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
-	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
-	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
-	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
-	int32_t ___m_ThreadIndex_2;
 };
 
 // UnityEngine.Rendering.ObjectPool`1/PooledObject<System.Object>
@@ -3027,6 +3056,13 @@ struct GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E
 	float ___m_YAdvance_3;
 };
 
+// UnityEngine.InputSystem.LowLevel.InputEventPtr
+struct InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 
+{
+	// UnityEngine.InputSystem.LowLevel.InputEvent* UnityEngine.InputSystem.LowLevel.InputEventPtr::m_EventPtr
+	InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5* ___m_EventPtr_0;
+};
+
 // System.Int32
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -3067,27 +3103,6 @@ struct NativeLibTokenAttribute_t01598012A9CF3F2075D020DC294FB1E9244947D6  : publ
 {
 	// Microsoft.MixedReality.OpenXR.NativeLibToken Microsoft.MixedReality.OpenXR.NativeLibTokenAttribute::<NativeLibToken>k__BackingField
 	uint64_t ___U3CNativeLibTokenU3Ek__BackingField_0;
-};
-
-// Obi.Poly6Kernel
-struct Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC 
-{
-	// System.Single Obi.Poly6Kernel::norm
-	float ___norm_0;
-	// System.Boolean Obi.Poly6Kernel::norm2D
-	bool ___norm2D_1;
-};
-// Native definition for P/Invoke marshalling of Obi.Poly6Kernel
-struct Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_pinvoke
-{
-	float ___norm_0;
-	int32_t ___norm2D_1;
-};
-// Native definition for COM marshalling of Obi.Poly6Kernel
-struct Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_com
-{
-	float ___norm_0;
-	int32_t ___norm2D_1;
 };
 
 // UnityEngine.Experimental.Rendering.ProbeDilationSettings
@@ -3136,6 +3151,17 @@ struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8
 	int32_t ___m_Height_3;
 };
 
+// UnityEngine.Resolution
+struct Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 
+{
+	// System.Int32 UnityEngine.Resolution::m_Width
+	int32_t ___m_Width_0;
+	// System.Int32 UnityEngine.Resolution::m_Height
+	int32_t ___m_Height_1;
+	// System.Int32 UnityEngine.Resolution::m_RefreshRate
+	int32_t ___m_RefreshRate_2;
+};
+
 // Obi.SimplexCounts
 struct SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 
 {
@@ -3154,25 +3180,29 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 	float ___m_value_0;
 };
 
-// Obi.SpikyKernel
-struct SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2 
+// UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849 
 {
-	// System.Single Obi.SpikyKernel::norm
-	float ___norm_0;
-	// System.Boolean Obi.SpikyKernel::norm2D
-	bool ___norm2D_1;
+	// System.String UnityEngine.InputSystem.Utilities.Substring::m_String
+	String_t* ___m_String_0;
+	// System.Int32 UnityEngine.InputSystem.Utilities.Substring::m_Index
+	int32_t ___m_Index_1;
+	// System.Int32 UnityEngine.InputSystem.Utilities.Substring::m_Length
+	int32_t ___m_Length_2;
 };
-// Native definition for P/Invoke marshalling of Obi.SpikyKernel
-struct SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_pinvoke
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_pinvoke
 {
-	float ___norm_0;
-	int32_t ___norm2D_1;
+	char* ___m_String_0;
+	int32_t ___m_Index_1;
+	int32_t ___m_Length_2;
 };
-// Native definition for COM marshalling of Obi.SpikyKernel
-struct SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_com
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.Substring
+struct Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_com
 {
-	float ___norm_0;
-	int32_t ___norm2D_1;
+	Il2CppChar* ___m_String_0;
+	int32_t ___m_Index_1;
+	int32_t ___m_Length_2;
 };
 
 // UnityEngine.UIElements.TextureId
@@ -3236,6 +3266,19 @@ struct Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376
 	int32_t ___m_Z_2;
 };
 
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	// System.Single UnityEngine.Vector4::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector4::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector4::z
+	float ___z_3;
+	// System.Single UnityEngine.Vector4::w
+	float ___w_4;
+};
+
 // UnityEngine.Experimental.Rendering.VirtualOffsetSettings
 struct VirtualOffsetSettings_tC12F99414598C4F285ADCFC12DE72C3D88EC9351 
 {
@@ -3273,19 +3316,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
-// Unity.Mathematics.float4
-struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E 
-{
-	// System.Single Unity.Mathematics.float4::x
-	float ___x_0;
-	// System.Single Unity.Mathematics.float4::y
-	float ___y_1;
-	// System.Single Unity.Mathematics.float4::z
-	float ___z_2;
-	// System.Single Unity.Mathematics.float4::w
-	float ___w_3;
-};
-
 // Unity.Collections.AllocatorManager/AllocatorHandle
 struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 
 {
@@ -3293,6 +3323,27 @@ struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148
 	uint16_t ___Index_0;
 	// System.UInt16 Unity.Collections.AllocatorManager/AllocatorHandle::Version
 	uint16_t ___Version_1;
+};
+
+// UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+struct TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F 
+{
+	// System.Int32 UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper::depth
+	int32_t ___depth_0;
+	// UnityEngine.UIElements.ITreeViewItem UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper::item
+	RuntimeObject* ___item_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+struct TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F_marshaled_pinvoke
+{
+	int32_t ___depth_0;
+	RuntimeObject* ___item_1;
+};
+// Native definition for COM marshalling of UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+struct TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F_marshaled_com
+{
+	int32_t ___depth_0;
+	RuntimeObject* ___item_1;
 };
 
 // Oni/ConstraintParameters
@@ -3306,6 +3357,48 @@ struct ConstraintParameters_tEE3F773CB930E6A0610F3F4B956885DEC4CAA4D3
 	float ___SORFactor_2;
 	// System.Boolean Oni/ConstraintParameters::enabled
 	bool ___enabled_3;
+};
+
+// UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
+struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 
+{
+	// System.UInt64 UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding::actionId
+	uint64_t ___actionId_0;
+	// System.String UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding::path
+	String_t* ___path_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
+struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_pinvoke
+{
+	uint64_t ___actionId_0;
+	char* ___path_1;
+};
+// Native definition for COM marshalling of UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
+struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
+{
+	uint64_t ___actionId_0;
+	Il2CppChar* ___path_1;
+};
+
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta
+struct BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 
+{
+	// System.Collections.Generic.HashSet`1<UnityEngine.Vector3Int> UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta::voxels
+	HashSet_1_t03A441EC1493E313B17FAEAEFD9B0BEBFA3F6206* ___voxels_0;
+	// System.Collections.Generic.List`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick> UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta::bricks
+	List_1_t76F0B957C54456D9FEEEA81D78039166218CC88A* ___bricks_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta
+struct BrickMeta_t75B625970B160751665565BB3039980A81DED1D1_marshaled_pinvoke
+{
+	HashSet_1_t03A441EC1493E313B17FAEAEFD9B0BEBFA3F6206* ___voxels_0;
+	List_1_t76F0B957C54456D9FEEEA81D78039166218CC88A* ___bricks_1;
+};
+// Native definition for COM marshalling of UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta
+struct BrickMeta_t75B625970B160751665565BB3039980A81DED1D1_marshaled_com
+{
+	HashSet_1_t03A441EC1493E313B17FAEAEFD9B0BEBFA3F6206* ___voxels_0;
+	List_1_t76F0B957C54456D9FEEEA81D78039166218CC88A* ___bricks_1;
 };
 
 // UnityEngine.Experimental.Rendering.ProbeBrickPool/BrickChunkAlloc
@@ -4106,6 +4199,40 @@ struct U3CGetEnumeratorU3Ed__1_t6D4BC5B68087352E56482B91E7BADA70BEB38CD2  : publ
 	int32_t ___U3CiU3E5__4_5;
 };
 
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Resolution>
+struct U3CGetEnumeratorU3Ed__1_t46D7AE48C705C2FF9006AB9A82CA95F4BDEF2037  : public RuntimeObject
+{
+	// System.Int32 System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// TElement System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>2__current
+	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 ___U3CU3E2__current_1;
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>4__this
+	OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* ___U3CU3E4__this_2;
+	// System.Linq.Buffer`1<TElement> System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<buffer>5__2
+	Buffer_1_tDA0DD68119D71CE6C027508D1F5F070442D8D81A ___U3CbufferU3E5__2_3;
+	// System.Int32[] System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<map>5__3
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___U3CmapU3E5__3_4;
+	// System.Int32 System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<i>5__4
+	int32_t ___U3CiU3E5__4_5;
+};
+
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<System.Single>
+struct U3CGetEnumeratorU3Ed__1_tCD963E282966976F3D8F69CF3FB56CFCD27C40EF  : public RuntimeObject
+{
+	// System.Int32 System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// TElement System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>2__current
+	float ___U3CU3E2__current_1;
+	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<>4__this
+	OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* ___U3CU3E4__this_2;
+	// System.Linq.Buffer`1<TElement> System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<buffer>5__2
+	Buffer_1_t2FD814309FC90C74DA22185891C0EFD492B26BF8 ___U3CbufferU3E5__2_3;
+	// System.Int32[] System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<map>5__3
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___U3CmapU3E5__3_4;
+	// System.Int32 System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::<i>5__4
+	int32_t ___U3CiU3E5__4_5;
+};
+
 // System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Vector2>
 struct U3CGetEnumeratorU3Ed__1_t82D81D823FA036E5CA5EFADAEDC5EE91A9F83C1A  : public RuntimeObject
 {
@@ -4147,15 +4274,6 @@ struct Enumerator_tFF681C2BCDBA5BCCF86CE70C9C01F757AF9C6D11  : public RuntimeObj
 	int32_t ___m_Index_0;
 	// UnityEngine.InputSystem.Utilities.OneOrMore`2<TValue,TList> UnityEngine.InputSystem.Utilities.OneOrMore`2/Enumerator::m_List
 	OneOrMore_2_t0723C4BAE2AFDD1D25130D2711F7CF2A1170B80A ___m_List_1;
-};
-
-// Unity.Collections.NativeList`1<Obi.NativeMultilevelGrid`1/Cell`1<System.Int32,System.Int32>>
-struct NativeList_1_tFF32AD6D40A31C9A0E47ED422F8D5A5BE1B7F3A2 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
-	UnsafeList_1_t7D38C9ABBF74714AF030D420B32B97A46C389543* ___m_ListData_0;
-	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
 };
 
 // Unity.Collections.NativeList`1<System.Int32>
@@ -4209,390 +4327,6 @@ struct ParallelForJobStruct_1_t5B816C78A3865639802B5BDFDA4A149F7A6C3768
 	};
 };
 
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyInertialForcesJob>
-struct ParallelForJobStruct_1_tC06D1CCAE8F4BE95A5DAF95CFEF8DFE782006CD0 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BoundsReductionJob>
-struct ParallelForJobStruct_1_tA94FE0A8E4DE3B8BBF57E26B012222F61173EB14 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BuildSimplexAabbs>
-struct ParallelForJobStruct_1_t727956F95522EE56D5AD6B295005A57D88CC59F2 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.CalculateQueryDistances>
-struct ParallelForJobStruct_1_t4C2228CE246B319D0AAA22CF297E8939067BD1F7 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.InterpolationJob>
-struct ParallelForJobStruct_1_tFC4385B3C42BFA7BFFAF52626BAAE6824E92E9CB 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ParticleToBoundsJob>
-struct ParallelForJobStruct_1_t26B122FA4D200F6C8576F4A9CF6E3EB92C683A2F 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.PredictPositionsJob>
-struct ParallelForJobStruct_1_tFC3651DA55F7DC960D1FEAD66FFB0A9953B654AC 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.SpatialQueryJob>
-struct ParallelForJobStruct_1_tB0E9ADF3ACE1D5E3FC92E1D2D96965D9BE268DAC 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateInertiaTensorsJob>
-struct ParallelForJobStruct_1_t8C3C7648711F963C9BD73489D59E3EAA3AD0E6AF 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePositionsJob>
-struct ParallelForJobStruct_1_t294A7E43C99DA2748C840B32F24EC8737FAA8510 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePrincipalAxisJob>
-struct ParallelForJobStruct_1_t8A52273CE2EFA93461494CFC5FA19DA89D0EF121 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateVelocitiesJob>
-struct ParallelForJobStruct_1_t171BF9A5889CCC5F97623825831A6FFE0A3F7F3A 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-struct ParallelForJobStruct_1_t127DC0EC2B18DEC0C2F09455A2622D5AE87476B1 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-struct ParallelForJobStruct_1_tE0A0B106F6AFFCD4DD35F7AB748941127D5D0A26 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-struct ParallelForJobStruct_1_t5A1EAFE242E104FB9E979C35405859AE8F9A929C 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-struct ParallelForJobStruct_1_tBC3FCE52149BE330BC772DF983739AB69AC6E086 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-struct ParallelForJobStruct_1_tE3EAEFD63883EA864273CBF940AF732C8DA293F4 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-struct ParallelForJobStruct_1_t7C3A796BEC42AB84CEFCFA98D1116976DC74D204 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-struct ParallelForJobStruct_1_tF4F96800CB8BFC24F4BB067F7FE65474D286F896 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-struct ParallelForJobStruct_1_t77E0751B5141A0845A8B6BB6DE421DF2031B85F6 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-struct ParallelForJobStruct_1_t77D4200797CC291A6A244D3AA679ABB3C1605AC0 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/GenerateContactsJob>
-struct ParallelForJobStruct_1_tEA3BD7E3A59E2659B4038A12FC6CFC984F9C28FD 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/IdentifyMovingColliders>
-struct ParallelForJobStruct_1_t4E36072B0F02297255626CFA6FA803CDF3A5CCD1 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-struct ParallelForJobStruct_1_tF97A5EB70B0CC351CFDC440CAD77DEB016D9131E 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-struct ParallelForJobStruct_1_t9F55EEF8CA64861060F560CB73C6C8F593DE62C3 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-struct ParallelForJobStruct_1_t5D7EB64687D0787CA317CC1E99D29BD573D451FB 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/CalculateLambdasJob>
-struct ParallelForJobStruct_1_tF6632689607E6569E3FA3AC516FF9EE3CE205342 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ClearFluidDataJob>
-struct ParallelForJobStruct_1_tE10777C0A7AF60159469C91413D9CE1292216E0E 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-struct ParallelForJobStruct_1_t125E4ABCF8DE81A33B6151114728F1987A0E8559 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-struct ParallelForJobStruct_1_tA6DD3C3DACB31049B87B37E1D6129D1B337621C5 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-struct ParallelForJobStruct_1_t603CA2FB27533B207AC12EC3D5D4C199290D68C5 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
-struct ParallelForJobStruct_1_t50C779F4282299904110CFCD3435BCAFC5A60D83 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t ParallelForJobStruct_1_t277DDAD81DFA4925045DD195910B21852EFA3EF1__padding[1];
-	};
-};
-
 // Obi.ConstraintSorter`1/SortSubArraysJob<Obi.BurstContact>
 struct SortSubArraysJob_t9A8CC092DB5FDF21B63D6288E274C2268DE95AC8 
 {
@@ -4602,24 +4336,6 @@ struct SortSubArraysJob_t9A8CC092DB5FDF21B63D6288E274C2268DE95AC8
 	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___NextElementIndex_1;
 	// Obi.ConstraintSorter`1/ConstraintComparer`1<T,T> Obi.ConstraintSorter`1/SortSubArraysJob::comparer
 	ConstraintComparer_1_tBCDDC5DA4B6E3B7E1ECE483C50DCCE8E99236717 ___comparer_2;
-};
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<System.Int32,System.Int32>
-struct UnsafeParallelHashMap_2_tAF5198A4416D9CB11063A92F93C2C7AA10BFDEE0 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData* Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::m_Buffer
-	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___m_Buffer_0;
-	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::m_AllocatorLabel
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel_1;
-};
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
-struct UnsafeParallelHashMap_2_tF33EB05669E8D06BDF7F831E9D4E7293E7D40C99 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapData* Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::m_Buffer
-	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___m_Buffer_0;
-	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::m_AllocatorLabel
-	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_AllocatorLabel_1;
 };
 
 // Vuforia.VuGenericList`1<System.IntPtr>
@@ -4642,17 +4358,6 @@ struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Center_0;
 	// UnityEngine.Vector3 UnityEngine.Bounds::m_Extents
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Extents_1;
-};
-
-// Obi.BoundsReductionJob
-struct BoundsReductionJob_tC495928ACEA7990DF605EE246471ADC20B4FA36A 
-{
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.BoundsReductionJob::bounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___bounds_0;
-	// System.Int32 Obi.BoundsReductionJob::stride
-	int32_t ___stride_1;
-	// System.Int32 Obi.BoundsReductionJob::size
-	int32_t ___size_2;
 };
 
 // System.Delegate
@@ -4854,29 +4559,6 @@ struct InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_marshaled_co
 	KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC* ___m_Patterns_0;
 };
 
-// Obi.InterpolationJob
-struct InterpolationJob_t57C36A329C812D27BE1B879BAA4CD5517FCB09C1 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.InterpolationJob::startPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___startPositions_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.InterpolationJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.InterpolationJob::renderablePositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.InterpolationJob::startOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___startOrientations_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.InterpolationJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.InterpolationJob::renderableOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___renderableOrientations_5;
-	// System.Single Obi.InterpolationJob::deltaTime
-	float ___deltaTime_6;
-	// System.Single Obi.InterpolationJob::unsimulatedTime
-	float ___unsimulatedTime_7;
-	// Oni/SolverParameters/Interpolation Obi.InterpolationJob::interpolationMode
-	int32_t ___interpolationMode_8;
-};
-
 // Unity.Jobs.LowLevel.Unsafe.JobRanges
 struct JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3 
 {
@@ -4932,15 +4614,6 @@ struct ProbeVolumeBakingProcessSettings_t81175AA0740218A8C5D4A4A9F4C55312678C0B4
 	VirtualOffsetSettings_tC12F99414598C4F285ADCFC12DE72C3D88EC9351_marshaled_com ___virtualOffsetSettings_1;
 };
 
-// UnityEngine.Ray
-struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
-{
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin_0;
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction_1;
-};
-
 // UnityEngine.RaycastHit
 struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
 {
@@ -4974,441 +4647,149 @@ struct VuObservation_tF3C656C117A5A9B97D03528A95D6C91587107631  : public Runtime
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___mObserverId_1;
 };
 
-// Unity.Mathematics.quaternion
-struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB 
 {
-	// Unity.Mathematics.float4 Unity.Mathematics.quaternion::value
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___value_0;
+	// UnityEngine.InputSystem.Utilities.Substring UnityEngine.InputSystem.Utilities.JsonParser/JsonString::text
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___text_0;
+	// System.Boolean UnityEngine.InputSystem.Utilities.JsonParser/JsonString::hasEscapes
+	bool ___hasEscapes_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_pinvoke
+{
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_pinvoke ___text_0;
+	int32_t ___hasEscapes_1;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com
+{
+	Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_com ___text_0;
+	int32_t ___hasEscapes_1;
 };
 
-// Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob
-struct AerodynamicConstraintsBatchJob_tE2AA68F8A3ADE3D59DE11025C09655992483D147 
+// Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData
+struct PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 
 {
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::particleIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleIndices_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::aerodynamicCoeffs
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___aerodynamicCoeffs_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::normals
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___normals_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::wind
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___wind_4;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_6;
-	// System.Single Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::deltaTime
-	float ___deltaTime_7;
+	// Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData::pointer
+	RuntimeObject* ___pointer_0;
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData::initialGrabPointInPointer
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_1;
+};
+// Native definition for P/Invoke marshalling of Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData
+struct PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065_marshaled_pinvoke
+{
+	RuntimeObject* ___pointer_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_1;
+};
+// Native definition for COM marshalling of Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData
+struct PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065_marshaled_com
+{
+	RuntimeObject* ___pointer_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_1;
 };
 
-// Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob
-struct ApplyBendConstraintsBatchJob_t29A8F8A82EDFDF0D48963AECEBA0B81A343FED77 
+// Obi.ObiEmitterShape/DistributionPoint
+struct DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 
 {
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::particleIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleIndices_0;
-	// System.Single Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::sorFactor
-	float ___sorFactor_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::deltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___deltas_3;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::counts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___counts_4;
+	// UnityEngine.Vector3 Obi.ObiEmitterShape/DistributionPoint::position
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_0;
+	// UnityEngine.Vector3 Obi.ObiEmitterShape/DistributionPoint::velocity
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_1;
+	// UnityEngine.Color Obi.ObiEmitterShape/DistributionPoint::color
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_2;
 };
 
-// Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob
-struct BendConstraintsBatchJob_tD27E9B1F9236C28678610CDE7862C6B75FF3EF07 
+// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData
+struct PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 
 {
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::particleIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleIndices_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float2> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::stiffnesses
-	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___stiffnesses_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float2> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::plasticity
-	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___plasticity_2;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::restBends
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___restBends_3;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::lambdas
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___lambdas_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_5;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::deltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___deltas_7;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::counts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___counts_8;
-	// System.Single Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::deltaTime
-	float ___deltaTime_9;
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData::initialGrabPointInPointer
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_0;
+	// Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData::<Pointer>k__BackingField
+	RuntimeObject* ___U3CPointerU3Ek__BackingField_1;
+	// System.Boolean Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData::<IsNearPointer>k__BackingField
+	bool ___U3CIsNearPointerU3Ek__BackingField_2;
+};
+// Native definition for P/Invoke marshalling of Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData
+struct PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18_marshaled_pinvoke
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_0;
+	RuntimeObject* ___U3CPointerU3Ek__BackingField_1;
+	int32_t ___U3CIsNearPointerU3Ek__BackingField_2;
+};
+// Native definition for COM marshalling of Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData
+struct PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18_marshaled_com
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialGrabPointInPointer_0;
+	RuntimeObject* ___U3CPointerU3Ek__BackingField_1;
+	int32_t ___U3CIsNearPointerU3Ek__BackingField_2;
 };
 
-// Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob
-struct ApplyBendTwistConstraintsBatchJob_t3C1A192474D9555685CCCEAADD29B9076CB53D4D 
+// UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
+struct OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC 
 {
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::orientationIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___orientationIndices_0;
-	// System.Single Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::sorFactor
-	float ___sorFactor_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::orientationDeltas
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientationDeltas_3;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::orientationCounts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___orientationCounts_4;
+	// UnityEngine.InputSystem.LowLevel.InputEventPtr UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo::eventPtr
+	InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___eventPtr_0;
+	// Unity.Collections.NativeArray`1<System.Byte> UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo::buffer
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___buffer_1;
+	// UnityEngine.InputSystem.InputDevice UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo::device
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device_2;
+	// UnityEngine.InputSystem.OnScreen.OnScreenControl UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo::firstControl
+	OnScreenControl_t449BC1FA3DCA3F7787643FAB4F4B1906A7B32418* ___firstControl_3;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
+struct OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC_marshaled_pinvoke
+{
+	InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___eventPtr_0;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___buffer_1;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device_2;
+	OnScreenControl_t449BC1FA3DCA3F7787643FAB4F4B1906A7B32418* ___firstControl_3;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
+struct OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC_marshaled_com
+{
+	InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___eventPtr_0;
+	NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___buffer_1;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device_2;
+	OnScreenControl_t449BC1FA3DCA3F7787643FAB4F4B1906A7B32418* ___firstControl_3;
 };
 
-// Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob
-struct BendTwistConstraintsBatchJob_tB8809A2A66F6BFD3261B7507FFC50927DAEA2AB3 
+// Oni/Contact
+struct Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 
 {
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::orientationIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___orientationIndices_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float3> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::stiffnesses
-	NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___stiffnesses_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float2> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::plasticity
-	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___plasticity_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::restDarboux
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___restDarboux_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float3> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::lambdas
-	NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___lambdas_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_5;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::invRotationalMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invRotationalMasses_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::orientationDeltas
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientationDeltas_7;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::orientationCounts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___orientationCounts_8;
-	// System.Single Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::deltaTime
-	float ___deltaTime_9;
-};
-
-// Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob
-struct ApplyChainConstraintsBatchJob_tC05612ADF2F98526A866E55E95407BB7A98DEDEC 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::particleIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleIndices_0;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::firstIndex
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___firstIndex_1;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::numIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___numIndices_2;
-	// System.Single Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::sorFactor
-	float ___sorFactor_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::deltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___deltas_5;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::counts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___counts_6;
-};
-
-// Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob
-struct ChainConstraintsBatchJob_t95B682C2C9C50FECD3CE216BC0FAF5DFD3957349 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::particleIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleIndices_0;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::firstIndex
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___firstIndex_1;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::numIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___numIndices_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float2> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::restLengths
-	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___restLengths_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_4;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::deltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___deltas_6;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::counts
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___counts_7;
-};
-
-// Obi.BurstColliderWorld/IdentifyMovingColliders
-struct IdentifyMovingColliders_t30EFA404F0A639386B43A087DADED3F3BD05F8A7 
-{
-	// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstColliderWorld/MovingCollider> Obi.BurstColliderWorld/IdentifyMovingColliders::movingColliders
-	ParallelWriter_t31B6F22CFBC55C9FCA82B985B5AB4F36D73244AC ___movingColliders_0;
-	// Unity.Collections.NativeArray`1<Obi.BurstColliderShape> Obi.BurstColliderWorld/IdentifyMovingColliders::shapes
-	NativeArray_1_t8CF5C553F7F2F505AD7288E1ABB6D2B278B0C274 ___shapes_1;
-	// Unity.Collections.NativeArray`1<Obi.BurstRigidbody> Obi.BurstColliderWorld/IdentifyMovingColliders::rigidbodies
-	NativeArray_1_tACE22C080DB9BF1E4CF2761F3DA8C0764711D8D5 ___rigidbodies_2;
-	// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial> Obi.BurstColliderWorld/IdentifyMovingColliders::collisionMaterials
-	NativeArray_1_t5BBDE017F7F991E356898F90D13F929D9E6CE693 ___collisionMaterials_3;
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.BurstColliderWorld/IdentifyMovingColliders::bounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___bounds_4;
-	// Unity.Collections.NativeArray`1<Obi.BurstCellSpan> Obi.BurstColliderWorld/IdentifyMovingColliders::cellIndices
-	NativeArray_1_t8C8B76767CD337C67670ECDE25015AFC5AC6BFF4 ___cellIndices_5;
-	// System.Int32 Obi.BurstColliderWorld/IdentifyMovingColliders::colliderCount
-	int32_t ___colliderCount_6;
-	// System.Single Obi.BurstColliderWorld/IdentifyMovingColliders::dt
-	float ___dt_7;
-};
-
-// Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere
-struct ApplyVorticityConfinementAndAtmosphere_t1D1205EC1811C845028841020C2174CB1A7D3AED 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::wind
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___wind_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::vorticities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___vorticities_2;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::atmosphericDrag
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___atmosphericDrag_3;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::atmosphericPressure
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___atmosphericPressure_4;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::vorticityConfinement
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___vorticityConfinement_5;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::restDensities
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___restDensities_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::normals
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___normals_7;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::fluidData
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___fluidData_8;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::eta
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___eta_9;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_10;
-	// System.Single Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::dt
-	float ___dt_11;
-};
-
-// Obi.BurstDensityConstraints/AverageAnisotropyJob
-struct AverageAnisotropyJob_t2D48E249231F7540F23224095AEA5A6F9F55745D 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/AverageAnisotropyJob::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageAnisotropyJob::principalRadii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalRadii_1;
-	// System.Single Obi.BurstDensityConstraints/AverageAnisotropyJob::maxAnisotropy
-	float ___maxAnisotropy_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageAnisotropyJob::smoothPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float3x3> Obi.BurstDensityConstraints/AverageAnisotropyJob::anisotropies
-	NativeArray_1_tF9A59D3BB90F9B48E2241BFBA702CB67AFF0DC15 ___anisotropies_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageAnisotropyJob::renderablePositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageAnisotropyJob::principalAxes
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalAxes_6;
-};
-
-// Obi.BurstDensityConstraints/AverageSmoothPositionsJob
-struct AverageSmoothPositionsJob_t5E3703626F774913D1305D3EF8AB8F8F60423261 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/AverageSmoothPositionsJob::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageSmoothPositionsJob::renderablePositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/AverageSmoothPositionsJob::smoothPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_2;
-};
-
-// Obi.BurstDensityConstraints/CalculateLambdasJob
-struct CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/CalculateLambdasJob::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/CalculateLambdasJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_1;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/CalculateLambdasJob::radii
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_2;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/CalculateLambdasJob::restDensities
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___restDensities_3;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/CalculateLambdasJob::surfaceTension
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___surfaceTension_4;
-	// Obi.Poly6Kernel Obi.BurstDensityConstraints/CalculateLambdasJob::densityKernel
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC ___densityKernel_5;
-	// Obi.SpikyKernel Obi.BurstDensityConstraints/CalculateLambdasJob::gradientKernel
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2 ___gradientKernel_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/CalculateLambdasJob::normals
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___normals_7;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/CalculateLambdasJob::vorticity
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___vorticity_8;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/CalculateLambdasJob::fluidData
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___fluidData_9;
-};
-// Native definition for P/Invoke marshalling of Obi.BurstDensityConstraints/CalculateLambdasJob
-struct CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3_marshaled_pinvoke
-{
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_1;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_2;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___restDensities_3;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___surfaceTension_4;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_pinvoke ___densityKernel_5;
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_pinvoke ___gradientKernel_6;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___normals_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___vorticity_8;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___fluidData_9;
-};
-// Native definition for COM marshalling of Obi.BurstDensityConstraints/CalculateLambdasJob
-struct CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3_marshaled_com
-{
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_1;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_2;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___restDensities_3;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___surfaceTension_4;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_com ___densityKernel_5;
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_com ___gradientKernel_6;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___normals_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___vorticity_8;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___fluidData_9;
-};
-
-// Obi.BurstDensityConstraints/ClearFluidDataJob
-struct ClearFluidDataJob_t70925C80DCF8201F26187836546279802037636A 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/ClearFluidDataJob::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/ClearFluidDataJob::fluidData
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___fluidData_1;
-};
-
-// Obi.BurstDensityConstraints/IdentityAnisotropyJob
-struct IdentityAnisotropyJob_t4D88E084A3892826C662CC633A1079DEC08D3254 
-{
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstDensityConstraints/IdentityAnisotropyJob::fluidParticles
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___fluidParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/IdentityAnisotropyJob::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/IdentityAnisotropyJob::principalAxes
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalAxes_2;
-};
-
-// Obi.BurstDensityConstraints/UpdateInteractionsJob
-struct UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraints/UpdateInteractionsJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraints/UpdateInteractionsJob::radii
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	// Obi.Poly6Kernel Obi.BurstDensityConstraints/UpdateInteractionsJob::densityKernel
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC ___densityKernel_2;
-	// Obi.SpikyKernel Obi.BurstDensityConstraints/UpdateInteractionsJob::gradientKernel
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2 ___gradientKernel_3;
-	// Unity.Collections.NativeArray`1<Obi.FluidInteraction> Obi.BurstDensityConstraints/UpdateInteractionsJob::pairs
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	// Obi.BatchData Obi.BurstDensityConstraints/UpdateInteractionsJob::batchData
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B ___batchData_5;
-};
-// Native definition for P/Invoke marshalling of Obi.BurstDensityConstraints/UpdateInteractionsJob
-struct UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B_marshaled_pinvoke
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_pinvoke ___densityKernel_2;
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_pinvoke ___gradientKernel_3;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_pinvoke ___batchData_5;
-};
-// Native definition for COM marshalling of Obi.BurstDensityConstraints/UpdateInteractionsJob
-struct UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B_marshaled_com
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_com ___densityKernel_2;
-	SpikyKernel_t517DE504A4CDD80946FA84D41E6B6615794E2AB2_marshaled_com ___gradientKernel_3;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_com ___batchData_5;
-};
-
-// Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob
-struct AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::renderablePositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::smoothPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_1;
-	// Unity.Collections.NativeArray`1<Obi.FluidInteraction> Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::pairs
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float3x3> Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::anisotropies
-	NativeArray_1_tF9A59D3BB90F9B48E2241BFBA702CB67AFF0DC15 ___anisotropies_3;
-	// Obi.BatchData Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::batchData
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B ___batchData_4;
-};
-// Native definition for P/Invoke marshalling of Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob
-struct AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF_marshaled_pinvoke
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_1;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_2;
-	NativeArray_1_tF9A59D3BB90F9B48E2241BFBA702CB67AFF0DC15 ___anisotropies_3;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_pinvoke ___batchData_4;
-};
-// Native definition for COM marshalling of Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob
-struct AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF_marshaled_com
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_1;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_2;
-	NativeArray_1_tF9A59D3BB90F9B48E2241BFBA702CB67AFF0DC15 ___anisotropies_3;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_com ___batchData_4;
-};
-
-// Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob
-struct AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::renderablePositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::radii
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	// Obi.Poly6Kernel Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::densityKernel
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC ___densityKernel_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::smoothPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_3;
-	// Unity.Collections.NativeArray`1<Obi.FluidInteraction> Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::pairs
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	// Obi.BatchData Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::batchData
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B ___batchData_5;
-};
-// Native definition for P/Invoke marshalling of Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob
-struct AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E_marshaled_pinvoke
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_pinvoke ___densityKernel_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_3;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_pinvoke ___batchData_5;
-};
-// Native definition for COM marshalling of Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob
-struct AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E_marshaled_com
-{
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___renderablePositions_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___radii_1;
-	Poly6Kernel_t16818718FE74F18ABE26D2D79C4E47E190569BEC_marshaled_com ___densityKernel_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___smoothPositions_3;
-	NativeArray_1_t34B87E021A3D700F675E1328EE2B08935E04EC6B ___pairs_4;
-	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B_marshaled_com ___batchData_5;
-};
-
-// Oni/SolverParameters
-struct SolverParameters_tBD26C92968F7FB3CC9C9927B5233F6A930E98040 
-{
-	// Oni/SolverParameters/Mode Oni/SolverParameters::mode
-	int32_t ___mode_0;
-	// Oni/SolverParameters/Interpolation Oni/SolverParameters::interpolation
-	int32_t ___interpolation_1;
-	// UnityEngine.Vector3 Oni/SolverParameters::gravity
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___gravity_2;
-	// System.Single Oni/SolverParameters::damping
-	float ___damping_3;
-	// System.Single Oni/SolverParameters::maxAnisotropy
-	float ___maxAnisotropy_4;
-	// System.Single Oni/SolverParameters::sleepThreshold
-	float ___sleepThreshold_5;
-	// System.Single Oni/SolverParameters::collisionMargin
-	float ___collisionMargin_6;
-	// System.Single Oni/SolverParameters::maxDepenetration
-	float ___maxDepenetration_7;
-	// System.Single Oni/SolverParameters::continuousCollisionDetection
-	float ___continuousCollisionDetection_8;
-	// System.Single Oni/SolverParameters::shockPropagation
-	float ___shockPropagation_9;
-	// System.Int32 Oni/SolverParameters::surfaceCollisionIterations
-	int32_t ___surfaceCollisionIterations_10;
-	// System.Single Oni/SolverParameters::surfaceCollisionTolerance
-	float ___surfaceCollisionTolerance_11;
+	union
+	{
+		struct
+		{
+			// UnityEngine.Vector4 Oni/Contact::pointA
+			Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___pointA_0;
+			// UnityEngine.Vector4 Oni/Contact::pointB
+			Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___pointB_1;
+			// UnityEngine.Vector4 Oni/Contact::normal
+			Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___normal_2;
+			// UnityEngine.Vector4 Oni/Contact::tangent
+			Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___tangent_3;
+			// UnityEngine.Vector4 Oni/Contact::bitangent
+			Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___bitangent_4;
+			// System.Single Oni/Contact::distance
+			float ___distance_5;
+			// System.Single Oni/Contact::normalImpulse
+			float ___normalImpulse_6;
+			// System.Single Oni/Contact::tangentImpulse
+			float ___tangentImpulse_7;
+			// System.Single Oni/Contact::bitangentImpulse
+			float ___bitangentImpulse_8;
+			// System.Single Oni/Contact::stickImpulse
+			float ___stickImpulse_9;
+			// System.Single Oni/Contact::rollingFrictionImpulse
+			float ___rollingFrictionImpulse_10;
+			// System.Int32 Oni/Contact::bodyA
+			int32_t ___bodyA_11;
+			// System.Int32 Oni/Contact::bodyB
+			int32_t ___bodyB_12;
+		};
+		uint8_t Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540__padding[144];
+	};
 };
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick
@@ -5846,20 +5227,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1  : public EventBase
 	int32_t ___m_RefCount_17;
 };
 
-// Unity.Collections.NativeParallelHashMap`2<System.Int32,System.Int32>
-struct NativeParallelHashMap_2_t4D02654CEC4D45A2841FD43547AD1E2F506E72A9 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey,TValue> Unity.Collections.NativeParallelHashMap`2::m_HashMapData
-	UnsafeParallelHashMap_2_tAF5198A4416D9CB11063A92F93C2C7AA10BFDEE0 ___m_HashMapData_0;
-};
-
-// Unity.Collections.NativeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
-struct NativeParallelHashMap_2_t38194A1E2A29C7BF47448D9F9A58190B03A2897A 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey,TValue> Unity.Collections.NativeParallelHashMap`2::m_HashMapData
-	UnsafeParallelHashMap_2_tF33EB05669E8D06BDF7F831E9D4E7293E7D40C99 ___m_HashMapData_0;
-};
-
 // Vuforia.ObserverNotCreatedException`1<System.Int32Enum>
 struct ObserverNotCreatedException_1_tF2FDFC796F781A434EECBD3ABB7DA611A767A50E  : public Exception_t
 {
@@ -5897,88 +5264,6 @@ struct ApplyBatchedCollisionConstraintsBatchJob_t4370FF32A6F80CB79448BC1D237545E
 	BatchData_t3B0FF336008110A5C7637CB18AE7AF77D83C395B ___batchData_10;
 };
 
-// Obi.ApplyInertialForcesJob
-struct ApplyInertialForcesJob_t79C262FCD4D5CAB6F182B3CA701330C09351A2DB 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.ApplyInertialForcesJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.ApplyInertialForcesJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_1;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.ApplyInertialForcesJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_2;
-	// Unity.Mathematics.float4 Obi.ApplyInertialForcesJob::angularVel
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___angularVel_3;
-	// Unity.Mathematics.float4 Obi.ApplyInertialForcesJob::inertialAccel
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___inertialAccel_4;
-	// Unity.Mathematics.float4 Obi.ApplyInertialForcesJob::eulerAccel
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___eulerAccel_5;
-	// System.Single Obi.ApplyInertialForcesJob::worldLinearInertiaScale
-	float ___worldLinearInertiaScale_6;
-	// System.Single Obi.ApplyInertialForcesJob::worldAngularInertiaScale
-	float ___worldAngularInertiaScale_7;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.ApplyInertialForcesJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_8;
-	// System.Single Obi.ApplyInertialForcesJob::deltaTime
-	float ___deltaTime_9;
-};
-
-// Obi.BuildSimplexAabbs
-struct BuildSimplexAabbs_t39C853C9A5DD06ADF02CDB55FA0748B803B04B14 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BuildSimplexAabbs::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BuildSimplexAabbs::fluidRadii
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___fluidRadii_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BuildSimplexAabbs::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BuildSimplexAabbs::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_3;
-	// Unity.Collections.NativeList`1<System.Int32> Obi.BuildSimplexAabbs::simplices
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___simplices_4;
-	// Obi.SimplexCounts Obi.BuildSimplexAabbs::simplexCounts
-	SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 ___simplexCounts_5;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BuildSimplexAabbs::particleMaterialIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleMaterialIndices_6;
-	// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial> Obi.BuildSimplexAabbs::collisionMaterials
-	NativeArray_1_t5BBDE017F7F991E356898F90D13F929D9E6CE693 ___collisionMaterials_7;
-	// System.Single Obi.BuildSimplexAabbs::collisionMargin
-	float ___collisionMargin_8;
-	// System.Single Obi.BuildSimplexAabbs::continuousCollisionDetection
-	float ___continuousCollisionDetection_9;
-	// System.Single Obi.BuildSimplexAabbs::dt
-	float ___dt_10;
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.BuildSimplexAabbs::simplexBounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___simplexBounds_11;
-};
-
-// Obi.BurstAffineTransform
-struct BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 
-{
-	// Unity.Mathematics.float4 Obi.BurstAffineTransform::translation
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___translation_0;
-	// Unity.Mathematics.float4 Obi.BurstAffineTransform::scale
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___scale_1;
-	// Unity.Mathematics.quaternion Obi.BurstAffineTransform::rotation
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___rotation_2;
-};
-
-// Obi.CalculateQueryDistances
-struct CalculateQueryDistances_t56AEB4995D325CF80E32355650A628D88A389D02 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.CalculateQueryDistances::prevPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___prevPositions_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.CalculateQueryDistances::prevOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___prevOrientations_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.CalculateQueryDistances::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_2;
-	// Unity.Collections.NativeList`1<System.Int32> Obi.CalculateQueryDistances::simplices
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___simplices_3;
-	// Obi.SimplexCounts Obi.CalculateQueryDistances::simplexCounts
-	SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 ___simplexCounts_4;
-	// Unity.Collections.NativeArray`1<Obi.BurstQueryResult> Obi.CalculateQueryDistances::queryResults
-	NativeArray_1_tBE0D65FEC55E9CF48F6BB025C1D1579DCED02055 ___queryResults_5;
-};
-
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -6010,96 +5295,6 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates_13;
-};
-
-// Obi.ParticleToBoundsJob
-struct ParticleToBoundsJob_t8C47D5D3430F448298FBC98F45C6182222C47657 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.ParticleToBoundsJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.ParticleToBoundsJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.ParticleToBoundsJob::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_2;
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.ParticleToBoundsJob::bounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___bounds_3;
-};
-
-// Obi.PredictPositionsJob
-struct PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.PredictPositionsJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.PredictPositionsJob::phases
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___phases_1;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.PredictPositionsJob::buoyancies
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___buoyancies_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::externalForces
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalForces_3;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.PredictPositionsJob::inverseMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::previousPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_7;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::externalTorques
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalTorques_8;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.PredictPositionsJob::inverseRotationalMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_9;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.PredictPositionsJob::previousOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_10;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.PredictPositionsJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_11;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.PredictPositionsJob::angularVelocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_12;
-	// Unity.Mathematics.float4 Obi.PredictPositionsJob::gravity
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___gravity_13;
-	// System.Single Obi.PredictPositionsJob::deltaTime
-	float ___deltaTime_14;
-	// System.Boolean Obi.PredictPositionsJob::is2D
-	bool ___is2D_15;
-};
-// Native definition for P/Invoke marshalling of Obi.PredictPositionsJob
-struct PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7_marshaled_pinvoke
-{
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___phases_1;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___buoyancies_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalForces_3;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_4;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_5;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_6;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalTorques_8;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_9;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_10;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_11;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_12;
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___gravity_13;
-	float ___deltaTime_14;
-	int32_t ___is2D_15;
-};
-// Native definition for COM marshalling of Obi.PredictPositionsJob
-struct PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7_marshaled_com
-{
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___phases_1;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___buoyancies_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalForces_3;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_4;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_5;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_6;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___externalTorques_8;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_9;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_10;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_11;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_12;
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___gravity_13;
-	float ___deltaTime_14;
-	int32_t ___is2D_15;
 };
 
 // Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
@@ -6164,130 +5359,54 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
-// Obi.UpdateInertiaTensorsJob
-struct UpdateInertiaTensorsJob_t55FAC8139A50150CDA0120AA9C398881650D474A 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.UpdateInertiaTensorsJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.UpdateInertiaTensorsJob::inverseMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_1;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.UpdateInertiaTensorsJob::inverseRotationalMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateInertiaTensorsJob::principalRadii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalRadii_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateInertiaTensorsJob::inverseInertiaTensors
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___inverseInertiaTensors_4;
-};
-
-// Obi.UpdatePositionsJob
-struct UpdatePositionsJob_t9A77ADF9EBDB626A21453C4757F08EAB432F693F 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.UpdatePositionsJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePositionsJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePositionsJob::previousPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePositionsJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.UpdatePositionsJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.UpdatePositionsJob::previousOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePositionsJob::angularVelocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_6;
-	// System.Single Obi.UpdatePositionsJob::velocityScale
-	float ___velocityScale_7;
-	// System.Single Obi.UpdatePositionsJob::sleepThreshold
-	float ___sleepThreshold_8;
-};
-
-// Obi.UpdatePrincipalAxisJob
-struct UpdatePrincipalAxisJob_t90914BD35BAE2746DF5A248C693EE4200125946B 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.UpdatePrincipalAxisJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.UpdatePrincipalAxisJob::renderableOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___renderableOrientations_1;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.UpdatePrincipalAxisJob::phases
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___phases_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePrincipalAxisJob::principalRadii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalRadii_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdatePrincipalAxisJob::principalAxis
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___principalAxis_4;
-};
-
-// Obi.UpdateVelocitiesJob
-struct UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021 
-{
-	// Unity.Collections.NativeList`1<System.Int32> Obi.UpdateVelocitiesJob::activeParticles
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.UpdateVelocitiesJob::inverseMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateVelocitiesJob::previousPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateVelocitiesJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateVelocitiesJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_4;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.UpdateVelocitiesJob::inverseRotationalMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.UpdateVelocitiesJob::previousOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_6;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.UpdateVelocitiesJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_7;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.UpdateVelocitiesJob::angularVelocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_8;
-	// System.Single Obi.UpdateVelocitiesJob::deltaTime
-	float ___deltaTime_9;
-	// System.Boolean Obi.UpdateVelocitiesJob::is2D
-	bool ___is2D_10;
-};
-// Native definition for P/Invoke marshalling of Obi.UpdateVelocitiesJob
-struct UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021_marshaled_pinvoke
-{
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_1;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_3;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_4;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_5;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_6;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_8;
-	float ___deltaTime_9;
-	int32_t ___is2D_10;
-};
-// Native definition for COM marshalling of Obi.UpdateVelocitiesJob
-struct UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021_marshaled_com
-{
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___activeParticles_0;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseMasses_1;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___previousPositions_2;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_3;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_4;
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___inverseRotationalMasses_5;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___previousOrientations_6;
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_7;
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___angularVelocities_8;
-	float ___deltaTime_9;
-	int32_t ___is2D_10;
-};
-
 // Vuforia.VuObservationList
 struct VuObservationList_t20B399EFFCF0E69CE6B59AB8F90141D8169D6336  : public VuGenericList_1_t7A97376C5B34D7BD31FD6367FF815E50D2FA3F57
 {
 };
 
-// UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob
-struct PointCloudRaycastJob_t150A3AAEB6CB9F85DEEDE77859C128D1727C7BFA 
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2 
 {
-	// Unity.Collections.NativeSlice`1<UnityEngine.Vector3> UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob::points
-	NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A ___points_0;
-	// Unity.Collections.NativeArray`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo> UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob::infoOut
-	NativeArray_1_tA1E97291673A9D64EEF306BAF92C2FFE8DA08E84 ___infoOut_1;
-	// UnityEngine.Ray UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob::ray
-	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray_2;
+	// UnityEngine.InputSystem.Utilities.JsonParser/JsonValueType UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::type
+	int32_t ___type_0;
+	// System.Boolean UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::boolValue
+	bool ___boolValue_1;
+	// System.Double UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::realValue
+	double ___realValue_2;
+	// System.Int64 UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::integerValue
+	int64_t ___integerValue_3;
+	// UnityEngine.InputSystem.Utilities.JsonParser/JsonString UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::stringValue
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB ___stringValue_4;
+	// System.Collections.Generic.List`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue> UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::arrayValue
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue> UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::objectValue
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	// System.Object UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::anyValue
+	RuntimeObject* ___anyValue_7;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_pinvoke
+{
+	int32_t ___type_0;
+	int32_t ___boolValue_1;
+	double ___realValue_2;
+	int64_t ___integerValue_3;
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_pinvoke ___stringValue_4;
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	Il2CppIUnknown* ___anyValue_7;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_com
+{
+	int32_t ___type_0;
+	int32_t ___boolValue_1;
+	double ___realValue_2;
+	int64_t ___integerValue_3;
+	JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com ___stringValue_4;
+	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
+	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
+	Il2CppIUnknown* ___anyValue_7;
 };
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick
@@ -6416,151 +5535,6 @@ struct ExecuteJobFunction_tF957583213C2DDFE4CB99F9BD5C0CB48E045FD93  : public Mu
 {
 };
 
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ApplyInertialForcesJob>
-struct ExecuteJobFunction_t0C93FF33A96DAFBD0B4116113137C9B0E8AA1D55  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BoundsReductionJob>
-struct ExecuteJobFunction_tA069096A97AE9FCB4DA277064B3D7D15488FB4F9  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BuildSimplexAabbs>
-struct ExecuteJobFunction_t8A3307D06992A4BCACF5AF8E4A8DB3AB7BDDDC83  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.CalculateQueryDistances>
-struct ExecuteJobFunction_t60B5D14D1E573EA63634D74CCFC4FBBB567497DE  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.InterpolationJob>
-struct ExecuteJobFunction_t6DB8E86802AAFF990904B6BFE5D9293006974056  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ParticleToBoundsJob>
-struct ExecuteJobFunction_t8CF94B6A8DC3893D888D03B92ADE2E41235069E3  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.PredictPositionsJob>
-struct ExecuteJobFunction_t4B363ED16113301EC8294B660A3775FB4F74195A  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateInertiaTensorsJob>
-struct ExecuteJobFunction_tCB243F4E0417749144818F3315CCCEE25104C078  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePositionsJob>
-struct ExecuteJobFunction_t804B49689B749458863F65FC3AF774FF7BE29322  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePrincipalAxisJob>
-struct ExecuteJobFunction_t2530EBF0A87300721B9524DF564E7A148D4AD286  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateVelocitiesJob>
-struct ExecuteJobFunction_t43C4FD3484AAFCA14E57B4E1A87D50E13CA5A84A  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-struct ExecuteJobFunction_tFCE8677D0E2E5D51246A9F9967BD7415B7B1C7B4  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-struct ExecuteJobFunction_tE479684EC4822BB3F98D5C1829BACC9FCEB2E660  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-struct ExecuteJobFunction_t82171FA5CA729DD042E5A7750B72063FA7259E01  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-struct ExecuteJobFunction_tD49F6B7198990A7B61A6D1CEF9AECB3654A68DCD  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-struct ExecuteJobFunction_t6AE85257E3DC455C60E6DA14B89F7DC0277FEF23  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-struct ExecuteJobFunction_tECC333C71543126C564863F8870F03B6D39C3BA6  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-struct ExecuteJobFunction_t93F9E09CF44698BB7D651010EB66A22D616E899A  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-struct ExecuteJobFunction_t5FF0A931DE40A9AC506238A119DCCE0950F5AE40  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/IdentifyMovingColliders>
-struct ExecuteJobFunction_tE9EA627EDB651AC33D2A2180D51475984FA0D7E9  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-struct ExecuteJobFunction_t0B4B8D5821751F161FEC375A5072382438544109  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-struct ExecuteJobFunction_t45E7FD0D4E7C3D97CFC47D8A6229B45A478E2A3B  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-struct ExecuteJobFunction_tDCD9AFEDFDBBBABA773D0ADEEC7AED3F95343385  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/CalculateLambdasJob>
-struct ExecuteJobFunction_t91A75458B1D0FB1491D4196F84D794D870B7DEE4  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ClearFluidDataJob>
-struct ExecuteJobFunction_t565A1FFF440715490BF023910FF4EBB457FE3628  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-struct ExecuteJobFunction_tCF06B7D4F36CFA032CB63BDCAF8E3FB11F303D66  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-struct ExecuteJobFunction_tAAF524A3327246D0560EB5DA692A1C75ADB5B856  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-struct ExecuteJobFunction_t8C5C899BBEAD2B561263D2FCDA46D3F463E3BA8C  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
-struct ExecuteJobFunction_t2C5C4D7BACD2F0AE096AA9E231B9459A6DEA4DF7  : public MulticastDelegate_t
-{
-};
-
 // System.Func`1<System.Object>
 struct Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4  : public MulticastDelegate_t
 {
@@ -6621,8 +5595,18 @@ struct Func_2_t96A39E112843C5E4C0D74585BA105A0ED44D08C1  : public MulticastDeleg
 {
 };
 
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+struct Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17  : public MulticastDelegate_t
+{
+};
+
 // System.Func`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 struct Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.Single,System.Single>
+struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2  : public MulticastDelegate_t
 {
 };
 
@@ -6649,17 +5633,6 @@ struct InstanceDtor_t368A2FD9F88C865C6168235E3D1A0F5E401257C1  : public Multicas
 // UnityEngine.Rendering.ListChangedEventHandler`1<System.Object>
 struct ListChangedEventHandler_1_t75D35934C494DD9CAB03AF119619178B28527CFA  : public MulticastDelegate_t
 {
-};
-
-// Obi.NativeMultilevelGrid`1<System.Int32>
-struct NativeMultilevelGrid_1_t51780F9BEC4B217CB825F2CC01250BEEE9B481ED 
-{
-	// Unity.Collections.NativeParallelHashMap`2<Unity.Mathematics.int4,System.Int32> Obi.NativeMultilevelGrid`1::grid
-	NativeParallelHashMap_2_t38194A1E2A29C7BF47448D9F9A58190B03A2897A ___grid_1;
-	// Unity.Collections.NativeList`1<Obi.NativeMultilevelGrid`1/Cell`1<T,T>> Obi.NativeMultilevelGrid`1::usedCells
-	NativeList_1_tFF32AD6D40A31C9A0E47ED422F8D5A5BE1B7F3A2 ___usedCells_2;
-	// Unity.Collections.NativeParallelHashMap`2<System.Int32,System.Int32> Obi.NativeMultilevelGrid`1::populatedLevels
-	NativeParallelHashMap_2_t4D02654CEC4D45A2841FD43547AD1E2F506E72A9 ___populatedLevels_3;
 };
 
 // Microsoft.MixedReality.OpenXR.OpenXRContextEvent`1<System.Object>
@@ -6701,23 +5674,6 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public Multica
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
-};
-
-// Obi.BurstInertialFrame
-struct BurstInertialFrame_t33CE2DEFF264AA69AF9097A219914A30F5B9CCC6 
-{
-	// Obi.BurstAffineTransform Obi.BurstInertialFrame::frame
-	BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 ___frame_0;
-	// Obi.BurstAffineTransform Obi.BurstInertialFrame::prevFrame
-	BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 ___prevFrame_1;
-	// Unity.Mathematics.float4 Obi.BurstInertialFrame::velocity
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___velocity_2;
-	// Unity.Mathematics.float4 Obi.BurstInertialFrame::angularVelocity
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___angularVelocity_3;
-	// Unity.Mathematics.float4 Obi.BurstInertialFrame::acceleration
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___acceleration_4;
-	// Unity.Mathematics.float4 Obi.BurstInertialFrame::angularAcceleration
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___angularAcceleration_5;
 };
 
 // System.NotSupportedException
@@ -6829,160 +5785,6 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 {
 };
 
-// Obi.SpatialQueryJob
-struct SpatialQueryJob_t1A8304940F6D897F4206443F215293AC9185C8A9 
-{
-	// Obi.NativeMultilevelGrid`1<System.Int32> Obi.SpatialQueryJob::grid
-	NativeMultilevelGrid_1_t51780F9BEC4B217CB825F2CC01250BEEE9B481ED ___grid_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.SpatialQueryJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.SpatialQueryJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.SpatialQueryJob::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_3;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.SpatialQueryJob::filters
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___filters_4;
-	// Unity.Collections.NativeList`1<System.Int32> Obi.SpatialQueryJob::simplices
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___simplices_5;
-	// Obi.SimplexCounts Obi.SpatialQueryJob::simplexCounts
-	SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 ___simplexCounts_6;
-	// Unity.Collections.NativeArray`1<Obi.BurstQueryShape> Obi.SpatialQueryJob::shapes
-	NativeArray_1_t633059C0B750D0C8B8B209CA0B75A24AFF11D9DF ___shapes_7;
-	// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform> Obi.SpatialQueryJob::transforms
-	NativeArray_1_t794D1EDCB116E8B6C12D30449B88A627BFBDA5F5 ___transforms_8;
-	// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstQueryResult> Obi.SpatialQueryJob::results
-	ParallelWriter_t62CC79D02D56D0A14ED62745FA9A8824DA2D1ED6 ___results_9;
-	// Obi.BurstAffineTransform Obi.SpatialQueryJob::worldToSolver
-	BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 ___worldToSolver_10;
-	// Oni/SolverParameters Obi.SpatialQueryJob::parameters
-	SolverParameters_tBD26C92968F7FB3CC9C9927B5233F6A930E98040 ___parameters_11;
-};
-
-// Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob
-struct UpdateContactsJob_t4F6F177755FD89460D5298821BA88449AC4F6762 
-{
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::prevPositions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___prevPositions_0;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::prevOrientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___prevOrientations_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_3;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_4;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::invInertiaTensors
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___invInertiaTensors_5;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::particleMaterialIndices
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___particleMaterialIndices_6;
-	// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::collisionMaterials
-	NativeArray_1_t5BBDE017F7F991E356898F90D13F929D9E6CE693 ___collisionMaterials_7;
-	// Unity.Collections.NativeList`1<System.Int32> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::simplices
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___simplices_8;
-	// Obi.SimplexCounts Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::simplexCounts
-	SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 ___simplexCounts_9;
-	// Unity.Collections.NativeArray`1<Obi.BurstColliderShape> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::shapes
-	NativeArray_1_t8CF5C553F7F2F505AD7288E1ABB6D2B278B0C274 ___shapes_10;
-	// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::transforms
-	NativeArray_1_t794D1EDCB116E8B6C12D30449B88A627BFBDA5F5 ___transforms_11;
-	// Unity.Collections.NativeArray`1<Obi.BurstRigidbody> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::rigidbodies
-	NativeArray_1_tACE22C080DB9BF1E4CF2761F3DA8C0764711D8D5 ___rigidbodies_12;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::rigidbodyLinearDeltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___rigidbodyLinearDeltas_13;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::rigidbodyAngularDeltas
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___rigidbodyAngularDeltas_14;
-	// Unity.Collections.NativeArray`1<Obi.BurstContact> Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::contacts
-	NativeArray_1_t2705545761658589B4952261F0D3597E41FA32B2 ___contacts_15;
-	// Obi.BurstInertialFrame Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::inertialFrame
-	BurstInertialFrame_t33CE2DEFF264AA69AF9097A219914A30F5B9CCC6 ___inertialFrame_16;
-};
-
-// Obi.BurstColliderWorld/GenerateContactsJob
-struct GenerateContactsJob_t4C63D16F9F1E3987C248FC5D8934741B2F56E398 
-{
-	// Obi.NativeMultilevelGrid`1<System.Int32> Obi.BurstColliderWorld/GenerateContactsJob::colliderGrid
-	NativeMultilevelGrid_1_t51780F9BEC4B217CB825F2CC01250BEEE9B481ED ___colliderGrid_0;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstColliderWorld/GenerateContactsJob::gridLevels
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___gridLevels_1;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderWorld/GenerateContactsJob::velocities
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___velocities_2;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderWorld/GenerateContactsJob::positions
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___positions_3;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion> Obi.BurstColliderWorld/GenerateContactsJob::orientations
-	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A ___orientations_4;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstColliderWorld/GenerateContactsJob::invMasses
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___invMasses_5;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float4> Obi.BurstColliderWorld/GenerateContactsJob::radii
-	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 ___radii_6;
-	// Unity.Collections.NativeArray`1<System.Int32> Obi.BurstColliderWorld/GenerateContactsJob::filters
-	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___filters_7;
-	// Unity.Collections.NativeList`1<System.Int32> Obi.BurstColliderWorld/GenerateContactsJob::simplices
-	NativeList_1_t0EA735A94E6EBF8FE7F3B79411C98BF692EA2213 ___simplices_8;
-	// Obi.SimplexCounts Obi.BurstColliderWorld/GenerateContactsJob::simplexCounts
-	SimplexCounts_t61D8E8E1A5F0D3F9517E24908D16DEB15958AF93 ___simplexCounts_9;
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.BurstColliderWorld/GenerateContactsJob::simplexBounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___simplexBounds_10;
-	// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform> Obi.BurstColliderWorld/GenerateContactsJob::transforms
-	NativeArray_1_t794D1EDCB116E8B6C12D30449B88A627BFBDA5F5 ___transforms_11;
-	// Unity.Collections.NativeArray`1<Obi.BurstColliderShape> Obi.BurstColliderWorld/GenerateContactsJob::shapes
-	NativeArray_1_t8CF5C553F7F2F505AD7288E1ABB6D2B278B0C274 ___shapes_12;
-	// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial> Obi.BurstColliderWorld/GenerateContactsJob::collisionMaterials
-	NativeArray_1_t5BBDE017F7F991E356898F90D13F929D9E6CE693 ___collisionMaterials_13;
-	// Unity.Collections.NativeArray`1<Obi.BurstRigidbody> Obi.BurstColliderWorld/GenerateContactsJob::rigidbodies
-	NativeArray_1_tACE22C080DB9BF1E4CF2761F3DA8C0764711D8D5 ___rigidbodies_14;
-	// Unity.Collections.NativeArray`1<Obi.BurstAabb> Obi.BurstColliderWorld/GenerateContactsJob::bounds
-	NativeArray_1_tF5F002FA9CA165FD7ED382598849DA4F697E2236 ___bounds_15;
-	// Unity.Collections.NativeArray`1<Obi.DistanceFieldHeader> Obi.BurstColliderWorld/GenerateContactsJob::distanceFieldHeaders
-	NativeArray_1_t56C8DCA84A108D88CA7E8C6D6BEB213EA5B5368F ___distanceFieldHeaders_16;
-	// Unity.Collections.NativeArray`1<Obi.BurstDFNode> Obi.BurstColliderWorld/GenerateContactsJob::distanceFieldNodes
-	NativeArray_1_t947E663622D29BA8C92A2A052C6CC6D3BA171407 ___distanceFieldNodes_17;
-	// Unity.Collections.NativeArray`1<Obi.TriangleMeshHeader> Obi.BurstColliderWorld/GenerateContactsJob::triangleMeshHeaders
-	NativeArray_1_t14E977B25D22DEB8A9072AA92FAFBB2F50DB95F4 ___triangleMeshHeaders_18;
-	// Unity.Collections.NativeArray`1<Obi.BIHNode> Obi.BurstColliderWorld/GenerateContactsJob::bihNodes
-	NativeArray_1_t4E7ED67296CA0F78D71F13823E8D82A636C6D82A ___bihNodes_19;
-	// Unity.Collections.NativeArray`1<Obi.Triangle> Obi.BurstColliderWorld/GenerateContactsJob::triangles
-	NativeArray_1_t339B8D033EE23C5FE6322A9538E6CF66F9806687 ___triangles_20;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float3> Obi.BurstColliderWorld/GenerateContactsJob::vertices
-	NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___vertices_21;
-	// Unity.Collections.NativeArray`1<Obi.EdgeMeshHeader> Obi.BurstColliderWorld/GenerateContactsJob::edgeMeshHeaders
-	NativeArray_1_t10147E82CF8AB19A6DE794C63FD27833AF10F4E3 ___edgeMeshHeaders_22;
-	// Unity.Collections.NativeArray`1<Obi.BIHNode> Obi.BurstColliderWorld/GenerateContactsJob::edgeBihNodes
-	NativeArray_1_t4E7ED67296CA0F78D71F13823E8D82A636C6D82A ___edgeBihNodes_23;
-	// Unity.Collections.NativeArray`1<Obi.Edge> Obi.BurstColliderWorld/GenerateContactsJob::edges
-	NativeArray_1_tFDDC7417E777E9E41BF41F7CCB7891A7AA0B3A00 ___edges_24;
-	// Unity.Collections.NativeArray`1<Unity.Mathematics.float2> Obi.BurstColliderWorld/GenerateContactsJob::edgeVertices
-	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___edgeVertices_25;
-	// Unity.Collections.NativeArray`1<Obi.HeightFieldHeader> Obi.BurstColliderWorld/GenerateContactsJob::heightFieldHeaders
-	NativeArray_1_t69EE9820AC912F0AEEAF7312CFE469CCAD398F68 ___heightFieldHeaders_26;
-	// Unity.Collections.NativeArray`1<System.Single> Obi.BurstColliderWorld/GenerateContactsJob::heightFieldSamples
-	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF ___heightFieldSamples_27;
-	// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstContact> Obi.BurstColliderWorld/GenerateContactsJob::contactsQueue
-	ParallelWriter_t94FDC1FDCA613CFC9994E338A787A53B87948822 ___contactsQueue_28;
-	// Obi.BurstAffineTransform Obi.BurstColliderWorld/GenerateContactsJob::solverToWorld
-	BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 ___solverToWorld_29;
-	// Obi.BurstAffineTransform Obi.BurstColliderWorld/GenerateContactsJob::worldToSolver
-	BurstAffineTransform_t61B29530A7C1C31168EA9209F061D1CF6A80B9F7 ___worldToSolver_30;
-	// System.Single Obi.BurstColliderWorld/GenerateContactsJob::deltaTime
-	float ___deltaTime_31;
-	// Oni/SolverParameters Obi.BurstColliderWorld/GenerateContactsJob::parameters
-	SolverParameters_tBD26C92968F7FB3CC9C9927B5233F6A930E98040 ___parameters_32;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.SpatialQueryJob>
-struct ExecuteJobFunction_t1D62A722369A392C9DB2C006871B1F6C7C5C088D  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-struct ExecuteJobFunction_t043646C21C919A126F00DE16FFBA33C87DA19865  : public MulticastDelegate_t
-{
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/GenerateContactsJob>
-struct ExecuteJobFunction_t3F787178251C216E5C75163BAC7EECABD3954433  : public MulticastDelegate_t
-{
-};
-
 // Vuforia.OverlayCanvas`1<System.Object>
 struct OverlayCanvas_1_tC44BD2324C948DFF238C4B609B8610D92139C63A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7067,9 +5869,17 @@ struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879_StaticFields
 
 // System.Linq.EnumerableSorter`1<UnityEngine.RaycastHit>
 
+// System.Linq.EnumerableSorter`1<UnityEngine.Resolution>
+
+// System.Linq.EnumerableSorter`1<UnityEngine.Resolution>
+
 // System.Linq.EnumerableSorter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 
 // System.Linq.EnumerableSorter`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+
+// System.Linq.EnumerableSorter`1<System.Single>
+
+// System.Linq.EnumerableSorter`1<System.Single>
 
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector2>
 
@@ -7078,6 +5888,96 @@ struct Comparer_1_t03DA6AFB24C7CAB292D6DC3A872298EE43E6C879_StaticFields
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector3>
 
 // System.Linq.EnumerableSorter`1<UnityEngine.Vector3>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+struct EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+struct EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+struct EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+
+// System.Collections.Generic.EqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+struct EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+struct EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+struct EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+
+// System.Collections.Generic.EqualityComparer`1<Oni/Contact>
+struct EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<Oni/Contact>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+struct EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+struct EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+struct EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo>
 struct EqualityComparer_1_t13057C100082428B392391A2C4493B542DDE62C6_StaticFields
@@ -7612,9 +6512,17 @@ struct ObjectListPool_1_tB459B6B0B50FE9EC86BACC547CF13943893BA7CB_StaticFields
 
 // System.Linq.OrderedEnumerable`1<UnityEngine.RaycastHit>
 
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+
+// System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>
+
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 
 // System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+
+// System.Linq.OrderedEnumerable`1<System.Single>
+
+// System.Linq.OrderedEnumerable`1<System.Single>
 
 // System.Linq.OrderedEnumerable`1<UnityEngine.Vector2>
 
@@ -7715,9 +6623,17 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 
 // System.Linq.Buffer`1<UnityEngine.RaycastHit>
 
+// System.Linq.Buffer`1<UnityEngine.Resolution>
+
+// System.Linq.Buffer`1<UnityEngine.Resolution>
+
 // System.Linq.Buffer`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
 
 // System.Linq.Buffer`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>
+
+// System.Linq.Buffer`1<System.Single>
+
+// System.Linq.Buffer`1<System.Single>
 
 // System.Linq.Buffer`1<UnityEngine.Vector2>
 
@@ -7763,9 +6679,17 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 
 // System.Linq.EnumerableSorter`2<UnityEngine.RaycastHit,System.Single>
 
+// System.Linq.EnumerableSorter`2<UnityEngine.Resolution,System.Int32>
+
+// System.Linq.EnumerableSorter`2<UnityEngine.Resolution,System.Int32>
+
 // System.Linq.EnumerableSorter`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 
 // System.Linq.EnumerableSorter`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
+
+// System.Linq.EnumerableSorter`2<System.Single,System.Single>
+
+// System.Linq.EnumerableSorter`2<System.Single,System.Single>
 
 // System.Linq.EnumerableSorter`2<UnityEngine.Vector2,System.Single>
 
@@ -7791,97 +6715,17 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 
 // UnityEngine.Rendering.ListChangedEventArgs`1<System.Object>
 
-// Unity.Collections.NativeArray`1<Obi.BIHNode>
-
-// Unity.Collections.NativeArray`1<Obi.BIHNode>
-
-// Unity.Collections.NativeArray`1<Obi.BurstAabb>
-
-// Unity.Collections.NativeArray`1<Obi.BurstAabb>
-
-// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform>
-
-// Unity.Collections.NativeArray`1<Obi.BurstAffineTransform>
-
-// Unity.Collections.NativeArray`1<Obi.BurstCellSpan>
-
-// Unity.Collections.NativeArray`1<Obi.BurstCellSpan>
-
-// Unity.Collections.NativeArray`1<Obi.BurstColliderShape>
-
-// Unity.Collections.NativeArray`1<Obi.BurstColliderShape>
-
-// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial>
-
-// Unity.Collections.NativeArray`1<Obi.BurstCollisionMaterial>
-
 // Unity.Collections.NativeArray`1<Obi.BurstContact>
 
 // Unity.Collections.NativeArray`1<Obi.BurstContact>
 
-// Unity.Collections.NativeArray`1<Obi.BurstDFNode>
+// Unity.Collections.NativeArray`1<System.Byte>
 
-// Unity.Collections.NativeArray`1<Obi.BurstDFNode>
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryResult>
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryResult>
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryShape>
-
-// Unity.Collections.NativeArray`1<Obi.BurstQueryShape>
-
-// Unity.Collections.NativeArray`1<Obi.BurstRigidbody>
-
-// Unity.Collections.NativeArray`1<Obi.BurstRigidbody>
-
-// Unity.Collections.NativeArray`1<Obi.DistanceFieldHeader>
-
-// Unity.Collections.NativeArray`1<Obi.DistanceFieldHeader>
-
-// Unity.Collections.NativeArray`1<Obi.Edge>
-
-// Unity.Collections.NativeArray`1<Obi.Edge>
-
-// Unity.Collections.NativeArray`1<Obi.EdgeMeshHeader>
-
-// Unity.Collections.NativeArray`1<Obi.EdgeMeshHeader>
-
-// Unity.Collections.NativeArray`1<Obi.FluidInteraction>
-
-// Unity.Collections.NativeArray`1<Obi.FluidInteraction>
-
-// Unity.Collections.NativeArray`1<Obi.HeightFieldHeader>
-
-// Unity.Collections.NativeArray`1<Obi.HeightFieldHeader>
+// Unity.Collections.NativeArray`1<System.Byte>
 
 // Unity.Collections.NativeArray`1<System.Int32>
 
 // Unity.Collections.NativeArray`1<System.Int32>
-
-// Unity.Collections.NativeArray`1<System.Single>
-
-// Unity.Collections.NativeArray`1<System.Single>
-
-// Unity.Collections.NativeArray`1<Obi.Triangle>
-
-// Unity.Collections.NativeArray`1<Obi.Triangle>
-
-// Unity.Collections.NativeArray`1<Obi.TriangleMeshHeader>
-
-// Unity.Collections.NativeArray`1<Obi.TriangleMeshHeader>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float2>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float2>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3x3>
-
-// Unity.Collections.NativeArray`1<Unity.Mathematics.float3x3>
 
 // Unity.Collections.NativeArray`1<Unity.Mathematics.float4>
 
@@ -7891,10 +6735,6 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 
 // Unity.Collections.NativeArray`1<Unity.Mathematics.quaternion>
 
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo>
-
-// Unity.Collections.NativeArray`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastInfo>
-
 // Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>
 
 // Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>
@@ -7902,10 +6742,6 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 // Unity.Collections.NativeSlice`1<System.UInt16>
 
 // Unity.Collections.NativeSlice`1<System.UInt16>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.Vector3>
-
-// Unity.Collections.NativeSlice`1<UnityEngine.Vector3>
 
 // Unity.Collections.NativeSlice`1<UnityEngine.Vector4>
 
@@ -7918,6 +6754,46 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 // System.Nullable`1<System.Int32>
 
 // System.Nullable`1<System.Int32>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
+
+// System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>
 
 // System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo>
 
@@ -8155,9 +7031,17 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 
 // System.Linq.OrderedEnumerable`2<UnityEngine.RaycastHit,System.Single>
 
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+
+// System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>
+
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 
 // System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
+
+// System.Linq.OrderedEnumerable`2<System.Single,System.Single>
 
 // System.Linq.OrderedEnumerable`2<UnityEngine.Vector2,System.Single>
 
@@ -8170,18 +7054,6 @@ struct GenericVuforiaConfiguration_t10EDE5A6E35CF893071DDF204C6936DADB6ED8AF_Sta
 // Unity.Collections.Pair`2<System.Object,System.Object>
 
 // Unity.Collections.Pair`2<System.Object,System.Object>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstContact>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstContact>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstQueryResult>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstQueryResult>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstColliderWorld/MovingCollider>
-
-// Unity.Collections.NativeQueue`1/ParallelWriter<Obi.BurstColliderWorld/MovingCollider>
 
 // UnityEngine.Rendering.ObjectPool`1/PooledObject<System.Object>
 
@@ -8256,6 +7128,10 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 
 // UnityEngine.TextCore.LowLevel.GlyphValueRecord
 
+// UnityEngine.InputSystem.LowLevel.InputEventPtr
+
+// UnityEngine.InputSystem.LowLevel.InputEventPtr
+
 // System.Int32
 
 // System.Int32
@@ -8277,10 +7153,6 @@ struct IntPtr_t_StaticFields
 
 // Microsoft.MixedReality.OpenXR.NativeLibTokenAttribute
 
-// Obi.Poly6Kernel
-
-// Obi.Poly6Kernel
-
 // UnityEngine.Experimental.Rendering.ProbeDilationSettings
 
 // UnityEngine.Experimental.Rendering.ProbeDilationSettings
@@ -8288,6 +7160,10 @@ struct IntPtr_t_StaticFields
 // UnityEngine.RectInt
 
 // UnityEngine.RectInt
+
+// UnityEngine.Resolution
+
+// UnityEngine.Resolution
 
 // Obi.SimplexCounts
 
@@ -8297,9 +7173,9 @@ struct IntPtr_t_StaticFields
 
 // System.Single
 
-// Obi.SpikyKernel
+// UnityEngine.InputSystem.Utilities.Substring
 
-// Obi.SpikyKernel
+// UnityEngine.InputSystem.Utilities.Substring
 
 // UnityEngine.UIElements.TextureId
 struct TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_StaticFields
@@ -8410,30 +7286,48 @@ struct Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_StaticFields
 
 // UnityEngine.Vector3Int
 
-// UnityEngine.Experimental.Rendering.VirtualOffsetSettings
-
-// UnityEngine.Experimental.Rendering.VirtualOffsetSettings
-
-// System.Void
-
-// System.Void
-
-// Unity.Mathematics.float4
-struct float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 {
-	// Unity.Mathematics.float4 Unity.Mathematics.float4::zero
-	float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___zero_4;
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
 };
 
-// Unity.Mathematics.float4
+// UnityEngine.Vector4
+
+// UnityEngine.Experimental.Rendering.VirtualOffsetSettings
+
+// UnityEngine.Experimental.Rendering.VirtualOffsetSettings
+
+// System.Void
+
+// System.Void
 
 // Unity.Collections.AllocatorManager/AllocatorHandle
 
 // Unity.Collections.AllocatorManager/AllocatorHandle
 
+// UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+
+// UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+
 // Oni/ConstraintParameters
 
 // Oni/ConstraintParameters
+
+// UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
+
+// UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
+
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta
+
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta
 
 // UnityEngine.Experimental.Rendering.ProbeBrickPool/BrickChunkAlloc
 
@@ -8597,6 +7491,14 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<System.Object>
 
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Resolution>
+
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Resolution>
+
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<System.Single>
+
+// System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<System.Single>
+
 // System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Vector2>
 
 // System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.Vector2>
@@ -8608,10 +7510,6 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 // UnityEngine.InputSystem.Utilities.OneOrMore`2/Enumerator<System.Object,System.Object>
 
 // UnityEngine.InputSystem.Utilities.OneOrMore`2/Enumerator<System.Object,System.Object>
-
-// Unity.Collections.NativeList`1<Obi.NativeMultilevelGrid`1/Cell`1<System.Int32,System.Int32>>
-
-// Unity.Collections.NativeList`1<Obi.NativeMultilevelGrid`1/Cell`1<System.Int32,System.Int32>>
 
 // Unity.Collections.NativeList`1<System.Int32>
 
@@ -8643,305 +7541,9 @@ struct ParallelForJobStruct_1_t5B816C78A3865639802B5BDFDA4A149F7A6C3768_StaticFi
 
 // Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyBatchedCollisionConstraintsBatchJob>
 
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyInertialForcesJob>
-struct ParallelForJobStruct_1_tC06D1CCAE8F4BE95A5DAF95CFEF8DFE782006CD0_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyInertialForcesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BoundsReductionJob>
-struct ParallelForJobStruct_1_tA94FE0A8E4DE3B8BBF57E26B012222F61173EB14_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BoundsReductionJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BuildSimplexAabbs>
-struct ParallelForJobStruct_1_t727956F95522EE56D5AD6B295005A57D88CC59F2_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BuildSimplexAabbs>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.CalculateQueryDistances>
-struct ParallelForJobStruct_1_t4C2228CE246B319D0AAA22CF297E8939067BD1F7_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.CalculateQueryDistances>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.InterpolationJob>
-struct ParallelForJobStruct_1_tFC4385B3C42BFA7BFFAF52626BAAE6824E92E9CB_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.InterpolationJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ParticleToBoundsJob>
-struct ParallelForJobStruct_1_t26B122FA4D200F6C8576F4A9CF6E3EB92C683A2F_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ParticleToBoundsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.PredictPositionsJob>
-struct ParallelForJobStruct_1_tFC3651DA55F7DC960D1FEAD66FFB0A9953B654AC_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.PredictPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.SpatialQueryJob>
-struct ParallelForJobStruct_1_tB0E9ADF3ACE1D5E3FC92E1D2D96965D9BE268DAC_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.SpatialQueryJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateInertiaTensorsJob>
-struct ParallelForJobStruct_1_t8C3C7648711F963C9BD73489D59E3EAA3AD0E6AF_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateInertiaTensorsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePositionsJob>
-struct ParallelForJobStruct_1_t294A7E43C99DA2748C840B32F24EC8737FAA8510_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePrincipalAxisJob>
-struct ParallelForJobStruct_1_t8A52273CE2EFA93461494CFC5FA19DA89D0EF121_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePrincipalAxisJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateVelocitiesJob>
-struct ParallelForJobStruct_1_t171BF9A5889CCC5F97623825831A6FFE0A3F7F3A_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateVelocitiesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-struct ParallelForJobStruct_1_t127DC0EC2B18DEC0C2F09455A2622D5AE87476B1_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-struct ParallelForJobStruct_1_tE0A0B106F6AFFCD4DD35F7AB748941127D5D0A26_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-struct ParallelForJobStruct_1_t5A1EAFE242E104FB9E979C35405859AE8F9A929C_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-struct ParallelForJobStruct_1_tBC3FCE52149BE330BC772DF983739AB69AC6E086_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-struct ParallelForJobStruct_1_tE3EAEFD63883EA864273CBF940AF732C8DA293F4_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-struct ParallelForJobStruct_1_t7C3A796BEC42AB84CEFCFA98D1116976DC74D204_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-struct ParallelForJobStruct_1_tF4F96800CB8BFC24F4BB067F7FE65474D286F896_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-struct ParallelForJobStruct_1_t77E0751B5141A0845A8B6BB6DE421DF2031B85F6_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-struct ParallelForJobStruct_1_t77D4200797CC291A6A244D3AA679ABB3C1605AC0_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/GenerateContactsJob>
-struct ParallelForJobStruct_1_tEA3BD7E3A59E2659B4038A12FC6CFC984F9C28FD_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/GenerateContactsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/IdentifyMovingColliders>
-struct ParallelForJobStruct_1_t4E36072B0F02297255626CFA6FA803CDF3A5CCD1_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/IdentifyMovingColliders>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-struct ParallelForJobStruct_1_tF97A5EB70B0CC351CFDC440CAD77DEB016D9131E_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-struct ParallelForJobStruct_1_t9F55EEF8CA64861060F560CB73C6C8F593DE62C3_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-struct ParallelForJobStruct_1_t5D7EB64687D0787CA317CC1E99D29BD573D451FB_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/CalculateLambdasJob>
-struct ParallelForJobStruct_1_tF6632689607E6569E3FA3AC516FF9EE3CE205342_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/CalculateLambdasJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ClearFluidDataJob>
-struct ParallelForJobStruct_1_tE10777C0A7AF60159469C91413D9CE1292216E0E_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ClearFluidDataJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-struct ParallelForJobStruct_1_t125E4ABCF8DE81A33B6151114728F1987A0E8559_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-struct ParallelForJobStruct_1_tA6DD3C3DACB31049B87B37E1D6129D1B337621C5_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-struct ParallelForJobStruct_1_t603CA2FB27533B207AC12EC3D5D4C199290D68C5_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
-struct ParallelForJobStruct_1_t50C779F4282299904110CFCD3435BCAFC5A60D83_StaticFields
-{
-	// System.IntPtr Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1::jobReflectionData
-	intptr_t ___jobReflectionData_0;
-};
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
-
 // Obi.ConstraintSorter`1/SortSubArraysJob<Obi.BurstContact>
 
 // Obi.ConstraintSorter`1/SortSubArraysJob<Obi.BurstContact>
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<System.Int32,System.Int32>
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<System.Int32,System.Int32>
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
-
-// Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
 
 // Vuforia.VuGenericList`1<System.IntPtr>
 
@@ -8950,10 +7552,6 @@ struct ParallelForJobStruct_1_t50C779F4282299904110CFCD3435BCAFC5A60D83_StaticFi
 // UnityEngine.Bounds
 
 // UnityEngine.Bounds
-
-// Obi.BoundsReductionJob
-
-// Obi.BoundsReductionJob
 
 // System.Delegate
 
@@ -9000,10 +7598,6 @@ struct InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_StaticFields
 
 // UnityEngine.InputSystem.Layouts.InputDeviceMatcher
 
-// Obi.InterpolationJob
-
-// Obi.InterpolationJob
-
 // Unity.Jobs.LowLevel.Unsafe.JobRanges
 
 // Unity.Jobs.LowLevel.Unsafe.JobRanges
@@ -9021,10 +7615,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.Experimental.Rendering.ProbeVolumeBakingProcessSettings
 
-// UnityEngine.Ray
-
-// UnityEngine.Ray
-
 // UnityEngine.RaycastHit
 
 // UnityEngine.RaycastHit
@@ -9037,86 +7627,29 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Vuforia.VuObservation
 
-// Unity.Mathematics.quaternion
-struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
-{
-	// Unity.Mathematics.quaternion Unity.Mathematics.quaternion::identity
-	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity_1;
-};
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
-// Unity.Mathematics.quaternion
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
-// Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob
+// Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData
 
-// Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob
+// Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData
 
-// Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob
+// Obi.ObiEmitterShape/DistributionPoint
 
-// Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob
+// Obi.ObiEmitterShape/DistributionPoint
 
-// Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob
+// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData
 
-// Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob
+// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData
 
-// Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob
+// UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 
-// Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob
+// UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo
 
-// Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob
+// Oni/Contact
 
-// Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob
-
-// Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob
-
-// Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob
-
-// Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob
-
-// Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob
-
-// Obi.BurstColliderWorld/IdentifyMovingColliders
-
-// Obi.BurstColliderWorld/IdentifyMovingColliders
-
-// Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere
-
-// Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere
-
-// Obi.BurstDensityConstraints/AverageAnisotropyJob
-
-// Obi.BurstDensityConstraints/AverageAnisotropyJob
-
-// Obi.BurstDensityConstraints/AverageSmoothPositionsJob
-
-// Obi.BurstDensityConstraints/AverageSmoothPositionsJob
-
-// Obi.BurstDensityConstraints/CalculateLambdasJob
-
-// Obi.BurstDensityConstraints/CalculateLambdasJob
-
-// Obi.BurstDensityConstraints/ClearFluidDataJob
-
-// Obi.BurstDensityConstraints/ClearFluidDataJob
-
-// Obi.BurstDensityConstraints/IdentityAnisotropyJob
-
-// Obi.BurstDensityConstraints/IdentityAnisotropyJob
-
-// Obi.BurstDensityConstraints/UpdateInteractionsJob
-
-// Obi.BurstDensityConstraints/UpdateInteractionsJob
-
-// Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob
-
-// Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob
-
-// Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob
-
-// Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob
-
-// Oni/SolverParameters
-
-// Oni/SolverParameters
+// Oni/Contact
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick
 
@@ -9193,14 +7726,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 
 // UnityEngine.UIElements.EventBase`1<System.Object>
 
-// Unity.Collections.NativeParallelHashMap`2<System.Int32,System.Int32>
-
-// Unity.Collections.NativeParallelHashMap`2<System.Int32,System.Int32>
-
-// Unity.Collections.NativeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
-
-// Unity.Collections.NativeParallelHashMap`2<Unity.Mathematics.int4,System.Int32>
-
 // Vuforia.ObserverNotCreatedException`1<System.Int32Enum>
 
 // Vuforia.ObserverNotCreatedException`1<System.Int32Enum>
@@ -9213,22 +7738,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 
 // Obi.ApplyBatchedCollisionConstraintsBatchJob
 
-// Obi.ApplyInertialForcesJob
-
-// Obi.ApplyInertialForcesJob
-
-// Obi.BuildSimplexAabbs
-
-// Obi.BuildSimplexAabbs
-
-// Obi.BurstAffineTransform
-
-// Obi.BurstAffineTransform
-
-// Obi.CalculateQueryDistances
-
-// Obi.CalculateQueryDistances
-
 // UnityEngine.Component
 
 // UnityEngine.Component
@@ -9240,14 +7749,6 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 // System.MulticastDelegate
 
 // System.MulticastDelegate
-
-// Obi.ParticleToBoundsJob
-
-// Obi.ParticleToBoundsJob
-
-// Obi.PredictPositionsJob
-
-// Obi.PredictPositionsJob
 
 // Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo
 struct SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D_StaticFields
@@ -9287,29 +7788,13 @@ struct Type_t_StaticFields
 
 // System.Type
 
-// Obi.UpdateInertiaTensorsJob
-
-// Obi.UpdateInertiaTensorsJob
-
-// Obi.UpdatePositionsJob
-
-// Obi.UpdatePositionsJob
-
-// Obi.UpdatePrincipalAxisJob
-
-// Obi.UpdatePrincipalAxisJob
-
-// Obi.UpdateVelocitiesJob
-
-// Obi.UpdateVelocitiesJob
-
 // Vuforia.VuObservationList
 
 // Vuforia.VuObservationList
 
-// UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
 
-// UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick
 
@@ -9350,122 +7835,6 @@ struct Type_t_StaticFields
 // Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ApplyBatchedCollisionConstraintsBatchJob>
 
 // Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ApplyBatchedCollisionConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ApplyInertialForcesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ApplyInertialForcesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BoundsReductionJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BoundsReductionJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BuildSimplexAabbs>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BuildSimplexAabbs>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.CalculateQueryDistances>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.CalculateQueryDistances>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.InterpolationJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.InterpolationJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ParticleToBoundsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.ParticleToBoundsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.PredictPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.PredictPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateInertiaTensorsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateInertiaTensorsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePrincipalAxisJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdatePrincipalAxisJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateVelocitiesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.UpdateVelocitiesJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/IdentifyMovingColliders>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/IdentifyMovingColliders>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/CalculateLambdasJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/CalculateLambdasJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ClearFluidDataJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/ClearFluidDataJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/IdentityAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraints/UpdateInteractionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>
 
 // System.Func`1<System.Object>
 
@@ -9515,9 +7884,17 @@ struct Type_t_StaticFields
 
 // System.Func`2<UnityEngine.RaycastHit,System.Single>
 
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+
+// System.Func`2<UnityEngine.Resolution,System.Int32>
+
 // System.Func`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
 
 // System.Func`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>
+
+// System.Func`2<System.Single,System.Single>
+
+// System.Func`2<System.Single,System.Single>
 
 // System.Func`2<UnityEngine.Vector2,System.Single>
 
@@ -9538,10 +7915,6 @@ struct Type_t_StaticFields
 // UnityEngine.Rendering.ListChangedEventHandler`1<System.Object>
 
 // UnityEngine.Rendering.ListChangedEventHandler`1<System.Object>
-
-// Obi.NativeMultilevelGrid`1<System.Int32>
-
-// Obi.NativeMultilevelGrid`1<System.Int32>
 
 // Microsoft.MixedReality.OpenXR.OpenXRContextEvent`1<System.Object>
 
@@ -9570,10 +7943,6 @@ struct Type_t_StaticFields
 // UnityEngine.Behaviour
 
 // UnityEngine.Behaviour
-
-// Obi.BurstInertialFrame
-
-// Obi.BurstInertialFrame
 
 // System.NotSupportedException
 
@@ -9639,36 +8008,386 @@ struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_StaticFields
 
 // UnityEngine.MonoBehaviour
 
-// Obi.SpatialQueryJob
-
-// Obi.SpatialQueryJob
-
-// Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob
-
-// Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob
-
-// Obi.BurstColliderWorld/GenerateContactsJob
-
-// Obi.BurstColliderWorld/GenerateContactsJob
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.SpatialQueryJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.SpatialQueryJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/GenerateContactsJob>
-
-// Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1/ExecuteJobFunction<Obi.BurstColliderWorld/GenerateContactsJob>
-
 // Vuforia.OverlayCanvas`1<System.Object>
 
 // Vuforia.OverlayCanvas`1<System.Object>
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper[]
+struct TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F m_Items[1];
+
+	inline TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___item_1), (void*)NULL);
+	}
+	inline TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___item_1), (void*)NULL);
+	}
+};
+// UnityEngine.InputSystem.Utilities.JsonParser/JsonValue[]
+struct JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) JsonValue_t01DB320267C848E729A400EF2345979978F851D2 m_Items[1];
+
+	inline JsonValue_t01DB320267C848E729A400EF2345979978F851D2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline JsonValue_t01DB320267C848E729A400EF2345979978F851D2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&((m_Items + index)->___stringValue_4))->___text_0))->___m_String_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___arrayValue_5), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___objectValue_6), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___anyValue_7), (void*)NULL);
+		#endif
+	}
+	inline JsonValue_t01DB320267C848E729A400EF2345979978F851D2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline JsonValue_t01DB320267C848E729A400EF2345979978F851D2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&((m_Items + index)->___stringValue_4))->___text_0))->___m_String_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___arrayValue_5), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___objectValue_6), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___anyValue_7), (void*)NULL);
+		#endif
+	}
+};
+// Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData[]
+struct PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F  : public RuntimeArray
+{
+	ALIGN_FIELD (8) PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 m_Items[1];
+
+	inline PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___pointer_0), (void*)NULL);
+	}
+	inline PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___pointer_0), (void*)NULL);
+	}
+};
+// Obi.ObiEmitterShape/DistributionPoint[]
+struct DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 m_Items[1];
+
+	inline DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 value)
+	{
+		m_Items[index] = value;
+	}
+};
+// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData[]
+struct PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE  : public RuntimeArray
+{
+	ALIGN_FIELD (8) PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 m_Items[1];
+
+	inline PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___U3CPointerU3Ek__BackingField_1), (void*)NULL);
+	}
+	inline PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___U3CPointerU3Ek__BackingField_1), (void*)NULL);
+	}
+};
+// UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo[]
+struct OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30  : public RuntimeArray
+{
+	ALIGN_FIELD (8) OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC m_Items[1];
+
+	inline OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___device_2), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___firstControl_3), (void*)NULL);
+		#endif
+	}
+	inline OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___device_2), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___firstControl_3), (void*)NULL);
+		#endif
+	}
+};
+// Oni/Contact[]
+struct ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 m_Items[1];
+
+	inline Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding[]
+struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813  : public RuntimeArray
+{
+	ALIGN_FIELD (8) SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 m_Items[1];
+
+	inline SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___path_1), (void*)NULL);
+	}
+	inline SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___path_1), (void*)NULL);
+	}
+};
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick[]
+struct BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 m_Items[1];
+
+	inline Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta[]
+struct BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 m_Items[1];
+
+	inline BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline BrickMeta_t75B625970B160751665565BB3039980A81DED1D1* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___voxels_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___bricks_1), (void*)NULL);
+		#endif
+	}
+	inline BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline BrickMeta_t75B625970B160751665565BB3039980A81DED1D1* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___voxels_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___bricks_1), (void*)NULL);
+		#endif
+	}
+};
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/CellIndexUpdateInfo[]
 struct CellIndexUpdateInfoU5BU5D_t1DBD23C9FC2D547040B4A261FED8D790AF2EF56D  : public RuntimeArray
 {
@@ -11831,6 +10550,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueType_Equals_mCA5344597A8055EC544855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Type System.Object::GetType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonValue_Equals_m4A516862648D99564D5FA05FC99DF63A275D2996 (JsonValue_t01DB320267C848E729A400EF2345979978F851D2* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.InputSystem.Utilities.JsonParser/JsonValue::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonValue_GetHashCode_m6D9DFCA9CF023D45025BB140C5A65CD21F291092 (JsonValue_t01DB320267C848E729A400EF2345979978F851D2* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Experimental.Rendering.ProbeReferenceVolume/RegId::Equals(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RegId_Equals_m42741BC96AB73BD66C8E071FC56669D05BE78681 (RegId_t558A1471305FE71659736358E71632E62B26AF64* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Experimental.Rendering.ProbeReferenceVolume/RegId::GetHashCode()
@@ -12158,70 +10881,3062 @@ inline void SortSubArraysJob_Execute_m4B059575FB0626D70430175675D2E328AE808A04 (
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7 (Type_t* ___0_type, RuntimeObject* ___1_managedJobFunction0, RuntimeObject* ___2_managedJobFunction1, RuntimeObject* ___3_managedJobFunction2, const RuntimeMethod* method) ;
 // System.Void Obi.ApplyBatchedCollisionConstraintsBatchJob::Execute(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyBatchedCollisionConstraintsBatchJob_Execute_m8F894E2414AD67D10AD78F2887844AD24464C06D (ApplyBatchedCollisionConstraintsBatchJob_t4370FF32A6F80CB79448BC1D237545E1A7499702* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_workItemIndex, const RuntimeMethod* method) ;
-// System.Void Obi.ApplyInertialForcesJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyInertialForcesJob_Execute_m0AA8D1DAB591071B00DFB79DD1A1FE0826BC21F0 (ApplyInertialForcesJob_t79C262FCD4D5CAB6F182B3CA701330C09351A2DB* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void Obi.BoundsReductionJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BoundsReductionJob_Execute_m7111B7778511D2D08A14CCAE011A165D697D35AB (BoundsReductionJob_tC495928ACEA7990DF605EE246471ADC20B4FA36A* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_first, const RuntimeMethod* method) ;
-// System.Void Obi.BuildSimplexAabbs::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BuildSimplexAabbs_Execute_mC75F1CEC533184A7C4016E7BB00BF00F2B0F63F4 (BuildSimplexAabbs_t39C853C9A5DD06ADF02CDB55FA0748B803B04B14* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.CalculateQueryDistances::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CalculateQueryDistances_Execute_m94DAAF243634630517CAC920A171662C2940478B (CalculateQueryDistances_t56AEB4995D325CF80E32355650A628D88A389D02* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.InterpolationJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void InterpolationJob_Execute_mEFB8E5125A9080D3CA70E7933AA3CE162A467890 (InterpolationJob_t57C36A329C812D27BE1B879BAA4CD5517FCB09C1* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.ParticleToBoundsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ParticleToBoundsJob_Execute_m24B5EBE731E0483CB16BA78B040BD52E8E962ECE (ParticleToBoundsJob_t8C47D5D3430F448298FBC98F45C6182222C47657* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.PredictPositionsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void PredictPositionsJob_Execute_m751D829ECAC29BADF11891A9E79E6D89B9C1F207 (PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void Obi.SpatialQueryJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpatialQueryJob_Execute_m1038EE1DBF051DC0B59124A08EE6C4469D231BF8 (SpatialQueryJob_t1A8304940F6D897F4206443F215293AC9185C8A9* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.UpdateInertiaTensorsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateInertiaTensorsJob_Execute_m9784237C481B70939F8F0BA759F363A4C9D7E49C (UpdateInertiaTensorsJob_t55FAC8139A50150CDA0120AA9C398881650D474A* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void Obi.UpdatePositionsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdatePositionsJob_Execute_mF2F39E6977909418BE551630898360D5CC7015C5 (UpdatePositionsJob_t9A77ADF9EBDB626A21453C4757F08EAB432F693F* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void Obi.UpdatePrincipalAxisJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdatePrincipalAxisJob_Execute_m6B5482A94216227142B66F348BD2392A8AE0AA3A (UpdatePrincipalAxisJob_t90914BD35BAE2746DF5A248C693EE4200125946B* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void Obi.UpdateVelocitiesJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateVelocitiesJob_Execute_m7D2756D3BB652DC1F4305DC5964D7F81C00FAA88 (UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void PointCloudRaycastJob_Execute_mCC84BA675585A86C765936270AF8EFD99C3D5C13 (PointCloudRaycastJob_t150A3AAEB6CB9F85DEEDE77859C128D1727C7BFA* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void AerodynamicConstraintsBatchJob_Execute_mB8A2BBFBAAD63FC9359E0289D8EA418F13F7D6BC (AerodynamicConstraintsBatchJob_tE2AA68F8A3ADE3D59DE11025C09655992483D147* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyBendConstraintsBatchJob_Execute_m8F3474F2821159A269D1BCB460BF175F9FB3E8E0 (ApplyBendConstraintsBatchJob_t29A8F8A82EDFDF0D48963AECEBA0B81A343FED77* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BendConstraintsBatchJob_Execute_m63B5199CE5A1F623093AD6CFD52AE4FE794BBD03 (BendConstraintsBatchJob_tD27E9B1F9236C28678610CDE7862C6B75FF3EF07* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyBendTwistConstraintsBatchJob_Execute_m0445C5332E0D7AFBE8DF6738B010CE5044BF9E7B (ApplyBendTwistConstraintsBatchJob_t3C1A192474D9555685CCCEAADD29B9076CB53D4D* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BendTwistConstraintsBatchJob_Execute_mC8EDF6B2ECEF0379FA13A8760482F10D70ECF4C9 (BendTwistConstraintsBatchJob_tB8809A2A66F6BFD3261B7507FFC50927DAEA2AB3* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyChainConstraintsBatchJob_Execute_m9AF429C2BF2CF22668BF88C63CF2FE048D964B42 (ApplyChainConstraintsBatchJob_tC05612ADF2F98526A866E55E95407BB7A98DEDEC* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ChainConstraintsBatchJob_Execute_m0E886DAF9BFF8129A6376EB2FCE5C47EFD0837CE (ChainConstraintsBatchJob_t95B682C2C9C50FECD3CE216BC0FAF5DFD3957349* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_c, const RuntimeMethod* method) ;
-// System.Void Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateContactsJob_Execute_m44146AD3CFCEAC4045BBDB40E67F7C334F0D7205 (UpdateContactsJob_t4F6F177755FD89460D5298821BA88449AC4F6762* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstColliderWorld/GenerateContactsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void GenerateContactsJob_Execute_mDA64C3869A1390D960B8BC126D303D15D6F249C9 (GenerateContactsJob_t4C63D16F9F1E3987C248FC5D8934741B2F56E398* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstColliderWorld/IdentifyMovingColliders::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void IdentifyMovingColliders_Execute_m07F714BC893402C9BA583487A2778D7C0F1FB544 (IdentifyMovingColliders_t30EFA404F0A639386B43A087DADED3F3BD05F8A7* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ApplyVorticityConfinementAndAtmosphere_Execute_m05B9268BFEDAD36BD33108E976350FCA2F3A9C8A (ApplyVorticityConfinementAndAtmosphere_t1D1205EC1811C845028841020C2174CB1A7D3AED* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_p, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/AverageAnisotropyJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void AverageAnisotropyJob_Execute_m22E7ABE8168FCA24328C73D47EAE8C6F3A05FD2A (AverageAnisotropyJob_t2D48E249231F7540F23224095AEA5A6F9F55745D* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_p, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/AverageSmoothPositionsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void AverageSmoothPositionsJob_Execute_m14FFA4720407DADBAB14A8D663A34C21FF1F4C79 (AverageSmoothPositionsJob_t5E3703626F774913D1305D3EF8AB8F8F60423261* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_p, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/CalculateLambdasJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CalculateLambdasJob_Execute_m97AE8847F339A077B5D2122AD9872DB1512A6731 (CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_p, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/ClearFluidDataJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ClearFluidDataJob_Execute_mBCAEF4DE1C14BB191B67EE73FC2CBD97AB7424FE (ClearFluidDataJob_t70925C80DCF8201F26187836546279802037636A* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/IdentityAnisotropyJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void IdentityAnisotropyJob_Execute_m58ABE5EA48B5705F412D9DCCBF40E22B1D9E9B02 (IdentityAnisotropyJob_t4D88E084A3892826C662CC633A1079DEC08D3254* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_p, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraints/UpdateInteractionsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void UpdateInteractionsJob_Execute_m32669BF28AFC83E6481839662F47FF19E78CF690 (UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_i, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void AccumulateAnisotropyJob_Execute_m75EFC301C1BE09FE48678350F545D5CB5EC2143F (AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_workItemIndex, const RuntimeMethod* method) ;
-// System.Void Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob::Execute(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void AccumulateSmoothPositionsJob_Execute_mF532F753589D0C16ECD39981E0262F13776F8F1E (AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_workItemIndex, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m26EE0A3127FEA5BCBEB2452C55AAE2DAC94B7599_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___0_x, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_2 = ___1_y;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mCCE46BF279DAC6EB653E8C67EB77239F786DACB6_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_m9AD0B6BF30496914F4D2313564E3830A26134CE0_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* ___0_array, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_19 = ___1_value;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m92243E48D1F196B533D91699E61F7E42C7F5F483_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* ___0_array, TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		TreeViewItemWrapperU5BU5D_tA8CE70B133105201BE01C82F78D06FACBBDBF55A* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_19 = ___1_value;
+		TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m2C7CE3954FCE07CE1BF233AD152BFC71CB24DB20_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706*)((ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mD830C29C7085F5CD4BE80FE017B17EAF401E5BC5_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mE7F80BCE8ABA7C6CA18506A78B69C214D636BC07_gshared (ObjectEqualityComparer_1_t2A60552C7A804B059395BCBA5E346315447D7706* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t0E83933B215F3C109314A81A267E758A10A884D6*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m31621F4B48A7B09186BC0294B01AC8B846FA506F_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_x, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_2 = ___1_y;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		bool L_5;
+		L_5 = JsonValue_Equals_m4A516862648D99564D5FA05FC99DF63A275D2996((&___0_x), L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		return L_5;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m166DFAA41A4EB15014872FF7887588C71636CEF9_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		int32_t L_1;
+		L_1 = JsonValue_GetHashCode_m6D9DFCA9CF023D45025BB140C5A65CD21F291092((&___0_obj), il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_m5C5BF5916539D6BD00924454A1745A83ADED5358_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* ___0_array, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_19 = ___1_value;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		bool L_22;
+		L_22 = JsonValue_Equals_m4A516862648D99564D5FA05FC99DF63A275D2996(((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), L_21, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		if (!L_22)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_23 = V_2;
+		return L_23;
+	}
+
+IL_005b:
+	{
+		int32_t L_24 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_25 = V_2;
+		int32_t L_26 = V_0;
+		if ((((int32_t)L_25) < ((int32_t)L_26)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m00A76849BA59CCD6AA05A143FBA732418A9DBD4E_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* ___0_array, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		JsonValueU5BU5D_tCC9BDCF1DE43F923B72BEF6FE9AB4FBAEF445DB3* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_19 = ___1_value;
+		JsonValue_t01DB320267C848E729A400EF2345979978F851D2 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		bool L_22;
+		L_22 = JsonValue_Equals_m4A516862648D99564D5FA05FC99DF63A275D2996(((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))), L_21, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		if (!L_22)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_23 = V_2;
+		return L_23;
+	}
+
+IL_005d:
+	{
+		int32_t L_24 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_24, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_25 = V_2;
+		int32_t L_26 = V_0;
+		if ((((int32_t)L_25) >= ((int32_t)L_26)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mD74D44754ADAB40D2077407A1A17E78E9BD8898A_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45*)((ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mDF9D20A457872E3AEF78B9099ED36B6D2B87D2C7_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mE139D2C41D2FAC903E229F50CDEC9F944B39ACA3_gshared (ObjectEqualityComparer_1_t7F2B40D1C2E2B30DF7C68F6F039D24CDA2AE2D45* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t609C7F4FCDDC30DC5F20B7722F1FDEFB0AA1C2C5*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m7304584260AF5C5A2C9A836AAAE6E4E103D87E7D_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 ___0_x, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_2 = ___1_y;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m85D91A84217C2AE804F6367103EED8631C22B657_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mDF66AF5AEB2813B68FA82412E0DDC991D8626835_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* ___0_array, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_19 = ___1_value;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m2E25A84E0F109A4A05A06F57466A812443594131_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* ___0_array, PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		PointerDataU5BU5D_t0334846B6E9DC8B3FC6B176422DE4E64D6C3A16F* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_19 = ___1_value;
+		PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<PointerData_tA04DD90283B59B9E28C85AB3E7ECB34C97430065> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m7F058D1A1C13EAFF8011C52804DD0AD4D20D9776_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2*)((ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mF8718AF2C64DDED6A8457BFFC2D4E885230721EF_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ManipulationHandler/PointerData>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mE6A2741DACD543E2A7D6A411EFD3392056719DD8_gshared (ObjectEqualityComparer_1_tCFA1BF7C30DC41AD506B6699C901EE66E3659BC2* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t4C7CA7126D04B70A3C2376AA8417162091FB069E*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m4BB0A1C08678A0F24A26CBA1A7058C0377DC8F51_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 ___0_x, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_2 = ___1_y;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m501149A2890B3D1CCB0431DD31023AB70995B064_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mA3EC8B224FC96F006025872F32AD8BC965226B73_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* ___0_array, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_19 = ___1_value;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m204A8CDD190312738DCC87D721747072B3F97C1A_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* ___0_array, DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		DistributionPointU5BU5D_t2F2DB5680F74D80C4253C566ACC9B2F7618C3777* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_19 = ___1_value;
+		DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<DistributionPoint_t79E3098E24293E4EA6C420E843DC2F6813E48922> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mE3AB03687028501677A7E3E536EE4C75A6ED7093_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699*)((ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m2F145E6DACC436ADBA76D589A1DCE84FA6995A23_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<Obi.ObiEmitterShape/DistributionPoint>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mBDF7D43BB31496A63E0893EAD51469269767072C_gshared (ObjectEqualityComparer_1_t6C80EC1440BDC52957A0CCDA04103CC326E88699* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t009F040F422069B301CD717197E8C0F29235B03D*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mB51AC60D28556FF43E2E9823CFD8D78365EEDB84_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 ___0_x, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_2 = ___1_y;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mDBB8F3FFFFE5B41DCBA66535824267FBB840C77A_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mD43D25EF445FF4E6D6EF35785B33D596FC185159_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* ___0_array, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_19 = ___1_value;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m2C5F616845CEB3B733C90F00FA7F4CF36CF34EE6_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* ___0_array, PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		PointerDataU5BU5D_t9DA6A5AE5B01EAAAA865F3757DAF012D167270DE* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_19 = ___1_value;
+		PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<PointerData_t0AFC9DD13433615E017D5DF63D3974656E9E4E18> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mF16DFE7B1FDD1CBB7A7CCA98E45C1494F61035EF_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C*)((ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m7542190E8762C7D831B13FC4EC381102D38AC799_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator/PointerData>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_mAA667149BFEBB5696C6E91574BA12D08F3946D61_gshared (ObjectEqualityComparer_1_t6DFAD60C0DD45EAB1B8F978749E3F36D2509286C* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_tB6659A5BE75576D5AAECE2592C9CC0767969351B*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m3C0B26A720E253A31B7CD7A570A908364F068A9B_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC ___0_x, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_2 = ___1_y;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m3C8F573120034F27B11A796C724B008E91B656D5_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mE8E81F8213FEBDA1379FEA23828A7D804CB033A7_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* ___0_array, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_19 = ___1_value;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m33B0E8C3F3C705164D1261ADCC72F6D8ADCEADD4_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* ___0_array, OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_19 = ___1_value;
+		OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<OnScreenDeviceInfo_t2C7BB082C4486C5F8F0FE55F0BFA772B454AD0AC> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mB0EA7DA590CF02C59755CA75A1072FB645CED337_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF*)((ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m16649227896967116E9FEBDE32E3B5081AD90FB7_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.InputSystem.OnScreen.OnScreenControl/OnScreenDeviceInfo>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m05BF03EF20EB36E972EED66EE06B99A214AEF371_gshared (ObjectEqualityComparer_1_t492735CC7EC53DBA3B013E30774D4913A20330CF* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t0A8D23C2BE5C11846AE1B5185DBEC68F305BD939*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m619F66E7893FA9937616D4B67F9B472D6BDE0F31_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 ___0_x, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_2 = ___1_y;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m2DBEFEE04CA1A684408D2001B1570E6F2687DBC1_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_m382F0290D5E987F1EFB62D8BE503F12026A9A88C_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* ___0_array, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_19 = ___1_value;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m0071D10EBB53296B307E1F4F8E4D4A44A8AC41B4_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* ___0_array, Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		ContactU5BU5D_tE870BF5EDD00FAED87DCD223BFDF50E82ACCA2CB* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_19 = ___1_value;
+		Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<Contact_t5B3D3F23C605CE0E906D2F5742D9B8141C5A8540> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m488BA9C84404B198B3B94D941CAF9D52A74B158B_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B*)((ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m16948617715B9E692D2F6ADA3684669D40247364_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<Oni/Contact>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m98E044BDA0A41D4784543231CA5E157793C2C7A5_gshared (ObjectEqualityComparer_1_tF357EF86982721A41D172CCC04F76F3BE90F758B* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_tC11B00560EB2DE21D8B1DAE5BD2B46B0039C0046*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_mD7F54C1F9840D8CA8A70FB0B98C2BCA52A3F00CB_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___0_x, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_2 = ___1_y;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m4609B5E770818309DF5ED9F48A9F99EF881BDC28_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mB6AA25C1B35E4432657CF69BCA26F304D37C1690_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___0_array, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_19 = ___1_value;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m51E9B167B9FA1BB39049C929219FFC4CEC745575_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___0_array, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_19 = ___1_value;
+		SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m3C52F615E784F702999795A63E0B0398F5A2C784_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB*)((ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m0BDCD7B4153DB378FFA0629B6F77C8740E126F59_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m13FDDE4954E2D82C55B68BEAF367606E4612441B_gshared (ObjectEqualityComparer_1_t50AD04DCE1019E757535501B97FE0D42515EDDCB* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t4617AB6449AE29B356B28C0412A489024B429B42*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m392585F3F1456974ADCD4E5C6B7CC5F5092FFB5E_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 ___0_x, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_2 = ___1_y;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m297252C96E6098578DC8A84708BEEB53844FD9A7_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mDC69875E6D5E550CFBB9F5C3FD3B7E8D846AF733_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* ___0_array, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_19 = ___1_value;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_m3058754ACC39D2B2B27B8DDB136D72FA0F6E3C5C_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* ___0_array, Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		BrickU5BU5D_t1288BDB52AB61D2A5A0CAA5E78E38E8830D7157A* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_19 = ___1_value;
+		Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<Brick_tCF697F8098B1E364826A55C583A11A9BD61FEE06> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m490A36A3A5A8A579E50670E2FC25310D78A607C0_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD*)((ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m9551ADDCAEFD3B1B9312E6D37CE2C0FAF3384EE4_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m45372534FBACE89B83990658666D5DB8D4B87A81_gshared (ObjectEqualityComparer_1_t36FBA24BA8A23A5A8F05F2657EE67DBE678F3BCD* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t84F22F94CD709036A926E10CB819C8A0D2A94C3B*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::Equals(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m76D6C21EE60D5374AC078590CC7A2CBDB9DBB049_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 ___0_x, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 ___1_y, const RuntimeMethod* method) 
+{
+	{
+	}
+	{
+	}
+	{
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_2 = ___1_y;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_3);
+		Il2CppFakeBox<BrickMeta_t75B625970B160751665565BB3039980A81DED1D1> L_5(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_x));
+		bool L_6;
+		L_6 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_5), L_4, NULL);
+		return L_6;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::GetHashCode(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_mA88A07D1B7B0498D3F71F8789ED11B73F9DEBFAF_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		goto IL_000a;
+	}
+	{
+		return 0;
+	}
+
+IL_000a:
+	{
+		Il2CppFakeBox<BrickMeta_t75B625970B160751665565BB3039980A81DED1D1> L_1(il2cpp_rgctx_data(method->klass->rgctx_data, 0), (&___0_obj));
+		int32_t L_2;
+		L_2 = ValueType_GetHashCode_m3B47C72EA1FA846D9B0DFF3C444AB2BFA22CF3CE((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_1), NULL);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::IndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_IndexOf_mDBDDE2C48DB885F6C2B994EA0AD3742EF33DAF05_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* ___0_array, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		goto IL_002b;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0011:
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0021;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0021:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0025:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_0063;
+	}
+
+IL_002b:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_005f;
+	}
+
+IL_002f:
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_19 = ___1_value;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<BrickMeta_t75B625970B160751665565BB3039980A81DED1D1> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005b:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) < ((int32_t)L_27)))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_0063:
+	{
+		return (-1);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::LastIndexOf(T[],T,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_LastIndexOf_mFE7351B19D255B4B402236EE68E95ABD97D87D65_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* ___0_array, BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___2_startIndex;
+		int32_t L_1 = ___3_count;
+		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), 1));
+		goto IL_002d;
+	}
+	{
+		int32_t L_3 = ___2_startIndex;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0013:
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_4 = ___0_array;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		goto IL_0023;
+	}
+	{
+		int32_t L_8 = V_1;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)L_11)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_002d:
+	{
+		int32_t L_12 = ___2_startIndex;
+		V_2 = L_12;
+		goto IL_0061;
+	}
+
+IL_0031:
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_13 = ___0_array;
+		int32_t L_14 = V_2;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+	}
+	{
+		BrickMetaU5BU5D_t8F957ED960C1989459F526D8C92CD1EA0F2A2AE7* L_17 = ___0_array;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_19 = ___1_value;
+		BrickMeta_t75B625970B160751665565BB3039980A81DED1D1 L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 0), &L_20);
+		Il2CppFakeBox<BrickMeta_t75B625970B160751665565BB3039980A81DED1D1> L_22(il2cpp_rgctx_data(method->klass->rgctx_data, 0), ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18))));
+		bool L_23;
+		L_23 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_22), L_21, NULL);
+		if (!L_23)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_24 = V_2;
+		return L_24;
+	}
+
+IL_005d:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+	}
+
+IL_0061:
+	{
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_0;
+		if ((((int32_t)L_26) >= ((int32_t)L_27)))
+		{
+			goto IL_0031;
+		}
+	}
+
+IL_0065:
+	{
+		return (-1);
+	}
+}
+// System.Boolean System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectEqualityComparer_1_Equals_m2C07085397254C2A97578F3441AD9B616822898A_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_obj;
+		return (bool)((!(((RuntimeObject*)(ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056*)((ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// System.Int32 System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectEqualityComparer_1_GetHashCode_m586F45B9CFA64E5FAC29F6B0F0074FF256D6D5B7_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, const RuntimeMethod* method) 
+{
+	{
+		NullCheck((RuntimeObject*)__this);
+		Type_t* L_0;
+		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)__this, NULL);
+		NullCheck((MemberInfo_t*)L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t*)L_0);
+		NullCheck((RuntimeObject*)L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, (RuntimeObject*)L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.Generic.ObjectEqualityComparer`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/BrickMeta>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m176EE15E174921799C56F05005FC26D50595BCC8_gshared (ObjectEqualityComparer_1_t91B9C018CCE517AED1AB1D5A63115872CE0A5056* __this, const RuntimeMethod* method) 
+{
+	{
+		((  void (*) (EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((EqualityComparer_1_t863F0BB1AE24F86F18FBD5162DF892A87A2A9CC4*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -32613,6 +34328,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m1C93C014028B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Collections.Generic.IEnumerator`1<TElement> System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_m7792E89CF69ED6887E5ECD331C4AFED96B23D329_gshared (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* __this, const RuntimeMethod* method) 
+{
+	{
+		U3CGetEnumeratorU3Ed__1_t46D7AE48C705C2FF9006AB9A82CA95F4BDEF2037* L_0 = (U3CGetEnumeratorU3Ed__1_t46D7AE48C705C2FF9006AB9A82CA95F4BDEF2037*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (U3CGetEnumeratorU3Ed__1_t46D7AE48C705C2FF9006AB9A82CA95F4BDEF2037*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		U3CGetEnumeratorU3Ed__1_t46D7AE48C705C2FF9006AB9A82CA95F4BDEF2037* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return (RuntimeObject*)L_1;
+	}
+}
+// System.Collections.IEnumerator System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m6C2B63501B6AD6C4FC7EF586F48A99693C1D0F4A_gshared (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = ((  RuntimeObject* (*) (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		return (RuntimeObject*)L_0;
+	}
+}
+// System.Void System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_mA576D69F426D9552DE5040BE26A51E714B14C9A2_gshared (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Collections.Generic.IEnumerator`1<TElement> System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_mA456E113EF6584554EC571EF41A2619178923A2C_gshared (OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8* __this, const RuntimeMethod* method) 
 {
@@ -32638,6 +34392,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Col
 }
 // System.Void System.Linq.OrderedEnumerable`1<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m8DDB1F52573118166944F95996F44FE66A6D76D1_gshared (OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IEnumerator`1<TElement> System.Linq.OrderedEnumerable`1<System.Single>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_GetEnumerator_mB24B9A7F14321AE80379040CEC6837C0DD64D64B_gshared (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* __this, const RuntimeMethod* method) 
+{
+	{
+		U3CGetEnumeratorU3Ed__1_tCD963E282966976F3D8F69CF3FB56CFCD27C40EF* L_0 = (U3CGetEnumeratorU3Ed__1_tCD963E282966976F3D8F69CF3FB56CFCD27C40EF*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (U3CGetEnumeratorU3Ed__1_tCD963E282966976F3D8F69CF3FB56CFCD27C40EF*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		U3CGetEnumeratorU3Ed__1_tCD963E282966976F3D8F69CF3FB56CFCD27C40EF* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return (RuntimeObject*)L_1;
+	}
+}
+// System.Collections.IEnumerator System.Linq.OrderedEnumerable`1<System.Single>::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_mEB37B4C24AD1FF963574BF4662EF78CD3A68F80C_gshared (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = ((  RuntimeObject* (*) (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		return (RuntimeObject*)L_0;
+	}
+}
+// System.Void System.Linq.OrderedEnumerable`1<System.Single>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_1__ctor_m14A851E5F88953F8FA4FF3A4D630E4D5F8826B1F_gshared (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
@@ -33714,6 +35507,129 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>::.ctor(System.Collections.Generic.IEnumerable`1<TElement>,System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mE4D92340114B3DEA5BCC899D25C97AE8B1E13392_gshared (OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5* __this, RuntimeObject* ___0_source, Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5* G_B6_0 = NULL;
+	OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5* G_B5_0 = NULL;
+	RuntimeObject* G_B7_0 = NULL;
+	OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5* G_B7_1 = NULL;
+	{
+		((  void (*) (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))((OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		RuntimeObject* L_0 = ___0_source;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Exception_t* L_1;
+		L_1 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OrderedEnumerable_2__ctor_mE4D92340114B3DEA5BCC899D25C97AE8B1E13392_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_2 = ___1_keySelector;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Exception_t* L_3;
+		L_3 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral12D34C4D5361DBE1804B6F49EDED3C800B442095)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OrderedEnumerable_2__ctor_mE4D92340114B3DEA5BCC899D25C97AE8B1E13392_RuntimeMethod_var)));
+	}
+
+IL_0022:
+	{
+		RuntimeObject* L_4 = ___0_source;
+		((OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)__this)->___source_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)__this)->___source_0), (void*)L_4);
+		__this->___parent_1 = (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___parent_1), (void*)(OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)NULL);
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_5 = ___1_keySelector;
+		__this->___keySelector_2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___keySelector_2), (void*)L_5);
+		RuntimeObject* L_6 = ___2_comparer;
+		G_B5_0 = __this;
+		if (L_6)
+		{
+			G_B6_0 = __this;
+			goto IL_0044;
+		}
+	}
+	{
+		Comparer_1_t2FF14F26F4D678A8FA199B888FF61A2A9D1D2D80* L_7;
+		L_7 = ((  Comparer_1_t2FF14F26F4D678A8FA199B888FF61A2A9D1D2D80* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		V_0 = (RuntimeObject*)L_7;
+		RuntimeObject* L_8 = V_0;
+		G_B7_0 = L_8;
+		G_B7_1 = G_B5_0;
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		RuntimeObject* L_9 = ___2_comparer;
+		G_B7_0 = L_9;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0045:
+	{
+		NullCheck(G_B7_1);
+		G_B7_1->___comparer_3 = G_B7_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B7_1->___comparer_3), (void*)G_B7_0);
+		bool L_10 = ___3_descending;
+		__this->___descending_4 = L_10;
+		return;
+	}
+}
+// System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`2<UnityEngine.Resolution,System.Int32>::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* OrderedEnumerable_2_GetEnumerableSorter_m363ED99215A279ABE484686782E34E38AC14FF37_gshared (OrderedEnumerable_2_tF67E40727AA51F5A02B463F1AB3BABFA69DDACD5* __this, EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* ___0_next, const RuntimeMethod* method) 
+{
+	EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* V_0 = NULL;
+	{
+		Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17* L_0 = (Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17*)__this->___keySelector_2;
+		RuntimeObject* L_1 = (RuntimeObject*)__this->___comparer_3;
+		bool L_2 = (bool)__this->___descending_4;
+		EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* L_3 = ___0_next;
+		EnumerableSorter_2_tA68B717948769A7ADFE81445C693A0655021E8C3* L_4 = (EnumerableSorter_2_tA68B717948769A7ADFE81445C693A0655021E8C3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
+		NullCheck(L_4);
+		((  void (*) (EnumerableSorter_2_tA68B717948769A7ADFE81445C693A0655021E8C3*, Func_2_t75F55BAEE45D26952892ACA2F6A5A623F6DEDF17*, RuntimeObject*, bool, EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_4, L_0, L_1, L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		V_0 = (EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139*)L_4;
+		OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* L_5 = (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)__this->___parent_1;
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43* L_6 = (OrderedEnumerable_1_t06883285E33A84D7964B74131299B3581AAD4E43*)__this->___parent_1;
+		EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* L_7 = V_0;
+		NullCheck(L_6);
+		EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* L_8;
+		L_8 = VirtualFuncInvoker1< EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139*, EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* >::Invoke(7 /* System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`1<UnityEngine.Resolution>::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>) */, L_6, L_7);
+		V_0 = L_8;
+	}
+
+IL_002e:
+	{
+		EnumerableSorter_1_tDA0C0F1E0D8FA8618378B2241CF75F630AF3B139* L_9 = V_0;
+		return L_9;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.Linq.OrderedEnumerable`2<Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo,System.Int32>::.ctor(System.Collections.Generic.IEnumerable`1<TElement>,System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mABF546A99E37E0E5A9FB6446949B2CDDEE2E8CC7_gshared (OrderedEnumerable_2_tEDC305155B4BA0266981595C269358E5ED26A208* __this, RuntimeObject* ___0_source, Func_2_tE4D3F6D0E24CD2C86224947A55A56E3FC019F5EB* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
 {
@@ -33826,6 +35742,129 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_t984E73C3894C0165F0248DDB8
 IL_002e:
 	{
 		EnumerableSorter_1_t984E73C3894C0165F0248DDB8A3A554ADD8B6B19* L_9 = V_0;
+		return L_9;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Linq.OrderedEnumerable`2<System.Single,System.Single>::.ctor(System.Collections.Generic.IEnumerable`1<TElement>,System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderedEnumerable_2__ctor_mB3877CE76BC8AF64CBE100D087B312BA80EB1B61_gshared (OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5* __this, RuntimeObject* ___0_source, Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___1_keySelector, RuntimeObject* ___2_comparer, bool ___3_descending, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5* G_B6_0 = NULL;
+	OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5* G_B5_0 = NULL;
+	RuntimeObject* G_B7_0 = NULL;
+	OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5* G_B7_1 = NULL;
+	{
+		((  void (*) (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))((OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		RuntimeObject* L_0 = ___0_source;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Exception_t* L_1;
+		L_1 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral66F9618FDA792CAB23AF2D7FFB50AB2D3E393DC5)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OrderedEnumerable_2__ctor_mB3877CE76BC8AF64CBE100D087B312BA80EB1B61_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_2 = ___1_keySelector;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Exception_t* L_3;
+		L_3 = Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral12D34C4D5361DBE1804B6F49EDED3C800B442095)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OrderedEnumerable_2__ctor_mB3877CE76BC8AF64CBE100D087B312BA80EB1B61_RuntimeMethod_var)));
+	}
+
+IL_0022:
+	{
+		RuntimeObject* L_4 = ___0_source;
+		((OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)__this)->___source_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)__this)->___source_0), (void*)L_4);
+		__this->___parent_1 = (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___parent_1), (void*)(OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)NULL);
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_5 = ___1_keySelector;
+		__this->___keySelector_2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___keySelector_2), (void*)L_5);
+		RuntimeObject* L_6 = ___2_comparer;
+		G_B5_0 = __this;
+		if (L_6)
+		{
+			G_B6_0 = __this;
+			goto IL_0044;
+		}
+	}
+	{
+		Comparer_1_tE191E68CB394DD255CCA7A56F4D1DEFED0BD3FDB* L_7;
+		L_7 = ((  Comparer_1_tE191E68CB394DD255CCA7A56F4D1DEFED0BD3FDB* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		V_0 = (RuntimeObject*)L_7;
+		RuntimeObject* L_8 = V_0;
+		G_B7_0 = L_8;
+		G_B7_1 = G_B5_0;
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		RuntimeObject* L_9 = ___2_comparer;
+		G_B7_0 = L_9;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0045:
+	{
+		NullCheck(G_B7_1);
+		G_B7_1->___comparer_3 = G_B7_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B7_1->___comparer_3), (void*)G_B7_0);
+		bool L_10 = ___3_descending;
+		__this->___descending_4 = L_10;
+		return;
+	}
+}
+// System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`2<System.Single,System.Single>::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* OrderedEnumerable_2_GetEnumerableSorter_m0FC3496DD069E5474031C3E172721CEDFC7D84EA_gshared (OrderedEnumerable_2_t6C7E4E4D028245D1002E1C0784F9BA48288E1FD5* __this, EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* ___0_next, const RuntimeMethod* method) 
+{
+	EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* V_0 = NULL;
+	{
+		Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* L_0 = (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2*)__this->___keySelector_2;
+		RuntimeObject* L_1 = (RuntimeObject*)__this->___comparer_3;
+		bool L_2 = (bool)__this->___descending_4;
+		EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* L_3 = ___0_next;
+		EnumerableSorter_2_t71F96D4E16F5ECD6367740638E6F58F75FDC6199* L_4 = (EnumerableSorter_2_t71F96D4E16F5ECD6367740638E6F58F75FDC6199*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 4));
+		NullCheck(L_4);
+		((  void (*) (EnumerableSorter_2_t71F96D4E16F5ECD6367740638E6F58F75FDC6199*, Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2*, RuntimeObject*, bool, EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_4, L_0, L_1, L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		V_0 = (EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729*)L_4;
+		OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* L_5 = (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)__this->___parent_1;
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7* L_6 = (OrderedEnumerable_1_t90724D79471842BD6B6CEFB36C23A04B06146AC7*)__this->___parent_1;
+		EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* L_7 = V_0;
+		NullCheck(L_6);
+		EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* L_8;
+		L_8 = VirtualFuncInvoker1< EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729*, EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* >::Invoke(7 /* System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`1<System.Single>::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>) */, L_6, L_7);
+		V_0 = L_8;
+	}
+
+IL_002e:
+	{
+		EnumerableSorter_1_tC7499B524F81F96E7C056C12DFFF87AD8F488729* L_9 = V_0;
 		return L_9;
 	}
 }
@@ -34483,3366 +36522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mAB247B5A0
 		intptr_t L_3;
 		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
 		((ParallelForJobStruct_1_t5B816C78A3865639802B5BDFDA4A149F7A6C3768_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyInertialForcesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mB47FFAA92BA99B6CD587A93325C1C3B40B25D118_gshared (ApplyInertialForcesJob_t79C262FCD4D5CAB6F182B3CA701330C09351A2DB* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ApplyInertialForcesJob_t79C262FCD4D5CAB6F182B3CA701330C09351A2DB* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ApplyInertialForcesJob_Execute_m0AA8D1DAB591071B00DFB79DD1A1FE0826BC21F0(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ApplyInertialForcesJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m80C29636E289944E540DDE42223BFF8ECBA07249_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t0C93FF33A96DAFBD0B4116113137C9B0E8AA1D55* L_2 = (ExecuteJobFunction_t0C93FF33A96DAFBD0B4116113137C9B0E8AA1D55*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t0C93FF33A96DAFBD0B4116113137C9B0E8AA1D55*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tC06D1CCAE8F4BE95A5DAF95CFEF8DFE782006CD0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BoundsReductionJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mC2E5D1AE3FB5D486947779A69CBDE197B582FCDC_gshared (BoundsReductionJob_tC495928ACEA7990DF605EE246471ADC20B4FA36A* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		BoundsReductionJob_tC495928ACEA7990DF605EE246471ADC20B4FA36A* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		BoundsReductionJob_Execute_m7111B7778511D2D08A14CCAE011A165D697D35AB(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BoundsReductionJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mA5361C7F8103226EA11426816E750F67241B32A1_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tA069096A97AE9FCB4DA277064B3D7D15488FB4F9* L_2 = (ExecuteJobFunction_tA069096A97AE9FCB4DA277064B3D7D15488FB4F9*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tA069096A97AE9FCB4DA277064B3D7D15488FB4F9*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tA94FE0A8E4DE3B8BBF57E26B012222F61173EB14_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BuildSimplexAabbs>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m58C4EEE76B5F2FBCBBA46E1A4978C075017D20A2_gshared (BuildSimplexAabbs_t39C853C9A5DD06ADF02CDB55FA0748B803B04B14* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		BuildSimplexAabbs_t39C853C9A5DD06ADF02CDB55FA0748B803B04B14* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		BuildSimplexAabbs_Execute_mC75F1CEC533184A7C4016E7BB00BF00F2B0F63F4(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BuildSimplexAabbs>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m5DD06E298FEA856AE016FA9895FD9DFEFF86C572_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t8A3307D06992A4BCACF5AF8E4A8DB3AB7BDDDC83* L_2 = (ExecuteJobFunction_t8A3307D06992A4BCACF5AF8E4A8DB3AB7BDDDC83*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t8A3307D06992A4BCACF5AF8E4A8DB3AB7BDDDC83*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t727956F95522EE56D5AD6B295005A57D88CC59F2_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.CalculateQueryDistances>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mC1E178F0FA6DB575175963A5E90EC8F57E684FD8_gshared (CalculateQueryDistances_t56AEB4995D325CF80E32355650A628D88A389D02* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		CalculateQueryDistances_t56AEB4995D325CF80E32355650A628D88A389D02* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		CalculateQueryDistances_Execute_m94DAAF243634630517CAC920A171662C2940478B(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.CalculateQueryDistances>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m09FA651B8BDD2060A9B82A65A116811118B8C3F6_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t60B5D14D1E573EA63634D74CCFC4FBBB567497DE* L_2 = (ExecuteJobFunction_t60B5D14D1E573EA63634D74CCFC4FBBB567497DE*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t60B5D14D1E573EA63634D74CCFC4FBBB567497DE*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t4C2228CE246B319D0AAA22CF297E8939067BD1F7_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.InterpolationJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mEDFA3DB75F8B159878513B777A1E3416736A281A_gshared (InterpolationJob_t57C36A329C812D27BE1B879BAA4CD5517FCB09C1* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		InterpolationJob_t57C36A329C812D27BE1B879BAA4CD5517FCB09C1* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		InterpolationJob_Execute_mEFB8E5125A9080D3CA70E7933AA3CE162A467890(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.InterpolationJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m325B26AE3A26C4726AB704A5C6C627148C5C0754_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t6DB8E86802AAFF990904B6BFE5D9293006974056* L_2 = (ExecuteJobFunction_t6DB8E86802AAFF990904B6BFE5D9293006974056*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t6DB8E86802AAFF990904B6BFE5D9293006974056*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tFC4385B3C42BFA7BFFAF52626BAAE6824E92E9CB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ParticleToBoundsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m677E97B65D8077A97C77EF64477EF6C0ED2A23CF_gshared (ParticleToBoundsJob_t8C47D5D3430F448298FBC98F45C6182222C47657* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ParticleToBoundsJob_t8C47D5D3430F448298FBC98F45C6182222C47657* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ParticleToBoundsJob_Execute_m24B5EBE731E0483CB16BA78B040BD52E8E962ECE(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.ParticleToBoundsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m1CD2F48898538FB1DEB7F49C535F77E965B5F0D5_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t8CF94B6A8DC3893D888D03B92ADE2E41235069E3* L_2 = (ExecuteJobFunction_t8CF94B6A8DC3893D888D03B92ADE2E41235069E3*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t8CF94B6A8DC3893D888D03B92ADE2E41235069E3*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t26B122FA4D200F6C8576F4A9CF6E3EB92C683A2F_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.PredictPositionsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mA67F132337F1702455F6009A44A7BDC4A07D8403_gshared (PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		PredictPositionsJob_t864BBCD60C1A4050B29D4021EA548C9BD2EA1EB7* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		PredictPositionsJob_Execute_m751D829ECAC29BADF11891A9E79E6D89B9C1F207(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.PredictPositionsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m0B5E61751A9ACA1AE3980496E648DCC4C40F71D9_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t4B363ED16113301EC8294B660A3775FB4F74195A* L_2 = (ExecuteJobFunction_t4B363ED16113301EC8294B660A3775FB4F74195A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t4B363ED16113301EC8294B660A3775FB4F74195A*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tFC3651DA55F7DC960D1FEAD66FFB0A9953B654AC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.SpatialQueryJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mF464408AC5F22954F82B24F9DFB83E77159B854A_gshared (SpatialQueryJob_t1A8304940F6D897F4206443F215293AC9185C8A9* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		SpatialQueryJob_t1A8304940F6D897F4206443F215293AC9185C8A9* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		SpatialQueryJob_Execute_m1038EE1DBF051DC0B59124A08EE6C4469D231BF8(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.SpatialQueryJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m99D9C8C5506C9A1C07C624B7F73236796E6A35B9_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t1D62A722369A392C9DB2C006871B1F6C7C5C088D* L_2 = (ExecuteJobFunction_t1D62A722369A392C9DB2C006871B1F6C7C5C088D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t1D62A722369A392C9DB2C006871B1F6C7C5C088D*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tB0E9ADF3ACE1D5E3FC92E1D2D96965D9BE268DAC_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateInertiaTensorsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mB6A5D1BC48B7FC1AD3AEDA36E0D3FDDD821B813D_gshared (UpdateInertiaTensorsJob_t55FAC8139A50150CDA0120AA9C398881650D474A* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdateInertiaTensorsJob_t55FAC8139A50150CDA0120AA9C398881650D474A* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdateInertiaTensorsJob_Execute_m9784237C481B70939F8F0BA759F363A4C9D7E49C(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateInertiaTensorsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mA787EA2802BE65C09D1D5F20684BB1DDBF5360C6_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tCB243F4E0417749144818F3315CCCEE25104C078* L_2 = (ExecuteJobFunction_tCB243F4E0417749144818F3315CCCEE25104C078*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tCB243F4E0417749144818F3315CCCEE25104C078*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t8C3C7648711F963C9BD73489D59E3EAA3AD0E6AF_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePositionsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mC288C1ABED7B3C727CDFD8F80B4036B45F8C06C2_gshared (UpdatePositionsJob_t9A77ADF9EBDB626A21453C4757F08EAB432F693F* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdatePositionsJob_t9A77ADF9EBDB626A21453C4757F08EAB432F693F* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdatePositionsJob_Execute_mF2F39E6977909418BE551630898360D5CC7015C5(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePositionsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m05DF3F11563B9DDBA0E16D9E0ED6EB3D773DE798_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t804B49689B749458863F65FC3AF774FF7BE29322* L_2 = (ExecuteJobFunction_t804B49689B749458863F65FC3AF774FF7BE29322*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t804B49689B749458863F65FC3AF774FF7BE29322*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t294A7E43C99DA2748C840B32F24EC8737FAA8510_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePrincipalAxisJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m5779605DF49F53632573D05E7B020622D4D53233_gshared (UpdatePrincipalAxisJob_t90914BD35BAE2746DF5A248C693EE4200125946B* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdatePrincipalAxisJob_t90914BD35BAE2746DF5A248C693EE4200125946B* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdatePrincipalAxisJob_Execute_m6B5482A94216227142B66F348BD2392A8AE0AA3A(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdatePrincipalAxisJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m264600E38731E0C106E212F549CEB6E028358807_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t2530EBF0A87300721B9524DF564E7A148D4AD286* L_2 = (ExecuteJobFunction_t2530EBF0A87300721B9524DF564E7A148D4AD286*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t2530EBF0A87300721B9524DF564E7A148D4AD286*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t8A52273CE2EFA93461494CFC5FA19DA89D0EF121_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateVelocitiesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m9C49AFD3E245033283C1EE4BB384056399377408_gshared (UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdateVelocitiesJob_tB282563543CD7BA4CEBC594816A45B36B37F3021* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdateVelocitiesJob_Execute_m7D2756D3BB652DC1F4305DC5964D7F81C00FAA88(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.UpdateVelocitiesJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mB1D60C97FF9D28B78D6DCA9AA86E6DFBA1209F47_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t43C4FD3484AAFCA14E57B4E1A87D50E13CA5A84A* L_2 = (ExecuteJobFunction_t43C4FD3484AAFCA14E57B4E1A87D50E13CA5A84A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t43C4FD3484AAFCA14E57B4E1A87D50E13CA5A84A*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t171BF9A5889CCC5F97623825831A6FFE0A3F7F3A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mFB6CC240B104D9C319468DE5A2EE972F717AAEB8_gshared (PointCloudRaycastJob_t150A3AAEB6CB9F85DEEDE77859C128D1727C7BFA* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		PointCloudRaycastJob_t150A3AAEB6CB9F85DEEDE77859C128D1727C7BFA* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		PointCloudRaycastJob_Execute_mCC84BA675585A86C765936270AF8EFD99C3D5C13(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<UnityEngine.XR.ARFoundation.ARPointCloudManager/PointCloudRaycastJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mBEA5076E80A3E6734F62495A6FA07B3C8CEE6520_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tFCE8677D0E2E5D51246A9F9967BD7415B7B1C7B4* L_2 = (ExecuteJobFunction_tFCE8677D0E2E5D51246A9F9967BD7415B7B1C7B4*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tFCE8677D0E2E5D51246A9F9967BD7415B7B1C7B4*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t127DC0EC2B18DEC0C2F09455A2622D5AE87476B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mA9D6A97F0E234EF8C7EABB04A82F96F1DCC22A80_gshared (AerodynamicConstraintsBatchJob_tE2AA68F8A3ADE3D59DE11025C09655992483D147* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		AerodynamicConstraintsBatchJob_tE2AA68F8A3ADE3D59DE11025C09655992483D147* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		AerodynamicConstraintsBatchJob_Execute_mB8A2BBFBAAD63FC9359E0289D8EA418F13F7D6BC(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstAerodynamicConstraintsBatch/AerodynamicConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m645B4163C3D4E8A7B8809FF3E1E37C44E7F14F9E_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tE479684EC4822BB3F98D5C1829BACC9FCEB2E660* L_2 = (ExecuteJobFunction_tE479684EC4822BB3F98D5C1829BACC9FCEB2E660*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tE479684EC4822BB3F98D5C1829BACC9FCEB2E660*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tE0A0B106F6AFFCD4DD35F7AB748941127D5D0A26_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m3F9A044CC756B4C0F9BB5C1EC91DAF55D00E763E_gshared (ApplyBendConstraintsBatchJob_t29A8F8A82EDFDF0D48963AECEBA0B81A343FED77* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ApplyBendConstraintsBatchJob_t29A8F8A82EDFDF0D48963AECEBA0B81A343FED77* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ApplyBendConstraintsBatchJob_Execute_m8F3474F2821159A269D1BCB460BF175F9FB3E8E0(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/ApplyBendConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m9E4BF4C2E3979B4CB2841AFA759D8B34C6DD4D2E_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t82171FA5CA729DD042E5A7750B72063FA7259E01* L_2 = (ExecuteJobFunction_t82171FA5CA729DD042E5A7750B72063FA7259E01*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t82171FA5CA729DD042E5A7750B72063FA7259E01*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t5A1EAFE242E104FB9E979C35405859AE8F9A929C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m5BBFF80CAD71575E7D152FCA77B9EF342D8418B9_gshared (BendConstraintsBatchJob_tD27E9B1F9236C28678610CDE7862C6B75FF3EF07* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		BendConstraintsBatchJob_tD27E9B1F9236C28678610CDE7862C6B75FF3EF07* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		BendConstraintsBatchJob_Execute_m63B5199CE5A1F623093AD6CFD52AE4FE794BBD03(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendConstraintsBatch/BendConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m9893A733FDB5DBB16E8659ED055167CE71388647_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tD49F6B7198990A7B61A6D1CEF9AECB3654A68DCD* L_2 = (ExecuteJobFunction_tD49F6B7198990A7B61A6D1CEF9AECB3654A68DCD*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tD49F6B7198990A7B61A6D1CEF9AECB3654A68DCD*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tBC3FCE52149BE330BC772DF983739AB69AC6E086_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m31DAA9EEB49A416E9764C745D7DB38F81B0F7753_gshared (ApplyBendTwistConstraintsBatchJob_t3C1A192474D9555685CCCEAADD29B9076CB53D4D* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ApplyBendTwistConstraintsBatchJob_t3C1A192474D9555685CCCEAADD29B9076CB53D4D* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ApplyBendTwistConstraintsBatchJob_Execute_m0445C5332E0D7AFBE8DF6738B010CE5044BF9E7B(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/ApplyBendTwistConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m1EA50EECBB88EE15B13BED0C4A72607AFDB83654_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t6AE85257E3DC455C60E6DA14B89F7DC0277FEF23* L_2 = (ExecuteJobFunction_t6AE85257E3DC455C60E6DA14B89F7DC0277FEF23*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t6AE85257E3DC455C60E6DA14B89F7DC0277FEF23*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tE3EAEFD63883EA864273CBF940AF732C8DA293F4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m51FFCB9AA7D97CABF5510C0D3B7722509700F084_gshared (BendTwistConstraintsBatchJob_tB8809A2A66F6BFD3261B7507FFC50927DAEA2AB3* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		BendTwistConstraintsBatchJob_tB8809A2A66F6BFD3261B7507FFC50927DAEA2AB3* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		BendTwistConstraintsBatchJob_Execute_mC8EDF6B2ECEF0379FA13A8760482F10D70ECF4C9(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstBendTwistConstraintsBatch/BendTwistConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF06BEB7B656016740D8BDCA66326FCEFD57AE3D2_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tECC333C71543126C564863F8870F03B6D39C3BA6* L_2 = (ExecuteJobFunction_tECC333C71543126C564863F8870F03B6D39C3BA6*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tECC333C71543126C564863F8870F03B6D39C3BA6*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t7C3A796BEC42AB84CEFCFA98D1116976DC74D204_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m84D0B9DED210EADDBE3467950C66A0E428D0DBDA_gshared (ApplyChainConstraintsBatchJob_tC05612ADF2F98526A866E55E95407BB7A98DEDEC* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ApplyChainConstraintsBatchJob_tC05612ADF2F98526A866E55E95407BB7A98DEDEC* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ApplyChainConstraintsBatchJob_Execute_m9AF429C2BF2CF22668BF88C63CF2FE048D964B42(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ApplyChainConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mBF16E2A8C3C28F8EF18D5AA092332E344BD0DFAB_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t93F9E09CF44698BB7D651010EB66A22D616E899A* L_2 = (ExecuteJobFunction_t93F9E09CF44698BB7D651010EB66A22D616E899A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t93F9E09CF44698BB7D651010EB66A22D616E899A*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tF4F96800CB8BFC24F4BB067F7FE65474D286F896_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m71CFA2D947986DB7E0B5649A2B22FDD74512EB10_gshared (ChainConstraintsBatchJob_t95B682C2C9C50FECD3CE216BC0FAF5DFD3957349* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ChainConstraintsBatchJob_t95B682C2C9C50FECD3CE216BC0FAF5DFD3957349* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ChainConstraintsBatchJob_Execute_m0E886DAF9BFF8129A6376EB2FCE5C47EFD0837CE(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstChainConstraintsBatch/ChainConstraintsBatchJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mC0771483EA0C41745E1BA993231540777D489785_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t5FF0A931DE40A9AC506238A119DCCE0950F5AE40* L_2 = (ExecuteJobFunction_t5FF0A931DE40A9AC506238A119DCCE0950F5AE40*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t5FF0A931DE40A9AC506238A119DCCE0950F5AE40*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t77E0751B5141A0845A8B6BB6DE421DF2031B85F6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m99EB65AEF4D3DEA16BB00C513488DE89BAF87731_gshared (UpdateContactsJob_t4F6F177755FD89460D5298821BA88449AC4F6762* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdateContactsJob_t4F6F177755FD89460D5298821BA88449AC4F6762* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdateContactsJob_Execute_m44146AD3CFCEAC4045BBDB40E67F7C334F0D7205(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderCollisionConstraintsBatch/UpdateContactsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mFE681F3D9E637A424EC7FC4A1F77DBAC4C56956B_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t043646C21C919A126F00DE16FFBA33C87DA19865* L_2 = (ExecuteJobFunction_t043646C21C919A126F00DE16FFBA33C87DA19865*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t043646C21C919A126F00DE16FFBA33C87DA19865*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t77D4200797CC291A6A244D3AA679ABB3C1605AC0_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/GenerateContactsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m1A36D659F38A305B4BFFD9B7687762FC7B4A5FD9_gshared (GenerateContactsJob_t4C63D16F9F1E3987C248FC5D8934741B2F56E398* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		GenerateContactsJob_t4C63D16F9F1E3987C248FC5D8934741B2F56E398* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		GenerateContactsJob_Execute_mDA64C3869A1390D960B8BC126D303D15D6F249C9(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/GenerateContactsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mED94AECAAF11E730549E8DD539FA6BA6C05CAE48_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t3F787178251C216E5C75163BAC7EECABD3954433* L_2 = (ExecuteJobFunction_t3F787178251C216E5C75163BAC7EECABD3954433*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t3F787178251C216E5C75163BAC7EECABD3954433*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tEA3BD7E3A59E2659B4038A12FC6CFC984F9C28FD_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/IdentifyMovingColliders>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mAFA35451567154D7EB714FBF33266F319B586513_gshared (IdentifyMovingColliders_t30EFA404F0A639386B43A087DADED3F3BD05F8A7* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		IdentifyMovingColliders_t30EFA404F0A639386B43A087DADED3F3BD05F8A7* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		IdentifyMovingColliders_Execute_m07F714BC893402C9BA583487A2778D7C0F1FB544(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstColliderWorld/IdentifyMovingColliders>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m15DCDE8490D81AFEA717FA11C74834DAA70DC46B_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tE9EA627EDB651AC33D2A2180D51475984FA0D7E9* L_2 = (ExecuteJobFunction_tE9EA627EDB651AC33D2A2180D51475984FA0D7E9*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tE9EA627EDB651AC33D2A2180D51475984FA0D7E9*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t4E36072B0F02297255626CFA6FA803CDF3A5CCD1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m2E1C7C1EE044B59B0C7E4902DF5E70CF89661BF3_gshared (ApplyVorticityConfinementAndAtmosphere_t1D1205EC1811C845028841020C2174CB1A7D3AED* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ApplyVorticityConfinementAndAtmosphere_t1D1205EC1811C845028841020C2174CB1A7D3AED* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ApplyVorticityConfinementAndAtmosphere_Execute_m05B9268BFEDAD36BD33108E976350FCA2F3A9C8A(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ApplyVorticityConfinementAndAtmosphere>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m687DFC3A726DF4D06E28B87EC7D61A270BBE63EA_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t0B4B8D5821751F161FEC375A5072382438544109* L_2 = (ExecuteJobFunction_t0B4B8D5821751F161FEC375A5072382438544109*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t0B4B8D5821751F161FEC375A5072382438544109*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tF97A5EB70B0CC351CFDC440CAD77DEB016D9131E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageAnisotropyJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m48C336FF65F8AFFB89D3F15432A1273D4557A8EE_gshared (AverageAnisotropyJob_t2D48E249231F7540F23224095AEA5A6F9F55745D* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		AverageAnisotropyJob_t2D48E249231F7540F23224095AEA5A6F9F55745D* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		AverageAnisotropyJob_Execute_m22E7ABE8168FCA24328C73D47EAE8C6F3A05FD2A(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageAnisotropyJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mD5D84CF30403D93CB03A3F999F15A8C861129B3B_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t45E7FD0D4E7C3D97CFC47D8A6229B45A478E2A3B* L_2 = (ExecuteJobFunction_t45E7FD0D4E7C3D97CFC47D8A6229B45A478E2A3B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t45E7FD0D4E7C3D97CFC47D8A6229B45A478E2A3B*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t9F55EEF8CA64861060F560CB73C6C8F593DE62C3_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m6653B10A29FA075CC5E00DEA1692C73D742A82C9_gshared (AverageSmoothPositionsJob_t5E3703626F774913D1305D3EF8AB8F8F60423261* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		AverageSmoothPositionsJob_t5E3703626F774913D1305D3EF8AB8F8F60423261* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		AverageSmoothPositionsJob_Execute_m14FFA4720407DADBAB14A8D663A34C21FF1F4C79(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/AverageSmoothPositionsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m496F5B2071B9CDD2F3EF91852FB8B8303202C752_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tDCD9AFEDFDBBBABA773D0ADEEC7AED3F95343385* L_2 = (ExecuteJobFunction_tDCD9AFEDFDBBBABA773D0ADEEC7AED3F95343385*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tDCD9AFEDFDBBBABA773D0ADEEC7AED3F95343385*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t5D7EB64687D0787CA317CC1E99D29BD573D451FB_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/CalculateLambdasJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m12272738549D0632DDB4A9DDAD3DFE3A48B495DC_gshared (CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		CalculateLambdasJob_t3466C077D411228E21E1A8A7D5170F591F497CA3* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		CalculateLambdasJob_Execute_m97AE8847F339A077B5D2122AD9872DB1512A6731(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/CalculateLambdasJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m0BE77377C7BF6FAB2942A3A7330DB19F5FF7C014_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t91A75458B1D0FB1491D4196F84D794D870B7DEE4* L_2 = (ExecuteJobFunction_t91A75458B1D0FB1491D4196F84D794D870B7DEE4*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t91A75458B1D0FB1491D4196F84D794D870B7DEE4*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tF6632689607E6569E3FA3AC516FF9EE3CE205342_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ClearFluidDataJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mFCB8CF00F282B8A3C63737FDEF5BA20B966CCEE8_gshared (ClearFluidDataJob_t70925C80DCF8201F26187836546279802037636A* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		ClearFluidDataJob_t70925C80DCF8201F26187836546279802037636A* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		ClearFluidDataJob_Execute_mBCAEF4DE1C14BB191B67EE73FC2CBD97AB7424FE(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/ClearFluidDataJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mDD055166708426C800DC10C8B8820A379ACF4B2A_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t565A1FFF440715490BF023910FF4EBB457FE3628* L_2 = (ExecuteJobFunction_t565A1FFF440715490BF023910FF4EBB457FE3628*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t565A1FFF440715490BF023910FF4EBB457FE3628*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tE10777C0A7AF60159469C91413D9CE1292216E0E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/IdentityAnisotropyJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mCFA3AD48D2955EA732DB80CEA566690CE6ADAA98_gshared (IdentityAnisotropyJob_t4D88E084A3892826C662CC633A1079DEC08D3254* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		IdentityAnisotropyJob_t4D88E084A3892826C662CC633A1079DEC08D3254* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		IdentityAnisotropyJob_Execute_m58ABE5EA48B5705F412D9DCCBF40E22B1D9E9B02(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/IdentityAnisotropyJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m7C927ECEEEBDDD9251F0501AEA6EA0D56B7A77BD_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tCF06B7D4F36CFA032CB63BDCAF8E3FB11F303D66* L_2 = (ExecuteJobFunction_tCF06B7D4F36CFA032CB63BDCAF8E3FB11F303D66*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tCF06B7D4F36CFA032CB63BDCAF8E3FB11F303D66*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t125E4ABCF8DE81A33B6151114728F1987A0E8559_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/UpdateInteractionsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_mAC97900B164AC40285A9D92780354574C2F96889_gshared (UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		UpdateInteractionsJob_t0262CBF109D727A02C0337B88ACABDAF8DD92C2B* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		UpdateInteractionsJob_Execute_m32669BF28AFC83E6481839662F47FF19E78CF690(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraints/UpdateInteractionsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_m25DD88751720F51585D52887E60219125D9306E6_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_tAAF524A3327246D0560EB5DA692A1C75ADB5B856* L_2 = (ExecuteJobFunction_tAAF524A3327246D0560EB5DA692A1C75ADB5B856*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_tAAF524A3327246D0560EB5DA692A1C75ADB5B856*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_tA6DD3C3DACB31049B87B37E1D6129D1B337621C5_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m9666EF75C7771EAC83E68EF15BCC95DE675738A3_gshared (AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		AccumulateAnisotropyJob_tF5A83F6890B85F43125DFAF807F015464A7ED1CF* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		AccumulateAnisotropyJob_Execute_m75EFC301C1BE09FE48678350F545D5CB5EC2143F(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateAnisotropyJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mD446B57E2DF2A0DEF9EE3D3B66DE7BF2728F5ADD_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t8C5C899BBEAD2B561263D2FCDA46D3F463E3BA8C* L_2 = (ExecuteJobFunction_t8C5C899BBEAD2B561263D2FCDA46D3F463E3BA8C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t8C5C899BBEAD2B561263D2FCDA46D3F463E3BA8C*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t603CA2FB27533B207AC12EC3D5D4C199290D68C5_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1_Execute_m4DB327B0C9EFA5B57BB23A9D0D419B5A4B558C94_gshared (AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E* ___0_jobData, intptr_t ___1_additionalPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	bool V_6 = false;
-	{
-		goto IL_0041;
-	}
-
-IL_0003:
-	{
-		JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* L_0 = ___3_ranges;
-		int32_t L_1 = ___4_jobIndex;
-		bool L_2;
-		L_2 = JobsUtility_GetWorkStealingRange_mEFCE7247B469F69E0590111B435E0010BFB8F73A(L_0, L_1, (&V_0), (&V_1), NULL);
-		V_3 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		bool L_3 = V_3;
-		if (!L_3)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		goto IL_0046;
-	}
-
-IL_0019:
-	{
-		int32_t L_4 = V_1;
-		V_2 = L_4;
-		int32_t L_5 = V_0;
-		V_4 = L_5;
-		goto IL_0035;
-	}
-
-IL_0020:
-	{
-		AccumulateSmoothPositionsJob_tAF56A22600B94A47414DB298524AA1F22478864E* L_6 = ___0_jobData;
-		int32_t L_7 = V_4;
-		AccumulateSmoothPositionsJob_Execute_mF532F753589D0C16ECD39981E0262F13776F8F1E(L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_8 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
-	}
-
-IL_0035:
-	{
-		int32_t L_9 = V_4;
-		int32_t L_10 = V_2;
-		V_5 = (bool)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0);
-		bool L_11 = V_5;
-		if (L_11)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-	}
-
-IL_0041:
-	{
-		V_6 = (bool)1;
-		goto IL_0003;
-	}
-
-IL_0046:
-	{
-		return;
-	}
-}
-// System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Obi.BurstDensityConstraintsBatch/AccumulateSmoothPositionsJob>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelForJobStruct_1__cctor_mF2645B81F751CA028B3E3B6C0DE10D5E0C4990DD_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		ExecuteJobFunction_t2C5C4D7BACD2F0AE096AA9E231B9459A6DEA4DF7* L_2 = (ExecuteJobFunction_t2C5C4D7BACD2F0AE096AA9E231B9459A6DEA4DF7*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-		NullCheck(L_2);
-		((  void (*) (ExecuteJobFunction_t2C5C4D7BACD2F0AE096AA9E231B9459A6DEA4DF7*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5)))(L_2, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		intptr_t L_3;
-		L_3 = JobsUtility_CreateJobReflectionData_m17265DED7C2DBB0B2130896E2B8AC4CF5BD7FCE7(L_1, (RuntimeObject*)L_2, NULL, NULL, NULL);
-		((ParallelForJobStruct_1_t50C779F4282299904110CFCD3435BCAFC5A60D83_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 6)))->___jobReflectionData_0 = L_3;
 		return;
 	}
 }
