@@ -72,7 +72,10 @@ For example, this was mine:
 **Note: If you do not know your login information for the Device Portal, you can reset the credentials by repeatedly clicking the log in button.**  
 
 The video is located in:  
-`U:\Users\james\AppData\Local\Packages\NIST_*\LocalState\ARBaselineEnv_*.mp4`, where the asterisk represents a generated string, which changes every install. 
+`U:\Users\james\AppData\Local\Packages\NIST_*\LocalState\ARBaselineEnv_*.mp4`, where the asterisk represents a generated string, which changes every install.  
+
+**Note: The video will not be playable until you exit the app**  
+
 
 
 
