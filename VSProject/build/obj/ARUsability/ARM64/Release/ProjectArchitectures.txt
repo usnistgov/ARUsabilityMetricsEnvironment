@@ -1,1 +1,1 @@
-C:\NIST\ARUsabilityMetricsEnvironment\VSProject\ARUsability\ARUsability.vcxproj;arm64
+C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\ARUsability\ARUsability.vcxproj;arm64

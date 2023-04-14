@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources targetOsVersion="10.0.0" majorVersion="1">
-  <index root="\" startIndexAt="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\filtered.layout.resfiles">
+  <index root="\" startIndexAt="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\filtered.layout.resfiles">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />
@@ -15,7 +15,7 @@
     </default>
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
-  <index root="\" startIndexAt="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\resources.resfiles">
+  <index root="\" startIndexAt="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\resources.resfiles">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />
@@ -32,7 +32,7 @@
     <indexer-config type="RESJSON" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
-  <index root="\" startIndexAt="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\pri.resfiles">
+  <index root="\" startIndexAt="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\pri.resfiles">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />
@@ -48,7 +48,7 @@
     <indexer-config type="PRI" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
-  <index root="C:\NIST\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\embed" startIndexAt="embed.resfiles">
+  <index root="C:\NIST\test\ARUsabilityMetricsEnvironment\VSProject\build\obj\ARUsability\ARM64\Release\embed" startIndexAt="embed.resfiles">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />

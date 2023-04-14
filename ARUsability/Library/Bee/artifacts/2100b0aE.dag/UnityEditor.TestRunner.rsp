@@ -119,6 +119,10 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll"
+-r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll"
+-r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll"
+-r:"C:/NIST/ARUsabilityMetricsEnvironment/ARUsability/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

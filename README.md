@@ -14,13 +14,23 @@
 2. Press the Play Button. 
 ### HoloLens 2
 1. Open the solution with Microsoft Visual Studio 2022
-2. Set the Solution Configuration to Release
-3. Set the Solution Platform to ARM64
+2. Set the Solution Configuration to Release  
+![image](https://user-images.githubusercontent.com/16603171/221979716-ae424b36-ec43-4ce7-936d-12f259cef157.png)
+
+3. Set the Solution Platform to ARM64  
+![image](https://user-images.githubusercontent.com/16603171/221979802-5a78ad38-e30f-4658-92a8-73ec5439bbe3.png)
+
 4. Set the Machine Name for Debugging.
     * From the Visual Studio menu; Project -> Properties
     * Under Configuration Properties, click Debugging
     * Under Debugger to launch, choose Remote Machine
     * In the section below, edit the Machine Name to the IP Address of the HoloLens 2
+ ![image](https://user-images.githubusercontent.com/16603171/221979919-80995d48-41ad-4c56-b003-269f6d2b0f06.png)
+5. Run.
+   * From VS Menu, select "Debug" -> Start Without Debugging  
+   ![image](https://user-images.githubusercontent.com/16603171/221981102-e0c6ce90-f592-4b7d-8f96-e12fbba03ba9.png)
+
+
 ## Cognitive3D
 * Open the [Dashboard](https://app.cognitive3d.com/organizations), Login needed.
 * Click on the `National Institute of Standards and Technology` Organization.
@@ -55,9 +65,17 @@ To run the simulation, Press the play button.
 ## HoloLens 2
 When running the application, the HoloLens 2 view is being recorded. The video can be found by opening the File Explorer in the Windows Device Portal. (System -> File explorer) 
 
-The Windows Device Portal is opened while navigating to the webaddress of the HoloLense 2, while it is activated. 
+The Windows Device Portal is opened while navigating to the webaddress of the HoloLense 2, while it is activated.  
+For example, this was mine:  
+`https://192.168.1.23/default.htm#File%20explorer`
 
-The video is located in: `User Folders\LocalAppData\AugmentedRealityBaselineEnvironment*\LocalState\ARBaselineEnv_*.mp4`, where the asterisk represents a generated string, which changes every install. 
+**Note: If you do not know your login information for the Device Portal, you can reset the credentials by repeatedly clicking the log in button.**  
+
+The video is located in:  
+`U:\Users\james\AppData\Local\Packages\NIST_*\LocalState\ARBaselineEnv_*.mp4`, where the asterisk represents a generated string, which changes every install.  
+
+**Note: The video will not be playable until you exit the app**  
+
 
 
 

@@ -1,5 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - FireExtinguisherActivation
+    - FireExtinguisherWaterInteraction
+    - OvenController
+    - VideoCapture
     Cognitive3D.dll:
     - Cognitive3D.Cognitive3D_Manager
     - Cognitive3D.Cognitive3D_Preferences
@@ -46,6 +51,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
+    - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
+    - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
@@ -53,6 +60,7 @@ ScriptsOnlyBuild:
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
     - Microsoft.MixedReality.Toolkit.Input.GazeProvider
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
+    - Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
     Microsoft.MixedReality.Toolkit.dll:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile
@@ -84,12 +92,53 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider
     - Microsoft.MixedReality.Toolkit.Utilities.ProximityLight
     - Microsoft.MixedReality.Toolkit.Utilities.SimpleLineDataProvider
+    Obi.dll:
+    - Obi.BurstColliderWorld
+    - Obi.ObiCollider
+    - Obi.ObiCollisionMaterial
+    - Obi.ObiEmitter
+    - Obi.ObiEmitterShapeDisk
+    - Obi.ObiFixedUpdater
+    - Obi.ObiFluidEmitterBlueprint
+    - Obi.ObiParticleRenderer
+    - Obi.ObiRigidbody
+    - Obi.ObiSolver
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -127,15 +176,27 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.ImageTargetPreview
+    - Vuforia.SessionRecorderBehaviour
+    - Vuforia.SessionRecorderHolographicCanvas
+    - Vuforia.SessionRecorderInfoPopup
+    - Vuforia.SessionRecorderOverlayCanvas
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
     VuforiaScripts.dll:
@@ -172,8 +233,27 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose
     - Microsoft.MixedReality.Toolkit.Utilities.ProximityLight/LightSettings
     - Microsoft.MixedReality.Toolkit.Utilities.SystemType
+    Microsoft.MixedReality.Toolkit.SDK:
+    - Microsoft.MixedReality.Toolkit.UI.ManipulationEvent
     Microsoft.MixedReality.Toolkit.Services.InputSimulation:
     - Microsoft.MixedReality.Toolkit.Input.KeyBinding
+    Obi:
+    - Obi.ObiAerodynamicConstraintsData
+    - Obi.ObiBendConstraintsData
+    - Obi.ObiBendTwistConstraintsData
+    - Obi.ObiChainConstraintsData
+    - Obi.ObiDistanceConstraintsData
+    - Obi.ObiEmitterShape/DistributionPoint
+    - Obi.ObiNativeCellSpanList
+    - Obi.ObiShapeMatchingConstraintsData
+    - Obi.ObiSkinConstraintsData
+    - Obi.ObiStretchShearConstraintsData
+    - Obi.ObiTetherConstraintsData
+    - Obi.ObiVolumeConstraintsData
+    - Oni/ConstraintParameters
+    - Oni/SolverParameters
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -194,15 +274,34 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
     - UnityEngine.RectOffset
+    UnityEngine.IMGUIModule:
+    - UnityEngine.GUISettings
+    - UnityEngine.GUIStyle
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
     Vuforia.Unity.Engine:
+    - Vuforia.SessionRecorderBehaviour/CleanStorageEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStartedEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStoppedEvent
+    - Vuforia.SessionRecorderBehaviour/ShareRecordingEvent
+    - Vuforia.SessionRecorderBehaviour/StartRecordingEvent
+    - Vuforia.SessionRecorderBehaviour/StopRecordingEvent
     - Vuforia.VuforiaConfiguration/DatabaseConfiguration
     - Vuforia.VuforiaConfiguration/DeviceTrackerConfiguration
     - Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration
@@ -211,7 +310,49 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/RequiredShaders
     - Vuforia.VuforiaConfiguration/VideoBackgroundConfiguration
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.SessionRecorderBehaviour
+    methodName: ShareRecording
+  - assembly: Assembly-CSharp
+    fullTypeName: FireExtinguisherActivation
+    methodName: StartWater
+  - assembly: Assembly-CSharp
+    fullTypeName: FireExtinguisherActivation
+    methodName: StopWater
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
   sceneClasses:
     Assets/Scenes/BaselineEnvironment.unity:
     - Class: 1
@@ -233,6 +374,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -257,173 +400,287 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1042}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 1934}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1936}
     - Class: 114
-      Script: {instanceID: 1924}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 2050}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2076}
+      Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 2408}
+      Script: {instanceID: 1948}
     - Class: 114
-      Script: {instanceID: 2676}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 1974}
     - Class: 114
-      Script: {instanceID: 2810}
+      Script: {instanceID: 2042}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2142}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 3000}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3246}
     - Class: 114
-      Script: {instanceID: 3946}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3996}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 3472}
     - Class: 114
-      Script: {instanceID: 4152}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 4570}
+      Script: {instanceID: 3698}
     - Class: 114
-      Script: {instanceID: 4700}
+      Script: {instanceID: 3742}
     - Class: 114
-      Script: {instanceID: 4706}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4940}
+      Script: {instanceID: 3890}
     - Class: 114
-      Script: {instanceID: 5028}
+      Script: {instanceID: 4004}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 4100}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 4442}
     - Class: 114
-      Script: {instanceID: 5996}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 6304}
+      Script: {instanceID: 4904}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 6448}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 5192}
     - Class: 114
-      Script: {instanceID: 6510}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 6858}
+      Script: {instanceID: 5242}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 7348}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 7358}
+      Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 8226}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 8394}
+      Script: {instanceID: 5794}
     - Class: 114
-      Script: {instanceID: 8576}
+      Script: {instanceID: 6110}
     - Class: 114
-      Script: {instanceID: 8752}
+      Script: {instanceID: 6246}
     - Class: 114
-      Script: {instanceID: 8872}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 8874}
+      Script: {instanceID: 6330}
     - Class: 114
-      Script: {instanceID: 8952}
+      Script: {instanceID: 6364}
     - Class: 114
-      Script: {instanceID: 8954}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 8982}
+      Script: {instanceID: 6426}
     - Class: 114
-      Script: {instanceID: 9006}
+      Script: {instanceID: 6484}
     - Class: 114
-      Script: {instanceID: 9262}
+      Script: {instanceID: 6656}
     - Class: 114
-      Script: {instanceID: 9510}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 9538}
+      Script: {instanceID: 6966}
     - Class: 114
-      Script: {instanceID: 9730}
+      Script: {instanceID: 7292}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 7322}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 7376}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 10398}
+      Script: {instanceID: 7524}
     - Class: 114
-      Script: {instanceID: 10466}
+      Script: {instanceID: 7566}
     - Class: 114
-      Script: {instanceID: 10530}
+      Script: {instanceID: 7606}
     - Class: 114
-      Script: {instanceID: 10536}
+      Script: {instanceID: 7780}
     - Class: 114
-      Script: {instanceID: 10596}
+      Script: {instanceID: 7866}
     - Class: 114
-      Script: {instanceID: 10960}
+      Script: {instanceID: 7972}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 8096}
     - Class: 114
-      Script: {instanceID: 11060}
+      Script: {instanceID: 8140}
     - Class: 114
-      Script: {instanceID: 11188}
+      Script: {instanceID: 8198}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 8248}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 8692}
     - Class: 114
-      Script: {instanceID: 11354}
+      Script: {instanceID: 8716}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 9274}
     - Class: 114
-      Script: {instanceID: 11520}
+      Script: {instanceID: 9296}
     - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 9322}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 12048}
+      Script: {instanceID: 9594}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 9754}
     - Class: 114
-      Script: {instanceID: 12244}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 9828}
     - Class: 114
-      Script: {instanceID: 12564}
+      Script: {instanceID: 10262}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 13476}
+      Script: {instanceID: 10678}
     - Class: 114
-      Script: {instanceID: 13848}
+      Script: {instanceID: 10760}
+    - Class: 114
+      Script: {instanceID: 10926}
+    - Class: 114
+      Script: {instanceID: 10950}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11304}
+    - Class: 114
+      Script: {instanceID: 11384}
+    - Class: 114
+      Script: {instanceID: 11386}
+    - Class: 114
+      Script: {instanceID: 11426}
+    - Class: 114
+      Script: {instanceID: 11464}
+    - Class: 114
+      Script: {instanceID: 11798}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 12158}
+    - Class: 114
+      Script: {instanceID: 12416}
+    - Class: 114
+      Script: {instanceID: 12536}
+    - Class: 114
+      Script: {instanceID: 12850}
+    - Class: 114
+      Script: {instanceID: 13018}
+    - Class: 114
+      Script: {instanceID: 13250}
+    - Class: 114
+      Script: {instanceID: 13264}
+    - Class: 114
+      Script: {instanceID: 13298}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13382}
+    - Class: 114
+      Script: {instanceID: 13418}
+    - Class: 114
+      Script: {instanceID: 13506}
+    - Class: 114
+      Script: {instanceID: 13514}
+    - Class: 114
+      Script: {instanceID: 13598}
+    - Class: 114
+      Script: {instanceID: 14120}
+    - Class: 114
+      Script: {instanceID: 14206}
+    - Class: 114
+      Script: {instanceID: 14272}
+    - Class: 114
+      Script: {instanceID: 14360}
+    - Class: 114
+      Script: {instanceID: 14438}
+    - Class: 114
+      Script: {instanceID: 14448}
+    - Class: 114
+      Script: {instanceID: 14634}
+    - Class: 114
+      Script: {instanceID: 14658}
+    - Class: 114
+      Script: {instanceID: 14698}
+    - Class: 114
+      Script: {instanceID: 14730}
+    - Class: 114
+      Script: {instanceID: 14872}
+    - Class: 114
+      Script: {instanceID: 15026}
+    - Class: 114
+      Script: {instanceID: 15134}
+    - Class: 114
+      Script: {instanceID: 15158}
+    - Class: 114
+      Script: {instanceID: 15466}
+    - Class: 114
+      Script: {instanceID: 15514}
+    - Class: 114
+      Script: {instanceID: 15556}
+    - Class: 114
+      Script: {instanceID: 15650}
+    - Class: 114
+      Script: {instanceID: 15664}
+    - Class: 114
+      Script: {instanceID: 15778}
+    - Class: 114
+      Script: {instanceID: 15806}
+    - Class: 114
+      Script: {instanceID: 15842}
+    - Class: 114
+      Script: {instanceID: 15894}
+    - Class: 114
+      Script: {instanceID: 16062}
+    - Class: 114
+      Script: {instanceID: 16226}
+    - Class: 114
+      Script: {instanceID: 16302}
+    - Class: 114
+      Script: {instanceID: 16742}
+    - Class: 114
+      Script: {instanceID: 16982}
+    - Class: 114
+      Script: {instanceID: 17214}
+    - Class: 114
+      Script: {instanceID: 17388}
+    - Class: 114
+      Script: {instanceID: 17644}
+    - Class: 114
+      Script: {instanceID: 17826}
+    - Class: 114
+      Script: {instanceID: 17926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -440,6 +697,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
     - Class: 205
       Script: {instanceID: 0}
     - Class: 212
@@ -452,13 +713,27 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -491,6 +766,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: f69dfc6409fbbd89d3689368e99688a8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
@@ -521,6 +802,12 @@ ScriptsOnlyBuild:
     className: CanvasUtility
   - hash:
       serializedVersion: 2
+      Hash: a372365366da880736f06519279ec5d3
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFluidEmitterBlueprint
+  - hash:
+      serializedVersion: 2
       Hash: 12c2a948db63b5254241e6eb9fedc849
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
@@ -549,6 +836,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 426db24f25ee9ce1f63823da84855907
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSDisplay
   - hash:
       serializedVersion: 2
       Hash: db1f0501e76a8e394583d06e24666945
@@ -599,16 +892,16 @@ ScriptsOnlyBuild:
     className: SpherePointerVisual
   - hash:
       serializedVersion: 2
-      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
-    className: SliderInputField
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities.Facades
     className: ServiceFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
+    className: SliderInputField
   - hash:
       serializedVersion: 2
       Hash: bb8bf1399c8e0e6161a1cb4cdff11893
@@ -635,6 +928,12 @@ ScriptsOnlyBuild:
     className: OpenXRSettings
   - hash:
       serializedVersion: 2
+      Hash: fbc44f2facca3361eb778d52ab20172e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObiParticleCounter
+  - hash:
+      serializedVersion: 2
       Hash: 7ba0b307e6bd548497c3d65010128e0f
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
@@ -651,6 +950,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
     className: PanZoomBaseRectTransf
+  - hash:
+      serializedVersion: 2
+      Hash: 03378d471af9c85de9acca542333383c
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiAmbientForceZone
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -701,16 +1006,16 @@ ScriptsOnlyBuild:
     className: TransportToRespawnLocation
   - hash:
       serializedVersion: 2
-      Hash: 445f1c1721e4cb2335b7612d57b81f0f
-    assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
-    className: EyeCalibrationChecker
-  - hash:
-      serializedVersion: 2
       Hash: 6f1a7bf478686f9b2a14f524c902853b
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 445f1c1721e4cb2335b7612d57b81f0f
+    assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
+    className: EyeCalibrationChecker
   - hash:
       serializedVersion: 2
       Hash: 33c72d5182d2b63b4304a17bda2c7e6a
@@ -737,16 +1042,40 @@ ScriptsOnlyBuild:
     className: HandInteractionPanZoom
   - hash:
       serializedVersion: 2
+      Hash: 0264c10754ca221888bf029162429a57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NM_Wind
+  - hash:
+      serializedVersion: 2
+      Hash: 238b2bc28e83af519b9a8750d150a179
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D.Components
     className: ControllerInputTracker
   - hash:
       serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
       Hash: 9b6303c7164a38e06044ec2036c18b6b
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: deb4f9f7a166b39575335acff6eced36
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeImage
   - hash:
       serializedVersion: 2
       Hash: 631f0c1125348106cb9d4f62cc613f17
@@ -797,6 +1126,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ca4ba60f9eac4af62a31ff259549d105
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionEventHandler
+  - hash:
+      serializedVersion: 2
       Hash: 780cc8db316dcf67aac7597a50c9b8ae
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
@@ -839,10 +1174,22 @@ ScriptsOnlyBuild:
     className: BaseCameraSettingsProfile
   - hash:
       serializedVersion: 2
+      Hash: 865badd217302014bb89063601836039
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeReferenceVolumeProfile
+  - hash:
+      serializedVersion: 2
       Hash: f02e8c20cfe94563db03351023a4dcd1
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: SimpleLineDataProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
   - hash:
       serializedVersion: 2
       Hash: fd6b87ff5c677ea3ecd4acb32ae21eae
@@ -855,6 +1202,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
   - hash:
       serializedVersion: 2
       Hash: 0c39e303cbdaa7ca67a326c2dd70c0a2
@@ -885,6 +1238,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: SpherePointerGrabPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 2253bdcc21b32a8acc85430660c0bfa9
+    assemblyName: Obi.dll
+    namespaceName: 
+    className: ObiContactGrabber
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -995,6 +1354,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
       Hash: cbe6deff75fc0987595a61e9510f7917
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1019,10 +1384,22 @@ ScriptsOnlyBuild:
     className: OpenXRRestarter
   - hash:
       serializedVersion: 2
+      Hash: dd57e22813bc6aaeae49ed8ea1bddf50
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiStitcher
+  - hash:
+      serializedVersion: 2
       Hash: 4566e5f236de2060736a23afcb716eae
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: BoundingBoxExampleTest
+  - hash:
+      serializedVersion: 2
+      Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
   - hash:
       serializedVersion: 2
       Hash: 20c9a74d659b6895cfdb5f4624ba8daa
@@ -1037,16 +1414,16 @@ ScriptsOnlyBuild:
     className: MixedRealityCapabilityDemo
   - hash:
       serializedVersion: 2
-      Hash: 290e52a0d3aa0c1ea52f0a28a96c6fd1
-    assemblyName: Cognitive3D.dll
-    namespaceName: Cognitive3D.Components
-    className: Comfort
-  - hash:
-      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 290e52a0d3aa0c1ea52f0a28a96c6fd1
+    assemblyName: Cognitive3D.dll
+    namespaceName: Cognitive3D.Components
+    className: Comfort
   - hash:
       serializedVersion: 2
       Hash: b787e6a2c7e7e6ff79732a9055a718a4
@@ -1059,6 +1436,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: SampleCharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: 68ac79b13db6c2abe868f5eeb7a571b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BucketController
   - hash:
       serializedVersion: 2
       Hash: 74f34bb73dcd7b8d187ddde8d5073892
@@ -1089,6 +1478,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
     className: ColorTap
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
   - hash:
       serializedVersion: 2
       Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
@@ -1139,22 +1534,28 @@ ScriptsOnlyBuild:
     className: XRManagerSettings
   - hash:
       serializedVersion: 2
-      Hash: 77ec22a74057bb0e5e3f7dec39e5ceb2
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
-    className: MixedRealityKeyboard
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental
     className: BaseServiceManager
   - hash:
       serializedVersion: 2
+      Hash: 77ec22a74057bb0e5e3f7dec39e5ceb2
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
+    className: MixedRealityKeyboard
+  - hash:
+      serializedVersion: 2
       Hash: 64f3b91e6cee47d9c4a91c7f0bf09b2d
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityInputSystemProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 58e4fd2cd69050e3fd5d6262ea932b39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: LookAroundCamera
   - hash:
       serializedVersion: 2
       Hash: 698bfbf782c5e0b696da625265f56d22
@@ -1223,6 +1624,12 @@ ScriptsOnlyBuild:
     className: MixedRealityInputRecordingProfile
   - hash:
       serializedVersion: 2
+      Hash: 178653e8126d69ca8304672067136b03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObiActorTeleport
+  - hash:
+      serializedVersion: 2
       Hash: 05babe11b6b288bb89f3e4fcdb2cf590
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -1257,6 +1664,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Diagnostics
     className: DiagnosticsSystemVoiceControls
+  - hash:
+      serializedVersion: 2
+      Hash: cd1e91f5afed259a1512bbf18dc12bd7
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: 
+    className: SceneRenderPipeline
   - hash:
       serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
@@ -1661,10 +2074,22 @@ ScriptsOnlyBuild:
     className: VuMarkPreview
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleGridDebugger
+  - hash:
+      serializedVersion: 2
       Hash: 352b1e7882a0f6bbdd6acd44da3e50ed
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ButtonConfigHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 1581f19e9ae6f6963ce6e9716d887ab4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectLimit
   - hash:
       serializedVersion: 2
       Hash: 00008c4945804d48ad0d4e2c22b160a0
@@ -1683,6 +2108,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.OnScreen
     className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1721,6 +2152,12 @@ ScriptsOnlyBuild:
     className: Framerate
   - hash:
       serializedVersion: 2
+      Hash: 1e8af96b97360086ca8fc41ded99d2a3
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitter
+  - hash:
+      serializedVersion: 2
       Hash: ac40c7977181e0eec0fdd31d45dd4394
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
@@ -1737,6 +2174,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit
     className: SubmitEventRouter
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1a3e12579b7bd0f94909057ffba8d0
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1769,6 +2212,12 @@ ScriptsOnlyBuild:
     className: SolverExampleManager
   - hash:
       serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
       Hash: a1dd2398b00749109bee3b1a27ad07b3
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
@@ -1793,16 +2242,22 @@ ScriptsOnlyBuild:
     className: MacroScriptableObject
   - hash:
       serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: ede3d522ce29a72deb2613abda57d11e
-    assemblyName: Unity.InputSystem.dll
-    namespaceName: UnityEngine.InputSystem
-    className: RemoteInputPlayerConnection
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
   - hash:
       serializedVersion: 2
       Hash: 802ea25fac59ef7a5dfb7eb06305cbf5
@@ -1818,9 +2273,33 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFluidSplatter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1c7b608d8ddf5a5610947e6bbdfd8a5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiInstancedParticleRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4d51d5ccf37d2089bdfe827617b784ff
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: bd656770bb83579697e8bd2e1b2318d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorFromVelocity
   - hash:
       serializedVersion: 2
       Hash: 52bcb9c2a78bdd8d98a59e915c346e75
@@ -1839,12 +2318,6 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
     className: HMDPointer
-  - hash:
-      serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1883,6 +2356,12 @@ ScriptsOnlyBuild:
     className: ToggleGazeSource
   - hash:
       serializedVersion: 2
+      Hash: b001c856c1dd882577b86fa87bacec9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OvenController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1907,10 +2386,28 @@ ScriptsOnlyBuild:
     className: ButtonBackgroundSize
   - hash:
       serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 73431d872a377d675d227e6d975e572d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireExtinguisherWaterInteraction
+  - hash:
+      serializedVersion: 2
       Hash: be9f8d50dd596a52f6bde7f040ef2a43
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: HeadPositionOffset
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1943,10 +2440,34 @@ ScriptsOnlyBuild:
     className: DepthBufferRenderer
   - hash:
       serializedVersion: 2
+      Hash: 4ac50f132ff766a577d10c40f11d2ead
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: ca03c4c1e844a2289de20fe3f51d56df
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: f7d8c5e1d036889d8802fe3a5cce7c75
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
   - hash:
       serializedVersion: 2
       Hash: 10f8ff6fa513de9941a14cb5762ac62b
@@ -1973,10 +2494,22 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c85ca704f2e0a80dc46e94d6c7db2165
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiGranularEmitterBlueprint
+  - hash:
+      serializedVersion: 2
       Hash: c5d8dcb4678b1b541b27271618cce42a
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Physics
     className: Interpolator
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
   - hash:
       serializedVersion: 2
       Hash: 5905a68595be1441f5fbbfef02d20611
@@ -2009,10 +2542,22 @@ ScriptsOnlyBuild:
     className: HideOnDevice
   - hash:
       serializedVersion: 2
+      Hash: ca03c4c1e844a2289de20fe3f51d56df
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiRigidbody
+  - hash:
+      serializedVersion: 2
       Hash: 5533bf86801a0862349535fd353342c0
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.Teleport
     className: TeleportSystemManager
+  - hash:
+      serializedVersion: 2
+      Hash: 77a4e79347d91262c49e202be934847b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActorSpawner
   - hash:
       serializedVersion: 2
       Hash: 12039e9598d3caa4b569278724bd9666
@@ -2069,6 +2614,12 @@ ScriptsOnlyBuild:
     className: TapToPlace
   - hash:
       serializedVersion: 2
+      Hash: 84d73a276453ed42fe3ddb92020b2423
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: SetCategory
+  - hash:
+      serializedVersion: 2
       Hash: 23c15e4556cef4b0f6c017b9b2ac966c
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities.Solvers
@@ -2079,6 +2630,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples
     className: LeapMotionOrientationDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -2099,6 +2656,12 @@ ScriptsOnlyBuild:
     className: BezierDataProvider
   - hash:
       serializedVersion: 2
+      Hash: 2db1f8d8eb8e51e0d19e88c90dea9f20
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeCube
+  - hash:
+      serializedVersion: 2
       Hash: baed83420d2e8a65d6055a11439708dd
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
@@ -2115,6 +2678,12 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
     className: Cognitive3D_Preferences
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
   - hash:
       serializedVersion: 2
       Hash: a88b1dd83071b8e198b053dcf5a7b509
@@ -2135,10 +2704,28 @@ ScriptsOnlyBuild:
     className: BoundsControlRuntimeExample
   - hash:
       serializedVersion: 2
+      Hash: bb6b9a25e695d7981ce2d853a697a828
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
       Hash: f2ca85e48fa4851fc17b4e0fc893dc87
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
     className: ExitPollPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 76d97e0121364cab4322f5ef7068606e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSphericalForceZone
+  - hash:
+      serializedVersion: 2
+      Hash: b7d58df3c6d92c60e3611c0a808aa0dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
   - hash:
       serializedVersion: 2
       Hash: 5dea360fb0b147724ac344e6f399c2f3
@@ -2151,6 +2738,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
     className: TargetGroupIterator
+  - hash:
+      serializedVersion: 2
+      Hash: 481a3a85450f0ffbf94a39cc03611631
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: BurstColliderWorld
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -2181,6 +2774,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: PinchSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 146d3955ea8caa06147a066bed1cd5db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireExtinguisherActivation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2243,6 +2842,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
       Hash: bcbb98d9b4ad360c016d0f8be6f5a563
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -2253,6 +2858,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 049d9552149e48eab9afd70895a30637
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleAttachment
+  - hash:
+      serializedVersion: 2
+      Hash: 23b60c4b16cdff673a68d1af70fe729c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
   - hash:
       serializedVersion: 2
       Hash: 28fb750b721895b9a1e953532478c828
@@ -2273,10 +2890,10 @@ ScriptsOnlyBuild:
     className: LoadProfilesOnStartup
   - hash:
       serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: VerticalLayoutGroup
+      Hash: 435b91cde8a03bad1d5c99895fa46992
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolume
   - hash:
       serializedVersion: 2
       Hash: 29b476c0db1829948d696723c85ae1e6
@@ -2289,6 +2906,12 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D.ActiveSession
     className: RenderEyetracking
+  - hash:
+      serializedVersion: 2
+      Hash: 63d6c37e8a0244ca151166e5f707b1bb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiLateFixedUpdater
   - hash:
       serializedVersion: 2
       Hash: 9ed700a8f9b92c93b52e13ba401689ac
@@ -2429,6 +3052,12 @@ ScriptsOnlyBuild:
     className: AudioOccluder
   - hash:
       serializedVersion: 2
+      Hash: 4bc94368407036d6ee75990d59d8c910
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FluidColorizer
+  - hash:
+      serializedVersion: 2
       Hash: 422c7dfdb37f73f47a98238a5975856c
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
@@ -2463,6 +3092,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityInputActionsProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 9f02af9ac352590ad9645f37d321299a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaveGenerator
   - hash:
       serializedVersion: 2
       Hash: c5cd30fe1e9afca766d6bc6df1b4462b
@@ -2879,6 +3514,12 @@ ScriptsOnlyBuild:
     className: ARSessionOrigin
   - hash:
       serializedVersion: 2
+      Hash: 251b7e456dfa0946927ebac4efecd211
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -2889,6 +3530,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: NearInteractionTouchableUnityUI
+  - hash:
+      serializedVersion: 2
+      Hash: cb93dec204361f0686badde48c45c43a
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeEdge
   - hash:
       serializedVersion: 2
       Hash: 883d1126cb637f93caf30678657c3d07
@@ -2933,6 +3580,12 @@ ScriptsOnlyBuild:
     className: Orbital
   - hash:
       serializedVersion: 2
+      Hash: 8973672b7e879517f459ba72f3f98a78
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiSolver
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input.Utilities
@@ -2969,10 +3622,28 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: 73499cc56a8d226621bc4c0a29fff1f7
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiDistanceFieldRenderer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -2981,10 +3652,22 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: e2741748cc54299ce2fbce3ed9a17ab9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiProfiler
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3023,6 +3706,18 @@ ScriptsOnlyBuild:
     className: ProgressIndicatorOrbsRotator
   - hash:
       serializedVersion: 2
+      Hash: ad6d2c5be0082b60640446f3bbe0d1fd
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 63d6c37e8a0244ca151166e5f707b1bb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFixedUpdater
+  - hash:
+      serializedVersion: 2
       Hash: d40157be3e356eda5ff865b510dca477
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Teleport
@@ -3041,6 +3736,12 @@ ScriptsOnlyBuild:
     className: AppRemotingPlugin
   - hash:
       serializedVersion: 2
+      Hash: 5414ce24476cf87419823419c144e11e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleGroup
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
@@ -3051,6 +3752,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness
     className: SpatialAwarenessSystemManager
+  - hash:
+      serializedVersion: 2
+      Hash: 56171d5f7d69d9b27d6b95b1d3d53aa1
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ShadowmapExposer
   - hash:
       serializedVersion: 2
       Hash: c4a2ae8d92316554f46813565a38c329
@@ -3065,6 +3772,12 @@ ScriptsOnlyBuild:
     className: NearInteractionGrabbable
   - hash:
       serializedVersion: 2
+      Hash: fbeb1e48383e7e0e5f70c8778be50560
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OverlapTest
+  - hash:
+      serializedVersion: 2
       Hash: f664aacbef45bd80bc4accd3a65ac53a
     assemblyName: Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
     namespaceName: Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input
@@ -3075,6 +3788,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 39eb2dcd9e111c7464ffc8194c75440f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollider
   - hash:
       serializedVersion: 2
       Hash: 766d1e816bcaf02d44dc1df06af2bf9a
@@ -3155,6 +3874,12 @@ ScriptsOnlyBuild:
     className: ArmModel
   - hash:
       serializedVersion: 2
+      Hash: ca0b8ad3987cd33b3209a508b6e1562e
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
       Hash: bcc2f439549ad69397fbe39f9f035592
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples
@@ -3165,6 +3890,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI.BoundsControl
     className: LinksConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 3da309352a1883dae2e14d71c432a803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddRandomVelocity
   - hash:
       serializedVersion: 2
       Hash: 97ab8e8737b5efe2ac53cbb0a014a1a0
@@ -3183,6 +3914,12 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D.Components
     className: ScreenResolution
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
   - hash:
       serializedVersion: 2
       Hash: 69e9f3e2c0050519390edbd27a650352
@@ -3204,9 +3941,27 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectDragger
+  - hash:
+      serializedVersion: 2
+      Hash: 9a53a2f27807602da2cff9296517641f
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeDisk
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: LeapCoreAssetsDetector
+  - hash:
+      serializedVersion: 2
+      Hash: e1b3fcf880f132c2ac5deabea7fe43fb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiContactEventDispatcher
   - hash:
       serializedVersion: 2
       Hash: 29cb5ccadda8ab62d8dba6d24d61faa4
@@ -3293,10 +4048,22 @@ ScriptsOnlyBuild:
     className: ParabolicTeleportPointer
   - hash:
       serializedVersion: 2
+      Hash: 40f4ffdbdd9c53691b7388e04ded41fb
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFoamGenerator
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd814325cc7b5e3199471a23dd1a7d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorFromViscosity
   - hash:
       serializedVersion: 2
       Hash: 07a93b68941b766b305bf5fbcf77f41f
@@ -3335,16 +4102,40 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColliderHighlighter
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
       Hash: 15304620438b74486b442007d61b0d6f
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: RiggedHandVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 51b05e403ce1da1805851f42af02f4bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
   - hash:
       serializedVersion: 2
       Hash: 4e3b88cb6f4ab40d80352ec96b5d6906
@@ -3363,6 +4154,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ButtonLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 58cb4e2e0cfe376003f3758d58f93e4a
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
   - hash:
       serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
@@ -3803,22 +4600,28 @@ ScriptsOnlyBuild:
     className: MixedRealityInputModule
   - hash:
       serializedVersion: 2
+      Hash: a8ce57dc5f5a5c4568baf1b425609576
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ObiFluidPropertyColorizer
+  - hash:
+      serializedVersion: 2
       Hash: 3550310d1ce9c9355a8d58ba30e30127
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.ReadingMode
     className: ReadingModeSceneBehavior
   - hash:
       serializedVersion: 2
-      Hash: 1fd29d18e0e6cfd266a2a352b78b03d0
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Input
-    className: AnimatedCursor
-  - hash:
-      serializedVersion: 2
       Hash: 0db0a67eac100a05fffc7bd36ebf8daa
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: TileGridObjectCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 1fd29d18e0e6cfd266a2a352b78b03d0
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Input
+    className: AnimatedCursor
   - hash:
       serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
@@ -3863,10 +4666,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: bec290e385404f7e9cf5713ec867b95f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActorCOMTransform
+  - hash:
+      serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlowmoToggler
   - hash:
       serializedVersion: 2
       Hash: ab02276023749d2ce5030497a289154c
@@ -3989,6 +4804,12 @@ ScriptsOnlyBuild:
     className: SystemKeyboardExample
   - hash:
       serializedVersion: 2
+      Hash: e23456656358887de91f399bf2fe0892
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ParticleAdvector
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
@@ -4005,6 +4826,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos.EyeTracking
     className: PanZoomBaseTexture
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4037,6 +4864,12 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
+      Hash: d0b970920660ecfb8cf3542cb687a75d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DebugParticleFrames
+  - hash:
+      serializedVersion: 2
       Hash: e82d8e012eb47e78162d53f444d6c52e
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -4047,6 +4880,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
     className: KeyboardValueKey
+  - hash:
+      serializedVersion: 2
+      Hash: 5c2bb9088cf71dfb173bea14ec2f97a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MazeManager
   - hash:
       serializedVersion: 2
       Hash: 5ce98d97e0972265c933c4a5b9239906
@@ -4067,16 +4906,16 @@ ScriptsOnlyBuild:
     className: ResolveDuplicateScenesWindow
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: BaseInput
-  - hash:
-      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4085,22 +4924,28 @@ ScriptsOnlyBuild:
     className: VisualProfilerControl
   - hash:
       serializedVersion: 2
-      Hash: 32f1f80e5b4a3419629fb3ac710820cc
-    assemblyName: VuforiaScripts.dll
-    namespaceName: 
-    className: DefaultAreaTargetEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: 0e65845dc5a77219527fa80a7c3f4344
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.SceneSystem
     className: MixedRealitySceneSystemProfile
   - hash:
       serializedVersion: 2
+      Hash: 32f1f80e5b4a3419629fb3ac710820cc
+    assemblyName: VuforiaScripts.dll
+    namespaceName: 
+    className: DefaultAreaTargetEventHandler
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5e8a01a14cef8c5fb6866e39e13545df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ObiCharacter
   - hash:
       serializedVersion: 2
       Hash: bd462d0f5ffe5a17d9e2bc371b84cac3
@@ -4115,6 +4960,12 @@ ScriptsOnlyBuild:
     className: ColorChanger
   - hash:
       serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
       Hash: 802ea25fac59ef7a5dfb7eb06305cbf5
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -4125,6 +4976,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ButtonIconSet
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -4175,6 +5032,12 @@ ScriptsOnlyBuild:
     className: InputActionAsset
   - hash:
       serializedVersion: 2
+      Hash: 1250d0a25ceb81482c76eaab9fe32fa5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiDistanceField
+  - hash:
+      serializedVersion: 2
       Hash: aff76abdea269596d108b2249387dc62
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -4193,6 +5056,18 @@ ScriptsOnlyBuild:
     className: SpeechConfirmationTooltip
   - hash:
       serializedVersion: 2
+      Hash: f147ad3cc46814409a80fc156e5a8191
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SolidifyOnContact
+  - hash:
+      serializedVersion: 2
+      Hash: f2c83483186f7a88d775b6fb6494be53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FluidJetController
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -4203,6 +5078,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: InteractablePointerSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
   - hash:
       serializedVersion: 2
       Hash: f334201bf4b6385c654256ccb69bd6ec
@@ -4245,6 +5126,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityControllerVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac327467393cb6c8045a2fd90ff67e2
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
   - hash:
       serializedVersion: 2
       Hash: c4b9d3c5d3592ce2a1451f30b017d56d
@@ -4439,10 +5326,22 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
       Hash: f53ce65a1b7e32f4dc5f237b89614c9f
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness
     className: SurfaceMeshesToPlanes
+  - hash:
+      serializedVersion: 2
+      Hash: eb5ea43bbd09204662b2a25ccbb6afec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Melt
   - hash:
       serializedVersion: 2
       Hash: 1bc03a501323d00d0037a6b76d25a3ba
@@ -4473,6 +5372,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: Billboard
+  - hash:
+      serializedVersion: 2
+      Hash: 63320586df44a9fb88dd2863bc562ad9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleDragger
   - hash:
       serializedVersion: 2
       Hash: 75de60bccbd35c2e82026d4a60733734
@@ -4523,6 +5428,12 @@ ScriptsOnlyBuild:
     className: InputDeviceDebuggerWindow
   - hash:
       serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
       Hash: c5fd7bfc1806f78178f8b5f91e072387
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
@@ -4557,6 +5468,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImageManager
+  - hash:
+      serializedVersion: 2
+      Hash: a4d879eed97e8d86fd752672fc026fa2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: MoveAndRotate
   - hash:
       serializedVersion: 2
       Hash: d9a884c0df31255a537b95295fd647be
@@ -4608,9 +5525,27 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorFromPhase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 78823a7673a82004c33595739304408e
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 34d8c6d20020053a0870d922ecdcf2a0
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeSphere
   - hash:
       serializedVersion: 2
       Hash: d0f31ea0f80638ee06f15ea78f7a005e
@@ -4623,6 +5558,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
   - hash:
       serializedVersion: 2
       Hash: f1604952e6745ce24b4881932e5863ba
@@ -4667,6 +5608,12 @@ ScriptsOnlyBuild:
     className: UserInputRecorderFeedback
   - hash:
       serializedVersion: 2
+      Hash: a935557ace765c5c6b78108f28f6c6d5
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticlePicker
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -4677,6 +5624,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI.BoundsControl
     className: BoxDisplayConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 4d4f87921296e6ea92b8f04e11b42e70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EmitOnKeyPress
   - hash:
       serializedVersion: 2
       Hash: b617b4affe72256ddf15bb40984499db
@@ -4701,6 +5654,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 7dbf450932234158be58ca2027563dcb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
   - hash:
       serializedVersion: 2
       Hash: b53955b82e8497d4c0b8768d858800a0
@@ -4731,6 +5690,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealityInputActionRulesProfile
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
   - hash:
       serializedVersion: 2
       Hash: 94b1e1183362320e87ec0f78d00ed72b
@@ -4779,6 +5744,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: ControllerPoseSynchronizer
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
   - hash:
       serializedVersion: 2
       Hash: e779c980c14c2899fb0e40e342de293e
@@ -4877,6 +5848,12 @@ ScriptsOnlyBuild:
     className: InteractiveElementRuntimeExample
   - hash:
       serializedVersion: 2
+      Hash: e8b83a3cbd58d44188556a57b1946698
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiEmitterShapeSquare
+  - hash:
+      serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -4893,6 +5870,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: ToggleSpatialMeshObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3057497eb6f0e52612476af702bf8c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
   - hash:
       serializedVersion: 2
       Hash: 292c498f75632d0e4d5e19ead4aa0a0f
@@ -4973,10 +5956,28 @@ ScriptsOnlyBuild:
     className: UserInputRecorderUIController
   - hash:
       serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: b3b395338603613632ae61720d9c9f53
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollider2D
+  - hash:
+      serializedVersion: 2
       Hash: 5a95be88cf8c36fe0dab0e0344fa19d1
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: ParabolaConstrainedLineDataProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 5f5a72f938c631ecd1a3f37b3b85bd84
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiCollisionMaterial
   - hash:
       serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
@@ -5009,6 +6010,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
       Hash: 8bb99954ad60ced3debe38a0801108b2
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
@@ -5019,6 +6026,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
     className: KeyboardKeyFunc
+  - hash:
+      serializedVersion: 2
+      Hash: 53996e64cb23d76699b0c4d3c872ec4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ColorRandomizer
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -5049,6 +6062,18 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D.Components
     className: ArmLength
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 89229a620f85ef21de336ab85a13d351
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
   - hash:
       serializedVersion: 2
       Hash: 16dacd04869a876ea4bea0d1d2e77e34
@@ -5097,6 +6122,12 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D
     className: CustomRenderExporter
+  - hash:
+      serializedVersion: 2
+      Hash: f79e983672d079ff24eee15484fb74b8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -5597,6 +6628,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 1c420f7131df61f5cf5f670ddb7203c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Blinker
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -5633,6 +6670,12 @@ ScriptsOnlyBuild:
     className: ButtonSize
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MazeScoreFormatter
+  - hash:
+      serializedVersion: 2
       Hash: 40014d30af408aee2c0d28966530c78b
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
@@ -5643,6 +6686,12 @@ ScriptsOnlyBuild:
     assemblyName: VuforiaScripts.dll
     namespaceName: 
     className: BoundingBoxRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VideoCapture
   - hash:
       serializedVersion: 2
       Hash: b593922bd6a1ac505d7401734a0e13f1
@@ -5699,10 +6748,22 @@ ScriptsOnlyBuild:
     className: DwellProfile
   - hash:
       serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
       Hash: 89b2906879e76b50266949198ecada41
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
   - hash:
       serializedVersion: 2
       Hash: 64e748cb7d04fe71e105222f9b66b089
@@ -5723,6 +6784,12 @@ ScriptsOnlyBuild:
     className: ToolTipBackgroundBlob
   - hash:
       serializedVersion: 2
+      Hash: cbec241c182496ffe06fbbd051d96889
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExtrapolationCamera
+  - hash:
+      serializedVersion: 2
       Hash: c1bba5c0ac4e9785596c89f3517b9c52
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -5733,6 +6800,12 @@ ScriptsOnlyBuild:
     assemblyName: Cognitive3D.dll
     namespaceName: Cognitive3D.Components
     className: BoundaryEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Obi
+    className: ViscositySurfTensionToUserData
   - hash:
       serializedVersion: 2
       Hash: e1e7d88bd8f0defceafa24c0322c346f
@@ -5765,6 +6838,12 @@ ScriptsOnlyBuild:
     className: UICollection
   - hash:
       serializedVersion: 2
+      Hash: 8fd4a2149e49a4c43d96491a6af00cf2
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiFluidRenderer
+  - hash:
+      serializedVersion: 2
       Hash: bbc46525001959f8de5e90b15e8587bc
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Experimental.HandMenu
@@ -5795,6 +6874,12 @@ ScriptsOnlyBuild:
     className: SolverHandler
   - hash:
       serializedVersion: 2
+      Hash: c6d95ab84c01827906e3d9c1eed3fee9
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiParticleRenderer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -5805,6 +6890,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 17cc2b1af1fa79c0c4714d786ed3fb4d
+    assemblyName: Obi.dll
+    namespaceName: Obi
+    className: ObiLateUpdater
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -5841,6 +6932,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Examples.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
     className: DemoTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
   - hash:
       serializedVersion: 2
       Hash: aaecbc43f81bd109f9c7c2fb0706b915
@@ -5921,6 +7018,12 @@ ScriptsOnlyBuild:
     className: ClippingPlane
   - hash:
       serializedVersion: 2
+      Hash: 75a594c0dcaca4049e4ae92f93ad2f0a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WorldSpaceGravity
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -5928,4 +7031,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/Scenes/BaselineEnvironment.unity
-  playerPath: C:/NIST/ARUsabilityMetricsEnvironment/VSProject
+  playerPath: C:/NIST/test/ARUsabilityMetricsEnvironment/VSProject

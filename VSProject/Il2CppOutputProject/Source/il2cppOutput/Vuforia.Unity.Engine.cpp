@@ -14933,14 +14933,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebCam_ComputeResampledTextureSize_m1BC7
 		L_1 = InterfaceFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(2 /* UnityEngine.Texture Vuforia.IWebCamTexAdaptor::get_Texture() */, IWebCamTexAdaptor_tFF445468674DCFEFCB7B424D6F1F9E266726FDD8_il2cpp_TypeInfo_var, L_0);
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_1);
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_1);
 		RuntimeObject* L_3 = __this->___mWebCamTexture_0;
 		NullCheck(L_3);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_4;
 		L_4 = InterfaceFuncInvoker0< Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* >::Invoke(2 /* UnityEngine.Texture Vuforia.IWebCamTexAdaptor::get_Texture() */, IWebCamTexAdaptor_tFF445468674DCFEFCB7B424D6F1F9E266726FDD8_il2cpp_TypeInfo_var, L_3);
 		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_4);
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_4);
 		V_0 = ((float)(((float)L_2)/((float)L_5)));
 		ProfileData_tA2B9E7119CD0F5AE7EDAF3E1141BBA4905FDDAC6* L_6 = (&__this->___mWebCamProfile_9);
 		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* L_7 = (&L_6->___ResampledTextureSize_1);
