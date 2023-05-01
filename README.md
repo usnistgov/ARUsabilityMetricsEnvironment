@@ -2,6 +2,8 @@
 
 # Setup Environment
 ## Requirements
+* GitHub Desktop Version 3.2.0
+* Unity Hub 3.4.1
 * Unity - Editor Version 2021.3.16f1
 * Microsoft Visual Studio 2022
 * HoloLens 2 Device
@@ -9,6 +11,7 @@
 * Cognitive VR Version 1.0.3
 
 ## Steps
+Please clone the repository using GitHub Desktop. When you do this it will prompt you to download and install `git lfs`.
 ### Unity
 1. Open the project from Unity Hub
 2. Press the Play Button. 
