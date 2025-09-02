@@ -1,0 +1,116 @@
+*****************************
+***********SYSTEM************
+*****************************
+Unity Version:2021.3.16f1
+OS:Windows 11  (10.0.22621) 64bit
+System Time: 1/2/2023 5:24:10 PM
+
+*****************************
+***********PROJECT***********
+*****************************
+Scripting Define Symbols: USE_INPUT_SYSTEM_POSE_CONTROL;C3D_MRTK
+Packages:
+SDK Version: 1.0.3
+Api Key: ****HWRS
+Developer Key: ****EXBD
+Enable Logging: True
+Enable Development Logging: False
+Gaze Type: Physics
+Snapshot Interval: 0.1
+Dynamic Object Search in Parent: True
+Dynamic Object Layer Mask: -1
+Track GPS Location: False
+GPS Accuracy: 2
+Record Floor Position: True
+Automatic Send Timer: 10
+Gaze Snapshot Batch Size: 64
+Event Snapshot Batch Size: 64
+Dynamic Snapshot Batch Size: 128
+Sensor Snapshot Batch Size: 128
+Fixation Snapshot Batch Size: 64
+Save Data to Local Cache if no internet connection: True
+Cache Size (bytes): 104857600
+Cache Size (mb): 100.0 MB
+Custom Protocol: https
+Custom Gateway: data.cognitive3d.com
+Custom Viewer: viewer.cognitive3d.com/scene/
+Custom Dashboard: app.cognitive3d.com
+Texture Export Quality: 1
+Export Lowest LOD from LODGroup Components: True
+Export AO Maps: False
+Scene Settings:
+  └─SampleScene
+     ├─Scene Id: c120232d-56db-4751-854f-6cf28ed5f07a
+     ├─Scene Path: Assets/Scenes/SampleScene.unity
+     ├─Last Revision: 5249759358480567280
+     ├─Version Number: 1
+     └─Version Id: 3507
+
+*****************************
+********CURRENT SCENE********
+*****************************
+Scene Name: BaselineEnvironment
+Scene Settings not included in Preferences
+Main Camera GameObject: ARCamera
+Manager Initialize On Start: True
+Manager Startup Delay Time (s): 0
+
+*****************************
+****CURRENT SCENE OBJECTS****
+*****************************
+Dynamic Object Count: 4
+  ├─SM_Fire_Extinguisher
+  │  ├─Mesh Name: sm_fire_extinguisher
+  │  ├─Has Collider: true
+  │  ├─Collider Type: UnityEngine.CapsuleCollider
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  ├─HandRig_R
+  │  ├─Mesh Name: handrig_r
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  ├─HandRig_L
+  │  ├─Mesh Name: handrig_l
+  │  ├─Has Collider: false
+  │  ├─Has Children: true
+  │  └─Has Child Colliders: false
+  └─gas_stove
+     ├─Mesh Name: gas_stove
+     ├─Has Collider: true
+     ├─Collider Type: UnityEngine.BoxCollider
+     ├─Has Children: true
+     └─Has Child Colliders: false
+
+*****************************
+********EXPORT FOLDER********
+*****************************
+/Cognitive3D_SceneExplorerExport (37mb)
+   /BaselineEnvironment (0.00mb)
+      settings.json (0.00mb)
+   /Dynamic (37.33mb)
+      /gas_stove (36.65mb)
+         1320742079gas_stove_m_sMetallicGloss.png (14.83mb)
+         313080804gas_stove_nBump.png (7.59mb)
+         37543663gas_stove_bcMain.png (14.03mb)
+         cvr_object_thumbnail.png (0.08mb)
+         gas_stove.bin (0.10mb)
+         gas_stove.gltf (0.03mb)
+      /handrig_l (0.01mb)
+         cvr_object_thumbnail.png (0.00mb)
+         handrig_l.bin (0.00mb)
+         handrig_l.gltf (0.01mb)
+      /handrig_r (0.01mb)
+         cvr_object_thumbnail.png (0.00mb)
+         handrig_r.bin (0.00mb)
+         handrig_r.gltf (0.01mb)
+      /sm_fire_extinguisher (0.65mb)
+         651964448T_extinguisher_AlbedoMain.png (0.57mb)
+         cvr_object_thumbnail.png (0.04mb)
+         sm_fire_extinguisher.bin (0.02mb)
+         sm_fire_extinguisher.gltf (0.02mb)
+   /SampleScene (0.03mb)
+      debug.log (0.00mb)
+      settings.json (0.00mb)
+      /screenshot (0.03mb)
+         screenshot.png (0.03mb)

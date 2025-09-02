@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 404e7ce16b1bd6843ab4a3ddb71b9ba3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CylinderGAS1_LOD0
+    100002: CylinderGAS1_LOD1
+    100004: CylinderGAS1_LOD2
+    100006: CylinderGAS2_LOD0
+    100008: CylinderGAS2_LOD1
+    100010: CylinderGAS2_LOD2
+    100012: CylinderGAS3_LOD0
+    100014: CylinderGAS3_LOD1
+    100016: CylinderGAS3_LOD2
+    100018: CylinderGAS4_LOD0
+    100020: CylinderGAS4_LOD1
+    100022: CylinderGAS4_LOD2
+    100024: CylinderGAS5_LOD0
+    100026: CylinderGAS5_LOD1
+    100028: CylinderGAS5_LOD2
+    100030: //RootNode
+    100032: Gas_Stove_LOD0
+    100034: Gas_Stove_LOD1
+    100036: Gas_Stove_LOD2
+    100038: Grid_LOD0
+    100040: Grid_LOD1
+    100042: Grid_LOD2
+    100044: GridOven_LOD0
+    100046: GridOven_LOD1
+    100048: GridOven_LOD2
+    100050: OvenDoor_LOD0
+    100052: OvenDoor_LOD1
+    100054: OvenDoor_LOD2
+    100056: Pan_LOD0
+    100058: Pan_LOD1
+    100060: Pan_LOD2
+    100062: Stove_LOD0
+    100064: Stove_LOD1
+    100066: Stove_LOD2
+    400000: CylinderGAS1_LOD0
+    400002: CylinderGAS1_LOD1
+    400004: CylinderGAS1_LOD2
+    400006: CylinderGAS2_LOD0
+    400008: CylinderGAS2_LOD1
+    400010: CylinderGAS2_LOD2
+    400012: CylinderGAS3_LOD0
+    400014: CylinderGAS3_LOD1
+    400016: CylinderGAS3_LOD2
+    400018: CylinderGAS4_LOD0
+    400020: CylinderGAS4_LOD1
+    400022: CylinderGAS4_LOD2
+    400024: CylinderGAS5_LOD0
+    400026: CylinderGAS5_LOD1
+    400028: CylinderGAS5_LOD2
+    400030: //RootNode
+    400032: Gas_Stove_LOD0
+    400034: Gas_Stove_LOD1
+    400036: Gas_Stove_LOD2
+    400038: Grid_LOD0
+    400040: Grid_LOD1
+    400042: Grid_LOD2
+    400044: GridOven_LOD0
+    400046: GridOven_LOD1
+    400048: GridOven_LOD2
+    400050: OvenDoor_LOD0
+    400052: OvenDoor_LOD1
+    400054: OvenDoor_LOD2
+    400056: Pan_LOD0
+    400058: Pan_LOD1
+    400060: Pan_LOD2
+    400062: Stove_LOD0
+    400064: Stove_LOD1
+    400066: Stove_LOD2
+    2100000: gas_stove
+    2100002: gas_stove_glass
+    2300000: CylinderGAS1_LOD0
+    2300002: CylinderGAS1_LOD1
+    2300004: CylinderGAS1_LOD2
+    2300006: CylinderGAS2_LOD0
+    2300008: CylinderGAS2_LOD1
+    2300010: CylinderGAS2_LOD2
+    2300012: CylinderGAS3_LOD0
+    2300014: CylinderGAS3_LOD1
+    2300016: CylinderGAS3_LOD2
+    2300018: CylinderGAS4_LOD0
+    2300020: CylinderGAS4_LOD1
+    2300022: CylinderGAS4_LOD2
+    2300024: CylinderGAS5_LOD0
+    2300026: CylinderGAS5_LOD1
+    2300028: CylinderGAS5_LOD2
+    2300030: Grid_LOD0
+    2300032: Grid_LOD1
+    2300034: Grid_LOD2
+    2300036: GridOven_LOD0
+    2300038: GridOven_LOD1
+    2300040: GridOven_LOD2
+    2300042: OvenDoor_LOD0
+    2300044: OvenDoor_LOD1
+    2300046: OvenDoor_LOD2
+    2300048: Pan_LOD0
+    2300050: Pan_LOD1
+    2300052: Pan_LOD2
+    2300054: Stove_LOD0
+    2300056: Stove_LOD1
+    2300058: Stove_LOD2
+    3300000: CylinderGAS1_LOD0
+    3300002: CylinderGAS1_LOD1
+    3300004: CylinderGAS1_LOD2
+    3300006: CylinderGAS2_LOD0
+    3300008: CylinderGAS2_LOD1
+    3300010: CylinderGAS2_LOD2
+    3300012: CylinderGAS3_LOD0
+    3300014: CylinderGAS3_LOD1
+    3300016: CylinderGAS3_LOD2
+    3300018: CylinderGAS4_LOD0
+    3300020: CylinderGAS4_LOD1
+    3300022: CylinderGAS4_LOD2
+    3300024: CylinderGAS5_LOD0
+    3300026: CylinderGAS5_LOD1
+    3300028: CylinderGAS5_LOD2
+    3300030: Grid_LOD0
+    3300032: Grid_LOD1
+    3300034: Grid_LOD2
+    3300036: GridOven_LOD0
+    3300038: GridOven_LOD1
+    3300040: GridOven_LOD2
+    3300042: OvenDoor_LOD0
+    3300044: OvenDoor_LOD1
+    3300046: OvenDoor_LOD2
+    3300048: Pan_LOD0
+    3300050: Pan_LOD1
+    3300052: Pan_LOD2
+    3300054: Stove_LOD0
+    3300056: Stove_LOD1
+    3300058: Stove_LOD2
+    4300000: Stove_LOD0
+    4300002: Pan_LOD0
+    4300004: OvenDoor_LOD0
+    4300006: CylinderGAS1_LOD0
+    4300008: CylinderGAS2_LOD0
+    4300010: CylinderGAS3_LOD0
+    4300012: CylinderGAS4_LOD0
+    4300014: CylinderGAS5_LOD0
+    4300016: Grid_LOD0
+    4300018: GridOven_LOD0
+    4300020: Stove_LOD1
+    4300022: Pan_LOD1
+    4300024: OvenDoor_LOD1
+    4300026: CylinderGAS1_LOD1
+    4300028: CylinderGAS2_LOD1
+    4300030: CylinderGAS3_LOD1
+    4300032: CylinderGAS4_LOD1
+    4300034: CylinderGAS5_LOD1
+    4300036: Grid_LOD1
+    4300038: GridOven_LOD1
+    4300040: Stove_LOD2
+    4300042: Pan_LOD2
+    4300044: OvenDoor_LOD2
+    4300046: CylinderGAS1_LOD2
+    4300048: CylinderGAS2_LOD2
+    4300050: CylinderGAS3_LOD2
+    4300052: CylinderGAS4_LOD2
+    4300054: CylinderGAS5_LOD2
+    4300056: Grid_LOD2
+    4300058: GridOven_LOD2
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gas_stove
+    second: {fileID: 2100000, guid: a85509adbba0ab64dba531e9feac2359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gas_stove_glass
+    second: {fileID: 2100000, guid: 6b13c185d10496948aeff19466550f40, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
