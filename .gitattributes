@@ -15,6 +15,6 @@ VSProject/build/obj/il2cppOutputProject/ARM64/Release/linkresult_94F8C31F65C30E3
 VSProject/build/obj/il2cppOutputProject/ARM64/Release/linkresult_FCD5C0DFD6D97E50A6BE8A72BD46D12A/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
 VSProject/build/obj/il2cppOutputProject/ARM64/Release/linkresult_0FAEAA0CCAAF4BB08364B96CFD0EF026/GameAssembly.pdb filter=lfs diff=lfs merge=lfs -text
 *.assets filter=lfs diff=lfs merge=lfs -text
-*.db filter=lfs diff=lfs merge=lfs -text
 *.tgz filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
 *.lld filter=lfs diff=lfs merge=lfs -text
